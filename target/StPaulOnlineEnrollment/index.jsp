@@ -22,7 +22,7 @@
         <div id="newMember" class="tab-pane fade in active">
             <h3>Sign Up</h3>
             <form action="/signup" method="get">
-                <input type="text" id="childName" placeholder="Child's Name" name="childName"><br>
+                <input type="text" id="childName" placeholder="Child's Name" name="childName">
                 <input type="radio" id="male" name="gender" value="male"> Male
                 <input type="radio" id="female" name="gender" value="female"> Female<br>
                 <input type="text" id="dob" placeholder="Date of Birth" name="dob"><br>
@@ -31,7 +31,7 @@
                 <input type="text" id="state" placeholder="State" name="state"><br>
                 <input type="text" id="zip" placeholder="zip" name="zip"><br>
                 <input type="text" id="affiliation" placeholder="Church Affiliation" name="affiliation"><br>
-                <input type="radio" id="yesBaptized" name="yes" value="yes"> Yes
+                Baptized: <input type="radio" id="yesBaptized" name="yes" value="yes"> Yes
                 <input type="radio" id="noBaptized" name="no" value="no"> No<br>
                 <button type="submit" name="submit">GO</button>
 
