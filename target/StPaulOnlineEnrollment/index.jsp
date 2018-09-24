@@ -7,8 +7,9 @@
     <h2>Members Information</h2>
 
     <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
         <li><a data-toggle="tab" href="#signin">Sign In</a></li>
-        <li class="active"><a data-toggle="tab" href="#newmember">New Members</a></li>
+        <li><a data-toggle="tab" href="#newmember">New Members</a></li>
         <li><a data-toggle="tab" href="#pre">Pre-School Registration</a></li>
         <li><a data-toggle="tab" href="#reg">K-8 Registration</a></li>
         <li><a data-toggle="tab" href="#emergency">Emergency Contacts</a></li>
@@ -18,9 +19,22 @@
         <li><a data-toggle="tab" href="#childcare">Child Care</a></li>
         <li><a data-toggle="tab" href="#sports">Sports</a></li>
     </ul>
-
     <div class="tab-content">
-        <div id="newMember" class="tab-pane fade in active">
+        <div id="home" class="tab-pane fade">
+            <h1>St Paul's Lutheran Online Registration</h1>
+            <form action="/home" method="get">
+                <button type="submit" name="submit">Your Account</button>
+            </form>
+        </div>
+        <div id="signIn" class="tab-pane fade">
+            <h3>Access Your Account</h3>
+            <form action="/pre" method="get">
+                <input type="text" id="username" placeholder="Username" name="username">
+                <input type="text" id="password" placeholder="Password" name="password">
+                <button type="submit" name="submit">Sign In</button>
+            </form>
+        </div>
+        <div id="newMember" class="tab-pane fade">
             <h1>Sign Up</h1><br><br>
 
             <form action="/signup" method="get">
