@@ -11,4 +11,5 @@
 | 09/14/18| (Week Two) Start my student indie repository| 2 | |
 | 09/17/18| (Week Two) junit overview, demo review, start exercise 2| 3 | |
 | 09/19/18| (Week Three) finish exercise 2| 3 | |
-| 09/21/18| (Week Three) finishing activity 5, week three videos, indie project design| 7 | I did not commit my readme.md and timelog.md /
+| 09/21/18| (Week Three) finishing activity 5, week three videos, indie project design| 7 | I did not commit my readme.md and timelog.md |
+| 09/24/18| (Week Four) activity 1, indie project design, indie project checkpoint| 2 | | 

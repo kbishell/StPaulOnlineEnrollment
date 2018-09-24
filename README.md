@@ -4,7 +4,7 @@
 
 My 8 year old son attends a private gradeschool. Due to minimal funds his school has very little technology and resorts
 to the old fashioned way of things, a paper trail. I have been trying to find ways to help out and contribute to his
-school for a long time now, for this is where I went to school. My contribution is going to be creating an online
+school for a long time now, for this is where I went to grade school. My contribution is going to be creating an online
 enrollment web app. This will allow them to go paperless but also allow for families to go in and add/edit their
 information at the click of a button.
 
@@ -27,7 +27,7 @@ information at the click of a button.
 * Web Services consumed using Java
   * NOAA for weather conditions at a trail location, including snow depth
 * CSS 
-  * Bootstrap or Materialize
+  * Bootstrap
 * Data Validation
   * Bootstrap Validator for front end
   * Explore Hibernate's validation
@@ -48,3 +48,14 @@ information at the click of a button.
 
 
 ### Design
+
+### Design
+
+* [Screen Design](DesignDocuments/signIn.md)
+* [Screen Design](DesignDocuments/newMember.md)
+* [Screen Design](DesignDocuments/registerApplication.md)
+
+### [Project Plan](ProjectPlan.md)
+
+###ProjectPlan
+
