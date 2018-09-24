@@ -47,11 +47,11 @@ information at the click of a button.
 
 ### Design
 
-* [Screen Design](DesignDocuments/SignIn.md)
-* [Screen Design](DesignDocuments/NewMember.md)
-* [Screen Design](DesignDocuments/RegisterApplication.md)
+* [Home Screen Design](DesignDocuments/home.md)
+* [New Member Screen Design](DesignDocuments/NewMember.md)
+* [Sign In Screen Design](DesignDocuments/signIn.md)
 
-### [Project Plan](ProjectPlan.md)
+### [Project Plan](DesignDocuments/ProjectPlan.md)
 
 ### [Journal Entry](JournalEntry.md)
 

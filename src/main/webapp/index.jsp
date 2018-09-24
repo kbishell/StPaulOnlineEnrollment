@@ -8,8 +8,8 @@
 
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-        <li><a data-toggle="tab" href="#signin">Sign In</a></li>
-        <li><a data-toggle="tab" href="#newmember">New Members</a></li>
+        <li><a data-toggle="tab" href="#signIn">Sign In</a></li>
+        <li><a data-toggle="tab" href="#newMember">New Members</a></li>
         <li><a data-toggle="tab" href="#pre">Pre-School Registration</a></li>
         <li><a data-toggle="tab" href="#reg">K-8 Registration</a></li>
         <li><a data-toggle="tab" href="#emergency">Emergency Contacts</a></li>
@@ -19,16 +19,18 @@
         <li><a data-toggle="tab" href="#childcare">Child Care</a></li>
         <li><a data-toggle="tab" href="#sports">Sports</a></li>
     </ul>
+
     <div class="tab-content">
-        <div id="home" class="tab-pane fade">
+        <div id="home" class="tab-pane fade in active">
             <h1>St Paul's Lutheran Online Registration</h1>
             <form action="/home" method="get">
                 <button type="submit" name="submit">Your Account</button>
+                <button type="submit" name="submit">Sign Up</button>
             </form>
         </div>
         <div id="signIn" class="tab-pane fade">
             <h3>Access Your Account</h3>
-            <form action="/pre" method="get">
+            <form action="/signIn" method="get">
                 <input type="text" id="username" placeholder="Username" name="username">
                 <input type="text" id="password" placeholder="Password" name="password">
                 <button type="submit" name="submit">Sign In</button>
@@ -37,7 +39,7 @@
         <div id="newMember" class="tab-pane fade">
             <h1>Sign Up</h1><br><br>
 
-            <form action="/signup" method="get">
+            <form action="/newMember" method="get">
 
                 <h2>Father's Information</h2>
                 <input type="text" id="fatherName" placeholder="Father's Name" name="fatherName"><br><br>
@@ -86,23 +88,23 @@
                 <button type="submit" name="submit">Apply</button>
             </form>
         </div>
-        <div id="menu2" class="tab-pane fade">
-            <h3>Menu 2</h3>
-            <form action="/register" method="get">
+        <div id="reg" class="tab-pane fade">
+            <h3>K-8 Registration</h3>
+            <form action="/reg" method="get">
                 <input type="text" id="2" placeholder="Enter Last Name" name="search">
                 <button type="submit" name="submit">Apply</button>
             </form>
         </div>
-        <div id="menu2" class="tab-pane fade">
-            <h3>Menu 2</h3>
-            <form action="/register" method="get">
+        <div id="emergency" class="tab-pane fade">
+            <h3>Emergency Contacts</h3>
+            <form action="/emergency" method="get">
                 <input type="text" id="2" placeholder="Enter Last Name" name="search">
                 <button type="submit" name="submit">Apply</button>
             </form>
         </div>
-        <div id="menu2" class="tab-pane fade">
-            <h3>Menu 2</h3>
-            <form action="/register" method="get">
+        <div id="health" class="tab-pane fade">
+            <h3>Health Concerns</h3>
+            <form action="/health" method="get">
                 <input type="text" id="2" placeholder="Enter Last Name" name="search">
                 <button type="submit" name="submit">Apply</button>
             </form>
