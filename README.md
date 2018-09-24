@@ -8,6 +8,8 @@ school for a long time now, for this is where I went to grade school. My contrib
 enrollment web app. This will allow them to go paperless, but also allow for families to go in and add/edit their
 information at the click of a button.
 
+I will be creating Home - Sign In - New Member - Emergency Contacts ---- Everything else will be stretch goals
+
 
 ### Project Technologies/Techniques 
 
@@ -50,6 +52,7 @@ information at the click of a button.
 * [Home Screen Design](DesignDocuments/home.md)
 * [New Member Screen Design](DesignDocuments/NewMember.md)
 * [Sign In Screen Design](DesignDocuments/signIn.md)
+
 
 ### [Project Plan](DesignDocuments/ProjectPlan.md)
 
