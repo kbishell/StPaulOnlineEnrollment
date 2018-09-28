@@ -20,14 +20,8 @@
         <li><a data-toggle="tab" href="#sports">Sports</a></li>
     </ul>
 
-    <div class="tab-content">
-        <div id="home" class="tab-pane fade in active">
-            <h1>St Paul's Lutheran Online Registration</h1>
-            <form action="/home" method="get">
-                <button type="submit" name="submit">Your Account</button>
-                <button type="submit" name="submit">Sign Up</button>
-            </form>
-        </div>
+    <%@include file="home.jsp"%>
+
         <div id="signIn" class="tab-pane fade">
             <h3>Access Your Account</h3>
             <form action="/signIn" method="get">
@@ -73,6 +67,11 @@
                 Baptized: <input type="radio" id="childBaptized" name="childBaptized" value="yes"> Yes
                 <input type="radio" id="childNotBaptized" name="childNotBaptized" value="no"> No<br><br>
 
+                <input type="text" id="previousSchool" placeholder="Previous Schools" name="previousSchool"><br><br>
+                <input type="text" id="previousSchoolGrade" placeholder="Grade" name="previousSchoolGrade"><br><br>
+                <input type="text" id="previousSchoolYears" placeholder="Years" name="previousSchoolYears"><br><br>
+                <button type="submit" name="submit">Add Another School</button><br><br>
+
                 <button type="submit" name="submit">Enter Another Child</button><br><br>
 
                 <button type="submit" name="submit">GO</button><br><br>
@@ -90,8 +89,55 @@
         </div>
         <div id="reg" class="tab-pane fade">
             <h3>K-8 Registration</h3>
+
             <form action="/reg" method="get">
-                <input type="text" id="2" placeholder="Enter Last Name" name="search">
+
+                <h2>Father's Information</h2>
+                <input type="text" id="fatherName" placeholder="Father's Name" name="fatherName"><br><br>
+                <input type="text" id="fatherAddress" placeholder="Father's Address" name="fatherAddress"><br><br>
+                <input type="text" id="fatherEmployer" placeholder="Father's Employe" name="fatherEmployer"><br><br>
+                <input type="text" id="fatherPlaceOfBirth" placeholder="Father's Place of Birth" name="fatherPlaceOfBirth"><br><br>
+                <input type="text" id="fatherPhone" placeholder="Father Phone" name="fatherPhone"><br><br>
+                <input type="text" id="fatherWorkPhone" placeholder="Father Work Phone" name="fatherWorkPhone"><br><br>
+                <input type="text" id="fatherAffiliation" placeholder="Church Affiliation" name="fatherAffiliation"><br><br>
+
+                <h2>Mother's Information</h2>
+                <input type="text" id="motherName" placeholder="Mother's Name" name="motherName"><br><br>
+                <input type="text" id="motherAddress" placeholder="Mother's Address" name="motherAddress"><br><br>
+                <input type="text" id="motherEmployer" placeholder="Mother's Employe" name="motherEmployer"><br><br>
+                <input type="text" id="motherPlaceOfBirth" placeholder="Mother's Place of Birth" name="motherPlaceOfBirth"><br><br>
+                <input type="text" id="motherPhone" placeholder="Mother Phone" name="motherPhone"><br><br>
+                <input type="text" id="motherWorkPhone" placeholder="Mother Work Phone" name="motherWorkPhone"><br><br>
+                <input type="text" id="motherAffiliation" placeholder="Church Affiliation" name="affiliation"><br><br>
+
+                <h2>Child(ren) Information</h2>
+                <input type="text" id="childName" placeholder="Child's Name" name="childName"><br><br>
+                <input type="text" id="phone" placeholder="Phone Number" name="phone"><br><br>
+                <input type="text" id="grade" placeholder="Grade" name="grade"><br><br>
+                <input type="text" id="years" placeholder="Age: Years" name="years"><br><br>
+                <input type="text" id="months" placeholder="Age: months" name="months"><br><br>
+                <input type="text" id="address" placeholder="Address" name="address"><br><br>
+                <input type="text" id="city" placeholder="City" name="city"><br><br>
+                <input type="text" id="state" placeholder="State" name="state"><br><br>
+                <input type="text" id="zip" placeholder="zip" name="zip"><br><br>
+                <input type="text" id="email" placeholder="email" name="email"><br><br>
+                <input type="text" id="Pastor" placeholder="Pastor" name="pastor"><br><br>
+                <input type="text" id="church" placeholder="Church" name="church"><br><br>
+                <input type="text" id="doe" placeholder="Date of Enrollment" name="deo"><br><br><br>
+
+                Baptized: <input type="radio" id="childBaptized" name="childBaptized" value="yes"> Yes
+                <input type="radio" id="childNotBaptized" name="childNotBaptized" value="no"> No<br><br>
+                <input type="text" id="dateOfBaptism" placeholder="Date Of Baptism" name="dateOfBaptism"><br><br><br>
+
+
+                <input type="text" id="otherChildren" placeholder="List other children in your family" name="otherChildren"><br><br>
+                <input type="text" id="firstName" placeholder="First Name" name="firstName"><br><br>
+                <input type="text" id="lastName" placeholder="Last Name" name="lastName"><br><br><br>
+
+                <input type="text" id="comments" placeholder="Comments:" name="comments"><br><br><br>
+
+                <button type="submit" name="submit">Enter Another Child</button><br><br>
+
                 <button type="submit" name="submit">Apply</button>
             </form>
         </div>
@@ -111,3 +157,4 @@
         </div>
     </div>
 </div>
+</body>
