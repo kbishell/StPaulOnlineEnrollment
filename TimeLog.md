@@ -15,3 +15,5 @@
 | 09/24/18| (Week Four) activity 1, indie project design, indie project checkpoint| 2 | | 
 | 09/26/18| (Week Four) exercise 3 finish up, indie project jsps | 2 | | 
 | 09/27/18| (Week Four) database design, indie project jsps| 4 | | 
+| 10/1/18| (Week Five) week 4 videos, exercise 4| 3 | |
+| 10/3/18| (Week Five) exercise 4| 4 | | 
