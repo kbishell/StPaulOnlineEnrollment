@@ -1,7 +1,7 @@
 package stpaul.lutheran.persistence;
 
 
-import com.sun.xml.internal.ws.api.addressing.WSEndpointReference;
+
 
 /**
  * This file provides a SessionFactory for use with DAOs using Hibernate
