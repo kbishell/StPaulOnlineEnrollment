@@ -17,3 +17,4 @@
 | 09/27/18| (Week Four) database design, indie project jsps| 4 | | 
 | 10/1/18| (Week Five) week 4 videos, exercise 4| 3 | |
 | 10/3/18| (Week Five) exercise 4| 4 | | 
+| 10/5/18| (Week Five) exercise 5, week 5 videos, implementing hibernate into my project| 4 | | 
