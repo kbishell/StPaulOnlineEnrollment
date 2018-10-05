@@ -104,11 +104,10 @@
 
                     <input type="checkbox" id="MWFull" name="MWFull" value="Monday - Wednesday">Monday - Wednesday<br>
                     <input type="checkbox" id="MTFull" name="MTFull" value="Monday - Thursday">Monday - Thursday<br>
-                    <input type="checkbox" id="MFFull" name="MFFull" value="Monday - Friday">Monday - Friday<br>
+                    <input type="checkbox" id="MFFull" name="MFFull" value="Monday - Friday">Monday - Friday<br><br>
 
-
-                <input type="text" id="" placeholder="Enter Last Name" name="search">
                 <button type="submit" name="submit">Apply</button>
+
             </form>
         </div>
         <div id="reg" class="tab-pane fade">
