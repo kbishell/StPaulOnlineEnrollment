@@ -1,16 +1,12 @@
 package stpaul.lutheran.persistence;
 
 
-import org.hibernate.SessionFactory;
-import org.hibernate.boot.Metadata;
-import org.hibernate.boot.MetadataSources;
-import org.hibernate.boot.registry.StandardServiceRegistry;
-import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import com.sun.xml.internal.ws.api.addressing.WSEndpointReference;
 
 /**
  * This file provides a SessionFactory for use with DAOs using Hibernate
  *
- * @author kbishell
+ * @author paulawaite
  * @version 2.0 1/27/18.
  */
 public class SessionFactoryProvider {
