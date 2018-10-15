@@ -20,3 +20,5 @@
 | 10/5/18| (Week Five) exercise 5, week 5 videos, implementing hibernate into my project| 4 | | 
 | 10/8/18| (Week Six) exercise 5| 5 | |
 | 10/10/18| (Week Six) exercise 6, indie erd| 5 | |
+| 10/13/18| (Week Seven) Code reviews| 1.5 | |
+| 10/15/18| (Week Seven) CheckPoint Two, week 6 videos and AWS set up| 5| |
