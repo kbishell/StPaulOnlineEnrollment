@@ -95,7 +95,6 @@ CREATE TABLE Student_Contact (
 CREATE TABLE Users (
     userID int NOT NULL,
     userName varchar(20) NOT NULL,
-    password varchar(20) NOT NULL,
     staffID int NOT NULL,
     contactID int NOT NULL,
     CONSTRAINT Users_pk PRIMARY KEY (userID)
