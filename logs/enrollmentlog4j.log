@@ -1,0 +1,81 @@
+[ERROR] 2018-10-15 10:43:42.521 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:43:42.704 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:43:42.728 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:43:42.729 [main] StaffDao - Searching for staff with lastName = Curry
+[ERROR] 2018-10-15 10:43:42.743 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:43:42.745 [main] StaffDao - Searching for staff with lastName = c
+[ERROR] 2018-10-15 10:43:42.759 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:43:42.759 [main] StaffDao - Searching for: c
+[ERROR] 2018-10-15 10:43:42.781 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:43:42.789 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:43:42.801 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:44:36.978 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:44:37.135 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:44:37.172 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:44:37.176 [main] StaffDao - Searching for staff with lastName = Curry
+[ERROR] 2018-10-15 10:44:37.191 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:44:37.201 [main] StaffDao - Searching for staff with lastName = c
+[ERROR] 2018-10-15 10:44:37.229 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:44:37.232 [main] StaffDao - Searching for: c
+[ERROR] 2018-10-15 10:44:37.265 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:44:37.288 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:44:37.325 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:48:21.466 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:48:21.724 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:48:22.086 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:48:22.088 [main] StaffDao - Searching for staff with lastName = Curry
+[ERROR] 2018-10-15 10:48:22.151 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:48:22.155 [main] StaffDao - Searching for staff with lastName = c
+[ERROR] 2018-10-15 10:48:22.215 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:48:22.216 [main] StaffDao - Searching for: c
+[ERROR] 2018-10-15 10:48:22.252 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:48:22.287 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:48:22.326 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:50:03.695 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:50:03.903 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:50:04.121 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:50:04.122 [main] StaffDao - Searching for staff with lastName = Curry
+[ERROR] 2018-10-15 10:50:04.174 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:50:04.178 [main] StaffDao - Searching for staff with lastName = c
+[ERROR] 2018-10-15 10:50:04.209 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-10-15 10:50:04.211 [main] StaffDao - Searching for: c
+[ERROR] 2018-10-15 10:50:04.284 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:50:04.307 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:50:04.334 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-10-15 10:57:10.506 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:57:10.745 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:57:11.000 [main] Database - java.sql.SQLException: No database selected
+[DEBUG] 2018-10-15 10:57:11.004 [main] StaffDao - Searching for staff with lastName = Curry
+[ERROR] 2018-10-15 10:57:11.116 [main] Database - java.sql.SQLException: No database selected
+[DEBUG] 2018-10-15 10:57:11.121 [main] StaffDao - Searching for staff with lastName = c
+[ERROR] 2018-10-15 10:57:11.186 [main] Database - java.sql.SQLException: No database selected
+[DEBUG] 2018-10-15 10:57:11.186 [main] StaffDao - Searching for: c
+[ERROR] 2018-10-15 10:57:11.234 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:57:11.271 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:57:11.307 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:59:39.554 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:59:39.791 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:59:40.196 [main] Database - java.sql.SQLException: No database selected
+[DEBUG] 2018-10-15 10:59:40.198 [main] StaffDao - Searching for staff with lastName = Curry
+[ERROR] 2018-10-15 10:59:40.276 [main] Database - java.sql.SQLException: No database selected
+[DEBUG] 2018-10-15 10:59:40.292 [main] StaffDao - Searching for staff with lastName = c
+[ERROR] 2018-10-15 10:59:40.344 [main] Database - java.sql.SQLException: No database selected
+[DEBUG] 2018-10-15 10:59:40.346 [main] StaffDao - Searching for: c
+[ERROR] 2018-10-15 10:59:40.388 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:59:40.421 [main] Database - java.sql.SQLException: No database selected
+[ERROR] 2018-10-15 10:59:40.455 [main] Database - java.sql.SQLException: No database selected
+[DEBUG] 2018-10-15 11:03:25.250 [main] StaffDao - Searching for staff with lastName = Curry
+[DEBUG] 2018-10-15 11:03:25.533 [main] StaffDao - Searching for staff with lastName = c
+[DEBUG] 2018-10-15 11:03:25.800 [main] StaffDao - Searching for: c
+[DEBUG] 2018-10-15 11:08:10.281 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 11:08:10.546 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 11:08:10.798 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 11:13:44.302 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 11:13:44.603 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 11:13:44.919 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 11:25:41.795 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 11:25:42.115 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 11:25:42.407 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 11:27:47.220 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 11:27:47.494 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 11:27:47.726 [main] StaffDao - Searching for: B

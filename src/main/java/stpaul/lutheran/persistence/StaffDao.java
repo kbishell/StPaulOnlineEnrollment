@@ -28,11 +28,13 @@ public class StaffDao {
          * @return the all staffs
          */
         public List<Staff> getAllStaff() {
+            //List<Staff> staff = new List<Staff>;
 
             Session session = sessionFactory.openSession();
             CriteriaBuilder builder = session.getCriteriaBuilder();
             CriteriaQuery<Staff> query = builder.createQuery(Staff.class);
             Root<Staff> root = query.from(Staff.class);
+
             List<Staff> staff = session.createQuery(query).getResultList();
             session.close();
             return staff;
@@ -54,9 +56,9 @@ public class StaffDao {
             Root<Staff> root = query.from(Staff.class);
             Expression<String> propertyPath = root.get("lastName");
             query.where(builder.like(propertyPath, "%" + lastName + "%"));
-            List<Staff> staffs = session.createQuery(query).getResultList();
+            List<Staff> staff = session.createQuery(query).getResultList();
             session.close();
-            return staffs;
+            return staff;
         }
 
         /**
@@ -67,6 +69,7 @@ public class StaffDao {
         public Staff getById(int id) {
             Session session = sessionFactory.openSession();
             Staff staff = session.get(Staff.class, id);
+            logger.debug("********************************************" + id);
             session.close();
             return staff;
         }
@@ -128,10 +131,10 @@ public class StaffDao {
             CriteriaQuery<Staff> query = builder.createQuery( Staff.class );
             Root<Staff> root = query.from( Staff.class );
             query.select(root).where(builder.equal(root.get(propertyName), value));
-            List<Staff> staffs = session.createQuery( query ).getResultList();
+            List<Staff> staff = session.createQuery( query ).getResultList();
 
             session.close();
-            return staffs;
+            return staff;
         }
 
         /**
@@ -154,12 +157,11 @@ public class StaffDao {
 
             query.where(builder.like(propertyPath, "%" + value + "%"));
 
-            List<Staff> staffs = session.createQuery( query ).getResultList();
+            List<Staff> staff = session.createQuery( query ).getResultList();
             session.close();
-            return staffs;
+            return staff;
         }
 
 
-    }
-
 }
+

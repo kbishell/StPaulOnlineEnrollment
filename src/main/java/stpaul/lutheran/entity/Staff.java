@@ -18,7 +18,7 @@ import java.util.Set;
  * @author kbishell
  */
 @Entity(name = "Staff")
-@Table(name = "staff")
+@Table(name = "Staff")
 public class Staff {
 
     @Id
