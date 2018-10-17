@@ -51,14 +51,14 @@ I will be creating Home - Sign In - New Member - Emergency Contacts ---- Everyth
 
 * [Home Screen Design](DesignDocuments/home.pdf)
 * [New Member Screen Design](DesignDocuments/NewMember.pdf)
-* [Sign In Screen Design](DesignDocuments/signIn.md)
+* [Sign In Screen Design](DesignDocuments/signIn.pdf)
 
 
 ### [Project Plan](DesignDocuments/projectPlan.md)
 
-### [Application Flow](/applicationFlow.md)
+### [Application Flow](DesignDocuments/applicationFlow.md)
 
-### [Journal Entry](../DesignDocuments/journalEntry.md)
+### [Journal Entry](DesignDocuments/journalEntry.md)
 
 ### [ERD](../DesignDocuments/ERD.png)
 
