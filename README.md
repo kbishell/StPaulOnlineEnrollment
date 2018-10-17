@@ -49,9 +49,9 @@ I will be creating Home - Sign In - New Member - Emergency Contacts ---- Everyth
 
 ### Design
 
-* [Home Screen Design](DesignDocuments/home.md)
-* [New Member Screen Design](DesignDocuments/NewMember.md)
-* [Sign In Screen Design](DesignDocuments/signIn.md)
+* [Home Screen Design](../DesignDocuments/home.md)
+* [New Member Screen Design](../DesignDocuments/NewMember.md)
+* [Sign In Screen Design](../DesignDocuments/signIn.md)
 
 
 ### [Project Plan](../DesignDocuments/ProjectPlan.md)
