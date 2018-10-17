@@ -60,6 +60,6 @@ I will be creating Home - Sign In - New Member - Emergency Contacts ---- Everyth
 
 ### [Journal Entry](DesignDocuments/journalEntry.md)
 
-### [ERD](../DesignDocuments/ERDFinal.png)
+### [ERD](../DesignDocuments/ERDFinal.PNG)
 
 
