@@ -56,7 +56,7 @@ I will be creating Home - Sign In - New Member - Emergency Contacts ---- Everyth
 
 ### [Project Plan](../DesignDocuments/ProjectPlan.md)
 
-### [Application Flow](StPaulOnlineEnrollment/DesignDocuments/applicationFlow)
+### [Application Flow](/applicationFlow)
 
 ### [Journal Entry](../DesignDocuments/journalEntry.md)
 
