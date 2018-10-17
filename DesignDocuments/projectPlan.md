@@ -7,30 +7,29 @@
 - [x] Complete Problem Statement
 - [x] Determine possible Web Services or APIs to use
 - [x] List technologies, versions and how they will be used
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [x] Write project plan
-- [ ] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq? 
 - [x] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
 
 ### Week 4
-- [ ] Complete database design
-- [ ] Create the database and user table
-- [ ] Create the user entity class and annotate for hibernate
-- [ ] Create user dao
-- [ ] Create the test database
-- [ ] Create user dao unit tests
-- [ ] Weekly journal entry
-- [ ] Set up logging
+- [x] Complete database design
+- [x] Create the database and user table
+- [x] Create the staff entity class and annotate for hibernate
+- [x] Create staff dao
+- [x] Create the test database
+- [x] Create staff dao unit tests
+- [x] Weekly journal entry
+- [x] Set up logging
 - [ ] Create class uml diagram
-- [ ] Prepare for Week 5 peer design/code review
+- [x] Prepare for Week 5 peer design/code review
 
 
 ### Week 5
 
-- [ ] Create the template for all jsps using bootstrap
-- [ ] Weekly journal entry
-- [ ] Add the role table
-- [ ] Create the role dao
+- [x] Create the template for all jsps using bootstrap
+- [x] Weekly journal entry
+- [x] Add the role table
+- [x] Create the role dao
 - [ ] Create the role dao unit tests
 - [ ] Add a jsp to display user and role
 - [ ] Add jsp to add a user
@@ -41,16 +40,16 @@
 
 - [ ] Create db on AWS
 - [ ] Deploy to AWS for first time
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Add the account entity (test, dev and prod dbs)
 - [ ] Add update and delete functionality in jsp for user and role
 - [ ] Build the account add/update/delete jsp
-- [ ] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
+- [x] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
 
 
 ### Week 7
 
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Set up authentication locally
 - [ ] Set up authentication on AWS
 - [ ] Populate with data, (test, dev and prod dbs)

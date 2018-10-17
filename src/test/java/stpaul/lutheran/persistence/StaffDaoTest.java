@@ -40,7 +40,7 @@ public class StaffDaoTest {
         @Test
         void getStaffByLastNameSuccess() {
             List<Staff> staffs = dao.getStaffsByLastName("B");
-            assertEquals(3, staffs.size());
+            assertEquals(2, staffs.size());
         }
 
         /**
@@ -50,7 +50,7 @@ public class StaffDaoTest {
         void getByIdSuccess() {
             Staff retrievedStaff = dao.getById(3);
             assertNotNull(retrievedStaff);
-            assertEquals("Downey", retrievedStaff.getFirstName());
+            assertEquals("Pat", retrievedStaff.getFirstName());
         }
 
         /**
@@ -98,7 +98,7 @@ public class StaffDaoTest {
         void getByPropertyEqualSuccess() {
             List<Staff> staff = dao.getByPropertyEqual("lastName", "Glock");
             assertEquals(1, staff.size());
-            assertEquals(3, staff.get(0).getStaffID());
+            assertEquals(2, staff.get(0).getStaffID());
         }
 
         /**
@@ -107,7 +107,7 @@ public class StaffDaoTest {
         @Test
         void getByPropertyLikeSuccess() {
             List<Staff> staffs = dao.getByPropertyLike("lastName", "W");
-            assertEquals(3, staffs.size());
+            assertEquals(2, staffs.size());
         }
 }
 

@@ -79,3 +79,54 @@
 [DEBUG] 2018-10-15 11:27:47.220 [main] StaffDao - Searching for staff with lastName = Glock
 [DEBUG] 2018-10-15 11:27:47.494 [main] StaffDao - Searching for staff with lastName = W
 [DEBUG] 2018-10-15 11:27:47.726 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 16:00:23.397 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 16:00:24.114 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 16:00:24.698 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 16:04:09.670 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:04:09.768 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:04:11.803 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 16:04:12.376 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 16:04:13.234 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 16:04:13.963 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:04:14.510 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:04:14.530 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:04:15.402 [main] StaffDao - ********************************************7
+[DEBUG] 2018-10-15 16:04:55.298 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 16:05:13.198 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 16:05:48.562 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 16:06:14.803 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:06:14.845 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:06:16.006 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 16:06:16.367 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 16:06:16.959 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 16:06:17.739 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:06:18.014 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:06:18.027 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:06:18.331 [main] StaffDao - ********************************************7
+[DEBUG] 2018-10-15 16:07:03.124 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:03.190 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:04.496 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 16:07:04.832 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 16:07:05.126 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 16:07:05.864 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:06.413 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:06.429 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:06.884 [main] StaffDao - ********************************************7
+[DEBUG] 2018-10-15 16:07:26.594 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:26.656 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:28.281 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 16:07:28.908 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 16:07:29.557 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 16:07:30.072 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:30.644 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:30.671 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:07:31.232 [main] StaffDao - ********************************************7
+[DEBUG] 2018-10-15 16:10:11.535 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:10:11.631 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:10:12.668 [main] StaffDao - Searching for staff with lastName = Glock
+[DEBUG] 2018-10-15 16:10:13.078 [main] StaffDao - Searching for staff with lastName = W
+[DEBUG] 2018-10-15 16:10:13.392 [main] StaffDao - Searching for: B
+[DEBUG] 2018-10-15 16:10:13.896 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:10:14.151 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:10:14.170 [main] StaffDao - ********************************************3
+[DEBUG] 2018-10-15 16:10:14.502 [main] StaffDao - ********************************************7

@@ -22,3 +22,4 @@
 | 10/10/18| (Week Six) exercise 6, indie erd| 5 | |
 | 10/13/18| (Week Seven) Code reviews| 1.5 | |
 | 10/15/18| (Week Seven) CheckPoint Two, week 6 videos and AWS set up| 5| |
+| 10/17/18| (Week Seven) CheckPoint Two changes, AWS set up| 3| |

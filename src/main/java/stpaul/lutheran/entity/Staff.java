@@ -104,6 +104,26 @@ public class Staff {
     }
 
     @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Staff staff = (Staff) o;
+
+        if (staffID != staff.staffID) return false;
+        if (firstName != null ? !firstName.equals(staff.firstName) : staff.firstName != null) return false;
+        return lastName != null ? lastName.equals(staff.lastName) : staff.lastName == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = staffID;
+        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
+        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        return result;
+    }
+
+    @Override
     public String toString() {
         return "Staff{" +
                 "staffID=" + staffID +
