@@ -3,6 +3,8 @@ package stpaul.lutheran.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * The type Student type.
@@ -20,6 +22,28 @@ public class StudentType {
     private String grade;
     @Column(name = "yearlyFee")
     private String yearlyFee;
+
+    @ManyToMany(mappedBy = "types")
+    private Set<Student> students = new HashSet<>();
+
+    /**
+     * Instantiates a new Student type.
+     */
+    public StudentType() {
+    }
+
+    /**
+     * Instantiates a new Student type.
+     *
+     * @param grade     the grade
+     * @param yearlyFee the yearly fee
+     * @param students  the students
+     */
+    public StudentType(String grade, String yearlyFee, Set<Student> students) {
+        this.grade = grade;
+        this.yearlyFee = yearlyFee;
+        this.students = students;
+    }
 
     /**
      * Gets student type id.
@@ -75,12 +99,31 @@ public class StudentType {
         this.yearlyFee = yearlyFee;
     }
 
+    /**
+     * Gets students.
+     *
+     * @return the students
+     */
+    public Set<Student> getStudents() {
+        return students;
+    }
+
+    /**
+     * Sets students.
+     *
+     * @param students the students
+     */
+    public void setStudents(Set<Student> students) {
+        this.students = students;
+    }
+
     @Override
     public String toString() {
         return "StudentType{" +
                 "studentTypeID=" + studentTypeID +
                 ", grade='" + grade + '\'' +
                 ", yearlyFee='" + yearlyFee + '\'' +
+                ", students=" + students +
                 '}';
     }
 }

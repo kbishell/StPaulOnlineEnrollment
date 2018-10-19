@@ -13,7 +13,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * A class to represent a user.
+ * A class to represent staff.
  *
  * @author kbishell
  */

@@ -3,6 +3,8 @@ package stpaul.lutheran.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * The type Contact.
@@ -46,6 +48,17 @@ public class Contact {
     private String dob;
 
     /**
+     * The Students.
+     */
+    @ManyToMany(cascade = { CascadeType.ALL })
+    @JoinTable(
+            name = "Student_Contact",
+            joinColumns = { @JoinColumn(name = "contactID") },
+            inverseJoinColumns = { @JoinColumn(name = "studentID") }
+    )
+    Set<Student> students = new HashSet<>();
+
+    /**
      * Instantiates a new Contact.
      */
     public Contact() {
@@ -68,8 +81,9 @@ public class Contact {
      * @param zip                   the zip
      * @param email                 the email
      * @param dob                   the dob
+     * @param students              the students
      */
-    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob) {
+    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob, Set<Student> students) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.relationshipToStudent = relationshipToStudent;
@@ -84,6 +98,7 @@ public class Contact {
         this.zip = zip;
         this.email = email;
         this.dob = dob;
+        this.students = students;
     }
 
     /**
@@ -356,6 +371,71 @@ public class Contact {
         this.dob = dob;
     }
 
+    /**
+     * Gets students.
+     *
+     * @return the students
+     */
+    public Set<Student> getStudents() {
+        return students;
+    }
+
+    /**
+     * Sets students.
+     *
+     * @param students the students
+     */
+    public void setStudents(Set<Student> students) {
+        this.students = students;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Contact contact = (Contact) o;
+
+        if (contactID != contact.contactID) return false;
+        if (firstName != null ? !firstName.equals(contact.firstName) : contact.firstName != null) return false;
+        if (lastName != null ? !lastName.equals(contact.lastName) : contact.lastName != null) return false;
+        if (relationshipToStudent != null ? !relationshipToStudent.equals(contact.relationshipToStudent) : contact.relationshipToStudent != null)
+            return false;
+        if (cellPhone != null ? !cellPhone.equals(contact.cellPhone) : contact.cellPhone != null) return false;
+        if (workPhone != null ? !workPhone.equals(contact.workPhone) : contact.workPhone != null) return false;
+        if (baptized != null ? !baptized.equals(contact.baptized) : contact.baptized != null) return false;
+        if (employer != null ? !employer.equals(contact.employer) : contact.employer != null) return false;
+        if (hoursWorked != null ? !hoursWorked.equals(contact.hoursWorked) : contact.hoursWorked != null) return false;
+        if (address != null ? !address.equals(contact.address) : contact.address != null) return false;
+        if (city != null ? !city.equals(contact.city) : contact.city != null) return false;
+        if (state != null ? !state.equals(contact.state) : contact.state != null) return false;
+        if (zip != null ? !zip.equals(contact.zip) : contact.zip != null) return false;
+        if (email != null ? !email.equals(contact.email) : contact.email != null) return false;
+        if (dob != null ? !dob.equals(contact.dob) : contact.dob != null) return false;
+        return students != null ? students.equals(contact.students) : contact.students == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = contactID;
+        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
+        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + (relationshipToStudent != null ? relationshipToStudent.hashCode() : 0);
+        result = 31 * result + (cellPhone != null ? cellPhone.hashCode() : 0);
+        result = 31 * result + (workPhone != null ? workPhone.hashCode() : 0);
+        result = 31 * result + (baptized != null ? baptized.hashCode() : 0);
+        result = 31 * result + (employer != null ? employer.hashCode() : 0);
+        result = 31 * result + (hoursWorked != null ? hoursWorked.hashCode() : 0);
+        result = 31 * result + (address != null ? address.hashCode() : 0);
+        result = 31 * result + (city != null ? city.hashCode() : 0);
+        result = 31 * result + (state != null ? state.hashCode() : 0);
+        result = 31 * result + (zip != null ? zip.hashCode() : 0);
+        result = 31 * result + (email != null ? email.hashCode() : 0);
+        result = 31 * result + (dob != null ? dob.hashCode() : 0);
+        result = 31 * result + (students != null ? students.hashCode() : 0);
+        return result;
+    }
+
     @Override
     public String toString() {
         return "Contact{" +
@@ -374,6 +454,7 @@ public class Contact {
                 ", zip='" + zip + '\'' +
                 ", email='" + email + '\'' +
                 ", dob='" + dob + '\'' +
+                ", students=" + students +
                 '}';
     }
 }

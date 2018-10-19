@@ -18,6 +18,14 @@
 
         <mapping class="stpaul.lutheran.entity.OtherSchools"/>
         <mapping class="stpaul.lutheran.entity.Staff"/>
+        <mapping class="stpaul.lutheran.entity.Contact"/>
+        <mapping class="stpaul.lutheran.entity.OtherSchools_Student"/>
+        <mapping class="stpaul.lutheran.entity.Registration"/>
+        <mapping class="stpaul.lutheran.entity.Role"/>
+        <mapping class="stpaul.lutheran.entity.Student"/>
+        <mapping class="stpaul.lutheran.entity.Student_Contact"/>
+        <mapping class="stpaul.lutheran.entity.StudentType"/>
+        <mapping class="stpaul.lutheran.entity.Users"/>
 
 
 

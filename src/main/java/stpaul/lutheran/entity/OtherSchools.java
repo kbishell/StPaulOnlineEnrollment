@@ -3,6 +3,8 @@ package stpaul.lutheran.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * The type Other schools.
@@ -23,10 +25,38 @@ public class OtherSchools {
     @Column(name = "gradeLevel")
     private String gradeLevel;
 
+    /**
+     * The Students schools.
+     */
+    @ManyToMany(cascade = { CascadeType.ALL })
+    @JoinTable(
+            name = "OtherSchools_Student",
+            joinColumns = { @JoinColumn(name = "otherSchoolsID") },
+            inverseJoinColumns = { @JoinColumn(name = "studentID") }
+    )
+
+    Set<Student> studentsSchools = new HashSet<>();
+
+    /**
+     * Instantiates a new Other schools.
+     */
     public OtherSchools() {
     }
 
-
+    /**
+     * Instantiates a new Other schools.
+     *
+     * @param schoolName      the school name
+     * @param duration        the duration
+     * @param gradeLevel      the grade level
+     * @param studentsSchools the students schools
+     */
+    public OtherSchools(String schoolName, String duration, String gradeLevel, Set<Student> studentsSchools) {
+        this.schoolName = schoolName;
+        this.duration = duration;
+        this.gradeLevel = gradeLevel;
+        this.studentsSchools = studentsSchools;
+    }
 
     /**
      * Gets other schools id.
@@ -100,6 +130,24 @@ public class OtherSchools {
         this.gradeLevel = gradeLevel;
     }
 
+    /**
+     * Gets students schools.
+     *
+     * @return the students schools
+     */
+    public Set<Student> getStudentsSchools() {
+        return studentsSchools;
+    }
+
+    /**
+     * Sets students schools.
+     *
+     * @param studentsSchools the students schools
+     */
+    public void setStudentsSchools(Set<Student> studentsSchools) {
+        this.studentsSchools = studentsSchools;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -110,7 +158,8 @@ public class OtherSchools {
         if (otherSchoolsID != that.otherSchoolsID) return false;
         if (schoolName != null ? !schoolName.equals(that.schoolName) : that.schoolName != null) return false;
         if (duration != null ? !duration.equals(that.duration) : that.duration != null) return false;
-        return gradeLevel != null ? gradeLevel.equals(that.gradeLevel) : that.gradeLevel == null;
+        if (gradeLevel != null ? !gradeLevel.equals(that.gradeLevel) : that.gradeLevel != null) return false;
+        return studentsSchools != null ? studentsSchools.equals(that.studentsSchools) : that.studentsSchools == null;
     }
 
     @Override
@@ -119,6 +168,7 @@ public class OtherSchools {
         result = 31 * result + (schoolName != null ? schoolName.hashCode() : 0);
         result = 31 * result + (duration != null ? duration.hashCode() : 0);
         result = 31 * result + (gradeLevel != null ? gradeLevel.hashCode() : 0);
+        result = 31 * result + (studentsSchools != null ? studentsSchools.hashCode() : 0);
         return result;
     }
 
@@ -129,6 +179,7 @@ public class OtherSchools {
                 ", schoolName='" + schoolName + '\'' +
                 ", duration='" + duration + '\'' +
                 ", gradeLevel='" + gradeLevel + '\'' +
+                ", studentsSchools=" + studentsSchools +
                 '}';
     }
 }
