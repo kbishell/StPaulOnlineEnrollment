@@ -23,3 +23,5 @@
 | 10/13/18| (Week Seven) Code reviews| 1.5 | |
 | 10/15/18| (Week Seven) CheckPoint Two, week 6 videos and AWS set up| 5| |
 | 10/17/18| (Week Seven) CheckPoint Two changes, AWS set up| 3| |
+| 10/19/18| (Week Seven) Create other Daos, Generic Dao and more hibernate| 5| |
+| 10/19/18| (Week Eight) | | |
