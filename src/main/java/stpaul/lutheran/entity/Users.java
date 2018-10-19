@@ -3,16 +3,11 @@ package stpaul.lutheran.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.io.Serializable;
-import java.time.LocalDate;
-import java.time.temporal.ChronoUnit;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * A class to represent a user.
  *
- * @author pwaite
+ * @author kbishell
  */
 @Entity(name = "Users")
 @Table(name = "Users")
@@ -25,17 +20,10 @@ public class Users {
 
     @Column(name = "user_name")
     private String userName;
+    @Column(name = "password")
+    private String password;
 
 
-    /**
-     * Instantiates a new User.
-     */
-    public Users() {
-    }
-
-    public Users(String userName) {
-        this.userName = userName;
-    }
 
 }
 

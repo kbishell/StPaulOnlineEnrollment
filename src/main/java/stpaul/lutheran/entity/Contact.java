@@ -40,8 +40,51 @@ public class Contact {
     private String state;
     @Column(name = "zip")
     private String zip;
-    @Column(name = "birthdate")
-    private String birthdate;
+    @Column(name = "email")
+    private String email;
+    @Column(name = "dob")
+    private String dob;
+
+    /**
+     * Instantiates a new Contact.
+     */
+    public Contact() {
+    }
+
+    /**
+     * Instantiates a new Contact.
+     *
+     * @param firstName             the first name
+     * @param lastName              the last name
+     * @param relationshipToStudent the relationship to student
+     * @param cellPhone             the cell phone
+     * @param workPhone             the work phone
+     * @param baptized              the baptized
+     * @param employer              the employer
+     * @param hoursWorked           the hours worked
+     * @param address               the address
+     * @param city                  the city
+     * @param state                 the state
+     * @param zip                   the zip
+     * @param email                 the email
+     * @param dob                   the dob
+     */
+    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.relationshipToStudent = relationshipToStudent;
+        this.cellPhone = cellPhone;
+        this.workPhone = workPhone;
+        this.baptized = baptized;
+        this.employer = employer;
+        this.hoursWorked = hoursWorked;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.zip = zip;
+        this.email = email;
+        this.dob = dob;
+    }
 
     /**
      * Gets contact id.
@@ -278,64 +321,39 @@ public class Contact {
     }
 
     /**
-     * Gets birthdate.
+     * Gets email.
      *
-     * @return the birthdate
+     * @return the email
      */
-    public String getBirthdate() {
-        return birthdate;
+    public String getEmail() {
+        return email;
     }
 
     /**
-     * Sets birthdate.
+     * Sets email.
      *
-     * @param birthdate the birthdate
+     * @param email the email
      */
-    public void setBirthdate(String birthdate) {
-        this.birthdate = birthdate;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Contact contact = (Contact) o;
-
-        if (contactID != contact.contactID) return false;
-        if (firstName != null ? !firstName.equals(contact.firstName) : contact.firstName != null) return false;
-        if (lastName != null ? !lastName.equals(contact.lastName) : contact.lastName != null) return false;
-        if (relationshipToStudent != null ? !relationshipToStudent.equals(contact.relationshipToStudent) : contact.relationshipToStudent != null)
-            return false;
-        if (cellPhone != null ? !cellPhone.equals(contact.cellPhone) : contact.cellPhone != null) return false;
-        if (workPhone != null ? !workPhone.equals(contact.workPhone) : contact.workPhone != null) return false;
-        if (baptized != null ? !baptized.equals(contact.baptized) : contact.baptized != null) return false;
-        if (employer != null ? !employer.equals(contact.employer) : contact.employer != null) return false;
-        if (hoursWorked != null ? !hoursWorked.equals(contact.hoursWorked) : contact.hoursWorked != null) return false;
-        if (address != null ? !address.equals(contact.address) : contact.address != null) return false;
-        if (city != null ? !city.equals(contact.city) : contact.city != null) return false;
-        if (state != null ? !state.equals(contact.state) : contact.state != null) return false;
-        if (zip != null ? !zip.equals(contact.zip) : contact.zip != null) return false;
-        return birthdate != null ? birthdate.equals(contact.birthdate) : contact.birthdate == null;
+    /**
+     * Gets dob.
+     *
+     * @return the dob
+     */
+    public String getDob() {
+        return dob;
     }
 
-    @Override
-    public int hashCode() {
-        int result = contactID;
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (relationshipToStudent != null ? relationshipToStudent.hashCode() : 0);
-        result = 31 * result + (cellPhone != null ? cellPhone.hashCode() : 0);
-        result = 31 * result + (workPhone != null ? workPhone.hashCode() : 0);
-        result = 31 * result + (baptized != null ? baptized.hashCode() : 0);
-        result = 31 * result + (employer != null ? employer.hashCode() : 0);
-        result = 31 * result + (hoursWorked != null ? hoursWorked.hashCode() : 0);
-        result = 31 * result + (address != null ? address.hashCode() : 0);
-        result = 31 * result + (city != null ? city.hashCode() : 0);
-        result = 31 * result + (state != null ? state.hashCode() : 0);
-        result = 31 * result + (zip != null ? zip.hashCode() : 0);
-        result = 31 * result + (birthdate != null ? birthdate.hashCode() : 0);
-        return result;
+    /**
+     * Sets dob.
+     *
+     * @param dob the dob
+     */
+    public void setDob(String dob) {
+        this.dob = dob;
     }
 
     @Override
@@ -354,7 +372,8 @@ public class Contact {
                 ", city='" + city + '\'' +
                 ", state='" + state + '\'' +
                 ", zip='" + zip + '\'' +
-                ", birthdate='" + birthdate + '\'' +
+                ", email='" + email + '\'' +
+                ", dob='" + dob + '\'' +
                 '}';
     }
 }
