@@ -1,0 +1,8 @@
+<Context docBase="authDemo" path="/authDemo" reloadable="true">
+    <Realm className="org.apache.catalina.realm.JDBCRealm"
+           driverName="com.mysql.jdbc.Driver"
+           connectionURL="jdbc:mysql://localhost:3306/enrollment?user=kbishell&amp;password=Parker05"
+           userTable="Users" userNameCol="userName" userCredCol="password"
+           userRoleTable="userID" roleNameCol="roleType" >
+    </Realm>
+</Context>

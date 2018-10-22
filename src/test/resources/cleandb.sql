@@ -1,6 +1,9 @@
 drop database enrollment;
 create database enrollment;
 use enrollment;
+-- Created by Vertabelo (http://vertabelo.com)
+-- Last modification date: 2018-10-22 16:08:06.786
+-- tables
 -- Table: Contact
 CREATE TABLE Contact (contactID int NOT NULL AUTO_INCREMENT,firstName varchar(20) NOT NULL,lastName varchar(20) NOT NULL,relationshipToStudent varchar(30) NOT NULL,cellPhone varchar(10) NOT NULL,workPhone varchar(10) NOT NULL,baptized char(1) NOT NULL,employer varchar(30) NOT NULL,hoursWorked varchar(200) NOT NULL,address varchar(200) NOT NULL,city varchar(20) NOT NULL,state char(2) NOT NULL,zip int NOT NULL,dob date NOT NULL,CONSTRAINT Contact_pk PRIMARY KEY (contactID));
 -- Table: OtherSchools
@@ -8,7 +11,7 @@ CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolName
 -- Table: OtherSchools_Student
 CREATE TABLE OtherSchools_Student (studentID int NOT NULL,otherSchoolsID int NOT NULL,CONSTRAINT OtherSchools_Student_pk PRIMARY KEY (studentID,otherSchoolsID));
 -- Table: Registration
-CREATE TABLE Registration (studentID int NOT NULL,studentTypeID int NOT NULL,timestamp timestamp NOT NULL,CONSTRAINT Registration_pk PRIMARY KEY (studentID,studentTypeID));
+CREATE TABLE Registration (registrationID int NOT NULL,studentID int NOT NULL,studentTypeID int NOT NULL,timestamp timestamp NOT NULL,CONSTRAINT Registration_pk PRIMARY KEY (registrationID));
 -- Table: Role
 CREATE TABLE Role (roleType varchar(20) NOT NULL,userID int NOT NULL,CONSTRAINT Role_pk PRIMARY KEY (roleType));
 -- Table: Staff

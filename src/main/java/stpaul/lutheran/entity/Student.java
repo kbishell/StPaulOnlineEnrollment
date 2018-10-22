@@ -42,15 +42,9 @@ public class Student {
     private String gender;
 
     /**
-     * The Types.
+     * The Registrations.
      */
-    @ManyToMany(cascade = { CascadeType.ALL })
-    @JoinTable(
-            name = "Registration",
-            joinColumns = { @JoinColumn(name = "studentID") },
-            inverseJoinColumns = { @JoinColumn(name = "studentTypeID") }
-    )
-    Set<StudentType> types = new HashSet<>();
+    Set<Registration> registrations = new HashSet<Registration>();
 
     @ManyToMany(mappedBy = "studentsSchools")
     private Set<OtherSchools> schools = new HashSet<>();
@@ -78,11 +72,11 @@ public class Student {
      * @param email             the email
      * @param baptized          the baptized
      * @param gender            the gender
-     * @param types             the types
+     * @param registrations     the registrations
      * @param schools           the schools
      * @param contacts          the contacts
      */
-    public Student(String firstName, String lastName, String churchAffiliation, String dob, String primaryAddress, String city, String state, String zip, String email, String baptized, String gender, Set<StudentType> types, Set<OtherSchools> schools, Set<Contact> contacts) {
+    public Student(String firstName, String lastName, String churchAffiliation, String dob, String primaryAddress, String city, String state, String zip, String email, String baptized, String gender, Set<Registration> registrations, Set<OtherSchools> schools, Set<Contact> contacts) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.churchAffiliation = churchAffiliation;
@@ -94,7 +88,7 @@ public class Student {
         this.email = email;
         this.baptized = baptized;
         this.gender = gender;
-        this.types = types;
+        this.registrations = registrations;
         this.schools = schools;
         this.contacts = contacts;
     }
@@ -316,23 +310,22 @@ public class Student {
     }
 
     /**
-     * Gets types.
+     * Gets registrations.
      *
-     * @return the types
+     * @return the registrations
      */
-    public Set<StudentType> getTypes() {
-        return types;
+    public Set<Registration> getRegistrations() {
+        return registrations;
     }
 
     /**
-     * Sets types.
+     * Sets registrations.
      *
-     * @param types the types
+     * @param registrations the registrations
      */
-    public void setTypes(Set<StudentType> types) {
-        this.types = types;
+    public void setRegistrations(Set<Registration> registrations) {
+        this.registrations = registrations;
     }
-
 
     /**
      * Gets schools.
@@ -391,7 +384,8 @@ public class Student {
         if (email != null ? !email.equals(student.email) : student.email != null) return false;
         if (baptized != null ? !baptized.equals(student.baptized) : student.baptized != null) return false;
         if (gender != null ? !gender.equals(student.gender) : student.gender != null) return false;
-        if (types != null ? !types.equals(student.types) : student.types != null) return false;
+        if (registrations != null ? !registrations.equals(student.registrations) : student.registrations != null)
+            return false;
         if (schools != null ? !schools.equals(student.schools) : student.schools != null) return false;
         return contacts != null ? contacts.equals(student.contacts) : student.contacts == null;
     }
@@ -410,7 +404,7 @@ public class Student {
         result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (baptized != null ? baptized.hashCode() : 0);
         result = 31 * result + (gender != null ? gender.hashCode() : 0);
-        result = 31 * result + (types != null ? types.hashCode() : 0);
+        result = 31 * result + (registrations != null ? registrations.hashCode() : 0);
         result = 31 * result + (schools != null ? schools.hashCode() : 0);
         result = 31 * result + (contacts != null ? contacts.hashCode() : 0);
         return result;
@@ -431,7 +425,7 @@ public class Student {
                 ", email='" + email + '\'' +
                 ", baptized='" + baptized + '\'' +
                 ", gender='" + gender + '\'' +
-                ", types=" + types +
+                ", registrations=" + registrations +
                 ", schools=" + schools +
                 ", contacts=" + contacts +
                 '}';

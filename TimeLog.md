@@ -24,4 +24,4 @@
 | 10/15/18| (Week Seven) CheckPoint Two, week 6 videos and AWS set up| 5| |
 | 10/17/18| (Week Seven) CheckPoint Two changes, AWS set up| 3| |
 | 10/19/18| (Week Seven) Create other Daos, Generic Dao and more hibernate| 5| |
-| 10/19/18| (Week Eight) | | |
+| 10/22/18| (Week Eight) | Working on week 7 activities and implementing servlets| 4|

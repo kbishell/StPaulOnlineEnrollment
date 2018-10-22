@@ -23,8 +23,7 @@ public class StudentType {
     @Column(name = "yearlyFee")
     private String yearlyFee;
 
-    @ManyToMany(mappedBy = "types")
-    private Set<Student> students = new HashSet<>();
+    private Set<Registration> registrations = new HashSet<Registration>();
 
     /**
      * Instantiates a new Student type.
@@ -35,14 +34,14 @@ public class StudentType {
     /**
      * Instantiates a new Student type.
      *
-     * @param grade     the grade
-     * @param yearlyFee the yearly fee
-     * @param students  the students
+     * @param grade         the grade
+     * @param yearlyFee     the yearly fee
+     * @param registrations the registrations
      */
-    public StudentType(String grade, String yearlyFee, Set<Student> students) {
+    public StudentType(String grade, String yearlyFee, Set<Registration> registrations) {
         this.grade = grade;
         this.yearlyFee = yearlyFee;
-        this.students = students;
+        this.registrations = registrations;
     }
 
     /**
@@ -100,21 +99,43 @@ public class StudentType {
     }
 
     /**
-     * Gets students.
+     * Gets registrations.
      *
-     * @return the students
+     * @return the registrations
      */
-    public Set<Student> getStudents() {
-        return students;
+    public Set<Registration> getRegistrations() {
+        return registrations;
     }
 
     /**
-     * Sets students.
+     * Sets registrations.
      *
-     * @param students the students
+     * @param registrations the registrations
      */
-    public void setStudents(Set<Student> students) {
-        this.students = students;
+    public void setRegistrations(Set<Registration> registrations) {
+        this.registrations = registrations;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        StudentType that = (StudentType) o;
+
+        if (studentTypeID != that.studentTypeID) return false;
+        if (grade != null ? !grade.equals(that.grade) : that.grade != null) return false;
+        if (yearlyFee != null ? !yearlyFee.equals(that.yearlyFee) : that.yearlyFee != null) return false;
+        return registrations != null ? registrations.equals(that.registrations) : that.registrations == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = studentTypeID;
+        result = 31 * result + (grade != null ? grade.hashCode() : 0);
+        result = 31 * result + (yearlyFee != null ? yearlyFee.hashCode() : 0);
+        result = 31 * result + (registrations != null ? registrations.hashCode() : 0);
+        return result;
     }
 
     @Override
@@ -123,7 +144,7 @@ public class StudentType {
                 "studentTypeID=" + studentTypeID +
                 ", grade='" + grade + '\'' +
                 ", yearlyFee='" + yearlyFee + '\'' +
-                ", students=" + students +
+                ", registrations=" + registrations +
                 '}';
     }
 }
