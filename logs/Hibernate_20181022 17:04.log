@@ -1,0 +1,561 @@
+[DEBUG] 2018-10-22 17:04:23.037 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2018-10-22 17:04:23.052 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2018-10-22 17:04:23.059 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2018-10-22 17:04:23.250 [main] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-10-22 17:04:23.255 [main] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2018-10-22 17:04:23.332 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2018-10-22 17:04:23.335 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2018-10-22 17:04:23.345 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2018-10-22 17:04:23.814 [main] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2018-10-22 17:04:23.879 [main] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2018-10-22 17:04:23.897 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[DEBUG] 2018-10-22 17:04:23.957 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@6f15d60e
+[DEBUG] 2018-10-22 17:04:23.959 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@6f15d60e
+[DEBUG] 2018-10-22 17:04:23.959 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@6f15d60e
+[DEBUG] 2018-10-22 17:04:23.960 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4f0f2942
+[DEBUG] 2018-10-22 17:04:23.960 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@28cda624
+[DEBUG] 2018-10-22 17:04:23.961 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@126253fd
+[DEBUG] 2018-10-22 17:04:23.968 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@1807f5a7
+[DEBUG] 2018-10-22 17:04:23.968 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@1807f5a7
+[DEBUG] 2018-10-22 17:04:23.968 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@1807f5a7
+[DEBUG] 2018-10-22 17:04:23.974 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@7dfd3c81
+[DEBUG] 2018-10-22 17:04:23.974 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@7dfd3c81
+[DEBUG] 2018-10-22 17:04:23.975 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7dfd3c81
+[DEBUG] 2018-10-22 17:04:23.977 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@169bb4dd
+[DEBUG] 2018-10-22 17:04:23.977 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@169bb4dd
+[DEBUG] 2018-10-22 17:04:23.978 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@169bb4dd
+[DEBUG] 2018-10-22 17:04:23.978 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@2d0399f4
+[DEBUG] 2018-10-22 17:04:23.982 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@2d0399f4
+[DEBUG] 2018-10-22 17:04:23.982 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@2d0399f4
+[DEBUG] 2018-10-22 17:04:23.995 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@2f953efd
+[DEBUG] 2018-10-22 17:04:23.996 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@2f953efd
+[DEBUG] 2018-10-22 17:04:23.996 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@2f953efd
+[DEBUG] 2018-10-22 17:04:23.997 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@3e0e1046
+[DEBUG] 2018-10-22 17:04:23.997 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@3e0e1046
+[DEBUG] 2018-10-22 17:04:23.997 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@3e0e1046
+[DEBUG] 2018-10-22 17:04:23.998 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@798162bc
+[DEBUG] 2018-10-22 17:04:23.998 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@798162bc
+[DEBUG] 2018-10-22 17:04:23.998 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@798162bc
+[DEBUG] 2018-10-22 17:04:23.999 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@45385f75
+[DEBUG] 2018-10-22 17:04:23.999 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@45385f75
+[DEBUG] 2018-10-22 17:04:23.999 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@6f36c2f0
+[DEBUG] 2018-10-22 17:04:23.999 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@6f36c2f0
+[DEBUG] 2018-10-22 17:04:24.000 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@3b35a229
+[DEBUG] 2018-10-22 17:04:24.007 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@3b35a229
+[DEBUG] 2018-10-22 17:04:24.013 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7dc3712
+[DEBUG] 2018-10-22 17:04:24.013 [main] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@5be1d0a4
+[DEBUG] 2018-10-22 17:04:24.019 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@7d322cad
+[DEBUG] 2018-10-22 17:04:24.019 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@7d322cad
+[DEBUG] 2018-10-22 17:04:24.021 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@448c8166
+[DEBUG] 2018-10-22 17:04:24.021 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@448c8166
+[DEBUG] 2018-10-22 17:04:24.044 [main] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@18f8cd79
+[DEBUG] 2018-10-22 17:04:24.044 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@18f8cd79
+[DEBUG] 2018-10-22 17:04:24.045 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@6cc4cdb9
+[DEBUG] 2018-10-22 17:04:24.045 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@6cc4cdb9
+[DEBUG] 2018-10-22 17:04:24.046 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@6bb4dd34
+[DEBUG] 2018-10-22 17:04:24.046 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@6bb4dd34
+[DEBUG] 2018-10-22 17:04:24.050 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@4a07d605
+[DEBUG] 2018-10-22 17:04:24.050 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@4a07d605
+[DEBUG] 2018-10-22 17:04:24.052 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@68746f22
+[DEBUG] 2018-10-22 17:04:24.053 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@68746f22
+[DEBUG] 2018-10-22 17:04:24.054 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@2eea88a1
+[DEBUG] 2018-10-22 17:04:24.054 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@2eea88a1
+[DEBUG] 2018-10-22 17:04:24.056 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@376a0d86
+[DEBUG] 2018-10-22 17:04:24.057 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@376a0d86
+[DEBUG] 2018-10-22 17:04:24.058 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@6c7a164b
+[DEBUG] 2018-10-22 17:04:24.058 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@6c7a164b
+[DEBUG] 2018-10-22 17:04:24.058 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@638ef7ed
+[DEBUG] 2018-10-22 17:04:24.059 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@638ef7ed
+[DEBUG] 2018-10-22 17:04:24.059 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@776a6d9b
+[DEBUG] 2018-10-22 17:04:24.059 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@776a6d9b
+[DEBUG] 2018-10-22 17:04:24.059 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@776a6d9b
+[DEBUG] 2018-10-22 17:04:24.061 [main] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@18ece7f4
+[DEBUG] 2018-10-22 17:04:24.061 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@264f218
+[DEBUG] 2018-10-22 17:04:24.061 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@264f218
+[DEBUG] 2018-10-22 17:04:24.062 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@264f218
+[DEBUG] 2018-10-22 17:04:24.062 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2e570ded
+[DEBUG] 2018-10-22 17:04:24.063 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@2ca26d77
+[DEBUG] 2018-10-22 17:04:24.063 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2ca26d77
+[DEBUG] 2018-10-22 17:04:24.064 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@1ebea008
+[DEBUG] 2018-10-22 17:04:24.064 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1ebea008
+[DEBUG] 2018-10-22 17:04:24.064 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@51bf5add
+[DEBUG] 2018-10-22 17:04:24.064 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@51bf5add
+[DEBUG] 2018-10-22 17:04:24.065 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@478db956
+[DEBUG] 2018-10-22 17:04:24.065 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@478db956
+[DEBUG] 2018-10-22 17:04:24.066 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@77659b30
+[DEBUG] 2018-10-22 17:04:24.066 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@77659b30
+[DEBUG] 2018-10-22 17:04:24.068 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@1ec9bd38
+[DEBUG] 2018-10-22 17:04:24.069 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@928763c
+[DEBUG] 2018-10-22 17:04:24.069 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@928763c
+[DEBUG] 2018-10-22 17:04:24.069 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@928763c
+[DEBUG] 2018-10-22 17:04:24.069 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2f666ebb
+[DEBUG] 2018-10-22 17:04:24.069 [main] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2f666ebb
+[DEBUG] 2018-10-22 17:04:24.070 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2f666ebb
+[DEBUG] 2018-10-22 17:04:24.073 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@75c56eb9
+[DEBUG] 2018-10-22 17:04:24.073 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@5e17553a
+[DEBUG] 2018-10-22 17:04:24.074 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@27912e3
+[DEBUG] 2018-10-22 17:04:24.074 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@27912e3
+[DEBUG] 2018-10-22 17:04:24.074 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@27912e3
+[DEBUG] 2018-10-22 17:04:24.079 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@30b6ffe0
+[DEBUG] 2018-10-22 17:04:24.079 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@30b6ffe0
+[DEBUG] 2018-10-22 17:04:24.079 [main] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@30b6ffe0
+[DEBUG] 2018-10-22 17:04:24.080 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@24c22fe
+[DEBUG] 2018-10-22 17:04:24.090 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@15a04efb
+[DEBUG] 2018-10-22 17:04:24.114 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@609bcfb6
+[DEBUG] 2018-10-22 17:04:24.114 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@609bcfb6
+[DEBUG] 2018-10-22 17:04:24.114 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1df8b5b8
+[DEBUG] 2018-10-22 17:04:24.120 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@748741cb
+[DEBUG] 2018-10-22 17:04:24.120 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@748741cb
+[DEBUG] 2018-10-22 17:04:24.122 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@50313382
+[DEBUG] 2018-10-22 17:04:24.122 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@50313382
+[DEBUG] 2018-10-22 17:04:24.122 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@14a50707
+[DEBUG] 2018-10-22 17:04:24.123 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@e3c0e40
+[DEBUG] 2018-10-22 17:04:24.124 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@59e2d8e3
+[DEBUG] 2018-10-22 17:04:24.126 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@24c4ddae
+[DEBUG] 2018-10-22 17:04:24.126 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@24c4ddae
+[DEBUG] 2018-10-22 17:04:24.126 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@7b7fdc8
+[DEBUG] 2018-10-22 17:04:24.126 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@51c693d
+[DEBUG] 2018-10-22 17:04:24.126 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6a57ae10
+[DEBUG] 2018-10-22 17:04:24.126 [main] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@766653e6
+[DEBUG] 2018-10-22 17:04:24.127 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@4e07b95f
+[DEBUG] 2018-10-22 17:04:24.127 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@28b46423
+[DEBUG] 2018-10-22 17:04:24.127 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7fc4780b
+[DEBUG] 2018-10-22 17:04:24.127 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3b79fd76
+[INFO ] 2018-10-22 17:04:24.134 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/enrollment
+[INFO ] 2018-10-22 17:04:24.134 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {user=root, password=****}
+[INFO ] 2018-10-22 17:04:24.135 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2018-10-22 17:04:24.307 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2018-10-22 17:04:24.656 [main] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.7.23-0ubuntu0.16.04.1
+      major : 5
+      minor : 7
+[DEBUG] 2018-10-22 17:04:24.657 [main] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )
+      major : 5
+      minor : 1
+[DEBUG] 2018-10-22 17:04:24.657 [main] JdbcEnvironmentInitiator - JDBC version : 4.0
+[INFO ] 2018-10-22 17:04:24.674 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[DEBUG] 2018-10-22 17:04:24.754 [main] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2018-10-22 17:04:24.760 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2018-10-22 17:04:24.815 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2018-10-22 17:04:24.816 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2018-10-22 17:04:24.816 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-10-22 17:04:24.816 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-10-22 17:04:24.817 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2018-10-22 17:04:24.818 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2018-10-22 17:04:24.818 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2018-10-22 17:04:24.818 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-10-22 17:04:24.819 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2018-10-22 17:04:24.819 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2018-10-22 17:04:24.820 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2018-10-22 17:04:24.820 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2018-10-22 17:04:24.820 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-10-22 17:04:24.821 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[DEBUG] 2018-10-22 17:04:24.849 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2018-10-22 17:04:24.902 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.OtherSchools
+[DEBUG] 2018-10-22 17:04:24.929 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-10-22 17:04:24.939 [main] EntityBinder - Import with entity name OtherSchools
+[DEBUG] 2018-10-22 17:04:24.941 [main] EntityBinder - Bind entity stpaul.lutheran.entity.OtherSchools on table OtherSchools
+[DEBUG] 2018-10-22 17:04:24.995 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(OtherSchools), mappingColumn=otherSchoolsID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:24.997 [main] PropertyBinder - MetadataSourceProcessor property otherSchoolsID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.007 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.OtherSchools:otherSchoolsID]
+[DEBUG] 2018-10-22 17:04:25.008 [main] SimpleValueBinder - building SimpleValue for otherSchoolsID
+[DEBUG] 2018-10-22 17:04:25.009 [main] PropertyBinder - Building property otherSchoolsID
+[DEBUG] 2018-10-22 17:04:25.017 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(OtherSchools), mappingColumn=duration, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.020 [main] PropertyBinder - MetadataSourceProcessor property duration with lazy=false
+[DEBUG] 2018-10-22 17:04:25.020 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.OtherSchools:duration]
+[DEBUG] 2018-10-22 17:04:25.020 [main] SimpleValueBinder - building SimpleValue for duration
+[DEBUG] 2018-10-22 17:04:25.020 [main] PropertyBinder - Building property duration
+[DEBUG] 2018-10-22 17:04:25.020 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(OtherSchools), mappingColumn=gradeLevel, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.020 [main] PropertyBinder - MetadataSourceProcessor property gradeLevel with lazy=false
+[DEBUG] 2018-10-22 17:04:25.020 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.OtherSchools:gradeLevel]
+[DEBUG] 2018-10-22 17:04:25.020 [main] SimpleValueBinder - building SimpleValue for gradeLevel
+[DEBUG] 2018-10-22 17:04:25.020 [main] PropertyBinder - Building property gradeLevel
+[DEBUG] 2018-10-22 17:04:25.020 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(OtherSchools), mappingColumn=schoolName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.020 [main] PropertyBinder - MetadataSourceProcessor property schoolName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.020 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.OtherSchools:schoolName]
+[DEBUG] 2018-10-22 17:04:25.020 [main] SimpleValueBinder - building SimpleValue for schoolName
+[DEBUG] 2018-10-22 17:04:25.021 [main] PropertyBinder - Building property schoolName
+[DEBUG] 2018-10-22 17:04:25.023 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(OtherSchools), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.036 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(OtherSchools), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.036 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(OtherSchools), mappingColumn=studentsSchools_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.037 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='studentsSchools_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-10-22 17:04:25.040 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='otherSchoolsID', referencedColumn='', mappedBy=''}
+[DEBUG] 2018-10-22 17:04:25.040 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='studentID', referencedColumn='', mappedBy=''}
+[DEBUG] 2018-10-22 17:04:25.041 [main] CollectionBinder - Collection role: stpaul.lutheran.entity.OtherSchools.studentsSchools
+[DEBUG] 2018-10-22 17:04:25.042 [main] PropertyBinder - Building property studentsSchools
+[DEBUG] 2018-10-22 17:04:25.043 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.Staff
+[DEBUG] 2018-10-22 17:04:25.046 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-10-22 17:04:25.046 [main] EntityBinder - Import with entity name Staff
+[DEBUG] 2018-10-22 17:04:25.046 [main] EntityBinder - Bind entity stpaul.lutheran.entity.Staff on table Staff
+[DEBUG] 2018-10-22 17:04:25.049 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Staff), mappingColumn=staffID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.049 [main] PropertyBinder - MetadataSourceProcessor property staffID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.049 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Staff:staffID]
+[DEBUG] 2018-10-22 17:04:25.050 [main] SimpleValueBinder - building SimpleValue for staffID
+[DEBUG] 2018-10-22 17:04:25.050 [main] PropertyBinder - Building property staffID
+[DEBUG] 2018-10-22 17:04:25.050 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Staff), mappingColumn=firstName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.050 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.050 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Staff:firstName]
+[DEBUG] 2018-10-22 17:04:25.050 [main] SimpleValueBinder - building SimpleValue for firstName
+[DEBUG] 2018-10-22 17:04:25.050 [main] PropertyBinder - Building property firstName
+[DEBUG] 2018-10-22 17:04:25.050 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Staff), mappingColumn=lastName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.050 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.051 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Staff:lastName]
+[DEBUG] 2018-10-22 17:04:25.051 [main] SimpleValueBinder - building SimpleValue for lastName
+[DEBUG] 2018-10-22 17:04:25.051 [main] PropertyBinder - Building property lastName
+[DEBUG] 2018-10-22 17:04:25.051 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Staff), mappingColumn=userID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.051 [main] PropertyBinder - MetadataSourceProcessor property userID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.052 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Staff:userID]
+[DEBUG] 2018-10-22 17:04:25.052 [main] SimpleValueBinder - building SimpleValue for userID
+[DEBUG] 2018-10-22 17:04:25.052 [main] PropertyBinder - Building property userID
+[DEBUG] 2018-10-22 17:04:25.052 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.Contact
+[DEBUG] 2018-10-22 17:04:25.052 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-10-22 17:04:25.052 [main] EntityBinder - Import with entity name Contact
+[DEBUG] 2018-10-22 17:04:25.053 [main] EntityBinder - Bind entity stpaul.lutheran.entity.Contact on table Contact
+[DEBUG] 2018-10-22 17:04:25.055 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=contactID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.055 [main] PropertyBinder - MetadataSourceProcessor property contactID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.055 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:contactID]
+[DEBUG] 2018-10-22 17:04:25.055 [main] SimpleValueBinder - building SimpleValue for contactID
+[DEBUG] 2018-10-22 17:04:25.055 [main] PropertyBinder - Building property contactID
+[DEBUG] 2018-10-22 17:04:25.056 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=address, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.056 [main] PropertyBinder - MetadataSourceProcessor property address with lazy=false
+[DEBUG] 2018-10-22 17:04:25.056 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:address]
+[DEBUG] 2018-10-22 17:04:25.056 [main] SimpleValueBinder - building SimpleValue for address
+[DEBUG] 2018-10-22 17:04:25.056 [main] PropertyBinder - Building property address
+[DEBUG] 2018-10-22 17:04:25.056 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=baptized, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.056 [main] PropertyBinder - MetadataSourceProcessor property baptized with lazy=false
+[DEBUG] 2018-10-22 17:04:25.056 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:baptized]
+[DEBUG] 2018-10-22 17:04:25.056 [main] SimpleValueBinder - building SimpleValue for baptized
+[DEBUG] 2018-10-22 17:04:25.056 [main] PropertyBinder - Building property baptized
+[DEBUG] 2018-10-22 17:04:25.056 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=cellPhone, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.056 [main] PropertyBinder - MetadataSourceProcessor property cellPhone with lazy=false
+[DEBUG] 2018-10-22 17:04:25.056 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:cellPhone]
+[DEBUG] 2018-10-22 17:04:25.056 [main] SimpleValueBinder - building SimpleValue for cellPhone
+[DEBUG] 2018-10-22 17:04:25.056 [main] PropertyBinder - Building property cellPhone
+[DEBUG] 2018-10-22 17:04:25.056 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=city, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.056 [main] PropertyBinder - MetadataSourceProcessor property city with lazy=false
+[DEBUG] 2018-10-22 17:04:25.056 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:city]
+[DEBUG] 2018-10-22 17:04:25.056 [main] SimpleValueBinder - building SimpleValue for city
+[DEBUG] 2018-10-22 17:04:25.057 [main] PropertyBinder - Building property city
+[DEBUG] 2018-10-22 17:04:25.057 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=dob, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.057 [main] PropertyBinder - MetadataSourceProcessor property dob with lazy=false
+[DEBUG] 2018-10-22 17:04:25.057 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:dob]
+[DEBUG] 2018-10-22 17:04:25.057 [main] SimpleValueBinder - building SimpleValue for dob
+[DEBUG] 2018-10-22 17:04:25.059 [main] PropertyBinder - Building property dob
+[DEBUG] 2018-10-22 17:04:25.059 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=email, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.059 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
+[DEBUG] 2018-10-22 17:04:25.059 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:email]
+[DEBUG] 2018-10-22 17:04:25.059 [main] SimpleValueBinder - building SimpleValue for email
+[DEBUG] 2018-10-22 17:04:25.059 [main] PropertyBinder - Building property email
+[DEBUG] 2018-10-22 17:04:25.059 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=employer, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.059 [main] PropertyBinder - MetadataSourceProcessor property employer with lazy=false
+[DEBUG] 2018-10-22 17:04:25.063 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:employer]
+[DEBUG] 2018-10-22 17:04:25.063 [main] SimpleValueBinder - building SimpleValue for employer
+[DEBUG] 2018-10-22 17:04:25.063 [main] PropertyBinder - Building property employer
+[DEBUG] 2018-10-22 17:04:25.063 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=firstName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.063 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.063 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:firstName]
+[DEBUG] 2018-10-22 17:04:25.063 [main] SimpleValueBinder - building SimpleValue for firstName
+[DEBUG] 2018-10-22 17:04:25.064 [main] PropertyBinder - Building property firstName
+[DEBUG] 2018-10-22 17:04:25.065 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=hoursWorked, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.066 [main] PropertyBinder - MetadataSourceProcessor property hoursWorked with lazy=false
+[DEBUG] 2018-10-22 17:04:25.067 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:hoursWorked]
+[DEBUG] 2018-10-22 17:04:25.067 [main] SimpleValueBinder - building SimpleValue for hoursWorked
+[DEBUG] 2018-10-22 17:04:25.067 [main] PropertyBinder - Building property hoursWorked
+[DEBUG] 2018-10-22 17:04:25.067 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=lastName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.067 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.067 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:lastName]
+[DEBUG] 2018-10-22 17:04:25.067 [main] SimpleValueBinder - building SimpleValue for lastName
+[DEBUG] 2018-10-22 17:04:25.067 [main] PropertyBinder - Building property lastName
+[DEBUG] 2018-10-22 17:04:25.067 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=relationshipToStudent, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.067 [main] PropertyBinder - MetadataSourceProcessor property relationshipToStudent with lazy=false
+[DEBUG] 2018-10-22 17:04:25.067 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:relationshipToStudent]
+[DEBUG] 2018-10-22 17:04:25.067 [main] SimpleValueBinder - building SimpleValue for relationshipToStudent
+[DEBUG] 2018-10-22 17:04:25.067 [main] PropertyBinder - Building property relationshipToStudent
+[DEBUG] 2018-10-22 17:04:25.067 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=state, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.067 [main] PropertyBinder - MetadataSourceProcessor property state with lazy=false
+[DEBUG] 2018-10-22 17:04:25.067 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:state]
+[DEBUG] 2018-10-22 17:04:25.067 [main] SimpleValueBinder - building SimpleValue for state
+[DEBUG] 2018-10-22 17:04:25.068 [main] PropertyBinder - Building property state
+[DEBUG] 2018-10-22 17:04:25.068 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=usersID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.068 [main] PropertyBinder - MetadataSourceProcessor property usersID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.068 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:usersID]
+[DEBUG] 2018-10-22 17:04:25.068 [main] SimpleValueBinder - building SimpleValue for usersID
+[DEBUG] 2018-10-22 17:04:25.068 [main] PropertyBinder - Building property usersID
+[DEBUG] 2018-10-22 17:04:25.068 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=workPhone, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.068 [main] PropertyBinder - MetadataSourceProcessor property workPhone with lazy=false
+[DEBUG] 2018-10-22 17:04:25.068 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:workPhone]
+[DEBUG] 2018-10-22 17:04:25.068 [main] SimpleValueBinder - building SimpleValue for workPhone
+[DEBUG] 2018-10-22 17:04:25.068 [main] PropertyBinder - Building property workPhone
+[DEBUG] 2018-10-22 17:04:25.068 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Contact), mappingColumn=zip, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.068 [main] PropertyBinder - MetadataSourceProcessor property zip with lazy=false
+[DEBUG] 2018-10-22 17:04:25.068 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Contact:zip]
+[DEBUG] 2018-10-22 17:04:25.068 [main] SimpleValueBinder - building SimpleValue for zip
+[DEBUG] 2018-10-22 17:04:25.068 [main] PropertyBinder - Building property zip
+[DEBUG] 2018-10-22 17:04:25.068 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.Registration
+[DEBUG] 2018-10-22 17:04:25.068 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-10-22 17:04:25.069 [main] EntityBinder - Import with entity name Registration
+[DEBUG] 2018-10-22 17:04:25.069 [main] EntityBinder - Bind entity stpaul.lutheran.entity.Registration on table Registration
+[DEBUG] 2018-10-22 17:04:25.077 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Registration), mappingColumn=registrationID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.077 [main] PropertyBinder - MetadataSourceProcessor property registrationID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.077 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Registration:registrationID]
+[DEBUG] 2018-10-22 17:04:25.077 [main] SimpleValueBinder - building SimpleValue for registrationID
+[DEBUG] 2018-10-22 17:04:25.077 [main] PropertyBinder - Building property registrationID
+[DEBUG] 2018-10-22 17:04:25.077 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Registration), mappingColumn=studentID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.077 [main] PropertyBinder - MetadataSourceProcessor property studentID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.077 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Registration:studentID]
+[DEBUG] 2018-10-22 17:04:25.077 [main] SimpleValueBinder - building SimpleValue for studentID
+[DEBUG] 2018-10-22 17:04:25.078 [main] PropertyBinder - Building property studentID
+[DEBUG] 2018-10-22 17:04:25.078 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Registration), mappingColumn=studentTypeID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.078 [main] PropertyBinder - MetadataSourceProcessor property studentTypeID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.078 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Registration:studentTypeID]
+[DEBUG] 2018-10-22 17:04:25.078 [main] SimpleValueBinder - building SimpleValue for studentTypeID
+[DEBUG] 2018-10-22 17:04:25.078 [main] PropertyBinder - Building property studentTypeID
+[DEBUG] 2018-10-22 17:04:25.078 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Registration), mappingColumn=timestamp, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.078 [main] PropertyBinder - MetadataSourceProcessor property timestamp with lazy=false
+[DEBUG] 2018-10-22 17:04:25.078 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Registration:timestamp]
+[DEBUG] 2018-10-22 17:04:25.078 [main] SimpleValueBinder - building SimpleValue for timestamp
+[DEBUG] 2018-10-22 17:04:25.078 [main] PropertyBinder - Building property timestamp
+[DEBUG] 2018-10-22 17:04:25.078 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.Role
+[DEBUG] 2018-10-22 17:04:25.078 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-10-22 17:04:25.078 [main] EntityBinder - Import with entity name Role
+[DEBUG] 2018-10-22 17:04:25.078 [main] EntityBinder - Bind entity stpaul.lutheran.entity.Role on table Role
+[DEBUG] 2018-10-22 17:04:25.080 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Role), mappingColumn=roleID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.080 [main] PropertyBinder - MetadataSourceProcessor property roleID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.080 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Role:roleID]
+[DEBUG] 2018-10-22 17:04:25.080 [main] SimpleValueBinder - building SimpleValue for roleID
+[DEBUG] 2018-10-22 17:04:25.080 [main] PropertyBinder - Building property roleID
+[DEBUG] 2018-10-22 17:04:25.081 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Role), mappingColumn=roleType, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.081 [main] PropertyBinder - MetadataSourceProcessor property roleType with lazy=false
+[DEBUG] 2018-10-22 17:04:25.081 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Role:roleType]
+[DEBUG] 2018-10-22 17:04:25.081 [main] SimpleValueBinder - building SimpleValue for roleType
+[DEBUG] 2018-10-22 17:04:25.081 [main] PropertyBinder - Building property roleType
+[DEBUG] 2018-10-22 17:04:25.081 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-10-22 17:04:25.082 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Role), mappingColumn=userID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.083 [main] PropertyBinder - Building property userID
+[DEBUG] 2018-10-22 17:04:25.083 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.Student
+[DEBUG] 2018-10-22 17:04:25.083 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-10-22 17:04:25.088 [main] EntityBinder - Import with entity name Student
+[DEBUG] 2018-10-22 17:04:25.089 [main] EntityBinder - Bind entity stpaul.lutheran.entity.Student on table Student
+[DEBUG] 2018-10-22 17:04:25.093 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=studentID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.094 [main] PropertyBinder - MetadataSourceProcessor property studentID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.094 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:studentID]
+[DEBUG] 2018-10-22 17:04:25.094 [main] SimpleValueBinder - building SimpleValue for studentID
+[DEBUG] 2018-10-22 17:04:25.094 [main] PropertyBinder - Building property studentID
+[DEBUG] 2018-10-22 17:04:25.095 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=baptized, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.095 [main] PropertyBinder - MetadataSourceProcessor property baptized with lazy=false
+[DEBUG] 2018-10-22 17:04:25.095 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:baptized]
+[DEBUG] 2018-10-22 17:04:25.095 [main] SimpleValueBinder - building SimpleValue for baptized
+[DEBUG] 2018-10-22 17:04:25.095 [main] PropertyBinder - Building property baptized
+[DEBUG] 2018-10-22 17:04:25.095 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=churchAffiliation, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.095 [main] PropertyBinder - MetadataSourceProcessor property churchAffiliation with lazy=false
+[DEBUG] 2018-10-22 17:04:25.095 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:churchAffiliation]
+[DEBUG] 2018-10-22 17:04:25.095 [main] SimpleValueBinder - building SimpleValue for churchAffiliation
+[DEBUG] 2018-10-22 17:04:25.095 [main] PropertyBinder - Building property churchAffiliation
+[DEBUG] 2018-10-22 17:04:25.096 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=city, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.096 [main] PropertyBinder - MetadataSourceProcessor property city with lazy=false
+[DEBUG] 2018-10-22 17:04:25.096 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:city]
+[DEBUG] 2018-10-22 17:04:25.096 [main] SimpleValueBinder - building SimpleValue for city
+[DEBUG] 2018-10-22 17:04:25.096 [main] PropertyBinder - Building property city
+[DEBUG] 2018-10-22 17:04:25.096 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=dob, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.096 [main] PropertyBinder - MetadataSourceProcessor property dob with lazy=false
+[DEBUG] 2018-10-22 17:04:25.096 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:dob]
+[DEBUG] 2018-10-22 17:04:25.096 [main] SimpleValueBinder - building SimpleValue for dob
+[DEBUG] 2018-10-22 17:04:25.097 [main] PropertyBinder - Building property dob
+[DEBUG] 2018-10-22 17:04:25.097 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=email, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.097 [main] PropertyBinder - MetadataSourceProcessor property email with lazy=false
+[DEBUG] 2018-10-22 17:04:25.098 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:email]
+[DEBUG] 2018-10-22 17:04:25.098 [main] SimpleValueBinder - building SimpleValue for email
+[DEBUG] 2018-10-22 17:04:25.098 [main] PropertyBinder - Building property email
+[DEBUG] 2018-10-22 17:04:25.098 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=firstName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.098 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.098 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:firstName]
+[DEBUG] 2018-10-22 17:04:25.098 [main] SimpleValueBinder - building SimpleValue for firstName
+[DEBUG] 2018-10-22 17:04:25.098 [main] PropertyBinder - Building property firstName
+[DEBUG] 2018-10-22 17:04:25.098 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=gender, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.098 [main] PropertyBinder - MetadataSourceProcessor property gender with lazy=false
+[DEBUG] 2018-10-22 17:04:25.098 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:gender]
+[DEBUG] 2018-10-22 17:04:25.098 [main] SimpleValueBinder - building SimpleValue for gender
+[DEBUG] 2018-10-22 17:04:25.098 [main] PropertyBinder - Building property gender
+[DEBUG] 2018-10-22 17:04:25.098 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=lastName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.098 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.098 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:lastName]
+[DEBUG] 2018-10-22 17:04:25.098 [main] SimpleValueBinder - building SimpleValue for lastName
+[DEBUG] 2018-10-22 17:04:25.098 [main] PropertyBinder - Building property lastName
+[DEBUG] 2018-10-22 17:04:25.098 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=primaryAddress, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.098 [main] PropertyBinder - MetadataSourceProcessor property primaryAddress with lazy=false
+[DEBUG] 2018-10-22 17:04:25.101 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:primaryAddress]
+[DEBUG] 2018-10-22 17:04:25.102 [main] SimpleValueBinder - building SimpleValue for primaryAddress
+[DEBUG] 2018-10-22 17:04:25.104 [main] PropertyBinder - Building property primaryAddress
+[DEBUG] 2018-10-22 17:04:25.104 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.106 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.106 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=schools_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.106 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='schools_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-10-22 17:04:25.106 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='studentsSchools'}
+[DEBUG] 2018-10-22 17:04:25.106 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='studentsSchools'}
+[DEBUG] 2018-10-22 17:04:25.106 [main] CollectionBinder - Collection role: stpaul.lutheran.entity.Student.schools
+[DEBUG] 2018-10-22 17:04:25.106 [main] PropertyBinder - Building property schools
+[DEBUG] 2018-10-22 17:04:25.107 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=state, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.107 [main] PropertyBinder - MetadataSourceProcessor property state with lazy=false
+[DEBUG] 2018-10-22 17:04:25.107 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:state]
+[DEBUG] 2018-10-22 17:04:25.107 [main] SimpleValueBinder - building SimpleValue for state
+[DEBUG] 2018-10-22 17:04:25.107 [main] PropertyBinder - Building property state
+[DEBUG] 2018-10-22 17:04:25.107 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Student), mappingColumn=zip, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.107 [main] PropertyBinder - MetadataSourceProcessor property zip with lazy=false
+[DEBUG] 2018-10-22 17:04:25.107 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Student:zip]
+[DEBUG] 2018-10-22 17:04:25.107 [main] SimpleValueBinder - building SimpleValue for zip
+[DEBUG] 2018-10-22 17:04:25.107 [main] PropertyBinder - Building property zip
+[DEBUG] 2018-10-22 17:04:25.107 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.StudentType
+[DEBUG] 2018-10-22 17:04:25.107 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-10-22 17:04:25.107 [main] EntityBinder - Import with entity name StudentType
+[DEBUG] 2018-10-22 17:04:25.107 [main] EntityBinder - Bind entity stpaul.lutheran.entity.StudentType on table StudentType
+[DEBUG] 2018-10-22 17:04:25.108 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(StudentType), mappingColumn=studentTypeID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.108 [main] PropertyBinder - MetadataSourceProcessor property studentTypeID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.108 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.StudentType:studentTypeID]
+[DEBUG] 2018-10-22 17:04:25.108 [main] SimpleValueBinder - building SimpleValue for studentTypeID
+[DEBUG] 2018-10-22 17:04:25.108 [main] PropertyBinder - Building property studentTypeID
+[DEBUG] 2018-10-22 17:04:25.108 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(StudentType), mappingColumn=grade, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.108 [main] PropertyBinder - MetadataSourceProcessor property grade with lazy=false
+[DEBUG] 2018-10-22 17:04:25.108 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.StudentType:grade]
+[DEBUG] 2018-10-22 17:04:25.108 [main] SimpleValueBinder - building SimpleValue for grade
+[DEBUG] 2018-10-22 17:04:25.108 [main] PropertyBinder - Building property grade
+[DEBUG] 2018-10-22 17:04:25.108 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(StudentType), mappingColumn=registrations, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.109 [main] PropertyBinder - MetadataSourceProcessor property registrations with lazy=false
+[DEBUG] 2018-10-22 17:04:25.109 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.StudentType:registrations]
+[DEBUG] 2018-10-22 17:04:25.109 [main] SimpleValueBinder - building SimpleValue for registrations
+[DEBUG] 2018-10-22 17:04:25.109 [main] PropertyBinder - Building property registrations
+[DEBUG] 2018-10-22 17:04:25.109 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(StudentType), mappingColumn=yearlyFee, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.109 [main] PropertyBinder - MetadataSourceProcessor property yearlyFee with lazy=false
+[DEBUG] 2018-10-22 17:04:25.109 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.StudentType:yearlyFee]
+[DEBUG] 2018-10-22 17:04:25.109 [main] SimpleValueBinder - building SimpleValue for yearlyFee
+[DEBUG] 2018-10-22 17:04:25.109 [main] PropertyBinder - Building property yearlyFee
+[DEBUG] 2018-10-22 17:04:25.109 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.Users
+[DEBUG] 2018-10-22 17:04:25.109 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-10-22 17:04:25.109 [main] EntityBinder - Import with entity name Users
+[DEBUG] 2018-10-22 17:04:25.109 [main] EntityBinder - Bind entity stpaul.lutheran.entity.Users on table Users
+[DEBUG] 2018-10-22 17:04:25.110 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=userID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.110 [main] PropertyBinder - MetadataSourceProcessor property userID with lazy=false
+[DEBUG] 2018-10-22 17:04:25.110 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:userID]
+[DEBUG] 2018-10-22 17:04:25.111 [main] SimpleValueBinder - building SimpleValue for userID
+[DEBUG] 2018-10-22 17:04:25.111 [main] PropertyBinder - Building property userID
+[DEBUG] 2018-10-22 17:04:25.111 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=emailAddress, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.111 [main] PropertyBinder - MetadataSourceProcessor property emailAddress with lazy=false
+[DEBUG] 2018-10-22 17:04:25.111 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:emailAddress]
+[DEBUG] 2018-10-22 17:04:25.111 [main] SimpleValueBinder - building SimpleValue for emailAddress
+[DEBUG] 2018-10-22 17:04:25.117 [main] PropertyBinder - Building property emailAddress
+[DEBUG] 2018-10-22 17:04:25.117 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=firstName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.117 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.117 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:firstName]
+[DEBUG] 2018-10-22 17:04:25.117 [main] SimpleValueBinder - building SimpleValue for firstName
+[DEBUG] 2018-10-22 17:04:25.117 [main] PropertyBinder - Building property firstName
+[DEBUG] 2018-10-22 17:04:25.117 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=lastName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.117 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.117 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:lastName]
+[DEBUG] 2018-10-22 17:04:25.117 [main] SimpleValueBinder - building SimpleValue for lastName
+[DEBUG] 2018-10-22 17:04:25.117 [main] PropertyBinder - Building property lastName
+[DEBUG] 2018-10-22 17:04:25.117 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.118 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2018-10-22 17:04:25.118 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:password]
+[DEBUG] 2018-10-22 17:04:25.118 [main] SimpleValueBinder - building SimpleValue for password
+[DEBUG] 2018-10-22 17:04:25.118 [main] PropertyBinder - Building property password
+[DEBUG] 2018-10-22 17:04:25.118 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='userID'}
+[DEBUG] 2018-10-22 17:04:25.118 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=roles, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.118 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.119 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.119 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=roles_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.123 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-10-22 17:04:25.123 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='userID'}
+[DEBUG] 2018-10-22 17:04:25.123 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='userID'}
+[DEBUG] 2018-10-22 17:04:25.123 [main] CollectionBinder - Collection role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-10-22 17:04:25.123 [main] PropertyBinder - Building property roles
+[DEBUG] 2018-10-22 17:04:25.124 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-10-22 17:04:25.124 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2018-10-22 17:04:25.124 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:userName]
+[DEBUG] 2018-10-22 17:04:25.124 [main] SimpleValueBinder - building SimpleValue for userName
+[DEBUG] 2018-10-22 17:04:25.124 [main] PropertyBinder - Building property userName
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for otherSchoolsID
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for duration
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for gradeLevel
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for schoolName
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for staffID
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for userID
+[DEBUG] 2018-10-22 17:04:25.125 [main] ClassLoaderAccessImpl - Not known whether passed class name [stpaul.lutheran.entity.Users] is safe
+[DEBUG] 2018-10-22 17:04:25.125 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : stpaul.lutheran.entity.Users
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for contactID
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for address
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for baptized
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for cellPhone
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for city
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for dob
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for email
+[DEBUG] 2018-10-22 17:04:25.125 [main] SimpleValueBinder - Starting fillSimpleValue for employer
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for hoursWorked
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for relationshipToStudent
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for state
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for usersID
+[DEBUG] 2018-10-22 17:04:25.126 [main] ClassLoaderAccessImpl - Not known whether passed class name [stpaul.lutheran.entity.Users] is safe
+[DEBUG] 2018-10-22 17:04:25.126 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : stpaul.lutheran.entity.Users
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for workPhone
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for zip
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for registrationID
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for studentID
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for studentTypeID
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for timestamp
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for roleID
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for roleType
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for studentID
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for baptized
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for churchAffiliation
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for city
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for dob
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for email
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for gender
+[DEBUG] 2018-10-22 17:04:25.126 [main] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-10-22 17:04:25.129 [main] SimpleValueBinder - Starting fillSimpleValue for primaryAddress
+[DEBUG] 2018-10-22 17:04:25.129 [main] SimpleValueBinder - Starting fillSimpleValue for state
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for zip
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for studentTypeID
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for grade
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for registrations
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for yearlyFee
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for userID
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for emailAddress
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2018-10-22 17:04:25.130 [main] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2018-10-22 17:04:25.141 [main] PrimaryKey - Forcing column [otherschoolsid] to be non-null as it is part of the primary key for table [otherschools]
+[DEBUG] 2018-10-22 17:04:25.142 [main] PrimaryKey - Forcing column [staffid] to be non-null as it is part of the primary key for table [staff]
+[DEBUG] 2018-10-22 17:04:25.142 [main] PrimaryKey - Forcing column [contactid] to be non-null as it is part of the primary key for table [contact]
+[DEBUG] 2018-10-22 17:04:25.142 [main] PrimaryKey - Forcing column [registrationid] to be non-null as it is part of the primary key for table [registration]
+[DEBUG] 2018-10-22 17:04:25.142 [main] PrimaryKey - Forcing column [roleid] to be non-null as it is part of the primary key for table [role]
+[DEBUG] 2018-10-22 17:04:25.142 [main] PrimaryKey - Forcing column [studentid] to be non-null as it is part of the primary key for table [student]
+[DEBUG] 2018-10-22 17:04:25.142 [main] PrimaryKey - Forcing column [studenttypeid] to be non-null as it is part of the primary key for table [studenttype]
+[DEBUG] 2018-10-22 17:04:25.142 [main] PrimaryKey - Forcing column [userid] to be non-null as it is part of the primary key for table [users]
+[DEBUG] 2018-10-22 17:04:25.142 [main] CollectionSecondPass - Second pass for collection: stpaul.lutheran.entity.OtherSchools.studentsSchools
+[DEBUG] 2018-10-22 17:04:25.143 [main] CollectionBinder - Binding as ManyToMany: stpaul.lutheran.entity.OtherSchools.studentsSchools
+[DEBUG] 2018-10-22 17:04:25.144 [main] PrimaryKey - Forcing column [otherschoolsid] to be non-null as it is part of the primary key for table [otherschools_student]
+[DEBUG] 2018-10-22 17:04:25.144 [main] PrimaryKey - Forcing column [studentid] to be non-null as it is part of the primary key for table [otherschools_student]
+[DEBUG] 2018-10-22 17:04:25.144 [main] CollectionSecondPass - Mapped collection key: otherSchoolsID, element: studentID
+[DEBUG] 2018-10-22 17:04:25.144 [main] CollectionSecondPass - Second pass for collection: stpaul.lutheran.entity.Student.schools
+[DEBUG] 2018-10-22 17:04:25.145 [main] CollectionBinder - Binding as ManyToMany: stpaul.lutheran.entity.Student.schools
+[DEBUG] 2018-10-22 17:04:25.145 [main] TableBinder - Retrieving property stpaul.lutheran.entity.OtherSchools.studentsSchools
+[DEBUG] 2018-10-22 17:04:25.147 [main] CollectionSecondPass - Mapped collection key: studentID, element: otherSchoolsID
+[DEBUG] 2018-10-22 17:04:25.147 [main] CollectionSecondPass - Second pass for collection: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-10-22 17:04:25.147 [main] CollectionBinder - Binding a OneToMany: stpaul.lutheran.entity.Users.roles through a foreign key
+[DEBUG] 2018-10-22 17:04:25.147 [main] CollectionBinder - Mapping collection: stpaul.lutheran.entity.Users.roles -> Role
+[DEBUG] 2018-10-22 17:04:25.147 [main] TableBinder - Retrieving property stpaul.lutheran.entity.Role.userID
+[DEBUG] 2018-10-22 17:04:25.147 [main] CollectionSecondPass - Mapped collection key: userID_userID, one-to-many: stpaul.lutheran.entity.Role
+[DEBUG] 2018-10-22 17:04:25.148 [main] InFlightMetadataCollectorImpl - Resolving reference to class: stpaul.lutheran.entity.Student
+[DEBUG] 2018-10-22 17:04:25.149 [main] InFlightMetadataCollectorImpl - Resolving reference to class: stpaul.lutheran.entity.OtherSchools
+[DEBUG] 2018-10-22 17:04:25.153 [main] InFlightMetadataCollectorImpl - Resolving reference to class: stpaul.lutheran.entity.Users
+[DEBUG] 2018-10-22 17:04:25.154 [main] InFlightMetadataCollectorImpl - Resolving reference to class: stpaul.lutheran.entity.Student
+[DEBUG] 2018-10-22 17:04:25.154 [main] InFlightMetadataCollectorImpl - Resolving reference to class: stpaul.lutheran.entity.OtherSchools
+[DEBUG] 2018-10-22 17:04:25.154 [main] InFlightMetadataCollectorImpl - Resolving reference to class: stpaul.lutheran.entity.Users

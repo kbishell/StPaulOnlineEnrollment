@@ -44,13 +44,13 @@ public class Student {
     /**
      * The Registrations.
      */
-    Set<Registration> registrations = new HashSet<Registration>();
+    /*Set<Registration> registrations = new HashSet<Registration>();*/
 
     @ManyToMany(mappedBy = "studentsSchools")
     private Set<OtherSchools> schools = new HashSet<>();
 
-    @ManyToMany(mappedBy = "student")
-    private Set<Contact> contacts = new HashSet<>();
+    /*@ManyToMany(mappedBy = "student")
+    private Set<Contact> contacts = new HashSet<>();*/
 
     /**
      * Instantiates a new Student.
@@ -88,9 +88,9 @@ public class Student {
         this.email = email;
         this.baptized = baptized;
         this.gender = gender;
-        this.registrations = registrations;
+        /*this.registrations = registrations;*/
         this.schools = schools;
-        this.contacts = contacts;
+        /*this.contacts = contacts;*/
     }
 
     /**
@@ -314,18 +314,18 @@ public class Student {
      *
      * @return the registrations
      */
-    public Set<Registration> getRegistrations() {
+    /*public Set<Registration> getRegistrations() {
         return registrations;
-    }
+    }*/
 
     /**
      * Sets registrations.
      *
      * @param registrations the registrations
      */
-    public void setRegistrations(Set<Registration> registrations) {
+    /*public void setRegistrations(Set<Registration> registrations) {
         this.registrations = registrations;
-    }
+    }*/
 
     /**
      * Gets schools.
@@ -350,20 +350,20 @@ public class Student {
      *
      * @return the contacts
      */
-    public Set<Contact> getContacts() {
+    /*public Set<Contact> getContacts() {
         return contacts;
-    }
+    }*/
 
     /**
      * Sets contacts.
      *
      * @param contacts the contacts
      */
-    public void setContacts(Set<Contact> contacts) {
+   /* public void setContacts(Set<Contact> contacts) {
         this.contacts = contacts;
-    }
+    }*/
 
-    @Override
+   /* @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -429,5 +429,5 @@ public class Student {
                 ", schools=" + schools +
                 ", contacts=" + contacts +
                 '}';
-    }
+    }*/
 }

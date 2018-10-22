@@ -53,13 +53,13 @@ public class Contact {
     /**
      * The Students.
      */
-    @ManyToMany(cascade = { CascadeType.ALL })
+/*    @ManyToMany(cascade = { CascadeType.ALL })
     @JoinTable(
             name = "Student_Contact",
             joinColumns = { @JoinColumn(name = "contactID") },
             inverseJoinColumns = { @JoinColumn(name = "studentID") }
-    )
-    Set<Student> students = new HashSet<>();
+    )*/
+    /*Set<Student> students = new HashSet<>();*/
 
     /**
      * Instantiates a new Contact.
@@ -103,7 +103,7 @@ public class Contact {
         this.email = email;
         this.dob = dob;
         this.usersID = usersID;
-        this.students = students;
+        /*this.students = students;*/
     }
 
     /**
@@ -399,20 +399,20 @@ public class Contact {
      *
      * @return the students
      */
-    public Set<Student> getStudents() {
+    /*public Set<Student> getStudents() {
         return students;
-    }
+    }*/
 
     /**
      * Sets students.
      *
      * @param students the students
      */
-    public void setStudents(Set<Student> students) {
+    /*public void setStudents(Set<Student> students) {
         this.students = students;
-    }
+    }*/
 
-    @Override
+   /* @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -459,9 +459,9 @@ public class Contact {
         result = 31 * result + (usersID != null ? usersID.hashCode() : 0);
         result = 31 * result + (students != null ? students.hashCode() : 0);
         return result;
-    }
+    }*/
 
-    @Override
+   /* @Override
     public String toString() {
         return "Contact{" +
                 "contactID=" + contactID +
@@ -482,5 +482,5 @@ public class Contact {
                 ", usersID=" + usersID +
                 ", students=" + students +
                 '}';
-    }
+    }*/
 }

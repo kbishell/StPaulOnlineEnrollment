@@ -2,7 +2,7 @@ drop database enrollment;
 create database enrollment;
 use enrollment;
 -- Created by Vertabelo (http://vertabelo.com)
--- Last modification date: 2018-10-22 16:08:06.786
+-- Last modification date: 2018-10-22 21:30:54.284
 -- tables
 -- Table: Contact
 CREATE TABLE Contact (contactID int NOT NULL AUTO_INCREMENT,firstName varchar(20) NOT NULL,lastName varchar(20) NOT NULL,relationshipToStudent varchar(30) NOT NULL,cellPhone varchar(10) NOT NULL,workPhone varchar(10) NOT NULL,baptized char(1) NOT NULL,employer varchar(30) NOT NULL,hoursWorked varchar(200) NOT NULL,address varchar(200) NOT NULL,city varchar(20) NOT NULL,state char(2) NOT NULL,zip int NOT NULL,dob date NOT NULL,CONSTRAINT Contact_pk PRIMARY KEY (contactID));
@@ -13,9 +13,7 @@ CREATE TABLE OtherSchools_Student (studentID int NOT NULL,otherSchoolsID int NOT
 -- Table: Registration
 CREATE TABLE Registration (registrationID int NOT NULL,studentID int NOT NULL,studentTypeID int NOT NULL,timestamp timestamp NOT NULL,CONSTRAINT Registration_pk PRIMARY KEY (registrationID));
 -- Table: Role
-CREATE TABLE Role (roleType varchar(20) NOT NULL,userID int NOT NULL,CONSTRAINT Role_pk PRIMARY KEY (roleType));
--- Table: Staff
-CREATE TABLE Staff (staffID int NOT NULL AUTO_INCREMENT,firstName varchar(20) NOT NULL,lastName varchar(20) NOT NULL,CONSTRAINT Staff_pk PRIMARY KEY (staffID));
+CREATE TABLE Role (roleID varchar(20) NOT NULL,userID int NOT NULL,roleType varchar(30) NOT NULL,CONSTRAINT Role_pk PRIMARY KEY (roleID));
 -- Table: Student
 CREATE TABLE Student (studentID int NOT NULL AUTO_INCREMENT,firstName varchar(50) NOT NULL,lastName varchar(50) NOT NULL,churchAffiliation varchar(100) NOT NULL,dob date NOT NULL,primaryAddress varchar(100) NOT NULL,city varchar(50) NOT NULL,state varchar(2) NOT NULL,zip int NOT NULL,email varchar(50) NOT NULL,baptized char(1) NOT NULL,gender char(1) NOT NULL,CONSTRAINT Student_pk PRIMARY KEY (studentID));
 -- Table: StudentType
@@ -23,7 +21,7 @@ CREATE TABLE StudentType (studentTypeID int NOT NULL AUTO_INCREMENT,grade int NO
 -- Table: Student_Contact
 CREATE TABLE Student_Contact (contactID int NOT NULL,studentID int NOT NULL,CONSTRAINT Student_Contact_pk PRIMARY KEY (contactID,studentID));
 -- Table: Users
-CREATE TABLE Users (userID int NOT NULL AUTO_INCREMENT,userName varchar(20) NOT NULL,password varchar(20) NOT NULL,contactID int NOT NULL,staffID int NOT NULL,CONSTRAINT Users_pk PRIMARY KEY (userID));
+CREATE TABLE Users (userID int NOT NULL AUTO_INCREMENT,userName varchar(20) NOT NULL,password varchar(20) NOT NULL,firstName varchar(30) NOT NULL,lastName varchar(30) NOT NULL,emailAddress varchar(200) NOT NULL,CONSTRAINT Users_pk PRIMARY KEY (userID));
 -- foreign keys
 -- Reference: OtherSchools_Students_OtherSchools (table: OtherSchools_Student)
 ALTER TABLE OtherSchools_Student ADD CONSTRAINT OtherSchools_Students_OtherSchools FOREIGN KEY OtherSchools_Students_OtherSchools (otherSchoolsID)REFERENCES OtherSchools (otherSchoolsID);
@@ -37,11 +35,7 @@ ALTER TABLE Registration ADD CONSTRAINT Registration_StudentType FOREIGN KEY Reg
 ALTER TABLE Student_Contact ADD CONSTRAINT Student_Contact_Contact FOREIGN KEY Student_Contact_Contact (contactID)REFERENCES Contact (contactID);
 -- Reference: Student_Contact_Student (table: Student_Contact)
 ALTER TABLE Student_Contact ADD CONSTRAINT Student_Contact_Student FOREIGN KEY Student_Contact_Student (studentID)REFERENCES Student (studentID);
--- Reference: Users_Contact (table: Users)
-ALTER TABLE Users ADD CONSTRAINT Users_Contact FOREIGN KEY Users_Contact (contactID)REFERENCES Contact (contactID);
--- Reference: Users_Staff (table: Users)
-ALTER TABLE Users ADD CONSTRAINT Users_Staff FOREIGN KEY Users_Staff (staffID)REFERENCES Staff (staffID);
 -- Reference: role_Users (table: Role)
 ALTER TABLE Role ADD CONSTRAINT role_Users FOREIGN KEY role_Users (userID)REFERENCES Users (userID);
 -- End of file.
-insert into Staff(firstName, lastName)values('Robert', 'Tennley'),('Betsy', 'Glock'),('Pat', 'Downey'),('Tessa', 'Willis'),('Stephanie', 'Barnes'),('Kathy', 'Banker');
+insert into Users(userName, password, firstName, lastName, emailAddress)values('rtennley','password', 'Robert', 'Tennley', 'rt@gmail.com'),('kbobby','password', 'Keith', 'Bobby', 'kb@gmail.com');

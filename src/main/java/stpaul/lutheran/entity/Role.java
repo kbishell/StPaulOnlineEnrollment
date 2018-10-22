@@ -15,7 +15,7 @@ public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-    private int userID;
+    private int roleID;
 
     @Column(name = "roleType")
     private String roleType;
@@ -33,7 +33,7 @@ public class Role {
      * Instantiates a new Role.
      *
      * @param roleType the role type
-     * @param user     the user
+     * @param user   the user
      */
     public Role(String roleType, Users user) {
         this.roleType = roleType;
@@ -41,21 +41,21 @@ public class Role {
     }
 
     /**
-     * Gets user id.
+     * Gets role id.
      *
-     * @return the user id
+     * @return the role id
      */
-    public int getUserID() {
-        return userID;
+    public int getRoleID() {
+        return roleID;
     }
 
     /**
-     * Sets user id.
+     * Sets role id.
      *
-     * @param userID the user id
+     * @param roleID the role id
      */
-    public void setUserID(int userID) {
-        this.userID = userID;
+    public void setRoleID(int roleID) {
+        this.roleID = roleID;
     }
 
     /**
@@ -77,18 +77,18 @@ public class Role {
     }
 
     /**
-     * Gets user.
+     * Gets user id.
      *
-     * @return the user
+     * @return the user id
      */
     public Users getUser() {
         return user;
     }
 
     /**
-     * Sets user.
+     * Sets user id.
      *
-     * @param user the user
+     * @param user the user id
      */
     public void setUser(Users user) {
         this.user = user;
@@ -101,14 +101,14 @@ public class Role {
 
         Role role = (Role) o;
 
-        if (userID != role.userID) return false;
+        if (roleID != role.roleID) return false;
         if (roleType != null ? !roleType.equals(role.roleType) : role.roleType != null) return false;
         return user != null ? user.equals(role.user) : role.user == null;
     }
 
     @Override
     public int hashCode() {
-        int result = userID;
+        int result = roleID;
         result = 31 * result + (roleType != null ? roleType.hashCode() : 0);
         result = 31 * result + (user != null ? user.hashCode() : 0);
         return result;
@@ -117,7 +117,7 @@ public class Role {
     @Override
     public String toString() {
         return "Role{" +
-                "userID=" + userID +
+                "roleID=" + roleID +
                 ", roleType='" + roleType + '\'' +
                 ", user=" + user +
                 '}';

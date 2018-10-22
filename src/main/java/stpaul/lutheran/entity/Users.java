@@ -20,16 +20,18 @@ public class Users {
     @GenericGenerator(name = "native", strategy = "native")
     private int userID;
 
-    @Column(name = "user_name")
+    @Column(name = "userName")
     private String userName;
     @Column(name = "password")
     private String password;
-    @Column(name = "contactID")
-    private Contact contactID;
-    @Column(name = "staffID")
-    private Staff staffID;
+    @Column(name = "firstName")
+    private String firstName;
+    @Column(name = "lastName")
+    private String lastName;
+    @Column(name = "emailAddress")
+    private String emailAddress;
 
-    @OneToMany(mappedBy = "Role", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Role> roles = new HashSet<>();
 
     /**
@@ -41,18 +43,18 @@ public class Users {
     /**
      * Instantiates a new Users.
      *
-     * @param userName  the user name
-     * @param password  the password
-     * @param contactID the contact id
-     * @param staffID   the staff id
-     * @param roles     the roles
+     * @param userName     the user name
+     * @param password     the password
+     * @param firstName    the first name
+     * @param lastName     the last name
+     * @param emailAddress the email address
      */
-    public Users(String userName, String password, Contact contactID, Staff staffID, Set<Role> roles) {
+    public Users(String userName, String password, String firstName, String lastName, String emailAddress) {
         this.userName = userName;
         this.password = password;
-        this.contactID = contactID;
-        this.staffID = staffID;
-        this.roles = roles;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.emailAddress = emailAddress;
     }
 
     /**
@@ -110,39 +112,57 @@ public class Users {
     }
 
     /**
-     * Gets contact id.
+     * Gets first name.
      *
-     * @return the contact id
+     * @return the first name
      */
-    public Contact getContactID() {
-        return contactID;
+    public String getFirstName() {
+        return firstName;
     }
 
     /**
-     * Sets contact id.
+     * Sets first name.
      *
-     * @param contactID the contact id
+     * @param firstName the first name
      */
-    public void setContactID(Contact contactID) {
-        this.contactID = contactID;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     /**
-     * Gets staff id.
+     * Gets last name.
      *
-     * @return the staff id
+     * @return the last name
      */
-    public Staff getStaffID() {
-        return staffID;
+    public String getLastName() {
+        return lastName;
     }
 
     /**
-     * Sets staff id.
+     * Sets last name.
      *
-     * @param staffID the staff id
+     * @param lastName the last name
      */
-    public void setStaffID(Staff staffID) {
-        this.staffID = staffID;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    /**
+     * Gets email address.
+     *
+     * @return the email address
+     */
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    /**
+     * Sets email address.
+     *
+     * @param emailAddress the email address
+     */
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
     }
 
     /**
@@ -173,8 +193,9 @@ public class Users {
         if (userID != users.userID) return false;
         if (userName != null ? !userName.equals(users.userName) : users.userName != null) return false;
         if (password != null ? !password.equals(users.password) : users.password != null) return false;
-        if (contactID != null ? !contactID.equals(users.contactID) : users.contactID != null) return false;
-        if (staffID != null ? !staffID.equals(users.staffID) : users.staffID != null) return false;
+        if (firstName != null ? !firstName.equals(users.firstName) : users.firstName != null) return false;
+        if (lastName != null ? !lastName.equals(users.lastName) : users.lastName != null) return false;
+        if (emailAddress != null ? !emailAddress.equals(users.emailAddress) : users.emailAddress != null) return false;
         return roles != null ? roles.equals(users.roles) : users.roles == null;
     }
 
@@ -183,8 +204,9 @@ public class Users {
         int result = userID;
         result = 31 * result + (userName != null ? userName.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
-        result = 31 * result + (contactID != null ? contactID.hashCode() : 0);
-        result = 31 * result + (staffID != null ? staffID.hashCode() : 0);
+        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
+        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + (emailAddress != null ? emailAddress.hashCode() : 0);
         result = 31 * result + (roles != null ? roles.hashCode() : 0);
         return result;
     }
@@ -195,8 +217,9 @@ public class Users {
                 "userID=" + userID +
                 ", userName='" + userName + '\'' +
                 ", password='" + password + '\'' +
-                ", contactID=" + contactID +
-                ", staffID=" + staffID +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", emailAddress='" + emailAddress + '\'' +
                 ", roles=" + roles +
                 '}';
     }
