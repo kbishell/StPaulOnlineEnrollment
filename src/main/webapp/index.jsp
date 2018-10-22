@@ -1,6 +1,5 @@
 <%@include file="head.jsp"%>
 
-
 <body>
 
 <div class="container">
@@ -116,48 +115,48 @@
             <form action="/reg" method="get">
 
                 <h2>Father's Information</h2>
-                <input type="text" id="fatherName" placeholder="Father's Name" name="fatherName"><br><br>
-                <input type="text" id="fatherAddress" placeholder="Father's Address" name="fatherAddress"><br><br>
-                <input type="text" id="fatherEmployer" placeholder="Father's Employe" name="fatherEmployer"><br><br>
-                <input type="text" id="fatherPlaceOfBirth" placeholder="Father's Place of Birth" name="fatherPlaceOfBirth"><br><br>
-                <input type="text" id="fatherPhone" placeholder="Father Phone" name="fatherPhone"><br><br>
-                <input type="text" id="fatherWorkPhone" placeholder="Father Work Phone" name="fatherWorkPhone"><br><br>
-                <input type="text" id="fatherAffiliation" placeholder="Church Affiliation" name="fatherAffiliation"><br><br>
+                <input type="text" id="regFatherName" placeholder="Father's Name" name="fatherName"><br><br>
+                <input type="text" id="regFatherAddress" placeholder="Father's Address" name="fatherAddress"><br><br>
+                <input type="text" id="regFatherEmployer" placeholder="Father's Employe" name="fatherEmployer"><br><br>
+                <input type="text" id="regFatherPlaceOfBirth" placeholder="Father's Place of Birth" name="fatherPlaceOfBirth"><br><br>
+                <input type="text" id="regFatherPhone" placeholder="Father Phone" name="fatherPhone"><br><br>
+                <input type="text" id="regFatherWorkPhone" placeholder="Father Work Phone" name="fatherWorkPhone"><br><br>
+                <input type="text" id="regFatherAffiliation" placeholder="Church Affiliation" name="fatherAffiliation"><br><br>
 
                 <h2>Mother's Information</h2>
-                <input type="text" id="motherName" placeholder="Mother's Name" name="motherName"><br><br>
-                <input type="text" id="motherAddress" placeholder="Mother's Address" name="motherAddress"><br><br>
-                <input type="text" id="motherEmployer" placeholder="Mother's Employe" name="motherEmployer"><br><br>
-                <input type="text" id="motherPlaceOfBirth" placeholder="Mother's Place of Birth" name="motherPlaceOfBirth"><br><br>
-                <input type="text" id="motherPhone" placeholder="Mother Phone" name="motherPhone"><br><br>
-                <input type="text" id="motherWorkPhone" placeholder="Mother Work Phone" name="motherWorkPhone"><br><br>
-                <input type="text" id="motherAffiliation" placeholder="Church Affiliation" name="affiliation"><br><br>
+                <input type="text" id="regMotherName" placeholder="Mother's Name" name="motherName"><br><br>
+                <input type="text" id="regMotherAddress" placeholder="Mother's Address" name="motherAddress"><br><br>
+                <input type="text" id="regMotherEmployer" placeholder="Mother's Employe" name="motherEmployer"><br><br>
+                <input type="text" id="regMotherPlaceOfBirth" placeholder="Mother's Place of Birth" name="motherPlaceOfBirth"><br><br>
+                <input type="text" id="regMotherPhone" placeholder="Mother Phone" name="motherPhone"><br><br>
+                <input type="text" id="regMotherWorkPhone" placeholder="Mother Work Phone" name="motherWorkPhone"><br><br>
+                <input type="text" id="regMotherAffiliation" placeholder="Church Affiliation" name="affiliation"><br><br>
 
                 <h2>Child(ren) Information</h2>
-                <input type="text" id="childName" placeholder="Child's Name" name="childName"><br><br>
-                <input type="text" id="phone" placeholder="Phone Number" name="phone"><br><br>
-                <input type="text" id="grade" placeholder="Grade" name="grade"><br><br>
-                <input type="text" id="years" placeholder="Age: Years" name="years"><br><br>
-                <input type="text" id="months" placeholder="Age: months" name="months"><br><br>
-                <input type="text" id="address" placeholder="Address" name="address"><br><br>
-                <input type="text" id="city" placeholder="City" name="city"><br><br>
-                <input type="text" id="state" placeholder="State" name="state"><br><br>
-                <input type="text" id="zip" placeholder="zip" name="zip"><br><br>
-                <input type="text" id="email" placeholder="email" name="email"><br><br>
-                <input type="text" id="Pastor" placeholder="Pastor" name="pastor"><br><br>
-                <input type="text" id="church" placeholder="Church" name="church"><br><br>
-                <input type="text" id="doe" placeholder="Date of Enrollment" name="deo"><br><br><br>
+                <input type="text" id="regChildName" placeholder="Child's Name" name="childName"><br><br>
+                <input type="text" id="regPhone" placeholder="Phone Number" name="phone"><br><br>
+                <input type="text" id="regGrade" placeholder="Grade" name="grade"><br><br>
+                <input type="text" id=regYears" placeholder="Age: Years" name="years"><br><br>
+                <input type="text" id="regMonths" placeholder="Age: months" name="months"><br><br>
+                <input type="text" id="regAddress" placeholder="Address" name="address"><br><br>
+                <input type="text" id="regCity" placeholder="City" name="city"><br><br>
+                <input type="text" id="regState" placeholder="State" name="state"><br><br>
+                <input type="text" id="regZip" placeholder="zip" name="zip"><br><br>
+                <input type="text" id="regEmail" placeholder="email" name="email"><br><br>
+                <input type="text" id="regPastor" placeholder="Pastor" name="pastor"><br><br>
+                <input type="text" id="regChurch" placeholder="Church" name="church"><br><br>
+                <input type="text" id="regDob" placeholder="Date of Enrollment" name="deo"><br><br><br>
 
-                Baptized: <input type="radio" id="childBaptized" name="childBaptized" value="yes"> Yes
-                <input type="radio" id="childNotBaptized" name="childNotBaptized" value="no"> No<br><br>
-                <input type="text" id="dateOfBaptism" placeholder="Date Of Baptism" name="dateOfBaptism"><br><br><br>
+                Baptized: <input type="radio" id="regChildBaptized" name="childBaptized" value="yes"> Yes
+                <input type="radio" id="regChildNotBaptized" name="childNotBaptized" value="no"> No<br><br>
+                <input type="text" id="regDateOfBaptism" placeholder="Date Of Baptism" name="dateOfBaptism"><br><br><br>
 
 
-                <input type="text" id="otherChildren" placeholder="List other children in your family" name="otherChildren"><br><br>
-                <input type="text" id="firstName" placeholder="First Name" name="firstName"><br><br>
-                <input type="text" id="lastName" placeholder="Last Name" name="lastName"><br><br><br>
+                <input type="text" id="regOtherChildren" placeholder="List other children in your family" name="otherChildren"><br><br>
+                <input type="text" id="regFirstName" placeholder="First Name" name="firstName"><br><br>
+                <input type="text" id="regLastName" placeholder="Last Name" name="lastName"><br><br><br>
 
-                <input type="text" id="comments" placeholder="Comments:" name="comments"><br><br><br>
+                <input type="text" id="regComments" placeholder="Comments:" name="comments"><br><br><br>
 
                 <button type="submit" name="submit">Enter Another Child</button><br><br>
 
