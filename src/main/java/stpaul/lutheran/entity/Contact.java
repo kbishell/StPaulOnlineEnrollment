@@ -46,6 +46,9 @@ public class Contact {
     private String email;
     @Column(name = "dob")
     private String dob;
+    @Column(name = "usersID")
+    private Users usersID;
+
 
     /**
      * The Students.
@@ -81,9 +84,10 @@ public class Contact {
      * @param zip                   the zip
      * @param email                 the email
      * @param dob                   the dob
+     * @param usersID               the users id
      * @param students              the students
      */
-    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob, Set<Student> students) {
+    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob, Users usersID, Set<Student> students) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.relationshipToStudent = relationshipToStudent;
@@ -98,6 +102,7 @@ public class Contact {
         this.zip = zip;
         this.email = email;
         this.dob = dob;
+        this.usersID = usersID;
         this.students = students;
     }
 
@@ -372,6 +377,24 @@ public class Contact {
     }
 
     /**
+     * Gets users id.
+     *
+     * @return the users id
+     */
+    public Users getUsersID() {
+        return usersID;
+    }
+
+    /**
+     * Sets users id.
+     *
+     * @param usersID the users id
+     */
+    public void setUsersID(Users usersID) {
+        this.usersID = usersID;
+    }
+
+    /**
      * Gets students.
      *
      * @return the students
@@ -412,6 +435,7 @@ public class Contact {
         if (zip != null ? !zip.equals(contact.zip) : contact.zip != null) return false;
         if (email != null ? !email.equals(contact.email) : contact.email != null) return false;
         if (dob != null ? !dob.equals(contact.dob) : contact.dob != null) return false;
+        if (usersID != null ? !usersID.equals(contact.usersID) : contact.usersID != null) return false;
         return students != null ? students.equals(contact.students) : contact.students == null;
     }
 
@@ -432,6 +456,7 @@ public class Contact {
         result = 31 * result + (zip != null ? zip.hashCode() : 0);
         result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (dob != null ? dob.hashCode() : 0);
+        result = 31 * result + (usersID != null ? usersID.hashCode() : 0);
         result = 31 * result + (students != null ? students.hashCode() : 0);
         return result;
     }
@@ -454,6 +479,7 @@ public class Contact {
                 ", zip='" + zip + '\'' +
                 ", email='" + email + '\'' +
                 ", dob='" + dob + '\'' +
+                ", usersID=" + usersID +
                 ", students=" + students +
                 '}';
     }

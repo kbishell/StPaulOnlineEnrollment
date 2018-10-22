@@ -28,9 +28,10 @@ public class Staff {
 
     @Column(name = "firstName")
     private String firstName;
-
     @Column(name = "lastName")
     private String lastName;
+    @Column(name = "usersID")
+    private Users usersID;
 
     /**
      * Instantiates a new Staff.
@@ -43,10 +44,12 @@ public class Staff {
      *
      * @param firstName the first name
      * @param lastName  the last name
+     * @param usersID   the users id
      */
-    public Staff(String firstName, String lastName) {
+    public Staff(String firstName, String lastName, Users usersID) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.usersID = usersID;
     }
 
     /**
@@ -103,6 +106,24 @@ public class Staff {
         this.lastName = lastName;
     }
 
+    /**
+     * Gets users id.
+     *
+     * @return the users id
+     */
+    public Users getUsersID() {
+        return usersID;
+    }
+
+    /**
+     * Sets users id.
+     *
+     * @param usersID the users id
+     */
+    public void setUsersID(Users usersID) {
+        this.usersID = usersID;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -112,7 +133,8 @@ public class Staff {
 
         if (staffID != staff.staffID) return false;
         if (firstName != null ? !firstName.equals(staff.firstName) : staff.firstName != null) return false;
-        return lastName != null ? lastName.equals(staff.lastName) : staff.lastName == null;
+        if (lastName != null ? !lastName.equals(staff.lastName) : staff.lastName != null) return false;
+        return usersID != null ? usersID.equals(staff.usersID) : staff.usersID == null;
     }
 
     @Override
@@ -120,6 +142,7 @@ public class Staff {
         int result = staffID;
         result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
         result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + (usersID != null ? usersID.hashCode() : 0);
         return result;
     }
 
@@ -129,6 +152,7 @@ public class Staff {
                 "staffID=" + staffID +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
+                ", usersID=" + usersID +
                 '}';
     }
 }
