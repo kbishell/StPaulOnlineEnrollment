@@ -32,7 +32,7 @@ public class UsersDaoTest {
     @Test
     void getAllUsersSuccess() {
         List<Users> users = dao.getAllUsers();
-        assertEquals(6, users.size());
+        assertEquals(4, users.size());
     }
 
     /**
@@ -41,7 +41,7 @@ public class UsersDaoTest {
     @Test
     void getUsersByLastNameSuccess() {
         List<Users> users = dao.getUserssByLastName("B");
-        assertEquals(2, users.size());
+        assertEquals(1, users.size());
     }
 
     /**
@@ -51,7 +51,7 @@ public class UsersDaoTest {
     void getByIdSuccess() {
         Users retrievedUser = dao.getById(3);
         assertNotNull(retrievedUser);
-        assertEquals("Pat", retrievedUser.getFirstName());
+        assertEquals("Tim", retrievedUser.getFirstName());
     }
 
     /**
@@ -94,9 +94,9 @@ public class UsersDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<Users> users = dao.getByPropertyEqual("lastName", "Glock");
+        List<Users> users = dao.getByPropertyEqual("lastName", "Tennley");
         assertEquals(1, users.size());
-        assertEquals(2, users.get(0).getUserID());
+        assertEquals(1, users.get(0).getUserID());
     }
 
     /**
@@ -105,7 +105,7 @@ public class UsersDaoTest {
     @Test
     void getByPropertyLikeSuccess() {
         List<Users> users = dao.getByPropertyLike("lastName", "W");
-        assertEquals(2, users.size());
+        assertEquals(0, users.size());
     }
 }
 

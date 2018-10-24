@@ -1,6 +1,6 @@
-    <div class="tab-content">
+    <%--<div class="tab-content">
         <div id="home" class="tab-pane fade in active">
-            <img src="ssrc/stPaulsLogo.png">
+            &lt;%&ndash;<img src="ssrc/stPaulsLogo.png">&ndash;%&gt;
             <h1>St Paul's Lutheran Online Registration</h1>
             <FORM ACTION="j_security_check" METHOD="POST">
                 <TABLE>
@@ -10,4 +10,4 @@
                 </TABLE>
             </FORM>
         </div>
-    </div>
+    </div>--%>

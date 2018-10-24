@@ -1,0 +1,125 @@
+[DEBUG] 2018-10-24 12:09:20.627 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:09:20.907 [main] UsersDao - Searching for users with lastName = Glock
+[DEBUG] 2018-10-24 12:09:21.443 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 12:09:21.712 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:09:21.929 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 12:09:22.162 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:09:22.554 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:10:38.283 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:10:38.541 [main] UsersDao - Searching for users with lastName = Glock
+[DEBUG] 2018-10-24 12:10:39.051 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 12:10:39.225 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:10:39.404 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 12:10:39.622 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:10:40.209 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:16:25.518 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:16:25.565 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:16:25.800 [main] UsersDao - Searching for users with lastName = Glock
+[DEBUG] 2018-10-24 12:16:26.196 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 12:16:26.385 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:16:26.592 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 12:16:26.803 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:16:26.820 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:16:27.172 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 12:17:53.373 [main] UsersDao - Searching for users with lastName = Glock
+[DEBUG] 2018-10-24 12:18:57.235 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 12:19:16.422 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 12:19:46.503 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:19:46.547 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:19:46.776 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 12:19:47.306 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 12:19:47.568 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:19:47.873 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 12:19:48.159 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:19:48.173 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:19:48.742 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 12:20:29.929 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:20:29.968 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:20:30.202 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 12:20:30.782 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 12:20:31.048 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:20:31.318 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 12:20:31.501 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:20:31.508 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 12:20:31.874 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 13:52:37.500 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:52:37.568 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:52:37.830 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 13:52:38.411 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 13:52:38.759 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:52:39.030 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 13:52:39.250 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:52:39.278 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:52:39.840 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 13:57:16.999 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:57:17.086 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:57:17.321 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 13:57:18.017 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 13:57:18.266 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:57:18.478 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 13:57:18.714 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:57:18.736 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 13:57:19.204 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 14:02:09.319 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:02:09.368 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:02:09.578 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 14:02:10.028 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 14:02:10.286 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:02:10.523 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 14:02:10.749 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:02:10.767 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:02:11.250 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 14:04:41.004 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:04:41.052 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:04:41.277 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 14:04:41.755 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 14:04:42.016 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:04:42.239 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 14:04:42.475 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:04:42.489 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:04:42.954 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 14:08:23.765 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:08:23.816 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:08:24.022 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 14:08:24.550 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 14:08:24.815 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:08:25.059 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 14:08:25.278 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:08:25.303 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:08:25.778 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 14:11:05.404 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:11:05.451 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:11:05.669 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 14:11:06.115 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 14:11:06.344 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:11:06.495 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 14:11:06.669 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:11:06.676 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:11:07.025 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 14:19:29.301 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:19:29.361 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:19:29.623 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 14:19:30.135 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 14:19:30.343 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:19:30.549 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 14:19:30.722 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:19:30.732 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:19:31.090 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 14:20:43.699 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:20:43.752 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:20:43.950 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 14:20:44.386 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 14:20:44.592 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:20:44.764 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 14:20:44.960 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:20:44.969 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:20:45.323 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 14:22:52.132 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:22:52.193 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:22:52.445 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 14:22:52.922 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 14:22:53.151 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:22:53.344 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 14:22:53.569 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:22:53.579 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 14:22:53.986 [main] UsersDao - ********************************************5
