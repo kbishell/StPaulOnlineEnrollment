@@ -211,3 +211,54 @@
 [ERROR] 2018-10-31 14:15:08.217 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
 [ERROR] 2018-10-31 14:15:08.425 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
 [DEBUG] 2018-10-31 14:15:08.459 [main] UsersDao - ********************************************5
+[ERROR] 2018-10-31 16:37:35.260 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:37:35.652 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 16:37:35.733 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:37:35.999 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:37:36.000 [main] UsersDao - Searching for users with lastName = Tennley
+[ERROR] 2018-10-31 16:37:36.551 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:37:36.553 [main] UsersDao - Searching for users with lastName = W
+[ERROR] 2018-10-31 16:37:36.758 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:37:36.765 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:37:36.934 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:37:36.935 [main] UsersDao - Searching for: B
+[ERROR] 2018-10-31 16:37:37.133 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:37:37.136 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 16:37:37.157 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:37:37.344 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[ERROR] 2018-10-31 16:37:37.605 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:37:37.659 [main] UsersDao - ********************************************5
+[ERROR] 2018-10-31 16:56:04.248 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:56:04.525 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 16:56:04.573 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:56:04.815 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:56:04.816 [main] UsersDao - Searching for users with lastName = Tennley
+[ERROR] 2018-10-31 16:56:05.282 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:56:05.284 [main] UsersDao - Searching for users with lastName = W
+[ERROR] 2018-10-31 16:56:05.482 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:56:05.486 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:56:05.666 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:56:05.666 [main] UsersDao - Searching for: B
+[ERROR] 2018-10-31 16:56:05.866 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:56:05.868 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 16:56:05.877 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:56:06.105 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[ERROR] 2018-10-31 16:56:06.306 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:56:06.323 [main] UsersDao - ********************************************5
+[ERROR] 2018-10-31 16:57:40.429 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:57:40.662 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 16:57:40.699 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:57:40.931 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:57:40.931 [main] UsersDao - Searching for users with lastName = Tennley
+[ERROR] 2018-10-31 16:57:41.354 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:57:41.356 [main] UsersDao - Searching for users with lastName = W
+[ERROR] 2018-10-31 16:57:41.584 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:57:41.590 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:57:41.744 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:57:41.744 [main] UsersDao - Searching for: B
+[ERROR] 2018-10-31 16:57:41.928 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:57:41.931 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 16:57:41.939 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 16:57:42.125 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[ERROR] 2018-10-31 16:57:42.341 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 16:57:42.362 [main] UsersDao - ********************************************5
