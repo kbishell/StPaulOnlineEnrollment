@@ -20,6 +20,9 @@ public class Role {
     @Column(name = "roleType")
     private String roleType;
 
+    @Column(name = "userName")
+    private String userName;
+
     @ManyToOne
     @JoinColumn(name = "userID")
     private Users user;
@@ -34,7 +37,7 @@ public class Role {
      * Instantiates a new Role.
      *
      * @param roleType the role type
-     * @param user   the user
+     * @param user     the user
      */
     public Role(String roleType, Users user) {
         this.roleType = roleType;
@@ -95,6 +98,24 @@ public class Role {
         this.user = user;
     }
 
+    /**
+     * Gets user name.
+     *
+     * @return the user name
+     */
+    public String getUserName() {
+        return userName;
+    }
+
+    /**
+     * Sets user name.
+     *
+     * @param userName the user name
+     */
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -104,6 +125,7 @@ public class Role {
 
         if (roleID != role.roleID) return false;
         if (roleType != null ? !roleType.equals(role.roleType) : role.roleType != null) return false;
+        if (userName != null ? !userName.equals(role.userName) : role.userName != null) return false;
         return user != null ? user.equals(role.user) : role.user == null;
     }
 
@@ -111,6 +133,7 @@ public class Role {
     public int hashCode() {
         int result = roleID;
         result = 31 * result + (roleType != null ? roleType.hashCode() : 0);
+        result = 31 * result + (userName != null ? userName.hashCode() : 0);
         result = 31 * result + (user != null ? user.hashCode() : 0);
         return result;
     }
@@ -120,6 +143,7 @@ public class Role {
         return "Role{" +
                 "roleID=" + roleID +
                 ", roleType='" + roleType + '\'' +
+                ", userName='" + userName + '\'' +
                 ", user=" + user +
                 '}';
     }

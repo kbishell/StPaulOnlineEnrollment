@@ -3,5 +3,13 @@ body {
 }
 
 img {
+    max-width: 90%;
+}
 
+.nav nav-tabs {
+    color: darkred;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em .5em .5em .5em;
 }

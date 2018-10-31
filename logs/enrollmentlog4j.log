@@ -123,3 +123,74 @@
 [DEBUG] 2018-10-24 14:22:53.569 [main] UsersDao - ********************************************3
 [DEBUG] 2018-10-24 14:22:53.579 [main] UsersDao - ********************************************3
 [DEBUG] 2018-10-24 14:22:53.986 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 15:06:08.539 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:06:08.617 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:06:09.032 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 15:06:10.480 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 15:06:10.883 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:06:11.212 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 15:06:11.558 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:06:11.571 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:06:13.900 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 15:09:33.709 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:09:33.768 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:09:34.031 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 15:09:34.761 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 15:09:35.038 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:09:35.251 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 15:09:35.466 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:09:35.491 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:09:35.889 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 15:12:01.521 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:12:01.568 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:12:01.818 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 15:12:02.412 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 15:12:02.724 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:12:02.900 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 15:12:03.121 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:12:03.145 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:12:03.704 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 15:13:48.479 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:13:48.536 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:13:48.801 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 15:13:49.322 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 15:13:49.557 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:13:49.819 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 15:13:50.052 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:13:50.071 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 15:13:51.342 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-24 16:29:02.464 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 16:29:02.513 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 16:29:02.728 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-24 16:29:03.273 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-24 16:29:03.545 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 16:29:03.784 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-24 16:29:04.032 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 16:29:04.061 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-24 16:29:04.560 [main] UsersDao - ********************************************5
+[DEBUG] 2018-10-31 09:06:40.728 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 09:06:40.785 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 09:06:41.035 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-10-31 09:06:41.499 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-10-31 09:06:41.725 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 09:06:41.950 [main] UsersDao - Searching for: B
+[DEBUG] 2018-10-31 09:06:42.174 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 09:06:42.208 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 09:06:42.646 [main] UsersDao - ********************************************5
+[ERROR] 2018-10-31 10:10:50.131 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 10:10:50.357 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 10:10:50.401 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 10:10:50.654 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 10:10:50.654 [main] UsersDao - Searching for users with lastName = Tennley
+[ERROR] 2018-10-31 10:10:51.050 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 10:10:51.052 [main] UsersDao - Searching for users with lastName = W
+[ERROR] 2018-10-31 10:10:51.254 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 10:10:51.259 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 10:10:51.426 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 10:10:51.426 [main] UsersDao - Searching for: B
+[ERROR] 2018-10-31 10:10:51.617 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 10:10:51.620 [main] UsersDao - ********************************************3
+[DEBUG] 2018-10-31 10:10:51.628 [main] UsersDao - ********************************************3
+[ERROR] 2018-10-31 10:10:51.805 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[ERROR] 2018-10-31 10:10:52.067 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
+[DEBUG] 2018-10-31 10:10:52.109 [main] UsersDao - ********************************************5

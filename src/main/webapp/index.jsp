@@ -35,6 +35,7 @@
 
 
         <div id="signIn" class="tab-pane fade">
+            <img src="images/stPaulsLogo.png">
             <h3>Access Your Account</h3>
             <form action="/signIn" method="get">
                 <input type="text" id="username" placeholder="Username" name="username">
@@ -43,6 +44,7 @@
             </form>
         </div>
         <div id="newMember" class="tab-pane fade">
+            <img src="images/stPaulsLogo.png">
             <h1>Sign Up</h1><br><br>
 
             <form action="/newMember" method="get">
@@ -93,6 +95,7 @@
             </form>
         </div>
         <div id="pre" class="tab-pane fade">
+            <img src="images/stPaulsLogo.png">
             <h3>Pre-School Registration</h3>
 
             <form action="/pre" method="get">
@@ -123,6 +126,7 @@
             </form>
         </div>
         <div id="reg" class="tab-pane fade">
+            <img src="images/stPaulsLogo.png">
             <h3>K-8 Registration</h3>
 
             <form action="/reg" method="get">
@@ -177,6 +181,7 @@
             </form>
         </div>
         <div id="emergency" class="tab-pane fade">
+            <img src="images/stPaulsLogo.png">
             <h3>Emergency Contacts</h3>
             <form action="/emergency" method="get">
                 <input type="text" id="2" placeholder="Enter Last Name" name="search">
@@ -184,6 +189,7 @@
             </form>
         </div>
         <div id="health" class="tab-pane fade">
+            <img src="images/stPaulsLogo.png">
             <h3>Health Concerns</h3>
             <form action="/health" method="get">
                 <input type="text" id="2" placeholder="Enter Last Name" name="search">
