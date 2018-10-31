@@ -183,6 +183,16 @@ public class Users {
         this.roles = roles;
     }
 
+    /**
+     * Add role.
+     *
+     * @param role the role
+     */
+    public void addRole(Role role) {
+        roles.add(role);
+
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

@@ -39,4 +39,4 @@ ALTER TABLE Student_Contact ADD CONSTRAINT Student_Contact_Student FOREIGN KEY S
 ALTER TABLE Role ADD CONSTRAINT role_Users FOREIGN KEY role_Users (userID)REFERENCES Users (userID);
 -- End of file.
 insert into Users(userName, password, firstName, lastName, emailAddress)values('rtennley','password', 'Robert', 'Tennley', 'rt@gmail.com'),('kbobby','password', 'Keith', 'Bobby', 'kb@gmail.com'),('hunter','password', 'Tim', 'Hunter', 'hunter@gmail.com'),('sselc','password', 'Sue', 'Selc', 'ss@gmail.com');
--- insert into Role(userID, roleType, userName) values (1, admin, rtennley);
+insert into Role(userID, roleType, userName) values (1, admin, rtennley);

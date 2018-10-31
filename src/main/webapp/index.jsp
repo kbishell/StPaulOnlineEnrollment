@@ -7,7 +7,7 @@
 
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-        <li><a data-toggle="tab" href="#signIn">Sign In</a></li>
+        <li><a data-toggle="tab" href="#signUp">Sign Up</a></li>
         <li><a data-toggle="tab" href="#newMember">New Members</a></li>
         <li><a data-toggle="tab" href="#pre">Pre-School Registration</a></li>
         <li><a data-toggle="tab" href="#reg">K-8 Registration</a></li>
@@ -34,15 +34,19 @@
         </div>
 
 
-        <div id="signIn" class="tab-pane fade">
+        <div id="signUp" class="tab-pane fade">
             <img src="images/stPaulsLogo.png">
-            <h3>Access Your Account</h3>
-            <form action="/signIn" method="get">
-                <input type="text" id="username" placeholder="Username" name="username">
+            <h3>Sign up for an account</h3>
+            <form action="/signUpUser" method="get">
+                <input type="text" id="userName" placeholder="Username" name="userName">
                 <input type="text" id="password" placeholder="Password" name="password">
+                <input type="text" id="firstName" placeholder="First Name" name="firstName">
+                <input type="text" id="lastName" placeholder="Last Name" name="lastName">
+                <input type="text" id="emailAddress" placeholder="Email Address" name="emailAddress">
                 <button type="submit" name="submit">Sign In</button>
             </form>
         </div>
+
         <div id="newMember" class="tab-pane fade">
             <img src="images/stPaulsLogo.png">
             <h1>Sign Up</h1><br><br>
