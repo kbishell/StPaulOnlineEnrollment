@@ -1,0 +1,1191 @@
+[DEBUG] 2018-11-02 10:00:41.987 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2018-11-02 10:00:42.014 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2018-11-02 10:00:42.031 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2018-11-02 10:00:42.501 [main] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-11-02 10:00:42.505 [main] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2018-11-02 10:00:42.714 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2018-11-02 10:00:42.716 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2018-11-02 10:00:42.762 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2018-11-02 10:00:43.850 [main] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2018-11-02 10:00:43.956 [main] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2018-11-02 10:00:44.001 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[DEBUG] 2018-11-02 10:00:44.116 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3214ee6
+[DEBUG] 2018-11-02 10:00:44.118 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3214ee6
+[DEBUG] 2018-11-02 10:00:44.118 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3214ee6
+[DEBUG] 2018-11-02 10:00:44.124 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2bdd8394
+[DEBUG] 2018-11-02 10:00:44.129 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@2eea88a1
+[DEBUG] 2018-11-02 10:00:44.130 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@22f59fa
+[DEBUG] 2018-11-02 10:00:44.137 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@4e0ae11f
+[DEBUG] 2018-11-02 10:00:44.140 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@4e0ae11f
+[DEBUG] 2018-11-02 10:00:44.140 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4e0ae11f
+[DEBUG] 2018-11-02 10:00:44.142 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@9cb8225
+[DEBUG] 2018-11-02 10:00:44.142 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@9cb8225
+[DEBUG] 2018-11-02 10:00:44.144 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@9cb8225
+[DEBUG] 2018-11-02 10:00:44.150 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@34129c78
+[DEBUG] 2018-11-02 10:00:44.150 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@34129c78
+[DEBUG] 2018-11-02 10:00:44.152 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@34129c78
+[DEBUG] 2018-11-02 10:00:44.154 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@3e62d773
+[DEBUG] 2018-11-02 10:00:44.154 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@3e62d773
+[DEBUG] 2018-11-02 10:00:44.155 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@3e62d773
+[DEBUG] 2018-11-02 10:00:44.163 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@47c81abf
+[DEBUG] 2018-11-02 10:00:44.164 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@47c81abf
+[DEBUG] 2018-11-02 10:00:44.164 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@47c81abf
+[DEBUG] 2018-11-02 10:00:44.179 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@264f218
+[DEBUG] 2018-11-02 10:00:44.182 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@264f218
+[DEBUG] 2018-11-02 10:00:44.183 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@264f218
+[DEBUG] 2018-11-02 10:00:44.189 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1169afe1
+[DEBUG] 2018-11-02 10:00:44.191 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@1169afe1
+[DEBUG] 2018-11-02 10:00:44.192 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1169afe1
+[DEBUG] 2018-11-02 10:00:44.197 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7de62196
+[DEBUG] 2018-11-02 10:00:44.197 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7de62196
+[DEBUG] 2018-11-02 10:00:44.203 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@389b0789
+[DEBUG] 2018-11-02 10:00:44.204 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@389b0789
+[DEBUG] 2018-11-02 10:00:44.205 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@51bd8b5c
+[DEBUG] 2018-11-02 10:00:44.206 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@51bd8b5c
+[DEBUG] 2018-11-02 10:00:44.210 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@64ec96c6
+[DEBUG] 2018-11-02 10:00:44.211 [main] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@452e19ca
+[DEBUG] 2018-11-02 10:00:44.216 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@e25951c
+[DEBUG] 2018-11-02 10:00:44.216 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@e25951c
+[DEBUG] 2018-11-02 10:00:44.228 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@19976a65
+[DEBUG] 2018-11-02 10:00:44.228 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@19976a65
+[DEBUG] 2018-11-02 10:00:44.334 [main] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@15a04efb
+[DEBUG] 2018-11-02 10:00:44.337 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@15a04efb
+[DEBUG] 2018-11-02 10:00:44.342 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@3336e6b6
+[DEBUG] 2018-11-02 10:00:44.351 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@3336e6b6
+[DEBUG] 2018-11-02 10:00:44.355 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@48b67364
+[DEBUG] 2018-11-02 10:00:44.362 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@48b67364
+[DEBUG] 2018-11-02 10:00:44.365 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@72ef8d15
+[DEBUG] 2018-11-02 10:00:44.365 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@72ef8d15
+[DEBUG] 2018-11-02 10:00:44.378 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@72ade7e3
+[DEBUG] 2018-11-02 10:00:44.378 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@72ade7e3
+[DEBUG] 2018-11-02 10:00:44.386 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@560348e6
+[DEBUG] 2018-11-02 10:00:44.386 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@560348e6
+[DEBUG] 2018-11-02 10:00:44.400 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4fa1c212
+[DEBUG] 2018-11-02 10:00:44.400 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4fa1c212
+[DEBUG] 2018-11-02 10:00:44.412 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@2e32ccc5
+[DEBUG] 2018-11-02 10:00:44.413 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@2e32ccc5
+[DEBUG] 2018-11-02 10:00:44.421 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@5f77d0f9
+[DEBUG] 2018-11-02 10:00:44.421 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5f77d0f9
+[DEBUG] 2018-11-02 10:00:44.423 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@42b3b079
+[DEBUG] 2018-11-02 10:00:44.424 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@42b3b079
+[DEBUG] 2018-11-02 10:00:44.424 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@42b3b079
+[DEBUG] 2018-11-02 10:00:44.433 [main] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@bb9e6dc
+[DEBUG] 2018-11-02 10:00:44.438 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@39d76cb5
+[DEBUG] 2018-11-02 10:00:44.554 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@39d76cb5
+[DEBUG] 2018-11-02 10:00:44.554 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@39d76cb5
+[DEBUG] 2018-11-02 10:00:44.556 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@52815fa3
+[DEBUG] 2018-11-02 10:00:44.562 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@4d518b32
+[DEBUG] 2018-11-02 10:00:44.562 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@4d518b32
+[DEBUG] 2018-11-02 10:00:44.564 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@20d7d6fb
+[DEBUG] 2018-11-02 10:00:44.564 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@20d7d6fb
+[DEBUG] 2018-11-02 10:00:44.566 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@2b72cb8a
+[DEBUG] 2018-11-02 10:00:44.566 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@2b72cb8a
+[DEBUG] 2018-11-02 10:00:44.572 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@4bf48f6
+[DEBUG] 2018-11-02 10:00:44.572 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4bf48f6
+[DEBUG] 2018-11-02 10:00:44.578 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@24c4ddae
+[DEBUG] 2018-11-02 10:00:44.579 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@24c4ddae
+[DEBUG] 2018-11-02 10:00:44.583 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7b7fdc8
+[DEBUG] 2018-11-02 10:00:44.585 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@28b46423
+[DEBUG] 2018-11-02 10:00:44.586 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@28b46423
+[DEBUG] 2018-11-02 10:00:44.586 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@28b46423
+[DEBUG] 2018-11-02 10:00:44.587 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1f81aa00
+[DEBUG] 2018-11-02 10:00:44.588 [main] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1f81aa00
+[DEBUG] 2018-11-02 10:00:44.588 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1f81aa00
+[DEBUG] 2018-11-02 10:00:44.589 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@55c53a33
+[DEBUG] 2018-11-02 10:00:44.599 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@4a3631f8
+[DEBUG] 2018-11-02 10:00:44.602 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@79c97cb
+[DEBUG] 2018-11-02 10:00:44.603 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@79c97cb
+[DEBUG] 2018-11-02 10:00:44.603 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@79c97cb
+[DEBUG] 2018-11-02 10:00:44.610 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@6f6745d6
+[DEBUG] 2018-11-02 10:00:44.610 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@6f6745d6
+[DEBUG] 2018-11-02 10:00:44.616 [main] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@6f6745d6
+[DEBUG] 2018-11-02 10:00:44.617 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@3ddc6915
+[DEBUG] 2018-11-02 10:00:44.618 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@1acaf3d
+[DEBUG] 2018-11-02 10:00:44.730 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@58594a11
+[DEBUG] 2018-11-02 10:00:44.730 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@58594a11
+[DEBUG] 2018-11-02 10:00:44.731 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@14fa86ae
+[DEBUG] 2018-11-02 10:00:44.757 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@616ac46a
+[DEBUG] 2018-11-02 10:00:44.757 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@616ac46a
+[DEBUG] 2018-11-02 10:00:44.769 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@3eb81efb
+[DEBUG] 2018-11-02 10:00:44.772 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@3eb81efb
+[DEBUG] 2018-11-02 10:00:44.773 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7d3d101b
+[DEBUG] 2018-11-02 10:00:44.774 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6d026701
+[DEBUG] 2018-11-02 10:00:44.774 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@2812b107
+[DEBUG] 2018-11-02 10:00:44.786 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@327af41b
+[DEBUG] 2018-11-02 10:00:44.787 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@327af41b
+[DEBUG] 2018-11-02 10:00:44.788 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@f99f5e0
+[DEBUG] 2018-11-02 10:00:44.788 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6aa61224
+[DEBUG] 2018-11-02 10:00:44.791 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@30bce90b
+[DEBUG] 2018-11-02 10:00:44.791 [main] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3e6f3f28
+[DEBUG] 2018-11-02 10:00:44.791 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@7e19ebf0
+[DEBUG] 2018-11-02 10:00:44.791 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2474f125
+[DEBUG] 2018-11-02 10:00:44.792 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7357a011
+[DEBUG] 2018-11-02 10:00:44.792 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@3406472c
+[INFO ] 2018-11-02 10:00:44.834 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/enrollment
+[INFO ] 2018-11-02 10:00:44.837 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {user=root, password=****}
+[INFO ] 2018-11-02 10:00:44.838 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2018-11-02 10:00:45.688 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2018-11-02 10:00:47.546 [main] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.7.24-0ubuntu0.16.04.1
+      major : 5
+      minor : 7
+[DEBUG] 2018-11-02 10:00:47.562 [main] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )
+      major : 5
+      minor : 1
+[DEBUG] 2018-11-02 10:00:47.563 [main] JdbcEnvironmentInitiator - JDBC version : 4.0
+[INFO ] 2018-11-02 10:00:47.628 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[DEBUG] 2018-11-02 10:00:47.898 [main] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2018-11-02 10:00:47.928 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2018-11-02 10:00:48.290 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2018-11-02 10:00:48.295 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2018-11-02 10:00:48.303 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-11-02 10:00:48.303 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-11-02 10:00:48.306 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2018-11-02 10:00:48.313 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2018-11-02 10:00:48.329 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2018-11-02 10:00:48.331 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-11-02 10:00:48.332 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2018-11-02 10:00:48.333 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2018-11-02 10:00:48.338 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2018-11-02 10:00:48.339 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2018-11-02 10:00:48.339 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-11-02 10:00:48.344 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[DEBUG] 2018-11-02 10:00:48.547 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2018-11-02 10:00:48.718 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.Role
+[DEBUG] 2018-11-02 10:00:48.816 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-11-02 10:00:48.832 [main] EntityBinder - Import with entity name Role
+[DEBUG] 2018-11-02 10:00:48.837 [main] EntityBinder - Bind entity stpaul.lutheran.entity.Role on table Role
+[DEBUG] 2018-11-02 10:00:48.949 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Role), mappingColumn=roleID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:48.954 [main] PropertyBinder - MetadataSourceProcessor property roleID with lazy=false
+[DEBUG] 2018-11-02 10:00:48.959 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Role:roleID]
+[DEBUG] 2018-11-02 10:00:48.961 [main] SimpleValueBinder - building SimpleValue for roleID
+[DEBUG] 2018-11-02 10:00:48.966 [main] PropertyBinder - Building property roleID
+[DEBUG] 2018-11-02 10:00:48.986 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Role), mappingColumn=roleType, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:48.986 [main] PropertyBinder - MetadataSourceProcessor property roleType with lazy=false
+[DEBUG] 2018-11-02 10:00:48.986 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Role:roleType]
+[DEBUG] 2018-11-02 10:00:48.986 [main] SimpleValueBinder - building SimpleValue for roleType
+[DEBUG] 2018-11-02 10:00:48.987 [main] PropertyBinder - Building property roleType
+[DEBUG] 2018-11-02 10:00:48.999 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='userID', referencedColumn='', mappedBy=''}
+[DEBUG] 2018-11-02 10:00:49.000 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Role), mappingColumn=user, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.012 [main] PropertyBinder - Building property user
+[DEBUG] 2018-11-02 10:00:49.013 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Role), mappingColumn=userName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.013 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2018-11-02 10:00:49.013 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Role:userName]
+[DEBUG] 2018-11-02 10:00:49.017 [main] SimpleValueBinder - building SimpleValue for userName
+[DEBUG] 2018-11-02 10:00:49.024 [main] PropertyBinder - Building property userName
+[DEBUG] 2018-11-02 10:00:49.031 [main] AnnotationBinder - Binding entity from annotated class: stpaul.lutheran.entity.Users
+[DEBUG] 2018-11-02 10:00:49.032 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-11-02 10:00:49.032 [main] EntityBinder - Import with entity name Users
+[DEBUG] 2018-11-02 10:00:49.033 [main] EntityBinder - Bind entity stpaul.lutheran.entity.Users on table Users
+[DEBUG] 2018-11-02 10:00:49.048 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=userID, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.048 [main] PropertyBinder - MetadataSourceProcessor property userID with lazy=false
+[DEBUG] 2018-11-02 10:00:49.048 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:userID]
+[DEBUG] 2018-11-02 10:00:49.049 [main] SimpleValueBinder - building SimpleValue for userID
+[DEBUG] 2018-11-02 10:00:49.049 [main] PropertyBinder - Building property userID
+[DEBUG] 2018-11-02 10:00:49.049 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=emailAddress, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.050 [main] PropertyBinder - MetadataSourceProcessor property emailAddress with lazy=false
+[DEBUG] 2018-11-02 10:00:49.050 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:emailAddress]
+[DEBUG] 2018-11-02 10:00:49.050 [main] SimpleValueBinder - building SimpleValue for emailAddress
+[DEBUG] 2018-11-02 10:00:49.050 [main] PropertyBinder - Building property emailAddress
+[DEBUG] 2018-11-02 10:00:49.051 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=firstName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.051 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-11-02 10:00:49.051 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:firstName]
+[DEBUG] 2018-11-02 10:00:49.051 [main] SimpleValueBinder - building SimpleValue for firstName
+[DEBUG] 2018-11-02 10:00:49.051 [main] PropertyBinder - Building property firstName
+[DEBUG] 2018-11-02 10:00:49.051 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=lastName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.051 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-11-02 10:00:49.051 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:lastName]
+[DEBUG] 2018-11-02 10:00:49.052 [main] SimpleValueBinder - building SimpleValue for lastName
+[DEBUG] 2018-11-02 10:00:49.052 [main] PropertyBinder - Building property lastName
+[DEBUG] 2018-11-02 10:00:49.052 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.053 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2018-11-02 10:00:49.053 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:password]
+[DEBUG] 2018-11-02 10:00:49.053 [main] SimpleValueBinder - building SimpleValue for password
+[DEBUG] 2018-11-02 10:00:49.053 [main] PropertyBinder - Building property password
+[DEBUG] 2018-11-02 10:00:49.053 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-11-02 10:00:49.054 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=roles, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.065 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.104 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.104 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=roles_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.107 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='roles_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-11-02 10:00:49.108 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-11-02 10:00:49.108 [main] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='user'}
+[DEBUG] 2018-11-02 10:00:49.110 [main] CollectionBinder - Collection role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:00:49.113 [main] PropertyBinder - Building property roles
+[DEBUG] 2018-11-02 10:00:49.121 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Users), mappingColumn=userName, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-11-02 10:00:49.121 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2018-11-02 10:00:49.121 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [stpaul.lutheran.entity.Users:userName]
+[DEBUG] 2018-11-02 10:00:49.121 [main] SimpleValueBinder - building SimpleValue for userName
+[DEBUG] 2018-11-02 10:00:49.121 [main] PropertyBinder - Building property userName
+[DEBUG] 2018-11-02 10:00:49.123 [main] SimpleValueBinder - Starting fillSimpleValue for roleID
+[DEBUG] 2018-11-02 10:00:49.123 [main] SimpleValueBinder - Starting fillSimpleValue for roleType
+[DEBUG] 2018-11-02 10:00:49.126 [main] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2018-11-02 10:00:49.126 [main] SimpleValueBinder - Starting fillSimpleValue for userID
+[DEBUG] 2018-11-02 10:00:49.126 [main] SimpleValueBinder - Starting fillSimpleValue for emailAddress
+[DEBUG] 2018-11-02 10:00:49.126 [main] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-11-02 10:00:49.126 [main] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-11-02 10:00:49.126 [main] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2018-11-02 10:00:49.126 [main] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2018-11-02 10:00:49.144 [main] PrimaryKey - Forcing column [roleid] to be non-null as it is part of the primary key for table [role]
+[DEBUG] 2018-11-02 10:00:49.144 [main] PrimaryKey - Forcing column [userid] to be non-null as it is part of the primary key for table [users]
+[DEBUG] 2018-11-02 10:00:49.145 [main] CollectionSecondPass - Second pass for collection: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:00:49.146 [main] CollectionBinder - Binding a OneToMany: stpaul.lutheran.entity.Users.roles through a foreign key
+[DEBUG] 2018-11-02 10:00:49.147 [main] CollectionBinder - Mapping collection: stpaul.lutheran.entity.Users.roles -> Role
+[DEBUG] 2018-11-02 10:00:49.149 [main] TableBinder - Retrieving property stpaul.lutheran.entity.Role.user
+[DEBUG] 2018-11-02 10:00:49.150 [main] CollectionSecondPass - Mapped collection key: userID, one-to-many: stpaul.lutheran.entity.Role
+[DEBUG] 2018-11-02 10:00:49.150 [main] InFlightMetadataCollectorImpl - Resolving reference to class: stpaul.lutheran.entity.Users
+[DEBUG] 2018-11-02 10:00:49.158 [main] InFlightMetadataCollectorImpl - Resolving reference to class: stpaul.lutheran.entity.Users
+[DEBUG] 2018-11-02 10:00:49.400 [main] SessionFactoryImpl - Building session factory
+[DEBUG] 2018-11-02 10:00:49.411 [main] Settings - SessionFactory name : null
+[DEBUG] 2018-11-02 10:00:49.411 [main] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2018-11-02 10:00:49.411 [main] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2018-11-02 10:00:49.411 [main] Settings - Statistics: disabled
+[DEBUG] 2018-11-02 10:00:49.411 [main] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2018-11-02 10:00:49.411 [main] Settings - Default entity-mode: pojo
+[DEBUG] 2018-11-02 10:00:49.411 [main] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2018-11-02 10:00:49.411 [main] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - Default batch fetch size: -1
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - Default null ordering: NONE
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - JTA Track by Thread: enabled
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - Query language substitutions: {}
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - JPA query language strict compliance: disabled
+[DEBUG] 2018-11-02 10:00:49.412 [main] Settings - Named query checking : enabled
+[DEBUG] 2018-11-02 10:00:49.416 [main] Settings - Second-level cache: enabled
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Second-level query cache: disabled
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@314b8f2d
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Second-level cache region prefix: null
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - JDBC batch size: 15
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Scrollable result sets: enabled
+[DEBUG] 2018-11-02 10:00:49.417 [main] Settings - Wrap result sets: disabled
+[DEBUG] 2018-11-02 10:00:49.418 [main] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2018-11-02 10:00:49.418 [main] Settings - JDBC result set fetch size: null
+[DEBUG] 2018-11-02 10:00:49.418 [main] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2018-11-02 10:00:49.418 [main] Settings - Generate SQL with comments: disabled
+[DEBUG] 2018-11-02 10:00:49.792 [main] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2018-11-02 10:00:49.792 [main] SessionFactoryImpl - Instantiating session factory with properties: {sun.desktop=gnome, awt.toolkit=sun.awt.X11.XToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, hibernate.c3p0.idle_test_period=3000, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, hibernate.c3p0.min_size=5, java.class.path=/home/student/IdeaProjects/StPaulOnlineEnrollment/target/test-classes:/home/student/IdeaProjects/StPaulOnlineEnrollment/target/classes:/home/student/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/home/student/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/home/student/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/home/student/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/home/student/.m2/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar:/home/student/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.0.0/junit-jupiter-engine-5.0.0.jar:/home/student/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-engine/1.0.0/junit-platform-engine-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar:/home/student/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/home/student/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar:/home/student/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/student/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-runner/1.0.0/junit-platform-runner-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-launcher/1.0.0/junit-platform-launcher-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-suite-api/1.0.0/junit-platform-suite-api-1.0.0.jar:/home/student/.m2/repository/org/junit/vintage/junit-vintage-engine/4.12.0/junit-vintage-engine-4.12.0.jar:/home/student/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final.jar:/home/student/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/student/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/student/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/student/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/student/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/student/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/home/student/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/student/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/student/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/student/.m2/repository/org/hibernate/hibernate-c3p0/5.2.12.Final/hibernate-c3p0-5.2.12.Final.jar:/home/student/.m2/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar:/home/student/.m2/repository/com/mchange/mchange-commons-java/0.2.11/mchange-commons-java-0.2.11.jar:, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, java.vendor.url=http://java.oracle.com/, user.timezone=America/Chicago, os.name=Linux, java.vm.specification.version=1.8, user.country=US, sun.java.launcher=SUN_STANDARD, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, sun.java.command=/home/student/IdeaProjects/StPaulOnlineEnrollment/target/surefire/surefirebooter4313072719429777021.jar /home/student/IdeaProjects/StPaulOnlineEnrollment/target/surefire/surefire1533536779402740397tmp /home/student/IdeaProjects/StPaulOnlineEnrollment/target/surefire/surefire_05498720610525647106tmp, surefire.test.class.path=/home/student/IdeaProjects/StPaulOnlineEnrollment/target/test-classes:/home/student/IdeaProjects/StPaulOnlineEnrollment/target/classes:/home/student/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar:/home/student/.m2/repository/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar:/home/student/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/home/student/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/home/student/.m2/repository/org/apache/logging/log4j/log4j-core/2.10.0/log4j-core-2.10.0.jar:/home/student/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.0.0/junit-jupiter-engine-5.0.0.jar:/home/student/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-engine/1.0.0/junit-platform-engine-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-commons/1.0.0/junit-platform-commons-1.0.0.jar:/home/student/.m2/repository/org/opentest4j/opentest4j/1.0.0/opentest4j-1.0.0.jar:/home/student/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.0.0/junit-jupiter-api-5.0.0.jar:/home/student/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/student/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-runner/1.0.0/junit-platform-runner-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-launcher/1.0.0/junit-platform-launcher-1.0.0.jar:/home/student/.m2/repository/org/junit/platform/junit-platform-suite-api/1.0.0/junit-platform-suite-api-1.0.0.jar:/home/student/.m2/repository/org/junit/vintage/junit-vintage-engine/4.12.0/junit-vintage-engine-4.12.0.jar:/home/student/.m2/repository/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final.jar:/home/student/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar:/home/student/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/home/student/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar:/home/student/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/student/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.1.Final/jboss-transaction-api_1.2_spec-1.0.1.Final.jar:/home/student/.m2/repository/org/jboss/jandex/2.0.3.Final/jandex-2.0.3.Final.jar:/home/student/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar:/home/student/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/home/student/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/home/student/.m2/repository/org/hibernate/hibernate-c3p0/5.2.12.Final/hibernate-c3p0-5.2.12.Final.jar:/home/student/.m2/repository/com/mchange/c3p0/0.9.5.2/c3p0-0.9.5.2.jar:/home/student/.m2/repository/com/mchange/mchange-commons-java/0.2.11/mchange-commons-java-0.2.11.jar:, sun.cpu.endian=little, hibernate.c3p0.max_statements=50, user.home=/home/student, user.language=en, java.specification.vendor=Oracle Corporation, java.home=/usr/lib/jvm/java-8-oracle/jre, basedir=/home/student/IdeaProjects/StPaulOnlineEnrollment, file.separator=/, line.separator=
+, hibernate.c3p0.timeout=300, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, surefire.real.class.path=/home/student/IdeaProjects/StPaulOnlineEnrollment/target/surefire/surefirebooter4313072719429777021.jar, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, connection.password=student, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.c3p0.max_size=20, java.runtime.version=1.8.0_191-b12, user.name=student, path.separator=:, hibernate.connection.username=root, os.version=4.4.0-138-generic, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/enrollment, file.encoding=UTF-8, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, localRepository=/home/student/.m2/repository, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=/tmp, idea.version=2017.2.6, java.version=1.8.0_191, user.dir=/home/student/IdeaProjects/StPaulOnlineEnrollment, os.arch=amd64, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.print.PSPrinterJob, sun.os.patch.level=unknown, connection.driver_class=com.mysql.jdbc.Driver, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@5922ae77, java.library.path=/home/student/intellij/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.vm.info=mixed mode, java.vendor=Oracle Corporation, java.vm.version=25.191-b12, hibernate.bytecode.use_reflection_optimizer=false, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, sun.io.unicode.encoding=UnicodeLittle, connection.url=jdbc:mysql://localhost:3306/enrollment, java.class.version=52.0}
+[DEBUG] 2018-11-02 10:00:49.905 [main] TypeSafeActivator - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+[DEBUG] 2018-11-02 10:00:49.906 [main] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2018-11-02 10:00:49.912 [main] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2018-11-02 10:00:50.177 [main] ClassLoaderAccessImpl - Not known whether passed class name [stpaul.lutheran.entity.Users] is safe
+[DEBUG] 2018-11-02 10:00:50.179 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : stpaul.lutheran.entity.Users
+[DEBUG] 2018-11-02 10:00:50.262 [main] ClassLoaderAccessImpl - Not known whether passed class name [stpaul.lutheran.entity.Users] is safe
+[DEBUG] 2018-11-02 10:00:50.262 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : stpaul.lutheran.entity.Users
+[DEBUG] 2018-11-02 10:00:50.602 [main] ClassLoaderAccessImpl - Not known whether passed class name [stpaul.lutheran.entity.Role] is safe
+[DEBUG] 2018-11-02 10:00:50.605 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : stpaul.lutheran.entity.Role
+[DEBUG] 2018-11-02 10:00:50.607 [main] ClassLoaderAccessImpl - Not known whether passed class name [stpaul.lutheran.entity.Role] is safe
+[DEBUG] 2018-11-02 10:00:50.607 [main] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : stpaul.lutheran.entity.Role
+[DEBUG] 2018-11-02 10:00:50.688 [main] AbstractCollectionPersister - Static SQL for collection: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:00:50.689 [main] AbstractCollectionPersister -  Row insert: update Role set userID=? where roleID=?
+[DEBUG] 2018-11-02 10:00:50.689 [main] AbstractCollectionPersister -  Row update: update Role set  where roleID=?
+[DEBUG] 2018-11-02 10:00:50.693 [main] AbstractCollectionPersister -  Row delete: update Role set userID=null where userID=? and roleID=?
+[DEBUG] 2018-11-02 10:00:50.693 [main] AbstractCollectionPersister -  One-shot delete: update Role set userID=null where userID=?
+[DEBUG] 2018-11-02 10:00:50.715 [main] AbstractEntityPersister - Static SQL for entity: stpaul.lutheran.entity.Users
+[DEBUG] 2018-11-02 10:00:50.715 [main] AbstractEntityPersister -  Version select: select userID from Users where userID =?
+[DEBUG] 2018-11-02 10:00:50.716 [main] AbstractEntityPersister -  Snapshot select: select users_.userID, users_.emailAddress as emailAdd2_1_, users_.firstName as firstNam3_1_, users_.lastName as lastName4_1_, users_.password as password5_1_, users_.userName as userName6_1_ from Users users_ where users_.userID=?
+[DEBUG] 2018-11-02 10:00:50.716 [main] AbstractEntityPersister -  Insert 0: insert into Users (emailAddress, firstName, lastName, password, userName, userID) values (?, ?, ?, ?, ?, ?)
+[DEBUG] 2018-11-02 10:00:50.716 [main] AbstractEntityPersister -  Update 0: update Users set emailAddress=?, firstName=?, lastName=?, password=?, userName=? where userID=?
+[DEBUG] 2018-11-02 10:00:50.716 [main] AbstractEntityPersister -  Delete 0: delete from Users where userID=?
+[DEBUG] 2018-11-02 10:00:50.716 [main] AbstractEntityPersister -  Identity insert: insert into Users (emailAddress, firstName, lastName, password, userName) values (?, ?, ?, ?, ?)
+[DEBUG] 2018-11-02 10:00:50.809 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@437ebf59]
+[DEBUG] 2018-11-02 10:00:50.812 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:50.812 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:50.812 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:50.812 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:50.812 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:50.834 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@415e0bcb]
+[DEBUG] 2018-11-02 10:00:50.844 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6974a715]
+[DEBUG] 2018-11-02 10:00:50.846 [main] MetamodelGraphWalker - Visiting attribute path : roles.roleType
+[DEBUG] 2018-11-02 10:00:50.847 [main] MetamodelGraphWalker - Visiting attribute path : roles.user
+[DEBUG] 2018-11-02 10:00:50.847 [main] MetamodelGraphWalker - Property path deemed to be circular : roles.user
+[DEBUG] 2018-11-02 10:00:50.851 [main] MetamodelGraphWalker - Visiting attribute path : roles.userName
+[DEBUG] 2018-11-02 10:00:50.851 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:50.852 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:50.905 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:50.948 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+          - JOIN (JoinDefinedByMetadata(roles)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=stpaul.lutheran.entity.Users.roles)
+                - SQL table alias mapping - roles1_
+                - alias suffix - 1_
+                - suffixed key columns - {userID4_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - roleID1_0_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=stpaul.lutheran.entity.Role)
+                      - SQL table alias mapping - roles1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {roleID1_0_2_}
+
+[DEBUG] 2018-11-02 10:00:50.962 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [NONE]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_, roles1_.userID as userID4_0_1_, roles1_.roleID as roleID1_0_1_, roles1_.roleID as roleID1_0_2_, roles1_.roleType as roleType2_0_2_, roles1_.userID as userID4_0_2_, roles1_.userName as userName3_0_2_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:00:50.962 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3a43d133]
+[DEBUG] 2018-11-02 10:00:50.963 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:50.963 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:50.963 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:50.963 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:50.965 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:50.966 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5f2afe62]
+[DEBUG] 2018-11-02 10:00:50.966 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@c96a4ea]
+[DEBUG] 2018-11-02 10:00:50.966 [main] MetamodelGraphWalker - Visiting attribute path : roles.roleType
+[DEBUG] 2018-11-02 10:00:50.966 [main] MetamodelGraphWalker - Visiting attribute path : roles.user
+[DEBUG] 2018-11-02 10:00:50.966 [main] MetamodelGraphWalker - Property path deemed to be circular : roles.user
+[DEBUG] 2018-11-02 10:00:50.966 [main] MetamodelGraphWalker - Visiting attribute path : roles.userName
+[DEBUG] 2018-11-02 10:00:50.966 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:50.969 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:50.971 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:50.975 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+          - JOIN (JoinDefinedByMetadata(roles)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=stpaul.lutheran.entity.Users.roles)
+                - SQL table alias mapping - roles1_
+                - alias suffix - 1_
+                - suffixed key columns - {userID4_0_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - roleID1_0_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=stpaul.lutheran.entity.Role)
+                      - SQL table alias mapping - roles1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {roleID1_0_2_}
+
+[DEBUG] 2018-11-02 10:00:50.975 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [READ]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_, roles1_.userID as userID4_0_1_, roles1_.roleID as roleID1_0_1_, roles1_.roleID as roleID1_0_2_, roles1_.roleType as roleType2_0_2_, roles1_.userID as userID4_0_2_, roles1_.userName as userName3_0_2_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:00:50.975 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68105edc]
+[DEBUG] 2018-11-02 10:00:50.980 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:50.980 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:50.980 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:50.981 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:50.981 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:50.981 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@38b972d7]
+[DEBUG] 2018-11-02 10:00:50.981 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5339bbad]
+[DEBUG] 2018-11-02 10:00:50.981 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:50.981 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:50.982 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:50.988 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:50.988 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [UPGRADE]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=? for update
+[DEBUG] 2018-11-02 10:00:50.988 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3935e9a8]
+[DEBUG] 2018-11-02 10:00:50.988 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:50.988 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:50.989 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:50.989 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:50.990 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:50.990 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5b56b654]
+[DEBUG] 2018-11-02 10:00:50.990 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@452c8a40]
+[DEBUG] 2018-11-02 10:00:50.990 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:50.990 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:50.990 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:50.991 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:50.993 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [UPGRADE_NOWAIT]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=? for update
+[DEBUG] 2018-11-02 10:00:50.993 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@534243e4]
+[DEBUG] 2018-11-02 10:00:50.994 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:50.994 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:50.994 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:50.994 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:50.994 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:50.994 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@470a9030]
+[DEBUG] 2018-11-02 10:00:50.994 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@66d57c1b]
+[DEBUG] 2018-11-02 10:00:50.994 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:50.994 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:50.995 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.000 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:51.000 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [UPGRADE_SKIPLOCKED]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=? for update
+[DEBUG] 2018-11-02 10:00:51.001 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@27494e46]
+[DEBUG] 2018-11-02 10:00:51.001 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:51.001 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:51.001 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:51.001 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:51.001 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:51.001 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1e411d81]
+[DEBUG] 2018-11-02 10:00:51.001 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@53b98ff6]
+[DEBUG] 2018-11-02 10:00:51.001 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.001 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.002 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.002 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:51.003 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [FORCE]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=? for update
+[DEBUG] 2018-11-02 10:00:51.003 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3e6fd0b9]
+[DEBUG] 2018-11-02 10:00:51.003 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:51.003 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:51.003 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:51.003 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:51.003 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:51.003 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@697446d4]
+[DEBUG] 2018-11-02 10:00:51.003 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@76adb233]
+[DEBUG] 2018-11-02 10:00:51.003 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.004 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.015 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.015 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:51.016 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [PESSIMISTIC_READ]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=? lock in share mode
+[DEBUG] 2018-11-02 10:00:51.016 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@36074e47]
+[DEBUG] 2018-11-02 10:00:51.016 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:51.016 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:51.016 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:51.016 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:51.016 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:51.016 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7dcc91fd]
+[DEBUG] 2018-11-02 10:00:51.017 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@66eb985d]
+[DEBUG] 2018-11-02 10:00:51.017 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.017 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.017 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.034 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:51.034 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [PESSIMISTIC_WRITE]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=? for update
+[DEBUG] 2018-11-02 10:00:51.034 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a9287b1]
+[DEBUG] 2018-11-02 10:00:51.034 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:51.034 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:51.034 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:51.034 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:51.034 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:51.035 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6c8a68c1]
+[DEBUG] 2018-11-02 10:00:51.035 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@56193c7d]
+[DEBUG] 2018-11-02 10:00:51.035 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.035 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.035 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.036 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:51.036 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [PESSIMISTIC_FORCE_INCREMENT]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=? for update
+[DEBUG] 2018-11-02 10:00:51.036 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@28c88600]
+[DEBUG] 2018-11-02 10:00:51.036 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:51.042 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:51.042 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:51.042 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:51.042 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:51.042 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@607b2792]
+[DEBUG] 2018-11-02 10:00:51.042 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7f9e1534]
+[DEBUG] 2018-11-02 10:00:51.042 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.045 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.045 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.047 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:51.047 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [OPTIMISTIC]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=?
+[DEBUG] 2018-11-02 10:00:51.047 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@138a7441]
+[DEBUG] 2018-11-02 10:00:51.047 [main] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-11-02 10:00:51.047 [main] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-11-02 10:00:51.047 [main] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-11-02 10:00:51.047 [main] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-11-02 10:00:51.047 [main] MetamodelGraphWalker - Visiting attribute path : roles
+[DEBUG] 2018-11-02 10:00:51.047 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@31611954]
+[DEBUG] 2018-11-02 10:00:51.048 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3e598df9]
+[DEBUG] 2018-11-02 10:00:51.048 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.048 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.048 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.054 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Users)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Users)
+          - CollectionAttributeFetchImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Users.roles)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:2>, path=stpaul.lutheran.entity.Users.roles.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Users)
+          - SQL table alias mapping - users0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID1_1_0_}
+
+[DEBUG] 2018-11-02 10:00:51.054 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Users [OPTIMISTIC_FORCE_INCREMENT]: select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_ from Users users0_ where users0_.userID=?
+[DEBUG] 2018-11-02 10:00:51.118 [main] Loader - Static select for action ACTION_MERGE on entity stpaul.lutheran.entity.Users: select users0_.userID as userID1_1_1_, users0_.emailAddress as emailAdd2_1_1_, users0_.firstName as firstNam3_1_1_, users0_.lastName as lastName4_1_1_, users0_.password as password5_1_1_, users0_.userName as userName6_1_1_, roles1_.userID as userID4_0_3_, roles1_.roleID as roleID1_0_3_, roles1_.roleID as roleID1_0_0_, roles1_.roleType as roleType2_0_0_, roles1_.userID as userID4_0_0_, roles1_.userName as userName3_0_0_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:00:51.119 [main] Loader - Static select for action ACTION_REFRESH on entity stpaul.lutheran.entity.Users: select users0_.userID as userID1_1_1_, users0_.emailAddress as emailAdd2_1_1_, users0_.firstName as firstNam3_1_1_, users0_.lastName as lastName4_1_1_, users0_.password as password5_1_1_, users0_.userName as userName6_1_1_, roles1_.userID as userID4_0_3_, roles1_.roleID as roleID1_0_3_, roles1_.roleID as roleID1_0_0_, roles1_.roleType as roleType2_0_0_, roles1_.userID as userID4_0_0_, roles1_.userName as userName3_0_0_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:00:51.121 [main] AbstractEntityPersister - Static SQL for entity: stpaul.lutheran.entity.Role
+[DEBUG] 2018-11-02 10:00:51.121 [main] AbstractEntityPersister -  Version select: select roleID from Role where roleID =?
+[DEBUG] 2018-11-02 10:00:51.121 [main] AbstractEntityPersister -  Snapshot select: select role_.roleID, role_.roleType as roleType2_0_, role_.userID as userID4_0_, role_.userName as userName3_0_ from Role role_ where role_.roleID=?
+[DEBUG] 2018-11-02 10:00:51.121 [main] AbstractEntityPersister -  Insert 0: insert into Role (roleType, userID, userName, roleID) values (?, ?, ?, ?)
+[DEBUG] 2018-11-02 10:00:51.122 [main] AbstractEntityPersister -  Update 0: update Role set roleType=?, userID=?, userName=? where roleID=?
+[DEBUG] 2018-11-02 10:00:51.122 [main] AbstractEntityPersister -  Delete 0: delete from Role where roleID=?
+[DEBUG] 2018-11-02 10:00:51.122 [main] AbstractEntityPersister -  Identity insert: insert into Role (roleType, userID, userName) values (?, ?, ?)
+[DEBUG] 2018-11-02 10:00:51.122 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@ca66933]
+[DEBUG] 2018-11-02 10:00:51.122 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.122 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.123 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4fa06f52]
+[DEBUG] 2018-11-02 10:00:51.125 [main] MetamodelGraphWalker - Visiting attribute path : user.emailAddress
+[DEBUG] 2018-11-02 10:00:51.125 [main] MetamodelGraphWalker - Visiting attribute path : user.firstName
+[DEBUG] 2018-11-02 10:00:51.125 [main] MetamodelGraphWalker - Visiting attribute path : user.lastName
+[DEBUG] 2018-11-02 10:00:51.125 [main] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2018-11-02 10:00:51.125 [main] MetamodelGraphWalker - Visiting attribute path : user.roles
+[DEBUG] 2018-11-02 10:00:51.125 [main] MetamodelGraphWalker - Property path deemed to be circular : user.roles
+[DEBUG] 2018-11-02 10:00:51.125 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2018-11-02 10:00:51.130 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.130 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.130 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.131 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=stpaul.lutheran.entity.Users)
+                - SQL table alias mapping - users1_
+                - alias suffix - 1_
+                - suffixed key columns - {userID1_1_1_}
+
+[DEBUG] 2018-11-02 10:00:51.136 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [NONE]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_, users1_.userID as userID1_1_1_, users1_.emailAddress as emailAdd2_1_1_, users1_.firstName as firstNam3_1_1_, users1_.lastName as lastName4_1_1_, users1_.password as password5_1_1_, users1_.userName as userName6_1_1_ from Role role0_ left outer join Users users1_ on role0_.userID=users1_.userID where role0_.roleID=?
+[DEBUG] 2018-11-02 10:00:51.136 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c443976]
+[DEBUG] 2018-11-02 10:00:51.136 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.136 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.136 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3bd55d8]
+[DEBUG] 2018-11-02 10:00:51.137 [main] MetamodelGraphWalker - Visiting attribute path : user.emailAddress
+[DEBUG] 2018-11-02 10:00:51.137 [main] MetamodelGraphWalker - Visiting attribute path : user.firstName
+[DEBUG] 2018-11-02 10:00:51.137 [main] MetamodelGraphWalker - Visiting attribute path : user.lastName
+[DEBUG] 2018-11-02 10:00:51.140 [main] MetamodelGraphWalker - Visiting attribute path : user.password
+[DEBUG] 2018-11-02 10:00:51.140 [main] MetamodelGraphWalker - Visiting attribute path : user.roles
+[DEBUG] 2018-11-02 10:00:51.140 [main] MetamodelGraphWalker - Property path deemed to be circular : user.roles
+[DEBUG] 2018-11-02 10:00:51.140 [main] MetamodelGraphWalker - Visiting attribute path : user.userName
+[DEBUG] 2018-11-02 10:00:51.140 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.140 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.140 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.141 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=stpaul.lutheran.entity.Users)
+                - SQL table alias mapping - users1_
+                - alias suffix - 1_
+                - suffixed key columns - {userID1_1_1_}
+
+[DEBUG] 2018-11-02 10:00:51.141 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [READ]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_, users1_.userID as userID1_1_1_, users1_.emailAddress as emailAdd2_1_1_, users1_.firstName as firstNam3_1_1_, users1_.lastName as lastName4_1_1_, users1_.password as password5_1_1_, users1_.userName as userName6_1_1_ from Role role0_ left outer join Users users1_ on role0_.userID=users1_.userID where role0_.roleID=?
+[DEBUG] 2018-11-02 10:00:51.141 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7e0b9178]
+[DEBUG] 2018-11-02 10:00:51.147 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.147 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.147 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f63c44f]
+[DEBUG] 2018-11-02 10:00:51.147 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.147 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.148 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.148 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.148 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [UPGRADE]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=? for update
+[DEBUG] 2018-11-02 10:00:51.150 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@408a247c]
+[DEBUG] 2018-11-02 10:00:51.150 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.150 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.150 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2e6ba49a]
+[DEBUG] 2018-11-02 10:00:51.154 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.155 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.155 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.155 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.156 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [UPGRADE_NOWAIT]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=? for update
+[DEBUG] 2018-11-02 10:00:51.156 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f5b5ca4]
+[DEBUG] 2018-11-02 10:00:51.156 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.156 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.156 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6b04acb2]
+[DEBUG] 2018-11-02 10:00:51.156 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.156 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.156 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.157 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.157 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [UPGRADE_SKIPLOCKED]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=? for update
+[DEBUG] 2018-11-02 10:00:51.162 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18388a3c]
+[DEBUG] 2018-11-02 10:00:51.163 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.163 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.163 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a60ee36]
+[DEBUG] 2018-11-02 10:00:51.163 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.163 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.174 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.179 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.179 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [FORCE]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=? for update
+[DEBUG] 2018-11-02 10:00:51.180 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4cfbaf4]
+[DEBUG] 2018-11-02 10:00:51.180 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.180 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.180 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5f212d84]
+[DEBUG] 2018-11-02 10:00:51.180 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.180 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.180 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.181 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.181 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [PESSIMISTIC_READ]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=? lock in share mode
+[DEBUG] 2018-11-02 10:00:51.189 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@127d7908]
+[DEBUG] 2018-11-02 10:00:51.189 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.190 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.190 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6622a690]
+[DEBUG] 2018-11-02 10:00:51.190 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.194 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.195 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.195 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.195 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [PESSIMISTIC_WRITE]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=? for update
+[DEBUG] 2018-11-02 10:00:51.195 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@30b9eadd]
+[DEBUG] 2018-11-02 10:00:51.195 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.195 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.196 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@412c995d]
+[DEBUG] 2018-11-02 10:00:51.196 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.196 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.196 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.196 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.197 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [PESSIMISTIC_FORCE_INCREMENT]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=? for update
+[DEBUG] 2018-11-02 10:00:51.197 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3249a1ce]
+[DEBUG] 2018-11-02 10:00:51.197 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.197 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.197 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2f4919b0]
+[DEBUG] 2018-11-02 10:00:51.197 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.197 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.197 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.198 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.198 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [OPTIMISTIC]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=?
+[DEBUG] 2018-11-02 10:00:51.198 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@a8a8b75]
+[DEBUG] 2018-11-02 10:00:51.198 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.198 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.198 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72be135f]
+[DEBUG] 2018-11-02 10:00:51.198 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.198 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.199 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.199 [main] LoadPlanTreePrinter - LoadPlan(entity=stpaul.lutheran.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:0>, path=stpaul.lutheran.entity.Role)
+          - EntityAttributeFetchImpl(entity=stpaul.lutheran.entity.Users, querySpaceUid=<gen:1>, path=stpaul.lutheran.entity.Role.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=stpaul.lutheran.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {roleID1_0_0_}
+
+[DEBUG] 2018-11-02 10:00:51.199 [main] EntityLoader - Static select for entity stpaul.lutheran.entity.Role [OPTIMISTIC_FORCE_INCREMENT]: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=?
+[DEBUG] 2018-11-02 10:00:51.199 [main] Loader - Static select for action ACTION_MERGE on entity stpaul.lutheran.entity.Role: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=?
+[DEBUG] 2018-11-02 10:00:51.200 [main] Loader - Static select for action ACTION_REFRESH on entity stpaul.lutheran.entity.Role: select role0_.roleID as roleID1_0_0_, role0_.roleType as roleType2_0_0_, role0_.userID as userID4_0_0_, role0_.userName as userName3_0_0_ from Role role0_ where role0_.roleID=?
+[DEBUG] 2018-11-02 10:00:51.225 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6e78fcf5]
+[DEBUG] 2018-11-02 10:00:51.225 [main] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@56febdc]
+[DEBUG] 2018-11-02 10:00:51.225 [main] MetamodelGraphWalker - Visiting attribute path : roleType
+[DEBUG] 2018-11-02 10:00:51.225 [main] MetamodelGraphWalker - Visiting attribute path : user
+[DEBUG] 2018-11-02 10:00:51.225 [main] MetamodelGraphWalker - Property path deemed to be circular : user
+[DEBUG] 2018-11-02 10:00:51.226 [main] MetamodelGraphWalker - Visiting attribute path : userName
+[DEBUG] 2018-11-02 10:00:51.226 [main] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-11-02 10:00:51.237 [main] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-11-02 10:00:51.239 [main] LoadPlanTreePrinter - LoadPlan(collection=stpaul.lutheran.entity.Users.roles)
+    - Returns
+       - CollectionReturnImpl(collection=stpaul.lutheran.entity.Users.roles, querySpaceUid=<gen:0>, path=[stpaul.lutheran.entity.Users.roles])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=stpaul.lutheran.entity.Role, querySpaceUid=<gen:1>, path=[stpaul.lutheran.entity.Users.roles].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=stpaul.lutheran.entity.Users.roles)
+          - SQL table alias mapping - roles0_
+          - alias suffix - 0_
+          - suffixed key columns - {userID4_0_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - roleID1_0_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=stpaul.lutheran.entity.Role)
+                - SQL table alias mapping - roles0_
+                - alias suffix - 1_
+                - suffixed key columns - {roleID1_0_1_}
+
+[DEBUG] 2018-11-02 10:00:51.239 [main] CollectionLoader - Static select for collection stpaul.lutheran.entity.Users.roles: select roles0_.userID as userID4_0_0_, roles0_.roleID as roleID1_0_0_, roles0_.roleID as roleID1_0_1_, roles0_.roleType as roleType2_0_1_, roles0_.userID as userID4_0_1_, roles0_.userName as userName3_0_1_ from Role roles0_ where roles0_.userID=?
+[DEBUG] 2018-11-02 10:00:51.389 [main] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[DEBUG] 2018-11-02 10:00:51.392 [main] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2018-11-02 10:00:51.393 [main] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2018-11-02 10:00:51.409 [main] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2018-11-02 10:00:51.414 [main] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2018-11-02 10:00:51.414 [main] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2018-11-02 10:00:51.417 [main] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@45394b31
+[DEBUG] 2018-11-02 10:00:51.436 [main] SessionFactoryRegistry - Registering SessionFactory: c5585885-2036-4fac-972e-96e048f31c57 (<unnamed>)
+[DEBUG] 2018-11-02 10:00:51.436 [main] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2018-11-02 10:00:53.559 [main] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2018-11-02 10:00:53.706 [main] SQL - select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_, roles1_.userID as userID4_0_1_, roles1_.roleID as roleID1_0_1_, roles1_.roleID as roleID1_0_2_, roles1_.roleType as roleType2_0_2_, roles1_.userID as userID4_0_2_, roles1_.userName as userName3_0_2_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:00:53.949 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2018-11-02 10:00:53.962 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2018-11-02 10:00:54.039 [main] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:00:54.099 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:00:54.111 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:00:54.111 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:00:54.134 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:00:54.134 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:00:54.135 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:00:54.136 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : stpaul.lutheran.entity.Users#3
+[DEBUG] 2018-11-02 10:00:54.137 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:00:54.178 [main] TransactionImpl - begin
+[DEBUG] 2018-11-02 10:00:54.243 [main] TransactionImpl - committing
+[DEBUG] 2018-11-02 10:00:54.244 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2018-11-02 10:00:54.244 [main] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2018-11-02 10:00:54.251 [main] Collections - Collection dereferenced: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:00:54.257 [main] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+[DEBUG] 2018-11-02 10:00:54.257 [main] AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 1 removals to 1 collections
+[DEBUG] 2018-11-02 10:00:54.259 [main] EntityPrinter - Listing entities:
+[DEBUG] 2018-11-02 10:00:54.262 [main] EntityPrinter - stpaul.lutheran.entity.Users{firstName=Tim, lastName=Hunter, emailAddress=hunter@gmail.com, password=password, roles=[], userName=hunter, userID=3}
+[DEBUG] 2018-11-02 10:00:54.287 [main] SQL - delete from Users where userID=?
+[DEBUG] 2018-11-02 10:00:54.308 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:00:54.316 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:00:54.317 [main] JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+[DEBUG] 2018-11-02 10:00:54.317 [main] SQL - select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_, roles1_.userID as userID4_0_1_, roles1_.roleID as roleID1_0_1_, roles1_.roleID as roleID1_0_2_, roles1_.roleType as roleType2_0_2_, roles1_.userID as userID4_0_2_, roles1_.userName as userName3_0_2_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:00:54.332 [main] CollectionLoadContext - No collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:00:54.333 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:00:54.333 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : stpaul.lutheran.entity.Users#3
+[DEBUG] 2018-11-02 10:00:54.333 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:00:56.142 [main] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Users as generatedAlias0 where generatedAlias0.lastName=:param0
+[DEBUG] 2018-11-02 10:00:56.251 [main] QueryTranslatorFactoryInitiator - QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@66ba7e45
+[INFO ] 2018-11-02 10:00:56.255 [main] QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+[DEBUG] 2018-11-02 10:00:56.785 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from stpaul.lutheran.entity.Users as generatedAlias0 where generatedAlias0.lastName=:param0
+[DEBUG] 2018-11-02 10:00:56.852 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:00:56.867 [main] QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[IDENT] Node: 'stpaul'
+    |  |     |  |  |  \-[IDENT] Node: 'lutheran'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'Users'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'lastName'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+[DEBUG] 2018-11-02 10:00:57.010 [main] HqlSqlBaseWalker - select << begin [level=1, statement=select]
+[DEBUG] 2018-11-02 10:00:57.053 [main] FromElement - FromClause{level=1} : stpaul.lutheran.entity.Users (generatedAlias0) -> users0_
+[DEBUG] 2018-11-02 10:00:57.055 [main] FromReferenceNode - Resolved : generatedAlias0 -> users0_.userID
+[DEBUG] 2018-11-02 10:00:57.082 [main] FromReferenceNode - Resolved : generatedAlias0 -> users0_.userID
+[DEBUG] 2018-11-02 10:00:57.084 [main] DotNode - getDataType() : lastName -> org.hibernate.type.StringType@51bd8b5c
+[DEBUG] 2018-11-02 10:00:57.085 [main] FromReferenceNode - Resolved : generatedAlias0.lastName -> users0_.lastName
+[DEBUG] 2018-11-02 10:00:57.095 [main] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+[DEBUG] 2018-11-02 10:00:57.102 [main] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} users0_.userID ) ( FromClause{level=1} Users users0_ ) ( where ( = ( users0_.lastName users0_.userID lastName ) ? ) ) )
+[DEBUG] 2018-11-02 10:00:57.151 [main] JoinProcessor - Using FROM fragment [Users users0_]
+[DEBUG] 2018-11-02 10:00:57.154 [main] HqlSqlBaseWalker - select >> end [level=1, statement=select]
+[DEBUG] 2018-11-02 10:00:57.163 [main] QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Users)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'users0_.userID as userID1_1_' {alias=generatedAlias0, className=stpaul.lutheran.entity.Users, tableAlias=users0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[users0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Users users0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Users,tableAlias=users0_,origin=null,columns={,className=stpaul.lutheran.entity.Users}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'users0_.lastName' {propertyName=lastName,dereferenceType=PRIMITIVE,getPropertyPath=lastName,path=generatedAlias0.lastName,tableAlias=users0_,className=stpaul.lutheran.entity.Users,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'users0_.userID' {alias=generatedAlias0, className=stpaul.lutheran.entity.Users, tableAlias=users0_}
+          |  \-[IDENT] IdentNode: 'lastName' {originalText=lastName}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@51bd8b5c}
+
+[DEBUG] 2018-11-02 10:00:57.163 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:00:57.246 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from stpaul.lutheran.entity.Users as generatedAlias0 where generatedAlias0.lastName=:param0
+[DEBUG] 2018-11-02 10:00:57.247 [main] QueryTranslatorImpl - SQL: select users0_.userID as userID1_1_, users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_ from Users users0_ where users0_.lastName=?
+[DEBUG] 2018-11-02 10:00:57.250 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:00:57.409 [main] SQL - select users0_.userID as userID1_1_, users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_ from Users users0_ where users0_.lastName=?
+[DEBUG] 2018-11-02 10:00:57.438 [main] Loader - Result set row: 0
+[DEBUG] 2018-11-02 10:00:57.461 [main] Loader - Result row: EntityKey[stpaul.lutheran.entity.Users#1]
+[DEBUG] 2018-11-02 10:00:57.489 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#1]
+[DEBUG] 2018-11-02 10:00:57.489 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#1]
+[DEBUG] 2018-11-02 10:00:57.493 [main] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [stpaul.lutheran.entity.Users.roles#1]
+[DEBUG] 2018-11-02 10:00:57.493 [main] SQL - select roles0_.userID as userID4_0_0_, roles0_.roleID as roleID1_0_0_, roles0_.roleID as roleID1_0_1_, roles0_.roleType as roleType2_0_1_, roles0_.userID as userID4_0_1_, roles0_.userName as userName3_0_1_ from Role roles0_ where roles0_.userID=?
+[DEBUG] 2018-11-02 10:00:57.520 [main] ResultSetProcessorImpl - Preparing collection intializer : [stpaul.lutheran.entity.Users.roles#1]
+[DEBUG] 2018-11-02 10:00:57.520 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:00:57.521 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#1]
+[DEBUG] 2018-11-02 10:00:57.521 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:00:57.521 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:00:57.533 [main] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2018-11-02 10:00:57.537 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:00:58.804 [main] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Users as generatedAlias0 where generatedAlias0.lastName like :param0
+[DEBUG] 2018-11-02 10:00:58.809 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from stpaul.lutheran.entity.Users as generatedAlias0 where generatedAlias0.lastName like :param0
+[DEBUG] 2018-11-02 10:00:58.838 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:00:58.846 [main] QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[IDENT] Node: 'stpaul'
+    |  |     |  |  |  \-[IDENT] Node: 'lutheran'
+    |  |     |  |  \-[IDENT] Node: 'entity'
+    |  |     |  \-[IDENT] Node: 'Users'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[LIKE] Node: 'like'
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'lastName'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+[DEBUG] 2018-11-02 10:00:58.854 [main] HqlSqlBaseWalker - select << begin [level=1, statement=select]
+[DEBUG] 2018-11-02 10:00:58.859 [main] FromElement - FromClause{level=1} : stpaul.lutheran.entity.Users (generatedAlias0) -> users0_
+[DEBUG] 2018-11-02 10:00:58.860 [main] FromReferenceNode - Resolved : generatedAlias0 -> users0_.userID
+[DEBUG] 2018-11-02 10:00:58.861 [main] FromReferenceNode - Resolved : generatedAlias0 -> users0_.userID
+[DEBUG] 2018-11-02 10:00:58.861 [main] DotNode - getDataType() : lastName -> org.hibernate.type.StringType@51bd8b5c
+[DEBUG] 2018-11-02 10:00:58.861 [main] FromReferenceNode - Resolved : generatedAlias0.lastName -> users0_.lastName
+[DEBUG] 2018-11-02 10:00:58.873 [main] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+[DEBUG] 2018-11-02 10:00:58.873 [main] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} users0_.userID ) ( FromClause{level=1} Users users0_ ) ( where ( like ( users0_.lastName users0_.userID lastName ) ? ) ) )
+[DEBUG] 2018-11-02 10:00:58.881 [main] JoinProcessor - Using FROM fragment [Users users0_]
+[DEBUG] 2018-11-02 10:00:58.882 [main] HqlSqlBaseWalker - select >> end [level=1, statement=select]
+[DEBUG] 2018-11-02 10:00:58.885 [main] QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Users)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'users0_.userID as userID1_1_' {alias=generatedAlias0, className=stpaul.lutheran.entity.Users, tableAlias=users0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[users0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Users users0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Users,tableAlias=users0_,origin=null,columns={,className=stpaul.lutheran.entity.Users}}
+    \-[WHERE] SqlNode: 'where'
+       \-[LIKE] BinaryLogicOperatorNode: 'like'
+          +-[DOT] DotNode: 'users0_.lastName' {propertyName=lastName,dereferenceType=PRIMITIVE,getPropertyPath=lastName,path=generatedAlias0.lastName,tableAlias=users0_,className=stpaul.lutheran.entity.Users,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'users0_.userID' {alias=generatedAlias0, className=stpaul.lutheran.entity.Users, tableAlias=users0_}
+          |  \-[IDENT] IdentNode: 'lastName' {originalText=lastName}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@51bd8b5c}
+
+[DEBUG] 2018-11-02 10:00:58.888 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:00:58.889 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from stpaul.lutheran.entity.Users as generatedAlias0 where generatedAlias0.lastName like :param0
+[DEBUG] 2018-11-02 10:00:58.889 [main] QueryTranslatorImpl - SQL: select users0_.userID as userID1_1_, users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_ from Users users0_ where users0_.lastName like ?
+[DEBUG] 2018-11-02 10:00:58.889 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:00:58.899 [main] SQL - select users0_.userID as userID1_1_, users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_ from Users users0_ where users0_.lastName like ?
+[DEBUG] 2018-11-02 10:00:58.917 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:00.296 [main] SQL - select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_, roles1_.userID as userID4_0_1_, roles1_.roleID as roleID1_0_1_, roles1_.roleID as roleID1_0_2_, roles1_.roleType as roleType2_0_2_, roles1_.userID as userID4_0_2_, roles1_.userName as userName3_0_2_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:01:00.301 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2018-11-02 10:01:00.301 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2018-11-02 10:01:00.308 [main] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:00.309 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:00.313 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:00.314 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:00.314 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:00.314 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:00.315 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:00.315 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : stpaul.lutheran.entity.Users#3
+[DEBUG] 2018-11-02 10:01:00.316 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:01.362 [main] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Users as generatedAlias0 where generatedAlias0.lastName like :param0
+[DEBUG] 2018-11-02 10:01:01.363 [main] SQL - select users0_.userID as userID1_1_, users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_ from Users users0_ where users0_.lastName like ?
+[DEBUG] 2018-11-02 10:01:01.371 [main] Loader - Result set row: 0
+[DEBUG] 2018-11-02 10:01:01.376 [main] Loader - Result row: EntityKey[stpaul.lutheran.entity.Users#2]
+[DEBUG] 2018-11-02 10:01:01.376 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#2]
+[DEBUG] 2018-11-02 10:01:01.384 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#2]
+[DEBUG] 2018-11-02 10:01:01.385 [main] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [stpaul.lutheran.entity.Users.roles#2]
+[DEBUG] 2018-11-02 10:01:01.385 [main] SQL - select roles0_.userID as userID4_0_0_, roles0_.roleID as roleID1_0_0_, roles0_.roleID as roleID1_0_1_, roles0_.roleType as roleType2_0_1_, roles0_.userID as userID4_0_1_, roles0_.userName as userName3_0_1_ from Role roles0_ where roles0_.userID=?
+[DEBUG] 2018-11-02 10:01:01.392 [main] ResultSetProcessorImpl - Preparing collection intializer : [stpaul.lutheran.entity.Users.roles#2]
+[DEBUG] 2018-11-02 10:01:01.392 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:01.394 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#2]
+[DEBUG] 2018-11-02 10:01:01.394 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:01.394 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:01.394 [main] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2018-11-02 10:01:01.394 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:02.261 [main] SQL - select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_, roles1_.userID as userID4_0_1_, roles1_.roleID as roleID1_0_1_, roles1_.roleID as roleID1_0_2_, roles1_.roleType as roleType2_0_2_, roles1_.userID as userID4_0_2_, roles1_.userName as userName3_0_2_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:01:02.270 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2018-11-02 10:01:02.284 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2018-11-02 10:01:02.285 [main] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:02.285 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:02.286 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:02.286 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:02.287 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:02.287 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:02.287 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:02.287 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : stpaul.lutheran.entity.Users#3
+[DEBUG] 2018-11-02 10:01:02.287 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:02.291 [main] TransactionImpl - begin
+[DEBUG] 2018-11-02 10:01:02.307 [main] TransactionImpl - committing
+[DEBUG] 2018-11-02 10:01:02.307 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2018-11-02 10:01:02.307 [main] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2018-11-02 10:01:02.309 [main] Collections - Collection found: [stpaul.lutheran.entity.Users.roles#3], was: [stpaul.lutheran.entity.Users.roles#3] (initialized)
+[DEBUG] 2018-11-02 10:01:02.313 [main] AbstractFlushingEventListener - Flushed: 0 insertions, 1 updates, 0 deletions to 1 objects
+[DEBUG] 2018-11-02 10:01:02.313 [main] AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 1 collections
+[DEBUG] 2018-11-02 10:01:02.313 [main] EntityPrinter - Listing entities:
+[DEBUG] 2018-11-02 10:01:02.318 [main] EntityPrinter - stpaul.lutheran.entity.Users{firstName=Tim, lastName=Davis, emailAddress=hunter@gmail.com, password=password, roles=[], userName=hunter, userID=3}
+[DEBUG] 2018-11-02 10:01:02.322 [main] SQL - update Users set emailAddress=?, firstName=?, lastName=?, password=?, userName=? where userID=?
+[DEBUG] 2018-11-02 10:01:02.346 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:02.349 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:02.350 [main] JdbcCoordinatorImpl - HHH000420: Closing un-released batch
+[DEBUG] 2018-11-02 10:01:02.354 [main] SQL - select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_, roles1_.userID as userID4_0_1_, roles1_.roleID as roleID1_0_1_, roles1_.roleID as roleID1_0_2_, roles1_.roleType as roleType2_0_2_, roles1_.userID as userID4_0_2_, roles1_.userName as userName3_0_2_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:01:02.371 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2018-11-02 10:01:02.371 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2018-11-02 10:01:02.371 [main] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:02.372 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:02.372 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:02.372 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:02.385 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:02.386 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:02.387 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:02.388 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : stpaul.lutheran.entity.Users#3
+[DEBUG] 2018-11-02 10:01:02.390 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:03.733 [main] CriteriaQueryImpl - Rendered criteria query -> select generatedAlias0 from Users as generatedAlias0
+[DEBUG] 2018-11-02 10:01:03.739 [main] QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from stpaul.lutheran.entity.Users as generatedAlias0
+[DEBUG] 2018-11-02 10:01:03.740 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:01:03.748 [main] QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[IDENT] Node: 'stpaul'
+       |     |  |  |  \-[IDENT] Node: 'lutheran'
+       |     |  |  \-[IDENT] Node: 'entity'
+       |     |  \-[IDENT] Node: 'Users'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+[DEBUG] 2018-11-02 10:01:03.749 [main] HqlSqlBaseWalker - select << begin [level=1, statement=select]
+[DEBUG] 2018-11-02 10:01:03.777 [main] FromElement - FromClause{level=1} : stpaul.lutheran.entity.Users (generatedAlias0) -> users0_
+[DEBUG] 2018-11-02 10:01:03.785 [main] FromReferenceNode - Resolved : generatedAlias0 -> users0_.userID
+[DEBUG] 2018-11-02 10:01:03.785 [main] HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+[DEBUG] 2018-11-02 10:01:03.786 [main] HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} users0_.userID ) ( FromClause{level=1} Users users0_ ) )
+[DEBUG] 2018-11-02 10:01:03.786 [main] JoinProcessor - Using FROM fragment [Users users0_]
+[DEBUG] 2018-11-02 10:01:03.786 [main] HqlSqlBaseWalker - select >> end [level=1, statement=select]
+[DEBUG] 2018-11-02 10:01:03.787 [main] QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Users)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'users0_.userID as userID1_1_' {alias=generatedAlias0, className=stpaul.lutheran.entity.Users, tableAlias=users0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[users0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'Users users0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Users,tableAlias=users0_,origin=null,columns={,className=stpaul.lutheran.entity.Users}}
+
+[DEBUG] 2018-11-02 10:01:03.787 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:01:03.788 [main] QueryTranslatorImpl - HQL: select generatedAlias0 from stpaul.lutheran.entity.Users as generatedAlias0
+[DEBUG] 2018-11-02 10:01:03.788 [main] QueryTranslatorImpl - SQL: select users0_.userID as userID1_1_, users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_ from Users users0_
+[DEBUG] 2018-11-02 10:01:03.788 [main] ErrorCounter - throwQueryException() : no errors
+[DEBUG] 2018-11-02 10:01:03.804 [main] SQL - select users0_.userID as userID1_1_, users0_.emailAddress as emailAdd2_1_, users0_.firstName as firstNam3_1_, users0_.lastName as lastName4_1_, users0_.password as password5_1_, users0_.userName as userName6_1_ from Users users0_
+[DEBUG] 2018-11-02 10:01:03.806 [main] Loader - Result set row: 0
+[DEBUG] 2018-11-02 10:01:03.807 [main] Loader - Result row: EntityKey[stpaul.lutheran.entity.Users#1]
+[DEBUG] 2018-11-02 10:01:03.807 [main] Loader - Result set row: 1
+[DEBUG] 2018-11-02 10:01:03.807 [main] Loader - Result row: EntityKey[stpaul.lutheran.entity.Users#2]
+[DEBUG] 2018-11-02 10:01:03.809 [main] Loader - Result set row: 2
+[DEBUG] 2018-11-02 10:01:03.809 [main] Loader - Result row: EntityKey[stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:03.809 [main] Loader - Result set row: 3
+[DEBUG] 2018-11-02 10:01:03.815 [main] Loader - Result row: EntityKey[stpaul.lutheran.entity.Users#4]
+[DEBUG] 2018-11-02 10:01:03.815 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#1]
+[DEBUG] 2018-11-02 10:01:03.817 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#1]
+[DEBUG] 2018-11-02 10:01:03.817 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#2]
+[DEBUG] 2018-11-02 10:01:03.817 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#2]
+[DEBUG] 2018-11-02 10:01:03.818 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:03.826 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#3]
+[DEBUG] 2018-11-02 10:01:03.826 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#4]
+[DEBUG] 2018-11-02 10:01:03.826 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#4]
+[DEBUG] 2018-11-02 10:01:03.830 [main] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [stpaul.lutheran.entity.Users.roles#4]
+[DEBUG] 2018-11-02 10:01:03.830 [main] SQL - select roles0_.userID as userID4_0_0_, roles0_.roleID as roleID1_0_0_, roles0_.roleID as roleID1_0_1_, roles0_.roleType as roleType2_0_1_, roles0_.userID as userID4_0_1_, roles0_.userName as userName3_0_1_ from Role roles0_ where roles0_.userID=?
+[DEBUG] 2018-11-02 10:01:03.833 [main] ResultSetProcessorImpl - Preparing collection intializer : [stpaul.lutheran.entity.Users.roles#4]
+[DEBUG] 2018-11-02 10:01:03.833 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:03.834 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#4]
+[DEBUG] 2018-11-02 10:01:03.834 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:03.835 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:03.835 [main] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2018-11-02 10:01:03.835 [main] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:03.836 [main] SQL - select roles0_.userID as userID4_0_0_, roles0_.roleID as roleID1_0_0_, roles0_.roleID as roleID1_0_1_, roles0_.roleType as roleType2_0_1_, roles0_.userID as userID4_0_1_, roles0_.userName as userName3_0_1_ from Role roles0_ where roles0_.userID=?
+[DEBUG] 2018-11-02 10:01:03.838 [main] ResultSetProcessorImpl - Preparing collection intializer : [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:03.838 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:03.838 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#3]
+[DEBUG] 2018-11-02 10:01:03.838 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:03.839 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:03.839 [main] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2018-11-02 10:01:03.845 [main] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [stpaul.lutheran.entity.Users.roles#2]
+[DEBUG] 2018-11-02 10:01:03.845 [main] SQL - select roles0_.userID as userID4_0_0_, roles0_.roleID as roleID1_0_0_, roles0_.roleID as roleID1_0_1_, roles0_.roleType as roleType2_0_1_, roles0_.userID as userID4_0_1_, roles0_.userName as userName3_0_1_ from Role roles0_ where roles0_.userID=?
+[DEBUG] 2018-11-02 10:01:03.850 [main] ResultSetProcessorImpl - Preparing collection intializer : [stpaul.lutheran.entity.Users.roles#2]
+[DEBUG] 2018-11-02 10:01:03.851 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:03.851 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#2]
+[DEBUG] 2018-11-02 10:01:03.851 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:03.851 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:03.851 [main] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2018-11-02 10:01:03.852 [main] AbstractLoadPlanBasedCollectionInitializer - Loading collection: [stpaul.lutheran.entity.Users.roles#1]
+[DEBUG] 2018-11-02 10:01:03.852 [main] SQL - select roles0_.userID as userID4_0_0_, roles0_.roleID as roleID1_0_0_, roles0_.roleID as roleID1_0_1_, roles0_.roleType as roleType2_0_1_, roles0_.userID as userID4_0_1_, roles0_.userName as userName3_0_1_ from Role roles0_ where roles0_.userID=?
+[DEBUG] 2018-11-02 10:01:03.854 [main] ResultSetProcessorImpl - Preparing collection intializer : [stpaul.lutheran.entity.Users.roles#1]
+[DEBUG] 2018-11-02 10:01:03.855 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:03.855 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#1]
+[DEBUG] 2018-11-02 10:01:03.855 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:03.855 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:03.855 [main] AbstractLoadPlanBasedCollectionInitializer - Done loading collection
+[DEBUG] 2018-11-02 10:01:03.855 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:05.188 [main] TransactionImpl - begin
+[DEBUG] 2018-11-02 10:01:05.222 [main] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2018-11-02 10:01:05.225 [main] SQL - insert into Users (emailAddress, firstName, lastName, password, userName) values (?, ?, ?, ?, ?)
+[DEBUG] 2018-11-02 10:01:05.243 [main] IdentifierGeneratorHelper - Natively generated identity: 5
+[DEBUG] 2018-11-02 10:01:05.245 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:05.246 [main] TransactionImpl - committing
+[DEBUG] 2018-11-02 10:01:05.246 [main] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2018-11-02 10:01:05.247 [main] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2018-11-02 10:01:05.247 [main] Collections - Collection found: [stpaul.lutheran.entity.Users.roles#5], was: [<unreferenced>] (initialized)
+[DEBUG] 2018-11-02 10:01:05.252 [main] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2018-11-02 10:01:05.252 [main] AbstractFlushingEventListener - Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+[DEBUG] 2018-11-02 10:01:05.254 [main] EntityPrinter - Listing entities:
+[DEBUG] 2018-11-02 10:01:05.255 [main] EntityPrinter - stpaul.lutheran.entity.Users{firstName=Kortney, lastName=Bishell, emailAddress=bish@you.com, password=password, roles=[], userName=kbishell, userID=5}
+[DEBUG] 2018-11-02 10:01:05.261 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:05.262 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-11-02 10:01:05.271 [main] SQL - select users0_.userID as userID1_1_0_, users0_.emailAddress as emailAdd2_1_0_, users0_.firstName as firstNam3_1_0_, users0_.lastName as lastName4_1_0_, users0_.password as password5_1_0_, users0_.userName as userName6_1_0_, roles1_.userID as userID4_0_1_, roles1_.roleID as roleID1_0_1_, roles1_.roleID as roleID1_0_2_, roles1_.roleType as roleType2_0_2_, roles1_.userID as userID4_0_2_, roles1_.userName as userName3_0_2_ from Users users0_ left outer join Role roles1_ on users0_.userID=roles1_.userID where users0_.userID=?
+[DEBUG] 2018-11-02 10:01:05.278 [main] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2018-11-02 10:01:05.279 [main] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2018-11-02 10:01:05.280 [main] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [stpaul.lutheran.entity.Users.roles#5]
+[DEBUG] 2018-11-02 10:01:05.282 [main] TwoPhaseLoad - Resolving associations for [stpaul.lutheran.entity.Users#5]
+[DEBUG] 2018-11-02 10:01:05.282 [main] TwoPhaseLoad - Done materializing entity [stpaul.lutheran.entity.Users#5]
+[DEBUG] 2018-11-02 10:01:05.282 [main] CollectionLoadContext - 1 collections were found in result set for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:05.283 [main] CollectionLoadContext - Collection fully initialized: [stpaul.lutheran.entity.Users.roles#5]
+[DEBUG] 2018-11-02 10:01:05.283 [main] CollectionLoadContext - 1 collections initialized for role: stpaul.lutheran.entity.Users.roles
+[DEBUG] 2018-11-02 10:01:05.283 [main] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-11-02 10:01:05.283 [main] AbstractLoadPlanBasedEntityLoader - Done entity load : stpaul.lutheran.entity.Users#5
+[DEBUG] 2018-11-02 10:01:05.283 [main] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

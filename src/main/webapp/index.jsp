@@ -3,8 +3,8 @@
 <body>
 
 <div class="container">
-    <h2>Members Information</h2>
-
+    <%--<h2>Members Information</h2>--%>
+<%--
     <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
         <li><a data-toggle="tab" href="#signUp">Sign Up</a></li>
@@ -17,10 +17,11 @@
         <li><a data-toggle="tab" href="#volunteer">Volunteer-Chaperones</a></li>
         <li><a data-toggle="tab" href="#childcare">Child Care</a></li>
         <li><a data-toggle="tab" href="#sports">Sports</a></li>
-    </ul>
+    </ul>--%><%@include file="navBar.jsp"%>
 
     <div class="tab-content">
-
+        <%@include file="login.jsp"%>
+<%--
         <div id="home" class="tab-pane fade in active">
             <img src="images/stPaulsLogo.png">
             <h1>St Paul's Lutheran Online Registration</h1>
@@ -31,7 +32,7 @@
                     <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
                 </TABLE>
             </FORM>
-        </div>
+        </div>--%>
 
 
         <div id="signUp" class="tab-pane fade">

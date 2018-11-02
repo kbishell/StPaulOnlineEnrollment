@@ -48,13 +48,15 @@ public class Users {
      * @param firstName    the first name
      * @param lastName     the last name
      * @param emailAddress the email address
+     * @param roles        the roles
      */
-    public Users(String userName, String password, String firstName, String lastName, String emailAddress) {
+    public Users(String userName, String password, String firstName, String lastName, String emailAddress, Set<Role> roles) {
         this.userName = userName;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
         this.emailAddress = emailAddress;
+        this.roles = roles;
     }
 
     /**
@@ -181,16 +183,6 @@ public class Users {
      */
     public void setRoles(Set<Role> roles) {
         this.roles = roles;
-    }
-
-    /**
-     * Add role.
-     *
-     * @param role the role
-     */
-    public void addRole(Role role) {
-        roles.add(role);
-
     }
 
     @Override

@@ -262,3 +262,37 @@
 [ERROR] 2018-10-31 16:57:42.125 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
 [ERROR] 2018-10-31 16:57:42.341 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
 [DEBUG] 2018-10-31 16:57:42.362 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-02 10:00:52.877 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 10:00:54.147 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-02 10:00:54.334 [main] UsersDao - ********************************************3
+[ERROR] 2018-11-02 10:00:55.836 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 10:00:55.843 [main] UsersDao - Searching for users with lastName = Tennley
+[ERROR] 2018-11-02 10:00:58.785 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 10:00:58.802 [main] UsersDao - Searching for users with lastName = W
+[ERROR] 2018-11-02 10:01:00.285 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 10:01:00.321 [main] UsersDao - ********************************************3
+[ERROR] 2018-11-02 10:01:01.361 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 10:01:01.362 [main] UsersDao - Searching for: B
+[ERROR] 2018-11-02 10:01:02.259 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 10:01:02.291 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-02 10:01:02.396 [main] UsersDao - ********************************************3
+[ERROR] 2018-11-02 10:01:03.732 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[ERROR] 2018-11-02 10:01:05.186 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 10:01:05.287 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-02 11:05:08.837 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 11:05:10.047 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-02 11:05:10.244 [main] UsersDao - ********************************************3
+[ERROR] 2018-11-02 11:05:11.664 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 11:05:11.668 [main] UsersDao - Searching for users with lastName = Tennley
+[ERROR] 2018-11-02 11:05:17.167 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 11:05:17.204 [main] UsersDao - Searching for users with lastName = W
+[ERROR] 2018-11-02 11:05:18.740 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 11:05:18.773 [main] UsersDao - ********************************************3
+[ERROR] 2018-11-02 11:05:20.166 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 11:05:20.168 [main] UsersDao - Searching for: B
+[ERROR] 2018-11-02 11:05:21.612 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 11:05:21.642 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-02 11:05:21.788 [main] UsersDao - ********************************************3
+[ERROR] 2018-11-02 11:05:23.117 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[ERROR] 2018-11-02 11:05:24.492 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
+[DEBUG] 2018-11-02 11:05:24.583 [main] UsersDao - ********************************************5
