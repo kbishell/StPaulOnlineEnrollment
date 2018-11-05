@@ -26,14 +26,15 @@ I am also finishing up my aws with my exercise 4. I am feeling slightly behind a
 back up with my indie project jsps, etc.
 
 ### Week 8
+Aws was definitely a challenge to put into my indie project so I decided to just put it into my weekly exercise.
 
 ### Week 9
-
-### Week 8
-
-### Week 9
+I am struggling with relationships in my project. I have one dao testing but now that I am adding other relationships it
+now broken again. Attemping to put Aws, authentication, and jsps output into my indie project. This again has been a
+struggle with my relationships.
 
 ### Week 10
+Still working on checkpoint three. Authentication and my jsps seem to not be connected correctly.
 
 ### Week 11
 

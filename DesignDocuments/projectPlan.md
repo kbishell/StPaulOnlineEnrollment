@@ -38,8 +38,8 @@
 
 ### Week 6
 
-- [ ] Create db on AWS
-- [ ] Deploy to AWS for first time
+- [x] Create db on AWS
+- [x] Deploy to AWS for first time
 - [x] Weekly journal entry
 - [ ] Add the account entity (test, dev and prod dbs)
 - [ ] Add update and delete functionality in jsp for user and role
@@ -51,19 +51,19 @@
 
 - [x] Weekly journal entry
 - [ ] Set up authentication locally
-- [ ] Set up authentication on AWS
+- [x] Set up authentication on AWS
 - [ ] Populate with data, (test, dev and prod dbs)
-- [ ] Review and incorporate any feedback from Checkpoint 2.
+- [x] Review and incorporate any feedback from Checkpoint 2.
 
 
 ### Week 8
 
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Integration with google maps api
 - [ ] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
 
 ### Week 9
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Review and incorporate feedback from Checkpoint 3.
 - [ ] Carefully review code for standards and best practices - use a code quality tool? 
 

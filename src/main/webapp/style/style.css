@@ -5,13 +5,13 @@ body {
 img {
     max-width: 90%;
 }
-/*
+
 
 .nav {
     background-color: darkred;
     color: white;
-    !*display: block;*!
+/*    display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;*/
     padding: 2em .5em .5em .5em;
-}*/
+}

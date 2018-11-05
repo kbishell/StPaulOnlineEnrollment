@@ -35,3 +35,6 @@
 | 10/30/18| (Week Nine) | week 8 videos and activity 3 |3|
 | 10/31/18| (Week Nine) | checkpoint 3 |9.5|
 | 11/2/18| (Week Nine) | checkpoint 3 |3|
+| 11/3/18| (Week Nine) | checkpoint 3 |3|
+
+| 11/5/18| (Week Ten) | checkpoint 3 |7|
