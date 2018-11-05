@@ -11,6 +11,10 @@
     <title>allUsers</title>
 </head>
 <body>
-    <p>Show All Users - Admin Only Page</p>
+    <p>Show All Users</p>
+    <ul>
+        <li><a href="admin.jsp">Search Users - Admin Only Page</a></li>
+        <li><a href="index.jsp">Home</a></li>
+    </ul>
 </body>
 </html>

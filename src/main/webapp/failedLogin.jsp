@@ -5,8 +5,8 @@
 <head>
     <title>Invalid Sign In</title>
 </head>
-  Invalid userid/password combination. <br />
-  <a href="login.jsp">Try again</a>
+  Invalid userid and/or password combination. <br />
+  <a href="login.jsp">Please Try Again</a>
 </body>
 </html>
 

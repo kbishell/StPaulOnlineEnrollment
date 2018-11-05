@@ -1,7 +1,7 @@
 <Context docBase="StPaulOnlineEnrollment" path="/StPaulOnlineEnrollment" reloadable="true">
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
-           connectionURL="jdbc:mysql://localhost:3306/enrollment?user=kbishell&amp;password=Parker05"
+           connectionURL="jdbc:mysql://localhost:3306/enrollment?user=kbishell&amp;password=AllenAnn05"
            userTable="Users" userNameCol="userName" userCredCol="password"
            userRoleTable="Role" roleNameCol="roleType" >
     </Realm>

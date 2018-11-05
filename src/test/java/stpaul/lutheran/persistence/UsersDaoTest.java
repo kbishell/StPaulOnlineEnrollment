@@ -12,11 +12,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class UsersDaoTest {
 
-/*    UsersDao dao;
+   UsersDao dao;
 
-    *//**
+    /**
      * Creating the dao.
-     *//*
+     */
     @BeforeEach
     void setUp() {
         dao = new UsersDao();
@@ -26,7 +26,7 @@ public class UsersDaoTest {
 
     }
 
-    *//**
+    /**
      * Verifies gets all userss successfully.
      *//*
     @Test

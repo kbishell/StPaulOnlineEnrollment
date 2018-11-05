@@ -20,7 +20,7 @@
     </ul>--%><%@include file="navBar.jsp"%>
 
     <div class="tab-content">
-        <%@include file="login.jsp"%>
+        <a href="login.jsp">Login Or Sign Up</a>
 <%--
         <div id="home" class="tab-pane fade in active">
             <img src="images/stPaulsLogo.png">
