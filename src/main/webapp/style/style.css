@@ -5,11 +5,13 @@ body {
 img {
     max-width: 90%;
 }
+/*
 
-.nav nav-tabs {
-    color: darkred;
-    display: block;
+.nav {
+    background-color: darkred;
+    color: white;
+    !*display: block;*!
     margin-left: auto;
     margin-right: auto;
-    padding: .5em .5em .5em .5em;
-}
+    padding: 2em .5em .5em .5em;
+}*/

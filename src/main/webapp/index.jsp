@@ -201,6 +201,14 @@
                 <button type="submit" name="submit">Apply</button>
             </form>
         </div>
+        <div id="adminOnly" class="tab-pane fade">
+            <img src="images/stPaulsLogo.png">
+            <h3>Admin</h3>
+            <form action="searchUser" method="get">
+                <input type="text" id="search" placeholder="Enter Last Name" name="search">
+                <button type="submit" name="submit">Submit</button>
+            </form>
+        </div>
     </div>
 </div>
 </body>

@@ -27,22 +27,22 @@ public class UserData {
 
     public List<Users> getAllUsers(){
 
-        String sql = "SELECT * FROM user";
+        String sql = "SELECT * FROM Users";
         return getUsers(sql);
 
     }
 
     public List<Users> getUserByLastName(String search){
 
-        String sql = "SELECT * FROM user WHERE last_name LIKE '%" + search + "%'";
+        String sql = "SELECT * FROM Users WHERE last_name LIKE '%" + search + "%'";
         return getUsers(sql);
     }
 
     private Users createUserFromResults(ResultSet results) throws SQLException {
         Users user = new Users();
         user.setLastName(results.getString("last_name"));
-        user.setFirstName(results.getString("first_name"));
-        user.setUserName(results.getString("user_name"));
+        //user.setFirstName(results.getString("first_name"));
+        //user.setUserName(results.getString("user_name"));
 
         return user;
     }

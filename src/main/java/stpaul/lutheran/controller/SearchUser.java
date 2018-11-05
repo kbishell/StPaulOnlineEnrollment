@@ -37,7 +37,7 @@ public class SearchUser extends HttpServlet {
             req.setAttribute("users", userData.getUserByLastName(search));
         }
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/AdminPages/displayUsers.jsp");
         dispatcher.forward(req, resp);
     }
 }

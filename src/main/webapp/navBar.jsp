@@ -11,4 +11,5 @@
     <li><a data-toggle="tab" href="#volunteer">Volunteer-Chaperones</a></li>
     <li><a data-toggle="tab" href="#childcare">Child Care</a></li>
     <li><a data-toggle="tab" href="#sports">Sports</a></li>
+    <li><a data-toggle="tab" href="#adminOnly">Admin</a></li>
 </ul>
