@@ -45,7 +45,7 @@ public class UsersDao {
          * @param lastName the last name to search by
          * @return the all userss
          */
-        public List<Users> getUserssByLastName(String lastName) {
+        public List<Users> getUsersByLastName(String lastName) {
 
             logger.debug("Searching for: {}", lastName);
 

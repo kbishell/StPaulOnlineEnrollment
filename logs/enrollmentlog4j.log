@@ -1,382 +1,135 @@
-[DEBUG] 2018-10-24 12:09:20.627 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:09:20.907 [main] UsersDao - Searching for users with lastName = Glock
-[DEBUG] 2018-10-24 12:09:21.443 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 12:09:21.712 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:09:21.929 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 12:09:22.162 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:09:22.554 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:10:38.283 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:10:38.541 [main] UsersDao - Searching for users with lastName = Glock
-[DEBUG] 2018-10-24 12:10:39.051 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 12:10:39.225 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:10:39.404 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 12:10:39.622 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:10:40.209 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:16:25.518 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:16:25.565 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:16:25.800 [main] UsersDao - Searching for users with lastName = Glock
-[DEBUG] 2018-10-24 12:16:26.196 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 12:16:26.385 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:16:26.592 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 12:16:26.803 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:16:26.820 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:16:27.172 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 12:17:53.373 [main] UsersDao - Searching for users with lastName = Glock
-[DEBUG] 2018-10-24 12:18:57.235 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 12:19:16.422 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 12:19:46.503 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:19:46.547 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:19:46.776 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 12:19:47.306 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 12:19:47.568 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:19:47.873 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 12:19:48.159 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:19:48.173 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:19:48.742 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 12:20:29.929 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:20:29.968 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:20:30.202 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 12:20:30.782 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 12:20:31.048 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:20:31.318 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 12:20:31.501 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:20:31.508 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 12:20:31.874 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 13:52:37.500 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:52:37.568 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:52:37.830 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 13:52:38.411 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 13:52:38.759 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:52:39.030 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 13:52:39.250 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:52:39.278 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:52:39.840 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 13:57:16.999 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:57:17.086 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:57:17.321 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 13:57:18.017 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 13:57:18.266 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:57:18.478 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 13:57:18.714 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:57:18.736 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 13:57:19.204 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 14:02:09.319 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:02:09.368 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:02:09.578 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 14:02:10.028 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 14:02:10.286 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:02:10.523 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 14:02:10.749 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:02:10.767 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:02:11.250 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 14:04:41.004 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:04:41.052 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:04:41.277 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 14:04:41.755 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 14:04:42.016 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:04:42.239 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 14:04:42.475 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:04:42.489 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:04:42.954 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 14:08:23.765 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:08:23.816 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:08:24.022 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 14:08:24.550 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 14:08:24.815 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:08:25.059 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 14:08:25.278 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:08:25.303 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:08:25.778 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 14:11:05.404 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:11:05.451 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:11:05.669 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 14:11:06.115 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 14:11:06.344 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:11:06.495 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 14:11:06.669 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:11:06.676 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:11:07.025 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 14:19:29.301 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:19:29.361 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:19:29.623 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 14:19:30.135 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 14:19:30.343 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:19:30.549 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 14:19:30.722 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:19:30.732 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:19:31.090 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 14:20:43.699 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:20:43.752 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:20:43.950 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 14:20:44.386 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 14:20:44.592 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:20:44.764 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 14:20:44.960 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:20:44.969 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:20:45.323 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 14:22:52.132 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:22:52.193 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:22:52.445 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 14:22:52.922 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 14:22:53.151 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:22:53.344 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 14:22:53.569 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:22:53.579 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 14:22:53.986 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 15:06:08.539 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:06:08.617 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:06:09.032 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 15:06:10.480 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 15:06:10.883 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:06:11.212 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 15:06:11.558 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:06:11.571 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:06:13.900 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 15:09:33.709 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:09:33.768 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:09:34.031 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 15:09:34.761 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 15:09:35.038 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:09:35.251 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 15:09:35.466 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:09:35.491 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:09:35.889 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 15:12:01.521 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:12:01.568 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:12:01.818 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 15:12:02.412 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 15:12:02.724 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:12:02.900 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 15:12:03.121 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:12:03.145 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:12:03.704 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 15:13:48.479 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:13:48.536 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:13:48.801 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 15:13:49.322 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 15:13:49.557 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:13:49.819 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 15:13:50.052 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:13:50.071 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 15:13:51.342 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-24 16:29:02.464 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 16:29:02.513 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 16:29:02.728 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-24 16:29:03.273 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-24 16:29:03.545 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 16:29:03.784 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-24 16:29:04.032 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 16:29:04.061 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-24 16:29:04.560 [main] UsersDao - ********************************************5
-[DEBUG] 2018-10-31 09:06:40.728 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 09:06:40.785 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 09:06:41.035 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-10-31 09:06:41.499 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-10-31 09:06:41.725 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 09:06:41.950 [main] UsersDao - Searching for: B
-[DEBUG] 2018-10-31 09:06:42.174 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 09:06:42.208 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 09:06:42.646 [main] UsersDao - ********************************************5
-[ERROR] 2018-10-31 10:10:50.131 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 10:10:50.357 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 10:10:50.401 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 10:10:50.654 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 10:10:50.654 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-10-31 10:10:51.050 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 10:10:51.052 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-10-31 10:10:51.254 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 10:10:51.259 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 10:10:51.426 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 10:10:51.426 [main] UsersDao - Searching for: B
-[ERROR] 2018-10-31 10:10:51.617 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 10:10:51.620 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 10:10:51.628 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 10:10:51.805 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[ERROR] 2018-10-31 10:10:52.067 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 10:10:52.109 [main] UsersDao - ********************************************5
-[ERROR] 2018-10-31 14:15:06.239 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 14:15:06.468 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 14:15:06.517 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 14:15:06.794 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 14:15:06.798 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-10-31 14:15:07.268 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 14:15:07.273 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-10-31 14:15:07.513 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 14:15:07.518 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 14:15:07.717 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 14:15:07.718 [main] UsersDao - Searching for: B
-[ERROR] 2018-10-31 14:15:07.946 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 14:15:07.951 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 14:15:07.968 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 14:15:08.217 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[ERROR] 2018-10-31 14:15:08.425 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 14:15:08.459 [main] UsersDao - ********************************************5
-[ERROR] 2018-10-31 16:37:35.260 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:37:35.652 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 16:37:35.733 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:37:35.999 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:37:36.000 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-10-31 16:37:36.551 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:37:36.553 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-10-31 16:37:36.758 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:37:36.765 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:37:36.934 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:37:36.935 [main] UsersDao - Searching for: B
-[ERROR] 2018-10-31 16:37:37.133 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:37:37.136 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 16:37:37.157 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:37:37.344 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[ERROR] 2018-10-31 16:37:37.605 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:37:37.659 [main] UsersDao - ********************************************5
-[ERROR] 2018-10-31 16:56:04.248 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:56:04.525 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 16:56:04.573 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:56:04.815 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:56:04.816 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-10-31 16:56:05.282 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:56:05.284 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-10-31 16:56:05.482 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:56:05.486 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:56:05.666 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:56:05.666 [main] UsersDao - Searching for: B
-[ERROR] 2018-10-31 16:56:05.866 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:56:05.868 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 16:56:05.877 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:56:06.105 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[ERROR] 2018-10-31 16:56:06.306 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:56:06.323 [main] UsersDao - ********************************************5
-[ERROR] 2018-10-31 16:57:40.429 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:57:40.662 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 16:57:40.699 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:57:40.931 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:57:40.931 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-10-31 16:57:41.354 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:57:41.356 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-10-31 16:57:41.584 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:57:41.590 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:57:41.744 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:57:41.744 [main] UsersDao - Searching for: B
-[ERROR] 2018-10-31 16:57:41.928 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:57:41.931 [main] UsersDao - ********************************************3
-[DEBUG] 2018-10-31 16:57:41.939 [main] UsersDao - ********************************************3
-[ERROR] 2018-10-31 16:57:42.125 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[ERROR] 2018-10-31 16:57:42.341 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'admin' in 'field list'
-[DEBUG] 2018-10-31 16:57:42.362 [main] UsersDao - ********************************************5
-[ERROR] 2018-11-02 10:00:52.877 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 10:00:54.147 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 10:00:54.334 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 10:00:55.836 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 10:00:55.843 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-11-02 10:00:58.785 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 10:00:58.802 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-11-02 10:01:00.285 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 10:01:00.321 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 10:01:01.361 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 10:01:01.362 [main] UsersDao - Searching for: B
-[ERROR] 2018-11-02 10:01:02.259 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 10:01:02.291 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 10:01:02.396 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 10:01:03.732 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[ERROR] 2018-11-02 10:01:05.186 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 10:01:05.287 [main] UsersDao - ********************************************5
-[ERROR] 2018-11-02 11:05:08.837 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 11:05:10.047 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 11:05:10.244 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 11:05:11.664 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 11:05:11.668 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-11-02 11:05:17.167 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 11:05:17.204 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-11-02 11:05:18.740 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 11:05:18.773 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 11:05:20.166 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 11:05:20.168 [main] UsersDao - Searching for: B
-[ERROR] 2018-11-02 11:05:21.612 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 11:05:21.642 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 11:05:21.788 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 11:05:23.117 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[ERROR] 2018-11-02 11:05:24.492 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 11:05:24.583 [main] UsersDao - ********************************************5
-[ERROR] 2018-11-02 13:55:44.170 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 13:55:45.180 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 13:55:45.355 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 13:55:46.182 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 13:55:46.183 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-11-02 13:55:49.155 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 13:55:49.185 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-11-02 13:55:50.110 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 13:55:50.140 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 13:55:51.088 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 13:55:51.089 [main] UsersDao - Searching for: B
-[ERROR] 2018-11-02 13:55:51.935 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 13:55:51.953 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 13:55:52.034 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 13:55:52.860 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[ERROR] 2018-11-02 13:59:57.665 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 13:59:58.284 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 13:59:58.412 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 13:59:59.240 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 13:59:59.241 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-11-02 14:00:01.064 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:00:01.076 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-11-02 14:00:01.971 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:00:01.991 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 14:00:02.817 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:00:02.818 [main] UsersDao - Searching for: B
-[ERROR] 2018-11-02 14:00:03.659 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:00:03.684 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 14:00:03.731 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 14:00:04.569 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[ERROR] 2018-11-02 14:06:45.134 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:06:45.803 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 14:06:45.928 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 14:06:46.749 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:06:46.751 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-11-02 14:06:48.519 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:06:48.533 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-11-02 14:06:49.347 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:06:49.373 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 14:06:50.159 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:06:50.160 [main] UsersDao - Searching for: B
-[ERROR] 2018-11-02 14:06:50.964 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-02 14:06:50.977 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-02 14:06:51.045 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-02 14:06:51.824 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[ERROR] 2018-11-05 08:43:04.169 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:43:04.966 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-05 08:43:05.155 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-05 08:43:05.416 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:43:05.417 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-11-05 08:43:06.278 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:43:06.281 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-11-05 08:43:06.568 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:43:06.579 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-05 08:43:06.891 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:43:06.891 [main] UsersDao - Searching for: B
-[ERROR] 2018-11-05 08:43:07.175 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:43:07.178 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-05 08:43:07.222 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-05 08:43:07.475 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[ERROR] 2018-11-05 08:57:21.279 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:57:21.519 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-05 08:57:21.570 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-05 08:57:21.802 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:57:21.803 [main] UsersDao - Searching for users with lastName = Tennley
-[ERROR] 2018-11-05 08:57:22.350 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:57:22.353 [main] UsersDao - Searching for users with lastName = W
-[ERROR] 2018-11-05 08:57:22.598 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:57:22.606 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-05 08:57:22.831 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:57:22.831 [main] UsersDao - Searching for: B
-[ERROR] 2018-11-05 08:57:23.089 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 08:57:23.099 [main] UsersDao - ********************************************3
-[DEBUG] 2018-11-05 08:57:23.156 [main] UsersDao - ********************************************3
-[ERROR] 2018-11-05 08:57:23.367 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`enrollment`.`Role`, CONSTRAINT `role_Users` FOREIGN KEY (`userID`) REFERENCES `Users` (`userID`))
-[DEBUG] 2018-11-05 09:00:34.251 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-11-05 09:00:35.811 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-11-05 09:00:36.219 [main] UsersDao - Searching for: B
-[DEBUG] 2018-11-05 09:01:58.698 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-11-05 09:02:00.308 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-11-05 09:02:00.713 [main] UsersDao - Searching for: B
-[DEBUG] 2018-11-05 09:03:04.490 [main] UsersDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-11-05 09:03:06.300 [main] UsersDao - Searching for users with lastName = W
-[DEBUG] 2018-11-05 09:03:06.800 [main] UsersDao - Searching for: B
+[INFO ] 2018-11-05 15:45:18.738 [http-nio-8080-exec-3] SearchUser - []
+[INFO ] 2018-11-05 15:45:18.745 [http-nio-8080-exec-3] SearchUser - []
+[DEBUG] 2018-11-05 16:02:22.541 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:09:30.748 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:09:32.553 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:09:33.044 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:09:34.816 [main] UsersDao - ********************************************5
+[DEBUG] 2018-11-05 16:12:59.535 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:13:01.218 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:13:01.675 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:13:03.101 [main] UsersDao - ********************************************5
+[DEBUG] 2018-11-05 16:24:19.797 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:24:32.209 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:24:55.470 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:24:55.515 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:24:55.760 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:24:56.304 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:24:56.494 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:24:56.761 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:24:57.008 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:24:57.041 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:24:57.522 [main] UsersDao - ********************************************5
+[DEBUG] 2018-11-05 16:25:13.748 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:13.794 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:14.042 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:25:14.529 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:25:14.711 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:14.874 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:25:15.075 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:15.093 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:15.502 [main] UsersDao - ********************************************5
+[DEBUG] 2018-11-05 16:25:37.687 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:37.736 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:38.006 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:25:38.493 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:25:38.696 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:38.879 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:25:39.086 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:39.099 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:25:39.493 [main] UsersDao - ********************************************5
+[DEBUG] 2018-11-05 16:28:18.336 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:28:18.386 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:28:18.619 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:28:19.038 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:28:19.224 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:28:19.439 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:28:19.630 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:28:19.642 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:28:20.082 [main] UsersDao - ********************************************5
+[DEBUG] 2018-11-05 16:37:37.030 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:37:37.080 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:37:37.314 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:37:37.728 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:37:37.920 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:37:38.066 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:37:38.312 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:37:38.342 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:37:38.813 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-05 16:38:09.979 [http-nio-8080-exec-1] SearchUser - inSearchUser
+[DEBUG] 2018-11-05 16:40:13.085 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:40:13.138 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:40:13.380 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:40:13.813 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:40:14.011 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:40:14.164 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:40:14.379 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:40:14.391 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:40:14.806 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-05 16:40:38.524 [http-nio-8080-exec-1] SearchUser - inSearchUser
+[DEBUG] 2018-11-05 16:42:12.587 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:42:12.634 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:42:12.819 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:42:13.221 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:42:13.428 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:42:13.619 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:42:13.815 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:42:13.826 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:42:14.229 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-05 16:42:51.583 [http-nio-8080-exec-1] SearchUser - inSearchUser
+[DEBUG] 2018-11-05 16:45:01.353 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:45:01.401 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:45:01.623 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:45:02.070 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:45:02.279 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:45:02.440 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:45:02.631 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:45:02.646 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:45:03.052 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-05 16:45:31.632 [http-nio-8080-exec-1] SearchUser - inSearchUser
+[DEBUG] 2018-11-05 16:46:32.040 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:46:32.095 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:46:32.346 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:46:32.796 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:46:33.074 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:46:33.253 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:46:33.471 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:46:33.484 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:46:33.886 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-05 16:47:31.589 [http-nio-8080-exec-2] SearchUser - inSearchUser
+[DEBUG] 2018-11-05 16:52:19.133 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:52:19.184 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:52:19.402 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:52:19.909 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:52:20.192 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:52:20.408 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:52:20.644 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:52:20.673 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:52:21.175 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-05 16:52:47.702 [http-nio-8080-exec-2] SearchUser - inSearchUser
+[DEBUG] 2018-11-05 16:57:13.926 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:57:13.977 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:57:14.159 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 16:57:14.659 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 16:57:14.908 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:57:15.134 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 16:57:15.373 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:57:15.401 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 16:57:15.916 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-05 16:57:40.930 [http-nio-8080-exec-1] SearchUser - inSearchUser
+[DEBUG] 2018-11-05 17:02:54.554 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 17:02:54.606 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 17:02:54.831 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-05 17:02:55.296 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-05 17:02:55.544 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 17:02:55.696 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-05 17:02:55.877 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 17:02:55.891 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-05 17:02:56.290 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-05 17:03:21.476 [http-nio-8080-exec-1] SearchUser - inSearchUser
+[ERROR] 2018-11-05 17:03:24.335 [http-nio-8080-exec-1] SearchUser - inSearchUser
+[DEBUG] 2018-11-05 17:03:24.337 [http-nio-8080-exec-1] SearchUser - B
+[DEBUG] 2018-11-05 17:03:24.338 [http-nio-8080-exec-1] UsersDao - Searching for: B
+[INFO ] 2018-11-05 17:03:25.032 [http-nio-8080-exec-1] SearchUser - [Users{userID=1, userName='rtennley', password='password', firstName='Robert', lastName='Tennley', emailAddress='rt@gmail.com'}, Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=3, userName='hunter', password='password', firstName='Tim', lastName='Hunter', emailAddress='hunter@gmail.com'}, Users{userID=4, userName='sselc', password='password', firstName='Sue', lastName='Selc', emailAddress='ss@gmail.com'}, Users{userID=5, userName='kbishell', password='password', firstName='Kortney', lastName='Bishell', emailAddress='bish@you.com'}]
+[DEBUG] 2018-11-05 17:03:25.032 [http-nio-8080-exec-1] UsersDao - Searching for: B
+[INFO ] 2018-11-05 17:03:25.050 [http-nio-8080-exec-1] SearchUser - [Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=5, userName='kbishell', password='password', firstName='Kortney', lastName='Bishell', emailAddress='bish@you.com'}]

@@ -1,7 +1,7 @@
 
 <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-    <li><a data-toggle="tab" href="#signUp">Sign Up</a></li>
+    <li><a data-toggle="tab" href="#inOrUp">Sign In or Sign Up</a></li>
     <li><a data-toggle="tab" href="#newMember">New Members</a></li>
     <li><a data-toggle="tab" href="#pre">Pre-School Registration</a></li>
     <li><a data-toggle="tab" href="#reg">K-8 Registration</a></li>

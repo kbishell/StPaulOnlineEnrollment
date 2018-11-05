@@ -21,7 +21,8 @@
 
     <div class="tab-content">
         <img src="images/stPaulsLogo.png"><br />
-        <a href="login.jsp">Login Or Sign Up</a>
+        <a href="registration.jsp">Sign In</a><br /><br />
+        <a href="signUp.jsp">Sign Up</a>
 <%--
         <div id="home" class="tab-pane fade in active">
             <img src="images/stPaulsLogo.png">
@@ -36,7 +37,7 @@
         </div>--%>
 
 
-        <div id="signUp" class="tab-pane fade">
+       <%-- <div id="signUp" class="tab-pane fade">
             <img src="images/stPaulsLogo.png">
             <h3>Sign up for an account</h3>
             <form action="/signUpUser" method="get">
@@ -47,7 +48,7 @@
                 <input type="text" id="emailAddress" placeholder="Email Address" name="emailAddress">
                 <button type="submit" name="submit">Sign In</button>
             </form>
-        </div>
+        </div>--%>
 
         <div id="newMember" class="tab-pane fade">
             <img src="images/stPaulsLogo.png">
