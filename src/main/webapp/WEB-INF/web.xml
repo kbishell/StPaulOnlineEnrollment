@@ -32,9 +32,9 @@
         </auth-constraint>
     </security-constraint>
 
-    <security-role>
+<!--    <security-role>
         <role-name>registered-user</role-name>
-    </security-role>
+    </security-role>-->
 
     <security-role>
         <role-name>administrator</role-name>

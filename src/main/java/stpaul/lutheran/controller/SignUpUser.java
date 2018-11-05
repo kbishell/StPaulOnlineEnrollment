@@ -39,7 +39,7 @@ public class SignUpUser extends HttpServlet {
         Role role = new Role();
         role.setUser(user);
         //role.setName("user");
-        user.addRole(role);
+        //user.addRole(role);
 
         /*String gRecaptchaResponse = req.getParameter("g-recaptcha-response");
         System.out.println(gRecaptchaResponse);

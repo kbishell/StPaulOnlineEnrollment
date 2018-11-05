@@ -1,4 +1,4 @@
-
+<%@include file="head.jsp"%>
 <div id="home" class="tab-pane fade in active">
     <img src="images/stPaulsLogo.png">
     <h1>St Paul's Lutheran Online Registration</h1>
@@ -10,3 +10,4 @@
             <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
         </TABLE>
     </FORM>
+</div>
