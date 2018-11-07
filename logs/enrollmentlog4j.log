@@ -164,3 +164,20 @@
 [DEBUG] 2018-11-05 17:12:45.868 [http-nio-8080-exec-1] UsersDao - Searching for: B
 [INFO ] 2018-11-05 17:13:03.495 [http-nio-8080-exec-1] SearchUser - [Users{userID=1, userName='rtennley', password='password', firstName='Robert', lastName='Tennley', emailAddress='rt@gmail.com'}, Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=3, userName='hunter', password='password', firstName='Tim', lastName='Hunter', emailAddress='hunter@gmail.com'}, Users{userID=4, userName='sselc', password='password', firstName='Sue', lastName='Selc', emailAddress='ss@gmail.com'}, Users{userID=5, userName='kbishell', password='password', firstName='Kortney', lastName='Bishell', emailAddress='bish@you.com'}]
 [DEBUG] 2018-11-05 17:13:29.513 [http-nio-8080-exec-1] UsersDao - Searching for: B
+[INFO ] 2018-11-05 17:21:23.355 [http-nio-8080-exec-1] SearchUser - [Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=5, userName='kbishell', password='password', firstName='Kortney', lastName='Bishell', emailAddress='bish@you.com'}]
+[DEBUG] 2018-11-07 10:17:47.452 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-07 10:17:47.503 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-07 10:17:47.755 [main] UsersDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-07 10:17:48.247 [main] UsersDao - Searching for users with lastName = W
+[DEBUG] 2018-11-07 10:17:48.480 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-07 10:17:48.650 [main] UsersDao - Searching for: B
+[DEBUG] 2018-11-07 10:17:48.869 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-07 10:17:48.886 [main] UsersDao - ********************************************3
+[DEBUG] 2018-11-07 10:17:49.355 [main] UsersDao - ********************************************5
+[ERROR] 2018-11-07 10:18:54.458 [http-nio-8080-exec-9] SearchUser - inSearchUser
+[ERROR] 2018-11-07 10:18:58.084 [http-nio-8080-exec-9] SearchUser - inSearchUser
+[DEBUG] 2018-11-07 10:18:58.085 [http-nio-8080-exec-9] SearchUser - B
+[DEBUG] 2018-11-07 10:18:58.087 [http-nio-8080-exec-9] UsersDao - Searching for: B
+[INFO ] 2018-11-07 10:18:58.654 [http-nio-8080-exec-9] SearchUser - [Users{userID=1, userName='rtennley', password='password', firstName='Robert', lastName='Tennley', emailAddress='rt@gmail.com'}, Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=3, userName='hunter', password='password', firstName='Tim', lastName='Hunter', emailAddress='hunter@gmail.com'}, Users{userID=4, userName='sselc', password='password', firstName='Sue', lastName='Selc', emailAddress='ss@gmail.com'}, Users{userID=5, userName='kbishell', password='password', firstName='Kortney', lastName='Bishell', emailAddress='bish@you.com'}]
+[DEBUG] 2018-11-07 10:18:58.655 [http-nio-8080-exec-9] UsersDao - Searching for: B
+[INFO ] 2018-11-07 10:18:58.668 [http-nio-8080-exec-9] SearchUser - [Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=5, userName='kbishell', password='password', firstName='Kortney', lastName='Bishell', emailAddress='bish@you.com'}]
