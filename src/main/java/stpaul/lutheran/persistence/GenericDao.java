@@ -29,6 +29,9 @@ public class GenericDao<T> {
      */
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
+    /**
+     * Instantiates a new Generic dao.
+     */
     public GenericDao() {
     }
 
@@ -86,7 +89,8 @@ public class GenericDao<T> {
     /**
      * Gets an entity by id
      *
-     * @param id entity id to search by
+     * @param <T> the type parameter
+     * @param id  entity id to search by
      * @return an entity
      */
     public <T>T getById(int id) {
