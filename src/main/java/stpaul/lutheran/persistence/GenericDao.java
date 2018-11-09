@@ -29,6 +29,9 @@ public class GenericDao<T> {
      */
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
+    public GenericDao() {
+    }
+
     /**
      * Instantiates a new Generic dao.
      *

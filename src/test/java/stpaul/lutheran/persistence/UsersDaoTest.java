@@ -18,14 +18,14 @@ public class UsersDaoTest {
     /**
      * The Dao.
      */
-    UsersDao dao;
+    GenericDao dao;
 
     /**
      * Creating the dao.
      */
     @BeforeEach
     void setUp() {
-        dao = new UsersDao();
+        dao = new GenericDao(Users.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -39,8 +39,8 @@ public class UsersDaoTest {
      * Verifies gets all userss successfully.
      */
     @Test
-    void getAllUsersSuccess() {
-        List<Users> users = dao.getAllUsers();
+    void getAllSuccess() {
+        List<Users> users = dao.getAll();
         assertEquals(4, users.size());
     }
 
@@ -48,8 +48,8 @@ public class UsersDaoTest {
      * Verifies gets users by last name successfully.
      */
     @Test
-    void getUsersByLastNameSuccess() {
-        List<Users> users = dao.getUsersByLastName("B");
+    void getByLastNameSuccess() {
+        List<Users> users = dao.getByLastName("B");
         assertEquals(1, users.size());
     }
 
@@ -58,7 +58,7 @@ public class UsersDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Users retrievedUser = dao.getById(3);
+        Users retrievedUser = (Users) dao.getById(3);
         assertNotNull(retrievedUser);
         assertEquals("Tim", retrievedUser.getFirstName());
     }
@@ -73,7 +73,7 @@ public class UsersDaoTest {
         Users newUser = new Users("kbishell", "password", "Kortney", "Bishell", "bish@you.com" );
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
-        Users insertedUser = dao.getById(id);
+        Users insertedUser = (Users) dao.getById(id);
         assertEquals("Kortney", insertedUser.getFirstName());
     }
 
@@ -93,10 +93,10 @@ public class UsersDaoTest {
     @Test
     void updateSuccess() {
         String newLastName = "Davis";
-        Users usersToUpdate = dao.getById(3);
+        Users usersToUpdate = (Users) dao.getById(3);
         usersToUpdate.setLastName(newLastName);
         dao.saveOrUpdate(usersToUpdate);
-        Users retrievedUsers = dao.getById(3);
+        Users retrievedUsers = (Users) dao.getById(3);
         assertEquals(newLastName, retrievedUsers.getLastName());
     }
 

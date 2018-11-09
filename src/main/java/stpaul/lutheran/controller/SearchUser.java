@@ -3,7 +3,7 @@ package stpaul.lutheran.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import stpaul.lutheran.persistence.UsersDao;
+import stpaul.lutheran.persistence.GenericDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -33,7 +33,7 @@ public class SearchUser extends HttpServlet {
         logger.error("inSearchUser");
 
 
-        UsersDao userDao = new UsersDao();
+        GenericDao userDao = new GenericDao();
 
         logger.error("inSearchUser");
 
@@ -44,14 +44,14 @@ public class SearchUser extends HttpServlet {
         if(search == null || search.length() == 0){
             /*HttpSession session = req.getSession();
             session.setAttribute("emptyMessage", "Please enter search information");*/
-            req.setAttribute("users", userDao.getAllUsers());
+            req.setAttribute("users", userDao.getAll());
         } else {
 
-            req.setAttribute("users", userDao.getUsersByLastName(search));
+            req.setAttribute("users", userDao.getByLastName(search));
         }
 
-        logger.info(userDao.getAllUsers());
-        logger.info(userDao.getUsersByLastName(search));
+        logger.info(userDao.getAll());
+        logger.info(userDao.getByLastName(search));
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/AdminPages/displayUsers.jsp");
         dispatcher.forward(req, resp);
