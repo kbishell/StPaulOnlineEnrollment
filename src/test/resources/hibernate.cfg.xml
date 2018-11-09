@@ -16,13 +16,12 @@
         <property name="hibernate.c3p0.max_statements">50</property>
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
-       <!-- <mapping class="stpaul.lutheran.entity.OtherSchools"/>
-        <mapping class="stpaul.lutheran.entity.Staff"/>-->
-       <!-- <mapping class="stpaul.lutheran.entity.Contact"/>-->
+        <mapping class="stpaul.lutheran.entity.OtherSchools"/>
+        <mapping class="stpaul.lutheran.entity.Contact"/>
         <!--<mapping class="stpaul.lutheran.entity.Registration"/>-->
         <mapping class="stpaul.lutheran.entity.Role"/>
-       <!-- <mapping class="stpaul.lutheran.entity.Student"/>-->
-        <!--<mapping class="stpaul.lutheran.entity.StudentType"/>-->
+        <mapping class="stpaul.lutheran.entity.Student"/>
+        <!--    <mapping class="stpaul.lutheran.entity.StudentType"/>-->
         <mapping class="stpaul.lutheran.entity.Users"/>
 
 
