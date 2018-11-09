@@ -37,12 +37,10 @@ public class Role {
      * Instantiates a new Role.
      *
      * @param roleType the role type
-     * @param userName the user name
      * @param user     the user
      */
-    public Role(String roleType, String userName, Users user) {
+    public Role(String roleType, Users user) {
         this.roleType = roleType;
-        this.userName = userName;
         this.user = user;
     }
 
@@ -83,6 +81,24 @@ public class Role {
     }
 
     /**
+     * Gets user id.
+     *
+     * @return the user id
+     */
+    public Users getUser() {
+        return user;
+    }
+
+    /**
+     * Sets user id.
+     *
+     * @param user the user id
+     */
+    public void setUser(Users user) {
+        this.user = user;
+    }
+
+    /**
      * Gets user name.
      *
      * @return the user name
@@ -98,24 +114,6 @@ public class Role {
      */
     public void setUserName(String userName) {
         this.userName = userName;
-    }
-
-    /**
-     * Gets user.
-     *
-     * @return the user
-     */
-    public Users getUser() {
-        return user;
-    }
-
-    /**
-     * Sets user.
-     *
-     * @param user the user
-     */
-    public void setUser(Users user) {
-        this.user = user;
     }
 
     @Override

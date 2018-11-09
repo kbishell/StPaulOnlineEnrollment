@@ -40,3 +40,6 @@ ALTER TABLE Role ADD CONSTRAINT role_Users FOREIGN KEY role_Users (userID)REFERE
 -- End of file.
 insert into Users(userName, password, firstName, lastName, emailAddress)values('rtennley','password', 'Robert', 'Tennley', 'rt@gmail.com'),('kbobby','password', 'Keith', 'Bobby', 'kb@gmail.com'),('hunter','password', 'Tim', 'Hunter', 'hunter@gmail.com'),('sselc','password', 'Sue', 'Selc', 'ss@gmail.com');
 insert into Role(userID, roleType, userName) values (1, 'administrator', 'rtennley'),(2, 'registered-user', 'kbobby'),(3, 'registered-user', 'hunter'),(4, 'registered-user', 'sselc');
+insert into Contact(firstName, lastName, relationshipToStudent, cellPhone, workPhone, baptized, employer, hoursWorked, address, city, state, zip, dob)values('Rebecca', 'Garth', 'mother', '9209886767', '9209446767', 'y', 'Chucky Cheese', '50', 'N7888 Hwy Q', 'Creek', 'MI', '53569', '1987-10-10');
+insert into Student(firstName, lastName, churchAffiliation, dob, primaryAddress, city, state, zip, email, baptized, gender)values('Betsy', 'Brown', 'St Johns Watertown', '2010-10-10', 'N7888 Hwy Q', 'Creek', 'MI', '53569', 'bb@gmail.com', 'y', 'f');
+insert into Student_Contact(contactID, studentID)values(1, 1);

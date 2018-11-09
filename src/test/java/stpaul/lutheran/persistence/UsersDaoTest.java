@@ -10,16 +10,22 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Users dao test.
+ */
 public class UsersDaoTest {
 
-   UsersDao dao;
+    /**
+     * The Dao.
+     */
+    GenericDao dao;
 
     /**
      * Creating the dao.
      */
     @BeforeEach
     void setUp() {
-        dao = new UsersDao();
+        dao = new GenericDao(Users.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -27,71 +33,77 @@ public class UsersDaoTest {
     }
 
     /**
+     * Gets all users success.
+     */
+/*
      * Verifies gets all userss successfully.
-     *//*
+     */
     @Test
-    void getAllUsersSuccess() {
-        List<Users> users = dao.getAllUsers();
+    void getAllSuccess() {
+        List<Users> users = dao.getAll();
         assertEquals(4, users.size());
     }
 
-    *//**
+    /**
      * Verifies gets users by last name successfully.
-     *//*
+     */
     @Test
-    void getUsersByLastNameSuccess() {
-        List<Users> users = dao.getUserssByLastName("B");
+    void getByLastNameSuccess() {
+        List<Users> users = dao.getByLastName("B");
         assertEquals(1, users.size());
     }
 
-    *//**
+    /**
      * Verifies a users is returned correctly based on id search
-     *//*
+     */
     @Test
     void getByIdSuccess() {
-        Users retrievedUser = dao.getById(3);
+        Users retrievedUser = (Users) dao.getById(3);
         assertNotNull(retrievedUser);
         assertEquals("Tim", retrievedUser.getFirstName());
     }
 
-    *//**
-     * Verify successful insert of a users
-     *//*
-*//*    @Test
+
+    /**
+     * Insert success.
+     */
+    @Test
     void insertSuccess() {
 
-        Users newUser = new Users("kbishell", "password", "Kortney", "Bishell", "bish@you.com", );
+        Users newUser = new Users("kbishell", "password", "Kortney", "Bishell", "bish@you.com" );
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
-        Users insertedUser = dao.getById(id);
+        Users insertedUser = (Users) dao.getById(id);
         assertEquals("Kortney", insertedUser.getFirstName());
-    }*//*
+    }
 
-    *//**
-     * Verify successful delete of users
-     *//*
+    /**
+     * Delete success.
+     */
     @Test
     void deleteSuccess() {
         dao.delete(dao.getById(3));
         assertNull(dao.getById(3));
     }
 
-    *//**
-     * Verify successful update of users
-     *//*
+
+    /**
+     * Update success.
+     */
     @Test
     void updateSuccess() {
         String newLastName = "Davis";
-        Users usersToUpdate = dao.getById(3);
+        Users usersToUpdate = (Users) dao.getById(3);
         usersToUpdate.setLastName(newLastName);
         dao.saveOrUpdate(usersToUpdate);
-        Users retrievedUsers = dao.getById(3);
+        Users retrievedUsers = (Users) dao.getById(3);
         assertEquals(newLastName, retrievedUsers.getLastName());
     }
 
-    *//**
-     * Verify successful get by property (equal match)
-     *//*
+
+    /**
+     * Gets by property equal success.
+     */
     @Test
     void getByPropertyEqualSuccess() {
         List<Users> users = dao.getByPropertyEqual("lastName", "Tennley");
@@ -99,14 +111,14 @@ public class UsersDaoTest {
         assertEquals(1, users.get(0).getUserID());
     }
 
-    *//**
-     * Verify successful get by property (like match)
-     *//*
+    /**
+     * Gets by property like success.
+     */
     @Test
     void getByPropertyLikeSuccess() {
         List<Users> users = dao.getByPropertyLike("lastName", "W");
         assertEquals(0, users.size());
-    }*/
+    }
 }
 
 
