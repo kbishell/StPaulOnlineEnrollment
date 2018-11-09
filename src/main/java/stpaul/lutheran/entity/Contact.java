@@ -46,8 +46,8 @@ public class Contact {
     private String email;
     @Column(name = "dob")
     private String dob;
-    @Column(name = "usersID")
-    private Users usersID;
+    /*@Column(name = "usersID")
+    private Users usersID;*/
 
 
     /**
@@ -84,10 +84,8 @@ public class Contact {
      * @param zip                   the zip
      * @param email                 the email
      * @param dob                   the dob
-     * @param usersID               the users id
-     * @param students              the students
-     */
-    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob, Users usersID, Set<Student> students) {
+     /** @param students              the students*/
+    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob/*, Users usersID , Set<Student> students*/) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.relationshipToStudent = relationshipToStudent;
@@ -102,7 +100,7 @@ public class Contact {
         this.zip = zip;
         this.email = email;
         this.dob = dob;
-        this.usersID = usersID;
+        /*this.usersID = usersID;*/
         /*this.students = students;*/
     }
 
@@ -381,18 +379,18 @@ public class Contact {
      *
      * @return the users id
      */
-    public Users getUsersID() {
+    /*public Users getUsersID() {
         return usersID;
-    }
+    }*/
 
     /**
      * Sets users id.
      *
      * @param usersID the users id
      */
-    public void setUsersID(Users usersID) {
+    /*public void setUsersID(Users usersID) {
         this.usersID = usersID;
-    }
+    }*/
 
     /**
      * Gets students.
@@ -406,62 +404,12 @@ public class Contact {
     /**
      * Sets students.
      *
-     * @param students the students
-     */
+     /* @param students the students*/
     /*public void setStudents(Set<Student> students) {
         this.students = students;
     }*/
 
-   /* @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Contact contact = (Contact) o;
-
-        if (contactID != contact.contactID) return false;
-        if (firstName != null ? !firstName.equals(contact.firstName) : contact.firstName != null) return false;
-        if (lastName != null ? !lastName.equals(contact.lastName) : contact.lastName != null) return false;
-        if (relationshipToStudent != null ? !relationshipToStudent.equals(contact.relationshipToStudent) : contact.relationshipToStudent != null)
-            return false;
-        if (cellPhone != null ? !cellPhone.equals(contact.cellPhone) : contact.cellPhone != null) return false;
-        if (workPhone != null ? !workPhone.equals(contact.workPhone) : contact.workPhone != null) return false;
-        if (baptized != null ? !baptized.equals(contact.baptized) : contact.baptized != null) return false;
-        if (employer != null ? !employer.equals(contact.employer) : contact.employer != null) return false;
-        if (hoursWorked != null ? !hoursWorked.equals(contact.hoursWorked) : contact.hoursWorked != null) return false;
-        if (address != null ? !address.equals(contact.address) : contact.address != null) return false;
-        if (city != null ? !city.equals(contact.city) : contact.city != null) return false;
-        if (state != null ? !state.equals(contact.state) : contact.state != null) return false;
-        if (zip != null ? !zip.equals(contact.zip) : contact.zip != null) return false;
-        if (email != null ? !email.equals(contact.email) : contact.email != null) return false;
-        if (dob != null ? !dob.equals(contact.dob) : contact.dob != null) return false;
-        if (usersID != null ? !usersID.equals(contact.usersID) : contact.usersID != null) return false;
-        return students != null ? students.equals(contact.students) : contact.students == null;
-    }
-
     @Override
-    public int hashCode() {
-        int result = contactID;
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (relationshipToStudent != null ? relationshipToStudent.hashCode() : 0);
-        result = 31 * result + (cellPhone != null ? cellPhone.hashCode() : 0);
-        result = 31 * result + (workPhone != null ? workPhone.hashCode() : 0);
-        result = 31 * result + (baptized != null ? baptized.hashCode() : 0);
-        result = 31 * result + (employer != null ? employer.hashCode() : 0);
-        result = 31 * result + (hoursWorked != null ? hoursWorked.hashCode() : 0);
-        result = 31 * result + (address != null ? address.hashCode() : 0);
-        result = 31 * result + (city != null ? city.hashCode() : 0);
-        result = 31 * result + (state != null ? state.hashCode() : 0);
-        result = 31 * result + (zip != null ? zip.hashCode() : 0);
-        result = 31 * result + (email != null ? email.hashCode() : 0);
-        result = 31 * result + (dob != null ? dob.hashCode() : 0);
-        result = 31 * result + (usersID != null ? usersID.hashCode() : 0);
-        result = 31 * result + (students != null ? students.hashCode() : 0);
-        return result;
-    }*/
-
-   /* @Override
     public String toString() {
         return "Contact{" +
                 "contactID=" + contactID +
@@ -479,8 +427,6 @@ public class Contact {
                 ", zip='" + zip + '\'' +
                 ", email='" + email + '\'' +
                 ", dob='" + dob + '\'' +
-                ", usersID=" + usersID +
-                ", students=" + students +
                 '}';
-    }*/
+    }
 }

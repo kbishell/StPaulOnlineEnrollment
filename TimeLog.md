@@ -38,3 +38,6 @@
 | 11/3/18| (Week Nine) | checkpoint 3 |3|
 
 | 11/5/18| (Week Ten) | checkpoint 3 |7|
+| 11/5/18| (Week Ten) | checkpoint 3 |7|
+| 11/5/18| (Week Ten) | checkpoint 3 |7|
+| 11/5/18| (Week Ten) | checkpoint 3 |7|
