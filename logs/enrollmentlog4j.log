@@ -12,3 +12,75 @@
 [DEBUG] 2018-11-09 14:42:53.858 [main] GenericDao - ********************************************3
 [DEBUG] 2018-11-09 14:42:54.748 [main] GenericDao - ********************************************3
 [DEBUG] 2018-11-09 14:42:54.789 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:41.356 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:41.513 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:42.486 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-09 15:36:45.473 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-09 15:36:46.486 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-09 15:36:47.557 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:48.507 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:48.594 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:49.561 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-09 15:36:50.585 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:50.610 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:52.609 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:53.584 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-09 15:36:53.615 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-09 15:55:13.112 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
+[DEBUG] 2018-11-09 15:55:13.590 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-09 15:55:14.564 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
+[DEBUG] 2018-11-09 15:55:14.571 [main] GenericDao - Searching for: B
+[ERROR] 2018-11-09 15:55:16.599 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
+[ERROR] 2018-11-09 15:55:17.555 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
+[DEBUG] 2018-11-09 15:55:17.556 [main] GenericDao - Searching for users with lastName = Tennley
+[ERROR] 2018-11-09 15:55:18.519 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
+[DEBUG] 2018-11-09 15:55:18.520 [main] GenericDao - Searching for users with lastName = W
+[ERROR] 2018-11-09 15:55:19.405 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
+[DEBUG] 2018-11-09 15:55:19.428 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-09 15:55:20.367 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
+[DEBUG] 2018-11-09 15:55:20.375 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-09 15:55:21.278 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
+[ERROR] 2018-11-09 16:55:06.908 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLQueryInterruptedException: Query execution was interrupted
+[ERROR] 2018-11-09 16:55:06.960 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLQueryInterruptedException: Query execution was interrupted
+[DEBUG] 2018-11-10 09:42:56.570 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:42:57.030 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:42:58.145 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-10 09:43:03.862 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-10 09:43:04.884 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-10 09:43:05.842 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:43:06.914 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:43:07.038 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:43:08.140 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-10 09:43:09.193 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:43:09.248 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:43:11.351 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:43:12.214 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 09:43:12.279 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:36.644 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:36.810 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:38.036 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-10 11:06:43.932 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-10 11:06:45.319 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-10 11:06:46.382 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:47.464 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:47.558 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:48.697 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-10 11:06:50.612 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:50.703 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:53.395 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:54.424 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:06:54.463 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:29.830 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:29.977 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:30.878 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-10 11:36:34.850 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-10 11:36:35.833 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-10 11:36:36.826 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:37.746 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:37.842 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:38.804 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-10 11:36:39.874 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:39.884 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:41.751 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:42.736 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-10 11:36:42.761 [main] GenericDao - ********************************************3

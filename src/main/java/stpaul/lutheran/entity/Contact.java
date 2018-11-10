@@ -53,13 +53,13 @@ public class Contact {
     /**
      * The Students.
      */
-/*    @ManyToMany(cascade = { CascadeType.ALL })
+    @ManyToMany(cascade = { CascadeType.ALL })
     @JoinTable(
             name = "Student_Contact",
             joinColumns = { @JoinColumn(name = "contactID") },
             inverseJoinColumns = { @JoinColumn(name = "studentID") }
-    )*/
-    /*Set<Student> students = new HashSet<>();*/
+    )
+    Set<Student> students = new HashSet<>();
 
     /**
      * Instantiates a new Contact.
@@ -84,8 +84,9 @@ public class Contact {
      * @param zip                   the zip
      * @param email                 the email
      * @param dob                   the dob
-     /** @param students              the students*/
-    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob/*, Users usersID , Set<Student> students*/) {
+     * @param students              the students
+     **/
+    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob/*, Users usersID */, Set<Student> students) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.relationshipToStudent = relationshipToStudent;
@@ -101,7 +102,7 @@ public class Contact {
         this.email = email;
         this.dob = dob;
         /*this.usersID = usersID;*/
-        /*this.students = students;*/
+        this.students = students;
     }
 
     /**
@@ -397,17 +398,17 @@ public class Contact {
      *
      * @return the students
      */
-    /*public Set<Student> getStudents() {
+    public Set<Student> getStudents() {
         return students;
-    }*/
+    }
 
     /**
      * Sets students.
      *
-     /* @param students the students*/
-    /*public void setStudents(Set<Student> students) {
+     @param students the students*/
+    public void setStudents(Set<Student> students) {
         this.students = students;
-    }*/
+    }
 
     @Override
     public String toString() {

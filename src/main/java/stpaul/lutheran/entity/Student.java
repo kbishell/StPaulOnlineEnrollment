@@ -41,16 +41,13 @@ public class Student {
     @Column(name = "gender")
     private String gender;
 
-    /**
-     * The Registrations.
-     */
     /*Set<Registration> registrations = new HashSet<Registration>();*/
 
-    @ManyToMany(mappedBy = "studentsSchools")
-    private Set<OtherSchools> schools = new HashSet<>();
+    /*@ManyToMany(mappedBy = "studentsSchools")
+    private Set<OtherSchools> schools = new HashSet<>();*/
 
-    /*@ManyToMany(mappedBy = "student")
-    private Set<Contact> contacts = new HashSet<>();*/
+    @ManyToMany(mappedBy = "students")
+    private Set<Contact> contacts = new HashSet<>();
 
     /**
      * Instantiates a new Student.
@@ -72,11 +69,9 @@ public class Student {
      * @param email             the email
      * @param baptized          the baptized
      * @param gender            the gender
-     * @param registrations     the registrations
-     * @param schools           the schools
      * @param contacts          the contacts
      */
-    public Student(String firstName, String lastName, String churchAffiliation, String dob, String primaryAddress, String city, String state, String zip, String email, String baptized, String gender, Set<Registration> registrations, Set<OtherSchools> schools, Set<Contact> contacts) {
+    public Student(String firstName, String lastName, String churchAffiliation, String dob, String primaryAddress, String city, String state, String zip, String email, String baptized, String gender/*, Set<OtherSchools> schools*/, Set<Contact> contacts) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.churchAffiliation = churchAffiliation;
@@ -89,8 +84,8 @@ public class Student {
         this.baptized = baptized;
         this.gender = gender;
         /*this.registrations = registrations;*/
-        this.schools = schools;
-        /*this.contacts = contacts;*/
+        /*this.schools = schools;*/
+        this.contacts = contacts;
     }
 
     /**
@@ -300,11 +295,6 @@ public class Student {
         return gender;
     }
 
-    /**
-     * Sets gender.
-     *
-     * @param gender the gender
-     */
     public void setGender(String gender) {
         this.gender = gender;
     }
@@ -332,36 +322,32 @@ public class Student {
      *
      * @return the schools
      */
-    public Set<OtherSchools> getSchools() {
+    /*public Set<OtherSchools> getSchools() {
         return schools;
-    }
+    }*/
 
     /**
      * Sets schools.
      *
      * @param schools the schools
-     */
-    public void setSchools(Set<OtherSchools> schools) {
-        this.schools = schools;
-    }
-
-    /**
-     * Gets contacts.
-     *
      * @return the contacts
      */
-    /*public Set<Contact> getContacts() {
-        return contacts;
+/*public void setSchools(Set<OtherSchools> schools) {
+        this.schools = schools;
     }*/
+
+    public Set<Contact> getContacts() {
+        return contacts;
+    }
 
     /**
      * Sets contacts.
      *
      * @param contacts the contacts
      */
-   /* public void setContacts(Set<Contact> contacts) {
+    public void setContacts(Set<Contact> contacts) {
         this.contacts = contacts;
-    }*/
+    }
 
    /* @Override
     public boolean equals(Object o) {
@@ -408,7 +394,7 @@ public class Student {
         result = 31 * result + (schools != null ? schools.hashCode() : 0);
         result = 31 * result + (contacts != null ? contacts.hashCode() : 0);
         return result;
-    }
+    }*/
 
     @Override
     public String toString() {
@@ -425,9 +411,7 @@ public class Student {
                 ", email='" + email + '\'' +
                 ", baptized='" + baptized + '\'' +
                 ", gender='" + gender + '\'' +
-                ", registrations=" + registrations +
-                ", schools=" + schools +
                 ", contacts=" + contacts +
                 '}';
-    }*/
+    }
 }

@@ -38,6 +38,6 @@
 | 11/3/18| (Week Nine) | checkpoint 3 |3|
 
 | 11/5/18| (Week Ten) | checkpoint 3 |7|
-| 11/5/18| (Week Ten) | checkpoint 3 |7|
-| 11/5/18| (Week Ten) | checkpoint 3 |7|
-| 11/5/18| (Week Ten) | checkpoint 3 |7|
+| 11/6/18| (Week Ten) | checkpoint 3 |2|
+| 11/7/18| (Week Ten) | checkpoint 3 |6|
+| 11/9/18| (Week Ten) | hibernate, week 9 activities |8|
