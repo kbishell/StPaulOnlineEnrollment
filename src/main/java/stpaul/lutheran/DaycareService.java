@@ -13,15 +13,14 @@ public class DaycareService {
         // The Java method will process HTTP GET requests
         @GET
         // The Java method will produce content identified by the MIME Media type "text/plain"
-        @Produces("text/plain")
-        public Response getContactInformation(Student firstName, Student lastName) {
-            // Return a simple message
-            String contactInformation = "Daycare Search";
+        @Produces("application/json")
+        public Response getContactInformation(@PathParam("firstName") Student firstName, Student lastName) {
+            /*String contactInformation = "Daycare Search";*/
 
             // here is where we will search students and contacts
 
 
-            return Response.status(200).entity(contactInformation).build();
+            /*return Response.status(200).entity(contactInformation).build();*/
         }
 
 
