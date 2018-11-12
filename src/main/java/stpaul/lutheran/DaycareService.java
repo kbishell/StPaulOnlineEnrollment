@@ -24,15 +24,16 @@ public class DaycareService {
 
 
         @GET
-        @Produces("application/json")
+        @Produces("text/plain")
         public Response getContactInformation() {
                 logger.error("I am in getContactInformation");
 
                 List<Student> students = (List<Student>)dao.getAll();
 
+                String student = students.toString();
 
                 logger.error("I am in getContactInformation" + students);
 
-                return Response.status(200).entity(students).build();
+                return Response.status(200).entity(student).build();
         }
 }
