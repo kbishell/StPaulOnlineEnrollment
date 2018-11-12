@@ -190,3 +190,202 @@
 [ERROR] 2018-11-12 15:48:17.141 [main] Database - java.sql.SQLException: Can not issue empty query.
 [DEBUG] 2018-11-12 15:48:17.146 [main] GenericDao - ********************************************3
 [DEBUG] 2018-11-12 15:48:17.159 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 15:56:35.595 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:35.711 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 15:56:35.757 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 15:56:35.980 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:35.982 [main] GenericDao - Searching for: B
+[ERROR] 2018-11-12 15:56:36.522 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:36.523 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 15:56:36.523 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 15:56:36.523 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 15:56:36.523 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 15:56:36.523 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 15:56:36.544 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 15:56:36.544 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 15:56:36.544 [main] GenericDao - Searching for: {} 74
+[ERROR] 2018-11-12 15:56:36.770 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:36.772 [main] GenericDao - Searching for users with lastName = Tennley
+[ERROR] 2018-11-12 15:56:36.996 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:36.996 [main] GenericDao - Searching for users with lastName = W
+[ERROR] 2018-11-12 15:56:37.205 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:37.208 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 15:56:37.417 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:37.421 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 15:56:37.435 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 15:56:37.646 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:37.666 [main] GenericDao - ********************************************5
+[ERROR] 2018-11-12 15:56:37.928 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:37.936 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 15:56:37.943 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 15:56:38.146 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:38.150 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 15:56:38.311 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 15:56:38.317 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 15:56:38.326 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:19:00.741 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:00.951 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:19:00.976 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:19:01.126 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:01.129 [main] GenericDao - Searching for: B
+[ERROR] 2018-11-12 16:19:01.565 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:01.565 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 16:19:01.565 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 16:19:01.565 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 16:19:01.565 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:19:01.565 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:19:01.586 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 16:19:01.586 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 16:19:01.586 [main] GenericDao - Searching for: {} 74
+[ERROR] 2018-11-12 16:19:01.817 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:01.817 [main] GenericDao - Searching for users with lastName = Tennley
+[ERROR] 2018-11-12 16:19:02.061 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:02.061 [main] GenericDao - Searching for users with lastName = W
+[ERROR] 2018-11-12 16:19:02.279 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:02.282 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:19:02.512 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:02.515 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:19:02.527 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:19:02.752 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:02.769 [main] GenericDao - ********************************************5
+[ERROR] 2018-11-12 16:19:02.988 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:02.995 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:19:02.999 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:19:03.211 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:03.215 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:19:03.374 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:19:03.382 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:19:03.391 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:20:09.079 [http-nio-8080-exec-4] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 16:20:09.151 [http-nio-8080-exec-4] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 16:20:09.151 [http-nio-8080-exec-4] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 16:20:09.154 [http-nio-8080-exec-4] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:20:09.180 [http-nio-8080-exec-4] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:20:09.528 [http-nio-8080-exec-4] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 16:20:09.530 [http-nio-8080-exec-4] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 16:20:09.530 [http-nio-8080-exec-4] GenericDao - Searching for: {} 75
+[DEBUG] 2018-11-12 16:20:21.217 [http-nio-8080-exec-6] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 16:20:21.217 [http-nio-8080-exec-6] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 16:20:21.217 [http-nio-8080-exec-6] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 16:20:21.217 [http-nio-8080-exec-6] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:20:21.217 [http-nio-8080-exec-6] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:20:21.234 [http-nio-8080-exec-6] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 16:20:21.234 [http-nio-8080-exec-6] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 16:20:21.234 [http-nio-8080-exec-6] GenericDao - Searching for: {} 75
+[ERROR] 2018-11-12 16:21:25.197 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:25.392 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:21:25.444 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:21:25.630 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:25.632 [main] GenericDao - Searching for: B
+[ERROR] 2018-11-12 16:21:25.988 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:25.988 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 16:21:25.988 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 16:21:25.988 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 16:21:25.988 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:21:25.988 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:21:26.006 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 16:21:26.006 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 16:21:26.006 [main] GenericDao - Searching for: {} 74
+[ERROR] 2018-11-12 16:21:26.161 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:26.161 [main] GenericDao - Searching for users with lastName = Tennley
+[ERROR] 2018-11-12 16:21:26.339 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:26.340 [main] GenericDao - Searching for users with lastName = W
+[ERROR] 2018-11-12 16:21:26.503 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:26.507 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:21:26.683 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:26.687 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:21:26.697 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:21:26.865 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:26.899 [main] GenericDao - ********************************************5
+[ERROR] 2018-11-12 16:21:27.158 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:27.166 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:21:27.181 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:21:27.359 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:27.362 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:21:27.509 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:21:27.515 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:21:27.523 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:23:19.757 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:19.939 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:23:19.990 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:23:20.212 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:20.215 [main] GenericDao - Searching for: B
+[ERROR] 2018-11-12 16:23:20.606 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:20.607 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 16:23:20.607 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 16:23:20.607 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 16:23:20.607 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:23:20.607 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:23:20.623 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 16:23:20.623 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 16:23:20.623 [main] GenericDao - Searching for: {} 74
+[ERROR] 2018-11-12 16:23:20.817 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:20.818 [main] GenericDao - Searching for users with lastName = Tennley
+[ERROR] 2018-11-12 16:23:20.992 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:20.992 [main] GenericDao - Searching for users with lastName = W
+[ERROR] 2018-11-12 16:23:21.154 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:21.158 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:23:21.317 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:21.321 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:23:21.336 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:23:21.541 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:21.558 [main] GenericDao - ********************************************5
+[ERROR] 2018-11-12 16:23:21.789 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:21.797 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:23:21.801 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:23:21.947 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:21.952 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:23:22.098 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:23:22.103 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:23:22.113 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:23:59.711 [http-nio-8080-exec-1] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 16:23:59.822 [http-nio-8080-exec-1] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 16:23:59.822 [http-nio-8080-exec-1] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 16:23:59.833 [http-nio-8080-exec-1] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:23:59.862 [http-nio-8080-exec-1] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:24:00.227 [http-nio-8080-exec-1] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 16:24:00.229 [http-nio-8080-exec-1] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 16:24:00.229 [http-nio-8080-exec-1] GenericDao - Searching for: {} 75
+[DEBUG] 2018-11-12 16:25:25.770 [http-nio-8080-exec-4] GenericDao - ********************************************2
+[ERROR] 2018-11-12 16:27:17.052 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:17.174 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:27:17.217 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:27:17.450 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:17.453 [main] GenericDao - Searching for: B
+[ERROR] 2018-11-12 16:27:17.948 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:17.949 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 16:27:17.949 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 16:27:17.949 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 16:27:17.949 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:27:17.949 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:27:17.967 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 16:27:17.967 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 16:27:17.968 [main] GenericDao - Searching for: {} 74
+[ERROR] 2018-11-12 16:27:18.181 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:18.182 [main] GenericDao - Searching for users with lastName = Tennley
+[ERROR] 2018-11-12 16:27:18.413 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:18.414 [main] GenericDao - Searching for users with lastName = W
+[ERROR] 2018-11-12 16:27:18.626 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:18.630 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:27:18.842 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:18.846 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:27:18.861 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:27:19.072 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:19.092 [main] GenericDao - ********************************************5
+[ERROR] 2018-11-12 16:27:19.346 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:19.361 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:27:19.373 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:27:19.592 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:19.595 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 16:27:19.792 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-12 16:27:19.804 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:27:19.818 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 16:28:10.846 [http-nio-8080-exec-2] GenericDao - ********************************************2
+[DEBUG] 2018-11-12 16:29:10.775 [http-nio-8080-exec-5] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 16:29:10.778 [http-nio-8080-exec-5] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 16:29:10.779 [http-nio-8080-exec-5] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 16:29:10.784 [http-nio-8080-exec-5] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:29:10.804 [http-nio-8080-exec-5] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 16:29:11.039 [http-nio-8080-exec-5] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 16:29:11.039 [http-nio-8080-exec-5] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 16:29:11.039 [http-nio-8080-exec-5] GenericDao - Searching for: {} 75

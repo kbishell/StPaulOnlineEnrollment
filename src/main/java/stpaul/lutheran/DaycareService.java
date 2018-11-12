@@ -26,14 +26,25 @@ public class DaycareService {
         @GET
         @Produces("text/plain")
         public Response getContactInformation() {
-                logger.error("I am in getContactInformation");
 
                 List<Student> students = (List<Student>)dao.getAll();
 
                 String student = students.toString();
 
-                logger.error("I am in getContactInformation" + students);
-
                 return Response.status(200).entity(student).build();
+        }
+
+        @GET
+        @Path("{id}")
+        @Produces("text/plain")
+        public Response getContactInformation(@PathParam("id") String idString) {
+
+                int id = Integer.parseInt(idString);
+
+                Student student = (Student)dao.getById(id);
+
+                String reply = student.toString();
+
+                return Response.status(200).entity(reply).build();
         }
 }
