@@ -23,7 +23,7 @@ public class DaycareService {
         private GenericDao dao = new GenericDao(Student.class);
 
 
-        @GET
+   /*     @GET
         @Produces("text/plain")
         public Response getContactInformation() {
 
@@ -32,7 +32,24 @@ public class DaycareService {
                 String student = students.toString();
 
                 return Response.status(200).entity(student).build();
-        }
+        }*/
+
+    /*    @GET
+        @Produces("application/json")
+        public Response getContactInformation() {
+
+                JSONObject jsonObject = new JSONObject();
+
+                jsonObject.
+
+                List<Student> students = (List<Student>)dao.getAll();
+
+                String student = students.toString();
+
+                return Response.status(200).entity(student).build();
+        }*/
+
+
 
         @GET
         @Path("{id}")
