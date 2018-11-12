@@ -1,27 +1,38 @@
 package stpaul.lutheran;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import stpaul.lutheran.entity.Student;
+import stpaul.lutheran.persistence.GenericDao;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
+import java.beans.Transient;
+import java.util.List;
 
-@Path("/services/daycareSearch")
+
+
+@Path("/daycareSearch")
 public class DaycareService {
-        // The Java method will process HTTP GET requests
+
+        private final Logger logger = LogManager.getLogger(this.getClass());
+
+        private GenericDao dao = new GenericDao(Student.class);
+
+
         @GET
-        // The Java method will produce content identified by the MIME Media type "text/plain"
         @Produces("application/json")
-        public Response getContactInformation(@PathParam("firstName") Student firstName, Student lastName) {
-            /*String contactInformation = "Daycare Search";*/
+        public Response getContactInformation() {
+                logger.error("I am in getContactInformation");
 
-            // here is where we will search students and contacts
+                List<Student> students = (List<Student>)dao.getAll();
 
 
-            /*return Response.status(200).entity(contactInformation).build();*/
+                logger.error("I am in getContactInformation" + students);
+
+                return Response.status(200).entity(students).build();
         }
-
-
 }

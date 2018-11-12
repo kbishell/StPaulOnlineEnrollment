@@ -54,13 +54,21 @@ public class GenericDao<T> {
      * @return the all entities
      */
     public List<T> getAll() {
+        logger.debug("Searching for: {} 1");
             Session session = getSession();
+        logger.debug("Searching for: {} 2");
             CriteriaBuilder builder = session.getCriteriaBuilder();
+        logger.debug("Searching for: {} 3");
             CriteriaQuery<T> query = builder.createQuery(type);
+        logger.debug("Searching for: {} 4");
             Root<T> root = query.from(type);
-
+        logger.debug("Searching for: {} 4");
+            query.select(root);
             List<T> list = session.createQuery(query).getResultList();
+        logger.debug("Searching for: {} 5");
             session.close();
+        logger.debug("Searching for: {} 6");
+        logger.debug("Searching for: {} 7" + list.size());
             return list;
         }
 

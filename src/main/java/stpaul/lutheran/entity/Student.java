@@ -410,8 +410,8 @@ public class Student {
                 ", zip='" + zip + '\'' +
                 ", email='" + email + '\'' +
                 ", baptized='" + baptized + '\'' +
-                ", gender='" + gender + '\'' +
-                ", contacts=" + contacts +
-                '}';
+                ", gender='" + gender + '\''
+//               + ", contacts=" + contacts
+               + '}';
     }
 }

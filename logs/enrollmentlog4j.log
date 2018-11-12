@@ -1,86 +1,308 @@
-[DEBUG] 2018-11-09 14:42:43.766 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:43.904 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:44.796 [main] GenericDao - Searching for: B
-[DEBUG] 2018-11-09 14:42:47.603 [main] GenericDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-11-09 14:42:48.425 [main] GenericDao - Searching for users with lastName = W
-[DEBUG] 2018-11-09 14:42:49.244 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:50.184 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:50.270 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:51.160 [main] GenericDao - ********************************************5
-[DEBUG] 2018-11-09 14:42:52.159 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:52.178 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:53.858 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:54.748 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 14:42:54.789 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:41.356 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:41.513 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:42.486 [main] GenericDao - Searching for: B
-[DEBUG] 2018-11-09 15:36:45.473 [main] GenericDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-11-09 15:36:46.486 [main] GenericDao - Searching for users with lastName = W
-[DEBUG] 2018-11-09 15:36:47.557 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:48.507 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:48.594 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:49.561 [main] GenericDao - ********************************************5
-[DEBUG] 2018-11-09 15:36:50.585 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:50.610 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:52.609 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:53.584 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-09 15:36:53.615 [main] GenericDao - ********************************************3
-[ERROR] 2018-11-09 15:55:13.112 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
-[DEBUG] 2018-11-09 15:55:13.590 [main] GenericDao - ********************************************3
-[ERROR] 2018-11-09 15:55:14.564 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
-[DEBUG] 2018-11-09 15:55:14.571 [main] GenericDao - Searching for: B
-[ERROR] 2018-11-09 15:55:16.599 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
-[ERROR] 2018-11-09 15:55:17.555 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
-[DEBUG] 2018-11-09 15:55:17.556 [main] GenericDao - Searching for users with lastName = Tennley
-[ERROR] 2018-11-09 15:55:18.519 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
-[DEBUG] 2018-11-09 15:55:18.520 [main] GenericDao - Searching for users with lastName = W
-[ERROR] 2018-11-09 15:55:19.405 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
-[DEBUG] 2018-11-09 15:55:19.428 [main] GenericDao - ********************************************3
-[ERROR] 2018-11-09 15:55:20.367 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
-[DEBUG] 2018-11-09 15:55:20.375 [main] GenericDao - ********************************************3
-[ERROR] 2018-11-09 15:55:21.278 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/*' at line 1
-[ERROR] 2018-11-09 16:55:06.908 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLQueryInterruptedException: Query execution was interrupted
-[ERROR] 2018-11-09 16:55:06.960 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLQueryInterruptedException: Query execution was interrupted
-[DEBUG] 2018-11-10 09:42:56.570 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:42:57.030 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:42:58.145 [main] GenericDao - Searching for: B
-[DEBUG] 2018-11-10 09:43:03.862 [main] GenericDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-11-10 09:43:04.884 [main] GenericDao - Searching for users with lastName = W
-[DEBUG] 2018-11-10 09:43:05.842 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:43:06.914 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:43:07.038 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:43:08.140 [main] GenericDao - ********************************************5
-[DEBUG] 2018-11-10 09:43:09.193 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:43:09.248 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:43:11.351 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:43:12.214 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 09:43:12.279 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:36.644 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:36.810 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:38.036 [main] GenericDao - Searching for: B
-[DEBUG] 2018-11-10 11:06:43.932 [main] GenericDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-11-10 11:06:45.319 [main] GenericDao - Searching for users with lastName = W
-[DEBUG] 2018-11-10 11:06:46.382 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:47.464 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:47.558 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:48.697 [main] GenericDao - ********************************************5
-[DEBUG] 2018-11-10 11:06:50.612 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:50.703 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:53.395 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:54.424 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:06:54.463 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:29.830 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:29.977 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:30.878 [main] GenericDao - Searching for: B
-[DEBUG] 2018-11-10 11:36:34.850 [main] GenericDao - Searching for users with lastName = Tennley
-[DEBUG] 2018-11-10 11:36:35.833 [main] GenericDao - Searching for users with lastName = W
-[DEBUG] 2018-11-10 11:36:36.826 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:37.746 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:37.842 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:38.804 [main] GenericDao - ********************************************5
-[DEBUG] 2018-11-10 11:36:39.874 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:39.884 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:41.751 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:42.736 [main] GenericDao - ********************************************3
-[DEBUG] 2018-11-10 11:36:42.761 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:28.643 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:28.699 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:28.942 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:00:29.485 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:00:29.654 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:00:29.828 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:29.982 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:29.994 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:30.151 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:00:30.381 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:30.385 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:30.750 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:30.900 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:00:30.911 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:24.103 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:24.153 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:24.317 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:08:24.982 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:08:25.216 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:08:25.439 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:25.699 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:25.717 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:25.987 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:08:26.266 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:26.277 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:26.630 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:26.828 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:08:26.846 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:31.571 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:31.622 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:31.850 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:11:32.456 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:11:32.626 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:11:32.802 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:32.960 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:32.975 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:33.138 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:11:33.444 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:33.448 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:33.832 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:33.979 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:11:33.988 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 10:12:06.252 [http-nio-8080-exec-1] DaycareService - I am in getContactInformation
+[ERROR] 2018-11-12 10:16:59.191 [http-nio-8080-exec-5] SearchUser - inSearchUser
+[ERROR] 2018-11-12 10:16:59.192 [http-nio-8080-exec-5] SearchUser - inSearchUser
+[DEBUG] 2018-11-12 10:16:59.192 [http-nio-8080-exec-5] SearchUser - B
+[DEBUG] 2018-11-12 10:16:59.202 [http-nio-8080-exec-5] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:23:58.209 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:23:58.258 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:23:58.429 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:23:59.188 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:23:59.432 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:23:59.658 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:23:59.938 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:23:59.952 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:24:00.200 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:24:00.508 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:24:00.513 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:24:00.931 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:24:01.115 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:24:01.125 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 10:24:34.193 [http-nio-8080-exec-1] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 10:34:17.802 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:17.858 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:18.095 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:34:18.500 [main] GenericDao - Searching for: {}
+[DEBUG] 2018-11-12 10:34:18.682 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:34:18.864 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:34:19.075 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:19.231 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:19.247 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:19.428 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:34:19.660 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:19.665 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:19.866 [main] GenericDao - Searching for: {}
+[DEBUG] 2018-11-12 10:34:20.073 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:20.281 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:34:20.288 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 10:35:00.787 [http-nio-8080-exec-1] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 10:35:00.788 [http-nio-8080-exec-1] GenericDao - Searching for: {}
+[DEBUG] 2018-11-12 10:37:35.401 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:35.453 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:35.687 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:37:36.148 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:37:36.148 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:37:36.148 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:37:36.148 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:37:36.148 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:37:36.164 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:37:36.164 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:37:36.340 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:37:36.526 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:37:36.717 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:36.882 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:36.896 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:37.057 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:37:37.279 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:37.283 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:37.467 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:37:37.467 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:37:37.467 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:37:37.467 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:37:37.467 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:37:37.486 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:37:37.486 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:37:37.640 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:37.789 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:37:37.799 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 10:38:19.414 [http-nio-8080-exec-1] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 10:38:19.415 [http-nio-8080-exec-1] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:38:19.496 [http-nio-8080-exec-1] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:38:19.496 [http-nio-8080-exec-1] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:38:19.500 [http-nio-8080-exec-1] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:38:19.514 [http-nio-8080-exec-1] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:38:19.875 [http-nio-8080-exec-1] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:38:19.878 [http-nio-8080-exec-1] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:44:02.051 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:02.105 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:02.333 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:44:02.747 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:44:02.748 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:44:02.748 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:44:02.748 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:44:02.748 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:44:02.767 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:44:02.767 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:44:02.767 [main] GenericDao - Searching for: {} 7[Users{userID=1, userName='rtennley', password='password', firstName='Robert', lastName='Tennley', emailAddress='rt@gmail.com'}, Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=3, userName='hunter', password='password', firstName='Tim', lastName='Hunter', emailAddress='hunter@gmail.com'}, Users{userID=4, userName='sselc', password='password', firstName='Sue', lastName='Selc', emailAddress='ss@gmail.com'}]
+[DEBUG] 2018-11-12 10:44:02.923 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:44:03.099 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:44:03.304 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:03.480 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:03.495 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:03.678 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:44:03.905 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:03.908 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:04.093 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:44:04.094 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:44:04.094 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:44:04.094 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:44:04.094 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:44:04.114 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:44:04.114 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:44:04.114 [main] GenericDao - Searching for: {} 7[Role{roleID=1, roleType='administrator', userName='rtennley', user=Users{userID=1, userName='rtennley', password='password', firstName='Robert', lastName='Tennley', emailAddress='rt@gmail.com'}}, Role{roleID=2, roleType='registered-user', userName='kbobby', user=Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}}, Role{roleID=3, roleType='registered-user', userName='hunter', user=Users{userID=3, userName='hunter', password='password', firstName='Tim', lastName='Hunter', emailAddress='hunter@gmail.com'}}, Role{roleID=4, roleType='registered-user', userName='sselc', user=Users{userID=4, userName='sselc', password='password', firstName='Sue', lastName='Selc', emailAddress='ss@gmail.com'}}]
+[DEBUG] 2018-11-12 10:44:04.273 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:04.427 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:44:04.436 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 10:44:37.962 [http-nio-8080-exec-2] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 10:44:37.963 [http-nio-8080-exec-2] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:44:38.056 [http-nio-8080-exec-2] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:44:38.056 [http-nio-8080-exec-2] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:44:38.060 [http-nio-8080-exec-2] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:44:38.080 [http-nio-8080-exec-2] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:44:38.594 [http-nio-8080-exec-2] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:44:38.599 [http-nio-8080-exec-2] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:48:38.448 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:38.499 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:38.680 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:48:39.034 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:48:39.034 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:48:39.034 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:48:39.034 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:48:39.034 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:48:39.058 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:48:39.058 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:48:39.058 [main] GenericDao - Searching for: {} 7[Users{userID=1, userName='rtennley', password='password', firstName='Robert', lastName='Tennley', emailAddress='rt@gmail.com'}, Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=3, userName='hunter', password='password', firstName='Tim', lastName='Hunter', emailAddress='hunter@gmail.com'}, Users{userID=4, userName='sselc', password='password', firstName='Sue', lastName='Selc', emailAddress='ss@gmail.com'}]
+[DEBUG] 2018-11-12 10:48:39.223 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:48:39.414 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:48:39.602 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:39.793 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:39.807 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:39.964 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:48:40.239 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:40.245 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:40.419 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:40.577 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:48:40.584 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 10:49:55.991 [http-nio-8080-exec-3] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 10:49:55.992 [http-nio-8080-exec-3] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:49:56.143 [http-nio-8080-exec-3] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:49:56.143 [http-nio-8080-exec-3] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:49:56.149 [http-nio-8080-exec-3] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:49:56.165 [http-nio-8080-exec-3] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:49:56.579 [http-nio-8080-exec-3] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:49:56.583 [http-nio-8080-exec-3] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:58:07.279 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:07.333 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:07.561 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 10:58:08.039 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:58:08.040 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:58:08.040 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:58:08.040 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:58:08.040 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:58:08.063 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:58:08.063 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 10:58:08.063 [main] GenericDao - Searching for: {} 7[Users{userID=1, userName='rtennley', password='password', firstName='Robert', lastName='Tennley', emailAddress='rt@gmail.com'}, Users{userID=2, userName='kbobby', password='password', firstName='Keith', lastName='Bobby', emailAddress='kb@gmail.com'}, Users{userID=3, userName='hunter', password='password', firstName='Tim', lastName='Hunter', emailAddress='hunter@gmail.com'}, Users{userID=4, userName='sselc', password='password', firstName='Sue', lastName='Selc', emailAddress='ss@gmail.com'}]
+[DEBUG] 2018-11-12 10:58:08.218 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 10:58:08.391 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 10:58:08.573 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:08.745 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:08.762 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:09.759 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 10:58:10.041 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:10.046 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:10.258 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:10.407 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 10:58:10.421 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 10:58:45.331 [http-nio-8080-exec-1] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 10:58:45.332 [http-nio-8080-exec-1] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 10:58:45.417 [http-nio-8080-exec-1] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 10:58:45.418 [http-nio-8080-exec-1] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 10:58:45.420 [http-nio-8080-exec-1] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:58:45.434 [http-nio-8080-exec-1] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 10:58:45.735 [http-nio-8080-exec-1] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 10:58:45.737 [http-nio-8080-exec-1] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 11:05:13.103 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:13.235 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:13.505 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 11:05:14.425 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 11:05:14.425 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 11:05:14.426 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 11:05:14.426 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:05:14.426 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:05:14.471 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 11:05:14.471 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 11:05:14.471 [main] GenericDao - Searching for: {} 74
+[DEBUG] 2018-11-12 11:05:14.699 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 11:05:14.960 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 11:05:15.189 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:15.431 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:15.461 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:15.702 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 11:05:17.077 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:17.082 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:17.277 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:17.445 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:05:17.459 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 11:05:58.367 [http-nio-8080-exec-1] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 11:05:58.368 [http-nio-8080-exec-1] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 11:05:58.446 [http-nio-8080-exec-1] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 11:05:58.446 [http-nio-8080-exec-1] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 11:05:58.450 [http-nio-8080-exec-1] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:05:58.473 [http-nio-8080-exec-1] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:05:58.881 [http-nio-8080-exec-1] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 11:05:58.883 [http-nio-8080-exec-1] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 11:05:58.883 [http-nio-8080-exec-1] GenericDao - Searching for: {} 71
+[DEBUG] 2018-11-12 11:09:18.319 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:18.375 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:18.578 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 11:09:18.939 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 11:09:18.940 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 11:09:18.940 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 11:09:18.940 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:09:18.940 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:09:18.965 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 11:09:18.965 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 11:09:18.965 [main] GenericDao - Searching for: {} 74
+[DEBUG] 2018-11-12 11:09:19.130 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 11:09:19.294 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 11:09:19.486 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:19.682 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:19.696 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:19.858 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 11:09:20.127 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:20.132 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:20.314 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:20.521 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:09:20.534 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 11:11:07.146 [http-nio-8080-exec-3] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 11:11:07.146 [http-nio-8080-exec-3] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 11:11:07.221 [http-nio-8080-exec-3] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 11:11:07.221 [http-nio-8080-exec-3] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 11:11:07.225 [http-nio-8080-exec-3] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:11:07.239 [http-nio-8080-exec-3] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:11:07.540 [http-nio-8080-exec-3] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 11:11:07.543 [http-nio-8080-exec-3] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 11:11:07.543 [http-nio-8080-exec-3] GenericDao - Searching for: {} 71
+[DEBUG] 2018-11-12 11:27:54.265 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:54.320 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:54.567 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-12 11:27:55.079 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 11:27:55.080 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 11:27:55.080 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 11:27:55.080 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:27:55.080 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:27:55.100 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 11:27:55.100 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 11:27:55.100 [main] GenericDao - Searching for: {} 74
+[DEBUG] 2018-11-12 11:27:55.313 [main] GenericDao - Searching for users with lastName = Tennley
+[DEBUG] 2018-11-12 11:27:55.509 [main] GenericDao - Searching for users with lastName = W
+[DEBUG] 2018-11-12 11:27:55.684 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:55.886 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:55.899 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:56.093 [main] GenericDao - ********************************************5
+[DEBUG] 2018-11-12 11:27:56.366 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:56.370 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:56.567 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:56.742 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-12 11:27:56.753 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-12 11:28:35.727 [http-nio-8080-exec-3] DaycareService - I am in getContactInformation
+[DEBUG] 2018-11-12 11:28:35.728 [http-nio-8080-exec-3] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-12 11:28:35.815 [http-nio-8080-exec-3] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-12 11:28:35.815 [http-nio-8080-exec-3] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-12 11:28:35.818 [http-nio-8080-exec-3] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:28:35.832 [http-nio-8080-exec-3] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-12 11:28:36.120 [http-nio-8080-exec-3] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-12 11:28:36.122 [http-nio-8080-exec-3] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-12 11:28:36.122 [http-nio-8080-exec-3] GenericDao - Searching for: {} 71
+[ERROR] 2018-11-12 11:28:36.122 [http-nio-8080-exec-3] DaycareService - I am in getContactInformation[Student{studentID=1, firstName='Betsy', lastName='Brown', churchAffiliation='St Johns Watertown', dob='2010-10-10', primaryAddress='N7888 Hwy Q', city='Creek', state='MI', zip='53569', email='bb@gmail.com', baptized='y', gender='f'}]
