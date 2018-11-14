@@ -84,9 +84,8 @@ public class Contact {
      * @param zip                   the zip
      * @param email                 the email
      * @param dob                   the dob
-     * @param students              the students
      **/
-    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob/*, Users usersID */, Set<Student> students) {
+    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob/*, Users usersID *//*, Set<Student> students*/) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.relationshipToStudent = relationshipToStudent;
@@ -102,7 +101,7 @@ public class Contact {
         this.email = email;
         this.dob = dob;
         /*this.usersID = usersID;*/
-        this.students = students;
+        /*this.students = students;*/
     }
 
     /**

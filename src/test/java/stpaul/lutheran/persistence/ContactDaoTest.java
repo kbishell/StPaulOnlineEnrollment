@@ -2,10 +2,13 @@ package stpaul.lutheran.persistence;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import stpaul.lutheran.entity.Users;
+import stpaul.lutheran.entity.Contact;
+import stpaul.lutheran.entity.Contact;
+import stpaul.lutheran.entity.Student;
 import stpaul.lutheran.test.util.Database;
 
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -15,48 +18,51 @@ public class ContactDaoTest {
      * The Dao.
      */
     GenericDao dao;
+/*    Student student;
+    Set<Student> students;*/
 
     /**
      * Creating the dao.
      */
     @BeforeEach
     void setUp() {
-        dao = new GenericDao(Users.class);
+        dao = new GenericDao(Contact.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
-
+/*        student = new Student("Kortney", "Dannet", "St Johns", "2010-02-02", "N7218 Hwy H", "Johnson Creek", "WI", "53549", "kd@gmail.com", "y", "f");
+        students.add(student);*/
     }
 
     /**
-     * Gets all users success.
+     * Gets all contact success.
      */
 /*
-     * Verifies gets all userss successfully.
+     * Verifies gets all contacts successfully.
      */
     @Test
     void getAllSuccess() {
-        List<Users> users = dao.getAll();
-        assertEquals(4, users.size());
+        List<Contact> contacts = dao.getAll();
+        assertEquals(5, contacts.size());
     }
 
     /**
-     * Verifies gets users by last name successfully.
+     * Verifies gets contact by last name successfully.
      */
     @Test
     void getByLastNameSuccess() {
-        List<Users> users = dao.getByLastName("B");
-        assertEquals(1, users.size());
+        List<Contact> contact = dao.getByLastName("B");
+        assertEquals(2, contact.size());
     }
 
     /**
-     * Verifies a users is returned correctly based on id search
+     * Verifies a contact is returned correctly based on id search
      */
     @Test
     void getByIdSuccess() {
-        Users retrievedUser = (Users) dao.getById(3);
+        Contact retrievedUser = (Contact) dao.getById(3);
         assertNotNull(retrievedUser);
-        assertEquals("Tim", retrievedUser.getFirstName());
+        assertEquals("Robert", retrievedUser.getFirstName());
     }
 
 
@@ -66,11 +72,11 @@ public class ContactDaoTest {
     @Test
     void insertSuccess() {
 
-        Users newUser = new Users("kbishell", "password", "Kortney", "Bishell", "bish@you.com" );
+        Contact newUser = new Contact("Charlie", "Bentley", "dad", "9202458989", "9209883454", "y", "matc, madison", "9-5", "", "Lake Mills", "WI", "53551", "cb@gmail.com", "1989-12-27"/*, students*/);
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
-        Users insertedUser = (Users) dao.getById(id);
-        assertEquals("Kortney", insertedUser.getFirstName());
+        Contact insertedUser = (Contact) dao.getById(id);
+        assertEquals("Charlie", insertedUser.getFirstName());
     }
 
     /**
@@ -88,12 +94,12 @@ public class ContactDaoTest {
      */
     @Test
     void updateSuccess() {
-        String newLastName = "Davis";
-        Users usersToUpdate = (Users) dao.getById(3);
-        usersToUpdate.setLastName(newLastName);
-        dao.saveOrUpdate(usersToUpdate);
-        Users retrievedUsers = (Users) dao.getById(3);
-        assertEquals(newLastName, retrievedUsers.getLastName());
+        String newLastName = "Stern";
+        Contact contactToUpdate = (Contact) dao.getById(3);
+        contactToUpdate.setLastName(newLastName);
+        dao.saveOrUpdate(contactToUpdate);
+        Contact retrievedContact = (Contact) dao.getById(3);
+        assertEquals(newLastName, retrievedContact.getLastName());
     }
 
 
@@ -102,9 +108,9 @@ public class ContactDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<Users> users = dao.getByPropertyEqual("lastName", "Tennley");
-        assertEquals(1, users.size());
-        assertEquals(1, users.get(0).getUserID());
+        List<Contact> contact = dao.getByPropertyEqual("lastName", "Brock");
+        assertEquals(1, contact.size());
+        assertEquals(2, contact.get(0).getContactID());
     }
 
     /**
@@ -112,7 +118,7 @@ public class ContactDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<Users> users = dao.getByPropertyLike("lastName", "W");
-        assertEquals(0, users.size());
+        List<Contact> contact = dao.getByPropertyLike("lastName", "G");
+        assertEquals(1, contact.size());
     }
 }

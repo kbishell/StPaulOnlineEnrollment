@@ -1,5 +1,6 @@
 package stpaul.lutheran.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -46,6 +47,7 @@ public class Student {
     /*@ManyToMany(mappedBy = "studentsSchools")
     private Set<OtherSchools> schools = new HashSet<>();*/
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "students")
     private Set<Contact> contacts = new HashSet<>();
 
@@ -69,9 +71,8 @@ public class Student {
      * @param email             the email
      * @param baptized          the baptized
      * @param gender            the gender
-     * @param contacts          the contacts
      */
-    public Student(String firstName, String lastName, String churchAffiliation, String dob, String primaryAddress, String city, String state, String zip, String email, String baptized, String gender/*, Set<OtherSchools> schools*/, Set<Contact> contacts) {
+    public Student(String firstName, String lastName, String churchAffiliation, String dob, String primaryAddress, String city, String state, String zip, String email, String baptized, String gender/*, Set<OtherSchools> schools*/) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.churchAffiliation = churchAffiliation;
@@ -85,7 +86,6 @@ public class Student {
         this.gender = gender;
         /*this.registrations = registrations;*/
         /*this.schools = schools;*/
-        this.contacts = contacts;
     }
 
     /**

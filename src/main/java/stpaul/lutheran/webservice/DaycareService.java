@@ -41,60 +41,24 @@ public class DaycareService {
 
         @GET
         @Produces("application/json")
-        public Response getContactInformation() {
+        public Response getContactInformation() throws Exception{
 
                 List<Student> students = (List<Student>) dao.getAll();
-                logger.error(students);
 
                 String jsonInString = toJson(students);
-                logger.error("My jsonInString, in getContactInformation" + jsonInString);
+
                 return Response.status(200).entity(jsonInString).build();
         }
 
+        private String toJson(List<Student> students) throws Exception{
 
-        //Object writer - writeValue(JsonGenerator)
-      /*  private String toJson(List<Student> students) {
-                logger.error("I am in toJson");
-                ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+                ObjectMapper mapper = new ObjectMapper();
+
                 String jsonInString = "";
 
-                try {
-                        logger.error("I am in the try");
-                        //Object to JSON in String
-                        jsonInString = ow.writeValueAsString(students);
-                        logger.error("My jsonInString, after writeValueAsString" + jsonInString);
-                } catch (JsonGenerationException e) {
-                        e.printStackTrace();
-                } catch (JsonMappingException e) {
-                        e.printStackTrace();
-                } catch (IOException e) {
-                        e.printStackTrace();
-                } finally {
-                        logger.error("My jsonInString, in finally" + jsonInString);
-                        return jsonInString;
-                }
-        }*/
+                jsonInString = mapper.writeValueAsString(students);
 
-        private String toJson(List<Student> students) {
-                logger.error("I am in toJson" + students);
-                ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
-                String jsonInString = "";
-
-                try {
-                        logger.error("I am in the try");
-                        //Object to JSON in String
-                        jsonInString = ow.writeValueAsString((Object)students);
-                        logger.error("My jsonInString, after writeValueAsString" + jsonInString);
-                } catch (JsonGenerationException e) {
-                        e.printStackTrace();
-                } catch (JsonMappingException e) {
-                        e.printStackTrace();
-                } catch (IOException e) {
-                        e.printStackTrace();
-                } finally {
-                        logger.error("My jsonInString, in finally" + jsonInString);
-                        return jsonInString;
-                }
+                return jsonInString;
         }
 
 
