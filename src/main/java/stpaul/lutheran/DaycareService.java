@@ -1,5 +1,9 @@
 package stpaul.lutheran;
 
+import com.fasterxml.jackson.core.JsonGenerationException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import stpaul.lutheran.entity.Student;
@@ -11,6 +15,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Response;
 import java.beans.Transient;
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 
@@ -22,8 +28,7 @@ public class DaycareService {
 
         private GenericDao dao = new GenericDao(Student.class);
 
-
-   /*     @GET
+        /*@GET
         @Produces("text/plain")
         public Response getContactInformation() {
 
@@ -34,21 +39,63 @@ public class DaycareService {
                 return Response.status(200).entity(student).build();
         }*/
 
-    /*    @GET
+        @GET
         @Produces("application/json")
         public Response getContactInformation() {
 
-                JSONObject jsonObject = new JSONObject();
+                List<Student> students = (List<Student>) dao.getAll();
+                logger.error(students);
 
-                jsonObject.
+                String jsonInString = toJson(students);
+                logger.error("My jsonInString, in getContactInformation" + jsonInString);
+                return Response.status(200).entity(jsonInString).build();
+        }
 
-                List<Student> students = (List<Student>)dao.getAll();
 
-                String student = students.toString();
+        //Object writer - writeValue(JsonGenerator)
+      /*  private String toJson(List<Student> students) {
+                logger.error("I am in toJson");
+                ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+                String jsonInString = "";
 
-                return Response.status(200).entity(student).build();
+                try {
+                        logger.error("I am in the try");
+                        //Object to JSON in String
+                        jsonInString = ow.writeValueAsString(students);
+                        logger.error("My jsonInString, after writeValueAsString" + jsonInString);
+                } catch (JsonGenerationException e) {
+                        e.printStackTrace();
+                } catch (JsonMappingException e) {
+                        e.printStackTrace();
+                } catch (IOException e) {
+                        e.printStackTrace();
+                } finally {
+                        logger.error("My jsonInString, in finally" + jsonInString);
+                        return jsonInString;
+                }
         }*/
 
+        private String toJson(List<Student> students) {
+                logger.error("I am in toJson" + students);
+                ObjectWriter ow = new ObjectMapper().writer().withDefaultPrettyPrinter();
+                String jsonInString = "";
+
+                try {
+                        logger.error("I am in the try");
+                        //Object to JSON in String
+                        jsonInString = ow.writeValueAsString((Object)students);
+                        logger.error("My jsonInString, after writeValueAsString" + jsonInString);
+                } catch (JsonGenerationException e) {
+                        e.printStackTrace();
+                } catch (JsonMappingException e) {
+                        e.printStackTrace();
+                } catch (IOException e) {
+                        e.printStackTrace();
+                } finally {
+                        logger.error("My jsonInString, in finally" + jsonInString);
+                        return jsonInString;
+                }
+        }
 
 
         @GET
