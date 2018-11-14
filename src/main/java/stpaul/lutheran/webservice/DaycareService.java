@@ -1,4 +1,4 @@
-package stpaul.lutheran;
+package stpaul.lutheran.webservice;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -21,7 +21,7 @@ import java.util.List;
 
 
 
-@Path("/daycareSearch")
+@Path("/students")
 public class DaycareService {
 
         private final Logger logger = LogManager.getLogger(this.getClass());

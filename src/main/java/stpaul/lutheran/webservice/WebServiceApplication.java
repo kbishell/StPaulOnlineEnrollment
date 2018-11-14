@@ -1,4 +1,4 @@
-package stpaul.lutheran;
+package stpaul.lutheran.webservice;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
