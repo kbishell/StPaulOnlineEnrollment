@@ -62,6 +62,8 @@ public class StudentDaoTest {
         Student retrievedUser = (Student) dao.getById(3);
         assertNotNull(retrievedUser);
         assertEquals("Cody", retrievedUser.getFirstName());
+
+        System.out.println(retrievedUser.getContacts());
     }
 
 

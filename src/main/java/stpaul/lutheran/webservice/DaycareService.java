@@ -4,8 +4,10 @@ import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
+import javafx.scene.effect.SepiaTone;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import stpaul.lutheran.entity.Contact;
 import stpaul.lutheran.entity.Student;
 import stpaul.lutheran.persistence.GenericDao;
 
@@ -18,6 +20,7 @@ import java.beans.Transient;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
+import java.util.Set;
 
 
 /**
@@ -51,7 +54,7 @@ public class DaycareService {
         @Produces("application/json")
         public Response getStudentInformation() throws Exception{
 
-                List<Student> students = (List<Student>) dao.getAll();
+                List<Object> students = (List<Object>) dao.getAll();
 
                 String jsonInString = toJson(students);
 
@@ -59,7 +62,7 @@ public class DaycareService {
         }
 
 
-        private String toJson(List<Student> students) throws Exception{
+        private String toJson(List<Object> students) throws Exception{
 
                 ObjectMapper mapper = new ObjectMapper();
 
@@ -70,13 +73,6 @@ public class DaycareService {
                 return jsonInString;
         }
 
-       /*private void getContactInformation(Students id) throws Exception{
-
-
-
-
-        }*/
-
 
         /**
          * Gets contact information.
@@ -86,7 +82,7 @@ public class DaycareService {
          */
         @GET
         @Path("{id}")
-        @Produces("text/plain")
+        @Produces("application/json")
         public Response getContactInformation(@PathParam("id") String idString) {
 
 
@@ -94,12 +90,16 @@ public class DaycareService {
 
                 Student student = (Student)dao.getById(id);
 
-                //take student id that you have and find all the contacts matching it
+                String jsonInString = toJson((List<Object>)student.getContacts());
+
+
+
 
                 String sql = "Select * from Student_Contact where studentID = contactID";
 
                 String reply = student.toString();
 
-                return Response.status(200).entity(reply).build();
+                return Response.status(200).entity(jsonInString).build();
+
         }
 }

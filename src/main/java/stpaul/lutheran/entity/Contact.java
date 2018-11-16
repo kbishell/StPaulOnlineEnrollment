@@ -53,13 +53,13 @@ public class Contact {
     /**
      * The Students.
      */
-    @ManyToMany(cascade = { CascadeType.ALL })
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL/*cascade = { CascadeType.ALL }*/)
     @JoinTable(
             name = "Student_Contact",
             joinColumns = { @JoinColumn(name = "contactID") },
             inverseJoinColumns = { @JoinColumn(name = "studentID") }
     )
-    Set<Student> students = new HashSet<>();
+    Set<Student> students = new HashSet<>(0);
 
     /**
      * Instantiates a new Contact.

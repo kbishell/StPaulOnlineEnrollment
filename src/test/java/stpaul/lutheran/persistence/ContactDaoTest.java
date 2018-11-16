@@ -82,12 +82,12 @@ public class ContactDaoTest {
     /**
      * Delete success.
      */
-    @Test
+   /* @Test
     void deleteSuccess() {
         dao.delete(dao.getById(3));
         assertNull(dao.getById(3));
     }
-
+*/
 
     /**
      * Update success.

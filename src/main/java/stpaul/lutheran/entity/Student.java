@@ -4,7 +4,9 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -48,8 +50,8 @@ public class Student {
     private Set<OtherSchools> schools = new HashSet<>();*/
 
     @JsonIgnore
-    @ManyToMany(mappedBy = "students")
-    private Set<Contact> contacts = new HashSet<>();
+    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "students")
+    private List<Contact> contacts = new ArrayList<>();
 
     /**
      * Instantiates a new Student.
@@ -329,14 +331,13 @@ public class Student {
     /**
      * Sets schools.
      *
-     * @param schools the schools
      * @return the contacts
      */
 /*public void setSchools(Set<OtherSchools> schools) {
         this.schools = schools;
     }*/
 
-    public Set<Contact> getContacts() {
+    public List<Contact> getContacts() {
         return contacts;
     }
 
@@ -345,7 +346,7 @@ public class Student {
      *
      * @param contacts the contacts
      */
-    public void setContacts(Set<Contact> contacts) {
+    public void setContacts(List<Contact> contacts) {
         this.contacts = contacts;
     }
 
