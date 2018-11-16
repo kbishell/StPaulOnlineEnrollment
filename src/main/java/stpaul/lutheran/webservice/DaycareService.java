@@ -51,8 +51,9 @@ public class DaycareService {
          * @throws Exception the exception
          */
         @GET
+        @Path("{guid}")
         @Produces("application/json")
-        public Response getStudentInformation() throws Exception{
+        public Response getStudentInformation(@PathParam("guid") String guid) throws Exception{
 
                 List<Object> students = (List<Object>) dao.getAll();
 
@@ -81,23 +82,25 @@ public class DaycareService {
          * @return the contact information
          */
         @GET
-        @Path("{id}")
+        @Path("{guid}/{id}")
         @Produces("application/json")
-        public Response getContactInformation(@PathParam("id") String idString) {
+        public Response getContactInformation(@PathParam("id") String idString, @PathParam("guid") String guid) throws Exception {
 
 
                 int id = Integer.parseInt(idString);
 
                 Student student = (Student)dao.getById(id);
 
-                String jsonInString = toJson((List<Object>)student.getContacts());
+                List<Contact> contact = student.getContacts();
 
+                ObjectMapper mapper = new ObjectMapper();
 
+                String jsonInString = "";
 
+                jsonInString = mapper.writeValueAsString(contact);
+                //String sql = "Select * from Student_Contact where studentID = contactID";
 
-                String sql = "Select * from Student_Contact where studentID = contactID";
-
-                String reply = student.toString();
+                //String reply = student.toString();
 
                 return Response.status(200).entity(jsonInString).build();
 
