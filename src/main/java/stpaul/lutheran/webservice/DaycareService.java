@@ -54,12 +54,19 @@ public class DaycareService {
         @Path("{guid}")
         @Produces("application/json")
         public Response getStudentInformation(@PathParam("guid") String guid) throws Exception{
+                String access = "96b7ccce-5d5f-42f7-9701-1d53941f39a3";
 
-                List<Object> students = (List<Object>) dao.getAll();
+                String jsonInString;
 
-                String jsonInString = toJson(students);
+                if (guid.equals(access)) {
+                        List<Object> students = (List<Object>) dao.getAll();
 
+                        jsonInString = toJson(students);
+                } else {
+                        jsonInString = "{\"Error\":\"Yall's keys is invalid k'\"}";
+                }
                 return Response.status(200).entity(jsonInString).build();
+
         }
 
 
@@ -86,21 +93,25 @@ public class DaycareService {
         @Produces("application/json")
         public Response getContactInformation(@PathParam("id") String idString, @PathParam("guid") String guid) throws Exception {
 
-
-                int id = Integer.parseInt(idString);
-
-                Student student = (Student)dao.getById(id);
-
-                List<Contact> contact = student.getContacts();
-
-                ObjectMapper mapper = new ObjectMapper();
+                String access = "96b7ccce-5d5f-42f7-9701-1d53941f39a3";
 
                 String jsonInString = "";
 
-                jsonInString = mapper.writeValueAsString(contact);
-                //String sql = "Select * from Student_Contact where studentID = contactID";
+                if (guid.equals(access)) {
 
-                //String reply = student.toString();
+                        int id = Integer.parseInt(idString);
+
+                        Student student = (Student)dao.getById(id);
+
+                        List<Contact> contact = student.getContacts();
+
+                        ObjectMapper mapper = new ObjectMapper();
+
+                        jsonInString = mapper.writeValueAsString(contact);
+
+                } else {
+                        jsonInString = "{\"Error\":\"Yall's keys is invalid k'\"}";
+                }
 
                 return Response.status(200).entity(jsonInString).build();
 
