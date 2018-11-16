@@ -1018,3 +1018,73 @@
 [DEBUG] 2018-11-16 13:05:05.646 [http-nio-8080-exec-7] GenericDao - Searching for: {} 6
 [DEBUG] 2018-11-16 13:05:05.646 [http-nio-8080-exec-7] GenericDao - Searching for: {} 75
 [DEBUG] 2018-11-16 13:05:09.520 [http-nio-8080-exec-8] GenericDao - ********************************************4
+[DEBUG] 2018-11-16 13:07:35.630 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-16 13:07:36.326 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-16 13:07:36.326 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-16 13:07:36.327 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-16 13:07:36.327 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 13:07:36.327 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 13:07:36.388 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-16 13:07:36.388 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-16 13:07:36.388 [main] GenericDao - Searching for: {} 75
+[DEBUG] 2018-11-16 13:07:36.559 [main] GenericDao - Searching for users with lastName = Stern
+[DEBUG] 2018-11-16 13:07:36.803 [main] GenericDao - Searching for users with lastName = G
+[DEBUG] 2018-11-16 13:07:36.976 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:37.180 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:37.241 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:37.430 [main] GenericDao - ********************************************6
+[DEBUG] 2018-11-16 13:07:37.655 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-16 13:07:37.877 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-16 13:07:37.877 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-16 13:07:37.877 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-16 13:07:37.877 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 13:07:37.877 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 13:07:37.906 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-16 13:07:37.907 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-16 13:07:37.907 [main] GenericDao - Searching for: {} 75
+[DEBUG] 2018-11-16 13:07:38.062 [main] GenericDao - Searching for users with lastName = Brock
+[DEBUG] 2018-11-16 13:07:38.266 [main] GenericDao - Searching for users with lastName = G
+[DEBUG] 2018-11-16 13:07:38.448 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:38.612 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:38.642 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:38.830 [main] GenericDao - ********************************************6
+[DEBUG] 2018-11-16 13:07:39.051 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:39.067 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:39.386 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:39.563 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:07:39.568 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:03.147 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-16 13:11:03.829 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-16 13:11:03.829 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-16 13:11:03.832 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-16 13:11:03.832 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 13:11:03.832 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 13:11:03.881 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-16 13:11:03.882 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-16 13:11:03.882 [main] GenericDao - Searching for: {} 75
+[DEBUG] 2018-11-16 13:11:04.049 [main] GenericDao - Searching for users with lastName = Stern
+[DEBUG] 2018-11-16 13:11:04.283 [main] GenericDao - Searching for users with lastName = G
+[DEBUG] 2018-11-16 13:11:04.469 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:04.725 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:04.779 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:04.979 [main] GenericDao - ********************************************6
+[DEBUG] 2018-11-16 13:11:05.169 [main] GenericDao - Searching for: B
+[DEBUG] 2018-11-16 13:11:05.405 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-16 13:11:05.405 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-16 13:11:05.405 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-16 13:11:05.405 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 13:11:05.405 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 13:11:05.434 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-16 13:11:05.434 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-16 13:11:05.434 [main] GenericDao - Searching for: {} 75
+[DEBUG] 2018-11-16 13:11:05.577 [main] GenericDao - Searching for users with lastName = Brock
+[DEBUG] 2018-11-16 13:11:05.794 [main] GenericDao - Searching for users with lastName = G
+[DEBUG] 2018-11-16 13:11:05.966 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:06.136 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:06.153 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:06.293 [main] GenericDao - ********************************************6
+[DEBUG] 2018-11-16 13:11:06.467 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:06.473 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:06.670 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:06.832 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 13:11:06.838 [main] GenericDao - ********************************************3
