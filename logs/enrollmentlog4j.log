@@ -673,3 +673,58 @@
 [DEBUG] 2018-11-14 17:11:59.663 [main] GenericDao - ********************************************3
 [DEBUG] 2018-11-14 17:11:59.953 [main] GenericDao - ********************************************3
 [DEBUG] 2018-11-14 17:11:59.984 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-16 09:15:04.241 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:04.246 [main] GenericDao - Searching for: B
+[ERROR] 2018-11-16 09:15:04.951 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:04.952 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-16 09:15:04.953 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-16 09:15:04.953 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-16 09:15:04.953 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 09:15:04.953 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 09:15:04.962 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-16 09:15:04.962 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-16 09:15:04.962 [main] GenericDao - Searching for: {} 75
+[ERROR] 2018-11-16 09:15:05.205 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:05.205 [main] GenericDao - Searching for users with lastName = Stern
+[ERROR] 2018-11-16 09:15:05.493 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:05.494 [main] GenericDao - Searching for users with lastName = G
+[ERROR] 2018-11-16 09:15:05.731 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:05.747 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-16 09:15:05.968 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:05.971 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 09:15:06.038 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-16 09:15:06.275 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:06.298 [main] GenericDao - ********************************************6
+[ERROR] 2018-11-16 09:15:06.563 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:06.567 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 09:15:06.585 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-16 09:15:06.800 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:06.801 [main] GenericDao - Searching for: B
+[ERROR] 2018-11-16 09:15:07.031 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:07.032 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-11-16 09:15:07.032 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-11-16 09:15:07.032 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-11-16 09:15:07.032 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 09:15:07.032 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-11-16 09:15:07.049 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-11-16 09:15:07.049 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-11-16 09:15:07.049 [main] GenericDao - Searching for: {} 75
+[ERROR] 2018-11-16 09:15:07.268 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:07.273 [main] GenericDao - Searching for users with lastName = Brock
+[ERROR] 2018-11-16 09:15:07.494 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:07.494 [main] GenericDao - Searching for users with lastName = G
+[ERROR] 2018-11-16 09:15:07.651 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:07.658 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-16 09:15:07.803 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:07.807 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 09:15:07.818 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-16 09:15:07.973 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:07.985 [main] GenericDao - ********************************************6
+[ERROR] 2018-11-16 09:15:08.161 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:08.169 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 09:15:08.177 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-16 09:15:08.388 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:08.398 [main] GenericDao - ********************************************3
+[ERROR] 2018-11-16 09:15:08.560 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'into Student_Contact(contactID, studentID)values(3, 5),(4, 4); 4)' at line 1
+[DEBUG] 2018-11-16 09:15:08.566 [main] GenericDao - ********************************************3
+[DEBUG] 2018-11-16 09:15:08.583 [main] GenericDao - ********************************************3

@@ -20,7 +20,9 @@ import java.io.IOException;
 import java.util.List;
 
 
-
+/**
+ * The type Daycare service.
+ */
 @Path("/students")
 public class DaycareService {
 
@@ -39,9 +41,15 @@ public class DaycareService {
                 return Response.status(200).entity(student).build();
         }*/
 
+        /**
+         * Gets contact information.
+         *
+         * @return the contact information
+         * @throws Exception the exception
+         */
         @GET
         @Produces("application/json")
-        public Response getContactInformation() throws Exception{
+        public Response getStudentInformation() throws Exception{
 
                 List<Student> students = (List<Student>) dao.getAll();
 
@@ -49,6 +57,7 @@ public class DaycareService {
 
                 return Response.status(200).entity(jsonInString).build();
         }
+
 
         private String toJson(List<Student> students) throws Exception{
 
@@ -61,15 +70,33 @@ public class DaycareService {
                 return jsonInString;
         }
 
+       /*private void getContactInformation(Students id) throws Exception{
 
+
+
+
+        }*/
+
+
+        /**
+         * Gets contact information.
+         *
+         * @param idString the id string
+         * @return the contact information
+         */
         @GET
         @Path("{id}")
         @Produces("text/plain")
         public Response getContactInformation(@PathParam("id") String idString) {
 
+
                 int id = Integer.parseInt(idString);
 
                 Student student = (Student)dao.getById(id);
+
+                //take student id that you have and find all the contacts matching it
+
+                String sql = "Select * from Student_Contact where studentID = contactID";
 
                 String reply = student.toString();
 

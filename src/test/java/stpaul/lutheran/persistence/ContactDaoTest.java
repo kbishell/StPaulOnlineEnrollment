@@ -72,8 +72,8 @@ public class ContactDaoTest {
     @Test
     void insertSuccess() {
 
-        Contact newUser = new Contact("Charlie", "Bentley", "dad", "9202458989", "9209883454", "y", "matc, madison", "9-5", "", "Lake Mills", "WI", "53551", "cb@gmail.com", "1989-12-27"/*, students*/);
-        int id = dao.insert(newUser);
+        Contact contact = new Contact("Charlie", "Bentley", "dad", "9202458989", "9209883454", "y", "matc, madison", "9-5", "", "Lake Mills", "WI", "53551", "cb@gmail.com", "1989-12-27"/*, students*/);
+        int id = dao.insert(contact);
         assertNotEquals(0,id);
         Contact insertedUser = (Contact) dao.getById(id);
         assertEquals("Charlie", insertedUser.getFirstName());

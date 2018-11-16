@@ -71,8 +71,8 @@ public class StudentDaoTest {
     @Test
     void insertSuccess() {
 
-        Student newUser = new Student("Kim", "Brandt", "St Johns", "2012-03-02", "N76845 Cty Hwy Q", "Johnson Creek", "WI", "53549", "kb@gmail.com", "y", "f");
-        int id = dao.insert(newUser);
+        Student student = new Student("Kim", "Brandt", "St Johns", "2012-03-02", "N76845 Cty Hwy Q", "Johnson Creek", "WI", "53549", "kb@gmail.com", "y", "f");
+        int id = dao.insert(student);
         assertNotEquals(0,id);
         Student insertedUser = (Student) dao.getById(id);
         assertEquals("Kim", insertedUser.getFirstName());
