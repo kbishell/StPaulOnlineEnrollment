@@ -2,6 +2,7 @@ package stpaul.lutheran.persistence;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import stpaul.lutheran.entity.Contact;
 import stpaul.lutheran.entity.Role;
 import stpaul.lutheran.entity.Users;
 import stpaul.lutheran.entity.Users;
@@ -71,8 +72,8 @@ public class UsersDaoTest {
          */
         @Test
         void insertSuccess() {
-
-            Users user = new Users("kbishell", "password", "Kortney", "Bishell", "kab@gmail.org");
+            Contact contact = new Contact();
+            Users user = new Users("kbishell", "password", "Kortney", "Bishell", "kab@gmail.org", contact);
             int id = dao.insert(user);
             assertNotEquals(0,id);
             Users insertedUser = (Users) dao.getById(id);

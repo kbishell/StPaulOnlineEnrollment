@@ -45,12 +45,13 @@ public class Users {
     public Users() {
     }
 
-    public Users(String userName, String password, String firstName, String lastName, String emailAddress) {
+    public Users(String userName, String password, String firstName, String lastName, String emailAddress, Contact contact) {
         this.userName = userName;
         this.password = password;
         this.firstName = firstName;
         this.lastName = lastName;
         this.emailAddress = emailAddress;
+        this.contact = contact;
     }
 
     /**
