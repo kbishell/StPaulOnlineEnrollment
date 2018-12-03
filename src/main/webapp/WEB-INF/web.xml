@@ -12,20 +12,14 @@
         </form-login-config>
     </login-config>
 
-   <!-- <servlet>
-        <servlet-name>AuthenticationServlet</servlet-name>
-        <servlet-class>stpaul.lutheran.controller.AuthenticationServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>AuthenticationServlet</servlet-name>
-        <url-pattern>/AuthenticationServlet</url-pattern>
-    </servlet-mapping>-->
-
-    <!-- Protect everything within the "investing" directory. -->
+    <!-- Protect everything until you are an user and sign in -->
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>AdminPages</web-resource-name>
+            <!--<url-pattern>/AdminPages/admin.jsp</url-pattern>-->
             <url-pattern>/registration.jsp</url-pattern>
+            <url-pattern>/newMember.jsp</url-pattern>
+            <url-pattern>/preschoolRegistration.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>registered-user</role-name>

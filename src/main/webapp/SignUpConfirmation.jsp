@@ -4,27 +4,31 @@
 <%@include file="head.jsp"%>
 
 <body>
+<%@include file="head.jsp"%>
+<%@include file="navBar.jsp"%>
 
     <h2>Sign up Confirmation</h2>
 
-    <div class="container theme-showcase" role="main">
+    <div>
 
         <c:choose>
+
             <c:when test = "${errorMessage == null}">
                 <div class="alert alert-success" role="alert">
-                    <strong>New User Registration -- Success</strong>
+                    <strong>New User Registration -- Success</strong> Time to register
                 </div>
             </c:when>
+
             <c:otherwise>
                 <div class="alert alert-danger" role="alert">
                     <strong>New User Registration -- Failed</strong>$<br />
                     {errorMessage}<br /><br />
-                    <a href="signUp.jsp"><button type="button" class="btn btn-primary">
-                        Retry</button></a>
-                    <a href="viewTrails"><button type="button" class="btn btn-default">Cancel
+                    <a href="signUp.jsp"><button type="button" class="btn btn-primary">Retry</button></a>
+                    <a href="viewTrails"><button type="button" class="btn btn-default">Cancel</button></a>
 
                 </div>
             </c:otherwise>
+
         </c:choose>
 
 

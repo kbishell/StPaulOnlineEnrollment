@@ -30,8 +30,6 @@ public class Users {
     private String lastName;
     @Column(name = "emailAddress")
     private String emailAddress;
-    /*@Column(name = "contactID")
-    private Contact contactID;*/
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Role> roles = new HashSet<>();
@@ -186,13 +184,6 @@ public class Users {
 
     }
 
-  /*  public Contact getContactID() {
-        return contactID;
-    }
-
-    public void setContactID(Contact contactID) {
-        this.contactID = contactID;
-    }*/
 
     @Override
     public String toString() {

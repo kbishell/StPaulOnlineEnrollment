@@ -170,7 +170,7 @@ public class GenericDao<T> {
     public List<T> getByPropertyEqual(String propertyName, String value) {
             Session session = getSession();
 
-            logger.debug("Searching for users with " + propertyName + " = " + value);
+            logger.debug("Searching for " + propertyName + " that = " + value);
 
             CriteriaBuilder builder = session.getCriteriaBuilder();
             CriteriaQuery<T> query = builder.createQuery(type);
@@ -188,12 +188,12 @@ public class GenericDao<T> {
      *
      * @param propertyName entity property to search by
      * @param value        value of the property to search for
-     * @return list of userss meeting the criteria search
+     * @return list of users meeting the criteria search
      */
     public List<T> getByPropertyLike(String propertyName, String value) {
             Session session = getSession();
 
-            logger.debug("Searching for users with {} = {}",  propertyName, value);
+            logger.debug("Searching for {} that = ",  propertyName, value);
 
             CriteriaBuilder builder = session.getCriteriaBuilder();
             CriteriaQuery<T> query = builder.createQuery(type);

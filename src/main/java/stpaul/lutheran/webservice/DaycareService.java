@@ -33,17 +33,6 @@ public class DaycareService {
 
         private GenericDao dao = new GenericDao(Student.class);
 
-        /*@GET
-        @Produces("text/plain")
-        public Response getContactInformation() {
-
-                List<Student> students = (List<Student>)dao.getAll();
-
-                String student = students.toString();
-
-                return Response.status(200).entity(student).build();
-        }*/
-
         /**
          * Gets contact information.
          *
@@ -81,7 +70,6 @@ public class DaycareService {
                 return jsonInString;
         }
 
-
         /**
          * Gets contact information.
          *
@@ -114,6 +102,5 @@ public class DaycareService {
                 }
 
                 return Response.status(200).entity(jsonInString).build();
-
         }
 }

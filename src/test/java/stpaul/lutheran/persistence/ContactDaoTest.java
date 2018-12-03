@@ -34,16 +34,13 @@ public class ContactDaoTest {
         students.add(student);*/
     }
 
-    /**
-     * Gets all contact success.
-     */
-/*
+    /*
      * Verifies gets all contacts successfully.
      */
     @Test
     void getAllSuccess() {
         List<Contact> contacts = dao.getAll();
-        assertEquals(5, contacts.size());
+        assertEquals(13, contacts.size());
     }
 
     /**
@@ -60,9 +57,9 @@ public class ContactDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Contact retrievedUser = (Contact) dao.getById(3);
-        assertNotNull(retrievedUser);
-        assertEquals("Robert", retrievedUser.getFirstName());
+        Contact retrievedContact = (Contact) dao.getById(3);
+        assertNotNull(retrievedContact);
+        assertEquals("Robert", retrievedContact.getFirstName());
     }
 
 
@@ -119,6 +116,6 @@ public class ContactDaoTest {
     @Test
     void getByPropertyLikeSuccess() {
         List<Contact> contact = dao.getByPropertyLike("lastName", "G");
-        assertEquals(1, contact.size());
+        assertEquals(3, contact.size());
     }
 }

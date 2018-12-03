@@ -10,13 +10,13 @@
 <head>
     <title>Admin Functions</title>
 </head>
-<body>
-    <div id="adminOnly" class="tab-pane fade">
-        <h3>Admin</h3>
-        <form action="searchUser" method="post">
-            <input type="text" id="search" placeholder="Enter Last Name" name="search">
-            <button type="submit" name="submit">Submit</button>
-        </form>
-    </div>
-</body>
+    <body>
+        <div id="adminOnly" class="tab-pane fade">
+            <h3>Admin</h3>
+            <form action="searchUser" method="post">
+                <input type="text" id="search" placeholder="Enter Last Name" name="search">
+                <button type="submit" name="submit">Submit</button>
+            </form>
+        </div>
+    </body>
 </html>

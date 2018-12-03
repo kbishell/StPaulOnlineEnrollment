@@ -46,14 +46,12 @@ public class Contact {
     private String email;
     @Column(name = "dob")
     private String dob;
-    /*@Column(name = "usersID")
-    private Users usersID;*/
 
 
     /**
      * The Students.
      */
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL/*cascade = { CascadeType.ALL }*/)
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "Student_Contact",
             joinColumns = { @JoinColumn(name = "contactID") },
@@ -85,7 +83,7 @@ public class Contact {
      * @param email                 the email
      * @param dob                   the dob
      **/
-    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob/*, Users usersID *//*, Set<Student> students*/) {
+    public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.relationshipToStudent = relationshipToStudent;
@@ -100,8 +98,6 @@ public class Contact {
         this.zip = zip;
         this.email = email;
         this.dob = dob;
-        /*this.usersID = usersID;*/
-        /*this.students = students;*/
     }
 
     /**
@@ -374,23 +370,6 @@ public class Contact {
         this.dob = dob;
     }
 
-    /**
-     * Gets users id.
-     *
-     * @return the users id
-     */
-    /*public Users getUsersID() {
-        return usersID;
-    }*/
-
-    /**
-     * Sets users id.
-     *
-     * @param usersID the users id
-     */
-    /*public void setUsersID(Users usersID) {
-        this.usersID = usersID;
-    }*/
 
     /**
      * Gets students.
@@ -404,7 +383,8 @@ public class Contact {
     /**
      * Sets students.
      *
-     @param students the students*/
+     * @param students the students
+     */
     public void setStudents(Set<Student> students) {
         this.students = students;
     }

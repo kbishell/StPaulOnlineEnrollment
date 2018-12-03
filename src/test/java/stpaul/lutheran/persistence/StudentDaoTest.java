@@ -33,10 +33,8 @@ public class StudentDaoTest {
         database.runSQL("cleandb.sql");
     }
 
-    /**
-     * Gets all student success.
-     */
-/*
+
+    /*
      * Verifies gets all students successfully.
      */
     @Test
@@ -59,11 +57,11 @@ public class StudentDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Student retrievedUser = (Student) dao.getById(3);
-        assertNotNull(retrievedUser);
-        assertEquals("Cody", retrievedUser.getFirstName());
+        Student retrievedStudent = (Student) dao.getById(3);
+        assertNotNull(retrievedStudent);
+        assertEquals("Cody", retrievedStudent.getFirstName());
 
-        System.out.println(retrievedUser.getContacts());
+        System.out.println(retrievedStudent.getContacts());
     }
 
 
@@ -89,8 +87,8 @@ public class StudentDaoTest {
         daoContact.delete(daoContact.getById(2));
         dao.delete(dao.getById(2));
         assertNull(dao.getById(2));
-    }*/
-
+    }
+*/
 
     /**
      * Update success.

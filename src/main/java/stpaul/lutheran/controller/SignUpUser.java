@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 
@@ -23,36 +24,25 @@ import org.apache.logging.log4j.Logger;
 
 public class SignUpUser extends HttpServlet {
 
-    //private final Logger log = Logger.getLogger(this.getClass());
+    private final Logger logger = LogManager.getLogger(this.getClass());
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         Users user = new Users();
+
         user.setUserName(req.getParameter("userName"));
         user.setEmailAddress(req.getParameter("emailAddress"));
         user.setFirstName(req.getParameter("firstName"));
         user.setLastName(req.getParameter("lastName"));
         user.setPassword(req.getParameter("password"));
 
-        //log.debug("Adding User: " + user);
+        logger.debug("Adding User: " + user);
 
         Role role = new Role();
         role.setUser(user);
-        //role.setName("user");
-        //user.addRole(role);
+        role.setRoleType("registered-user");
+        user.addRole(role);
 
-        /*String gRecaptchaResponse = req.getParameter("g-recaptcha-response");
-        System.out.println(gRecaptchaResponse);
-        boolean isVerified = VerifyRecaptcha.verify(gRecaptchaResponse);
-
-        if (isVerified) {
-            // TODO check if user is already in the database
-            AbstractDao dao = DaoFactory.createDao(User.class);
-            dao.create(user);
-        } else {
-            req.setAttribute("errorMessage", "Failed Captcha - Please try again");
-            log.info("Failed Captcha");
-        }*/
         RequestDispatcher dispatcher = req.getRequestDispatcher("/signUpConfirmation" +
                 ".jsp");
         dispatcher.forward(req, resp);
