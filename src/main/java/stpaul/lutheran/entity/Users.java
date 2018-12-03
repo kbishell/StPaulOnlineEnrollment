@@ -31,8 +31,13 @@ public class Users {
     @Column(name = "emailAddress")
     private String emailAddress;
 
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "contactID")
+    private Contact contact;
+
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Role> roles = new HashSet<>();
+
 
     /**
      * Instantiates a new Users.
@@ -184,6 +189,13 @@ public class Users {
 
     }
 
+    public Contact getContact() {
+        return contact;
+    }
+
+    public void setContact(Contact contact) {
+        this.contact = contact;
+    }
 
     @Override
     public String toString() {

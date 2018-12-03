@@ -21,7 +21,7 @@ CREATE TABLE StudentType (studentTypeID int NOT NULL AUTO_INCREMENT,grade int NO
 -- Table: Student_Contact
 CREATE TABLE Student_Contact (contactID int NOT NULL,studentID int NOT NULL,CONSTRAINT Student_Contact_pk PRIMARY KEY (contactID,studentID));
 -- Table: Users
-CREATE TABLE Users (userID int NOT NULL AUTO_INCREMENT,userName varchar(20) NOT NULL,password varchar(20) NOT NULL,firstName varchar(30) NOT NULL,lastName varchar(30) NOT NULL,emailAddress varchar(200) NOT NULL,CONSTRAINT Users_pk PRIMARY KEY (userID));
+CREATE TABLE Users (userID int NOT NULL AUTO_INCREMENT,userName varchar(20) NOT NULL,password varchar(20) NOT NULL,firstName varchar(30) NOT NULL,lastName varchar(30) NOT NULL,emailAddress varchar(200) NOT NULL,contactID int NOT NULL,CONSTRAINT Users_pk PRIMARY KEY (userID));
 -- foreign keys
 -- Reference: OtherSchools_Students_OtherSchools (table: OtherSchools_Student)
 ALTER TABLE OtherSchools_Student ADD CONSTRAINT OtherSchools_Students_OtherSchools FOREIGN KEY OtherSchools_Students_OtherSchools (otherSchoolsID)REFERENCES OtherSchools (otherSchoolsID);
@@ -37,6 +37,8 @@ ALTER TABLE Student_Contact ADD CONSTRAINT Student_Contact_Contact FOREIGN KEY S
 ALTER TABLE Student_Contact ADD CONSTRAINT Student_Contact_Student FOREIGN KEY Student_Contact_Student (studentID)REFERENCES Student (studentID);
 -- Reference: role_Users (table: Role)
 ALTER TABLE Role ADD CONSTRAINT role_Users FOREIGN KEY role_Users (userID)REFERENCES Users (userID);
+-- Reference: Users_Contact (table: Users)
+ALTER TABLE Users ADD CONSTRAINT Users_Contact FOREIGN KEY Users_Contact (contactID)REFERENCES Contact (contactID);
 -- End of file.
 insert into Users(userName, password, firstName, lastName, emailAddress)values('rtennley','password', 'Robert', 'Tennley', 'rt@gmail.com'),('kbobby','password', 'Keith', 'Bobby', 'kb@gmail.com'),('hunter','password', 'Tim', 'Hunter', 'hunter@gmail.com'),('sselc','password', 'Sue', 'Selc', 'ss@gmail.com');
 insert into Role(userID, roleType, userName) values (1, 'administrator', 'rtennley'),(2, 'registered-user', 'kbobby'),(3, 'registered-user', 'hunter'),(4, 'registered-user', 'sselc');
