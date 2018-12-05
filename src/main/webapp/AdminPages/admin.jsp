@@ -12,7 +12,8 @@
 </head>
     <body>
         <div id="adminOnly" class="tab-pane fade">
-            <h3>Admin</h3>
+            <h3>Admin ONLY</h3>
+            <h2>Searh Users</h2>
             <form action="searchUser" method="post">
                 <input type="text" id="search" placeholder="Enter Last Name" name="search">
                 <button type="submit" name="submit">Submit</button>

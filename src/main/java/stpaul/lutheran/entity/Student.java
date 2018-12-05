@@ -45,7 +45,7 @@ public class Student {
     private String gender;
 
 
-    @OneToMany(/*targetEntity=Student.class*/cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "student")
+    @OneToMany(targetEntity=Registration.class, cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "student")
     private Set<Registration> registrations = new HashSet<>();
 
 
