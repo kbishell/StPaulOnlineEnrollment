@@ -40,7 +40,7 @@ public class ContactDaoTest {
     @Test
     void getAllSuccess() {
         List<Contact> contacts = dao.getAll();
-        assertEquals(13, contacts.size());
+        assertEquals(14, contacts.size());
     }
 
     /**
@@ -49,7 +49,7 @@ public class ContactDaoTest {
     @Test
     void getByLastNameSuccess() {
         List<Contact> contact = dao.getByLastName("B");
-        assertEquals(2, contact.size());
+        assertEquals(3, contact.size());
     }
 
     /**

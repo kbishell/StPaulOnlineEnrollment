@@ -44,10 +44,8 @@ public class Student {
     @Column(name = "gender")
     private String gender;
 
-    /*Set<Registration> registrations = new HashSet<Registration>();*/
+    private Set<Registration> registrations = new HashSet<Registration>();
 
-    /*@ManyToMany(mappedBy = "studentsSchools")
-    private Set<OtherSchools> schools = new HashSet<>();*/
 
     @JsonIgnore
     @ManyToMany(fetch = FetchType.EAGER, mappedBy = "students")
@@ -301,41 +299,7 @@ public class Student {
         this.gender = gender;
     }
 
-    /**
-     * Gets registrations.
-     *
-     * @return the registrations
-     */
-    /*public Set<Registration> getRegistrations() {
-        return registrations;
-    }*/
 
-    /**
-     * Sets registrations.
-     *
-     * @param registrations the registrations
-     */
-    /*public void setRegistrations(Set<Registration> registrations) {
-        this.registrations = registrations;
-    }*/
-
-    /**
-     * Gets schools.
-     *
-     * @return the schools
-     */
-    /*public Set<OtherSchools> getSchools() {
-        return schools;
-    }*/
-
-    /**
-     * Sets schools.
-     *
-     * @return the contacts
-     */
-/*public void setSchools(Set<OtherSchools> schools) {
-        this.schools = schools;
-    }*/
 
     public List<Contact> getContacts() {
         return contacts;
@@ -350,52 +314,14 @@ public class Student {
         this.contacts = contacts;
     }
 
-   /* @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Student student = (Student) o;
-
-        if (studentID != student.studentID) return false;
-        if (firstName != null ? !firstName.equals(student.firstName) : student.firstName != null) return false;
-        if (lastName != null ? !lastName.equals(student.lastName) : student.lastName != null) return false;
-        if (churchAffiliation != null ? !churchAffiliation.equals(student.churchAffiliation) : student.churchAffiliation != null)
-            return false;
-        if (dob != null ? !dob.equals(student.dob) : student.dob != null) return false;
-        if (primaryAddress != null ? !primaryAddress.equals(student.primaryAddress) : student.primaryAddress != null)
-            return false;
-        if (city != null ? !city.equals(student.city) : student.city != null) return false;
-        if (state != null ? !state.equals(student.state) : student.state != null) return false;
-        if (zip != null ? !zip.equals(student.zip) : student.zip != null) return false;
-        if (email != null ? !email.equals(student.email) : student.email != null) return false;
-        if (baptized != null ? !baptized.equals(student.baptized) : student.baptized != null) return false;
-        if (gender != null ? !gender.equals(student.gender) : student.gender != null) return false;
-        if (registrations != null ? !registrations.equals(student.registrations) : student.registrations != null)
-            return false;
-        if (schools != null ? !schools.equals(student.schools) : student.schools != null) return false;
-        return contacts != null ? contacts.equals(student.contacts) : student.contacts == null;
+    @OneToMany(mappedBy = "student")
+    public Set<Registration> getRegistrations() {
+        return registrations;
     }
 
-    @Override
-    public int hashCode() {
-        int result = studentID;
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (churchAffiliation != null ? churchAffiliation.hashCode() : 0);
-        result = 31 * result + (dob != null ? dob.hashCode() : 0);
-        result = 31 * result + (primaryAddress != null ? primaryAddress.hashCode() : 0);
-        result = 31 * result + (city != null ? city.hashCode() : 0);
-        result = 31 * result + (state != null ? state.hashCode() : 0);
-        result = 31 * result + (zip != null ? zip.hashCode() : 0);
-        result = 31 * result + (email != null ? email.hashCode() : 0);
-        result = 31 * result + (baptized != null ? baptized.hashCode() : 0);
-        result = 31 * result + (gender != null ? gender.hashCode() : 0);
-        result = 31 * result + (registrations != null ? registrations.hashCode() : 0);
-        result = 31 * result + (schools != null ? schools.hashCode() : 0);
-        result = 31 * result + (contacts != null ? contacts.hashCode() : 0);
-        return result;
-    }*/
+    public void setRegistrations(Set<Registration> registrations) {
+        this.registrations = registrations;
+    }
 
     @Override
     public String toString() {
@@ -412,7 +338,6 @@ public class Student {
                 ", email='" + email + '\'' +
                 ", baptized='" + baptized + '\'' +
                 ", gender='" + gender + '\''
-//               + ", contacts=" + contacts
                + '}';
     }
 }

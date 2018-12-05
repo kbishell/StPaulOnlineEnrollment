@@ -34,6 +34,7 @@ public class Users {
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "contactID")
     private Contact contact;
+    //private int contactID;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Role> roles = new HashSet<>();
@@ -52,6 +53,7 @@ public class Users {
         this.lastName = lastName;
         this.emailAddress = emailAddress;
         this.contact = contact;
+        //this.contactID = contact.getContactID();
     }
 
     /**

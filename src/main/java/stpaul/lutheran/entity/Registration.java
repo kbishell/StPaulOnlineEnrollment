@@ -17,11 +17,11 @@ public class Registration {
     private int registrationID;
 
     @Column(name = "timestamp")
-    private String timestamp;
+    private int timestamp;
     @Column(name = "studentID")
-    private String studentID;
+    private int studentID;
     @Column(name = "studentTypeID")
-    private String studentTypeID;
+    private int studentTypeID;
 
     /**
      * Instantiates a new Registration.
@@ -36,7 +36,7 @@ public class Registration {
      * @param studentID     the student id
      * @param studentTypeID the student type id
      */
-    public Registration(String timestamp, String studentID, String studentTypeID) {
+    public Registration(int timestamp, int studentID, int studentTypeID) {
         this.timestamp = timestamp;
         this.studentID = studentID;
         this.studentTypeID = studentTypeID;
@@ -65,7 +65,7 @@ public class Registration {
      *
      * @return the timestamp
      */
-    public String getTimestamp() {
+    public int getTimestamp() {
         return timestamp;
     }
 
@@ -74,7 +74,7 @@ public class Registration {
      *
      * @param timestamp the timestamp
      */
-    public void setTimestamp(String timestamp) {
+    public void setTimestamp(int timestamp) {
         this.timestamp = timestamp;
     }
 
@@ -85,7 +85,7 @@ public class Registration {
      */
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "studentID")
-    public String getStudentID() {
+    public int getStudentID() {
         return studentID;
     }
 
@@ -94,7 +94,7 @@ public class Registration {
      *
      * @param studentID the student id
      */
-    public void setStudentID(String studentID) {
+    public void setStudentID(int studentID) {
         this.studentID = studentID;
     }
 
@@ -105,7 +105,7 @@ public class Registration {
      */
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "studentTypeID")
-    public String getStudentTypeID() {
+    public int getStudentTypeID() {
         return studentTypeID;
     }
 
@@ -114,39 +114,8 @@ public class Registration {
      *
      * @param studentTypeID the student type id
      */
-    public void setStudentTypeID(String studentTypeID) {
+    public void setStudentTypeID(int studentTypeID) {
         this.studentTypeID = studentTypeID;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Registration that = (Registration) o;
-
-        if (registrationID != that.registrationID) return false;
-        if (timestamp != null ? !timestamp.equals(that.timestamp) : that.timestamp != null) return false;
-        if (studentID != null ? !studentID.equals(that.studentID) : that.studentID != null) return false;
-        return studentTypeID != null ? studentTypeID.equals(that.studentTypeID) : that.studentTypeID == null;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = registrationID;
-        result = 31 * result + (timestamp != null ? timestamp.hashCode() : 0);
-        result = 31 * result + (studentID != null ? studentID.hashCode() : 0);
-        result = 31 * result + (studentTypeID != null ? studentTypeID.hashCode() : 0);
-        return result;
-    }
-
-    @Override
-    public String toString() {
-        return "Registration{" +
-                "registrationID=" + registrationID +
-                ", timestamp='" + timestamp + '\'' +
-                ", studentID='" + studentID + '\'' +
-                ", studentTypeID='" + studentTypeID + '\'' +
-                '}';
-    }
 }

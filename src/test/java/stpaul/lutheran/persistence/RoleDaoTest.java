@@ -51,7 +51,7 @@ public class RoleDaoTest {
     void getByIdSuccess() {
         Role retrievedRole = (Role) dao.getById(3);
         assertNotNull(retrievedRole);
-        assertEquals("hunter", retrievedRole.getUserName());
+        assertEquals("scoll", retrievedRole.getUserName());
     }
 
 
