@@ -1,0 +1,201 @@
+[ERROR] 2018-12-05 12:10:37.754 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:37.759 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:10:38.286 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.287 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:10:38.287 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:10:38.287 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:10:38.287 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:10:38.287 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:10:38.339 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.339 [main] GenericDao - Searching for lastName that = Stern
+[ERROR] 2018-12-05 12:10:38.393 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.393 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:10:38.430 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:38.467 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:38.497 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:38.614 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.614 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:10:38.656 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.657 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:10:38.657 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:10:38.657 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:10:38.657 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:10:38.657 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:10:38.706 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.707 [main] GenericDao - Searching for lastName that = Brock
+[ERROR] 2018-12-05 12:10:38.742 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.743 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:10:38.768 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:38.816 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:38.904 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.905 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:10:38.966 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:38.967 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:10:38.967 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:10:38.967 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:10:38.967 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:10:38.967 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:10:38.975 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-12-05 12:10:38.975 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-12-05 12:10:38.976 [main] GenericDao - Searching for: {} 70
+[ERROR] 2018-12-05 12:10:39.000 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:39.001 [main] GenericDao - Searching for lastName that = Brock
+[ERROR] 2018-12-05 12:10:39.030 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:39.031 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:10:39.091 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:39.136 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:39.170 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:39.252 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:39.278 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:39.279 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:10:39.279 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:10:39.279 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:10:39.279 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:10:39.279 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:10:39.307 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:39.308 [main] GenericDao - Searching for lastName that = Tennley
+[ERROR] 2018-12-05 12:10:39.329 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:10:39.330 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:10:39.351 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:39.377 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:10:39.405 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:19:47.293 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:19:47.300 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:19:47.829 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:19:47.830 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:19:47.830 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:19:47.830 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:19:47.830 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:19:47.830 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:19:47.846 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-12-05 12:19:47.846 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-12-05 12:19:47.846 [main] GenericDao - Searching for: {} 70
+[ERROR] 2018-12-05 12:19:47.886 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:19:47.886 [main] GenericDao - Searching for lastName that = Brock
+[ERROR] 2018-12-05 12:19:47.967 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:19:47.972 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:19:48.009 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:19:48.094 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:19:48.134 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:40.081 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:40.088 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:22:40.583 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:40.584 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:22:40.584 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:22:40.584 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:22:40.584 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:22:40.584 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:22:40.634 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:40.635 [main] GenericDao - Searching for lastName that = Stern
+[ERROR] 2018-12-05 12:22:40.698 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:40.699 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:22:40.736 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:40.783 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:40.819 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:40.981 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:40.981 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:22:41.035 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.038 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:22:41.038 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:22:41.038 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:22:41.038 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:22:41.039 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:22:41.078 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.078 [main] GenericDao - Searching for lastName that = Brock
+[ERROR] 2018-12-05 12:22:41.114 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.115 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:22:41.151 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:41.222 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:41.336 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.338 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:22:41.400 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.401 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:22:41.401 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:22:41.401 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:22:41.401 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:22:41.401 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:22:41.407 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-12-05 12:22:41.407 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-12-05 12:22:41.407 [main] GenericDao - Searching for: {} 70
+[ERROR] 2018-12-05 12:22:41.432 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.434 [main] GenericDao - Searching for lastName that = Brock
+[ERROR] 2018-12-05 12:22:41.460 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.461 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:22:41.504 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:41.569 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:41.608 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:41.680 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:41.709 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.709 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:22:41.709 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:22:41.709 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:22:41.709 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:22:41.709 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:22:41.739 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.740 [main] GenericDao - Searching for lastName that = Tennley
+[ERROR] 2018-12-05 12:22:41.762 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:22:41.763 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:22:41.781 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:41.807 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:22:41.832 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:20.440 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:20.445 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:26:20.892 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:20.893 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:26:20.894 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:26:20.894 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:26:20.894 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:26:20.894 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:26:20.946 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:20.946 [main] GenericDao - Searching for lastName that = Stern
+[ERROR] 2018-12-05 12:26:21.054 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.055 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:26:21.099 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:21.140 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:21.169 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:21.282 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.284 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:26:21.327 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.327 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:26:21.327 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:26:21.327 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:26:21.327 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:26:21.327 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:26:21.371 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.372 [main] GenericDao - Searching for lastName that = Brock
+[ERROR] 2018-12-05 12:26:21.520 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.520 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:26:21.560 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:21.591 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:21.656 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.657 [main] GenericDao - Searching for: B
+[ERROR] 2018-12-05 12:26:21.713 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.713 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:26:21.713 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:26:21.713 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:26:21.713 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:26:21.713 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:26:21.720 [main] GenericDao - Searching for: {} 5
+[DEBUG] 2018-12-05 12:26:21.720 [main] GenericDao - Searching for: {} 6
+[DEBUG] 2018-12-05 12:26:21.720 [main] GenericDao - Searching for: {} 70
+[ERROR] 2018-12-05 12:26:21.747 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.747 [main] GenericDao - Searching for lastName that = Brock
+[ERROR] 2018-12-05 12:26:21.773 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:21.774 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:26:21.798 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:21.845 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:21.893 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:21.979 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:22.006 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:22.006 [main] GenericDao - Searching for: {} 1
+[DEBUG] 2018-12-05 12:26:22.006 [main] GenericDao - Searching for: {} 2
+[DEBUG] 2018-12-05 12:26:22.006 [main] GenericDao - Searching for: {} 3
+[DEBUG] 2018-12-05 12:26:22.006 [main] GenericDao - Searching for: {} 4
+[DEBUG] 2018-12-05 12:26:22.006 [main] GenericDao - Searching for: {} 4
+[ERROR] 2018-12-05 12:26:22.032 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:22.033 [main] GenericDao - Searching for lastName that = Tennley
+[ERROR] 2018-12-05 12:26:22.052 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[DEBUG] 2018-12-05 12:26:22.052 [main] GenericDao - Searching for lastName that = 
+[ERROR] 2018-12-05 12:26:22.074 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:22.105 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1
+[ERROR] 2018-12-05 12:26:22.131 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolNa' at line 1

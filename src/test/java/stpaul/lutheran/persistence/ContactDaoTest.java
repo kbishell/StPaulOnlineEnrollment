@@ -18,8 +18,6 @@ public class ContactDaoTest {
      * The Dao.
      */
     GenericDao dao;
-/*    Student student;
-    Set<Student> students;*/
 
     /**
      * Creating the dao.
@@ -30,8 +28,6 @@ public class ContactDaoTest {
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
-/*        student = new Student("Kortney", "Dannet", "St Johns", "2010-02-02", "N7218 Hwy H", "Johnson Creek", "WI", "53549", "kd@gmail.com", "y", "f");
-        students.add(student);*/
     }
 
     /*

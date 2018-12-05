@@ -7,11 +7,11 @@ use enrollment;
 -- Table: Contact
 CREATE TABLE Contact (contactID int NOT NULL AUTO_INCREMENT,firstName varchar(20) NOT NULL,lastName varchar(20) NOT NULL,relationshipToStudent varchar(30) NOT NULL,cellPhone varchar(10) NOT NULL,workPhone varchar(10) NOT NULL,baptized char(1) NOT NULL,employer varchar(30) NOT NULL,hoursWorked varchar(200) NOT NULL,address varchar(200) NOT NULL,city varchar(20) NOT NULL,state char(2) NOT NULL,zip int NOT NULL,dob date NOT NULL, email varchar(20),CONSTRAINT Contact_pk PRIMARY KEY (contactID));
 -- Table: OtherSchools
-CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolName varchar(50) NOT NULL,duration int NOT NULL,gradeLevel int NOT NULL,CONSTRAINT OtherSchools_pk PRIMARY KEY (otherSchoolsID));
+--CREATE TABLE OtherSchools (otherSchoolsID int NOT NULL AUTO_INCREMENT,schoolName varchar(50) NOT NULL,duration int NOT NULL,gradeLevel int NOT NULL,CONSTRAINT OtherSchools_pk PRIMARY KEY (otherSchoolsID));
 -- Table: OtherSchools_Student
-CREATE TABLE OtherSchools_Student (studentID int NOT NULL,otherSchoolsID int NOT NULL,CONSTRAINT OtherSchools_Student_pk PRIMARY KEY (studentID,otherSchoolsID));
+--CREATE TABLE OtherSchools_Student (studentID int NOT NULL,otherSchoolsID int NOT NULL,CONSTRAINT OtherSchools_Student_pk PRIMARY KEY (studentID,otherSchoolsID));
 -- Table: Registration
-CREATE TABLE Registration (registrationID int NOT NULL,studentID int NOT NULL,studentTypeID int NOT NULL,timestamp timestamp NOT NULL,CONSTRAINT Registration_pk PRIMARY KEY (registrationID));
+CREATE TABLE Registration (registrationID int NOT NULL AUTO_INCREMENT,studentID int NOT NULL,studentTypeID int NOT NULL,timestamp timestamp NOT NULL,CONSTRAINT Registration_pk PRIMARY KEY (registrationID));
 -- Table: Role
 CREATE TABLE Role (roleID int NOT NULL AUTO_INCREMENT,userID int NOT NULL,roleType varchar(30) NOT NULL,userName varchar(20) NOT NULL,CONSTRAINT Role_pk PRIMARY KEY (roleID));
 -- Table: Student
@@ -24,9 +24,9 @@ CREATE TABLE Student_Contact (contactID int NOT NULL,studentID int NOT NULL,CONS
 CREATE TABLE Users (userID int NOT NULL AUTO_INCREMENT,userName varchar(20) NOT NULL,password varchar(20) NOT NULL,firstName varchar(30) NOT NULL,lastName varchar(30) NOT NULL,emailAddress varchar(200) NOT NULL,contactID int NOT NULL,CONSTRAINT Users_pk PRIMARY KEY (userID));
 -- foreign keys
 -- Reference: OtherSchools_Students_OtherSchools (table: OtherSchools_Student)
-ALTER TABLE OtherSchools_Student ADD CONSTRAINT OtherSchools_Students_OtherSchools FOREIGN KEY OtherSchools_Students_OtherSchools (otherSchoolsID)REFERENCES OtherSchools (otherSchoolsID);
+--ALTER TABLE OtherSchools_Student ADD CONSTRAINT OtherSchools_Students_OtherSchools FOREIGN KEY OtherSchools_Students_OtherSchools (otherSchoolsID)REFERENCES OtherSchools (otherSchoolsID);
 -- Reference: OtherSchools_Students_Student (table: OtherSchools_Student)
-ALTER TABLE OtherSchools_Student ADD CONSTRAINT OtherSchools_Students_Student FOREIGN KEY OtherSchools_Students_Student (studentID)REFERENCES Student (studentID);
+--ALTER TABLE OtherSchools_Student ADD CONSTRAINT OtherSchools_Students_Student FOREIGN KEY OtherSchools_Students_Student (studentID)REFERENCES Student (studentID);
 -- Reference: Registration_Student (table: Registration)
 ALTER TABLE Registration ADD CONSTRAINT Registration_Student FOREIGN KEY Registration_Student (studentID)REFERENCES Student (studentID);
 -- Reference: Registration_StudentType (table: Registration)

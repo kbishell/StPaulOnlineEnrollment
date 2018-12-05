@@ -44,7 +44,9 @@ public class Student {
     @Column(name = "gender")
     private String gender;
 
-    private Set<Registration> registrations = new HashSet<Registration>();
+
+    @OneToMany(/*targetEntity=Student.class*/cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "student")
+    private Set<Registration> registrations = new HashSet<>();
 
 
     @JsonIgnore
@@ -84,8 +86,6 @@ public class Student {
         this.email = email;
         this.baptized = baptized;
         this.gender = gender;
-        /*this.registrations = registrations;*/
-        /*this.schools = schools;*/
     }
 
     /**
@@ -314,7 +314,6 @@ public class Student {
         this.contacts = contacts;
     }
 
-    @OneToMany(mappedBy = "student")
     public Set<Registration> getRegistrations() {
         return registrations;
     }

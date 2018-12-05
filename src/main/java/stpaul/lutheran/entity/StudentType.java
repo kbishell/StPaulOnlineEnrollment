@@ -23,6 +23,7 @@ public class StudentType {
     @Column(name = "yearlyFee")
     private String yearlyFee;
 
+    @OneToMany(/*targetEntity=StudentType.class, */cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "studentType")
     private Set<Registration> registrations = new HashSet<Registration>();
 
     /**
@@ -98,7 +99,6 @@ public class StudentType {
         this.yearlyFee = yearlyFee;
     }
 
-    @OneToMany(mappedBy = "studentType")
     public Set<Registration> getRegistrations() {
         return registrations;
     }

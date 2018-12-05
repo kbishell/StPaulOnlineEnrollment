@@ -18,10 +18,14 @@ public class Registration {
 
     @Column(name = "timestamp")
     private int timestamp;
-    @Column(name = "studentID")
-    private int studentID;
-    @Column(name = "studentTypeID")
-    private int studentTypeID;
+
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "studentID")
+    private Student student;
+
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "studentTypeID")
+    private StudentType studentType;
 
     /**
      * Instantiates a new Registration.
@@ -33,89 +37,44 @@ public class Registration {
      * Instantiates a new Registration.
      *
      * @param timestamp     the timestamp
-     * @param studentID     the student id
-     * @param studentTypeID the student type id
+     * @param student    the student id
+     * @param studentType the student type id
      */
-    public Registration(int timestamp, int studentID, int studentTypeID) {
+    public Registration(int timestamp, Student student, StudentType studentType) {
         this.timestamp = timestamp;
-        this.studentID = studentID;
-        this.studentTypeID = studentTypeID;
+        this.student = student;
+        this.studentType = studentType;
     }
 
-    /**
-     * Gets registration id.
-     *
-     * @return the registration id
-     */
     public int getRegistrationID() {
         return registrationID;
     }
 
-    /**
-     * Sets registration id.
-     *
-     * @param registrationID the registration id
-     */
     public void setRegistrationID(int registrationID) {
         this.registrationID = registrationID;
     }
 
-    /**
-     * Gets timestamp.
-     *
-     * @return the timestamp
-     */
     public int getTimestamp() {
         return timestamp;
     }
 
-    /**
-     * Sets timestamp.
-     *
-     * @param timestamp the timestamp
-     */
     public void setTimestamp(int timestamp) {
         this.timestamp = timestamp;
     }
 
-    /**
-     * Gets student id.
-     *
-     * @return the student id
-     */
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "studentID")
-    public int getStudentID() {
-        return studentID;
+    public Student getStudent() {
+        return student;
     }
 
-    /**
-     * Sets student id.
-     *
-     * @param studentID the student id
-     */
-    public void setStudentID(int studentID) {
-        this.studentID = studentID;
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
-    /**
-     * Gets student type id.
-     *
-     * @return the student type id
-     */
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "studentTypeID")
-    public int getStudentTypeID() {
-        return studentTypeID;
+    public StudentType getStudentType() {
+        return studentType;
     }
 
-    /**
-     * Sets student type id.
-     *
-     * @param studentTypeID the student type id
-     */
-    public void setStudentTypeID(int studentTypeID) {
-        this.studentTypeID = studentTypeID;
+    public void setStudentType(StudentType studentType) {
+        this.studentType = studentType;
     }
-
 }

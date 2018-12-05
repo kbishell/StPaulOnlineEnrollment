@@ -35,14 +35,12 @@ public class RoleDaoTest {
     /**
      * Gets all role success.
      */
-/*
-     * Verifies gets all roles successfully.
-     */
-   /*@Test
+
+   @Test
     void getAllSuccess() {
         List<Role> role = dao.getAll();
         assertEquals(4, role.size());
-    }*/
+    }
 
     /**
      * Verifies a role is returned correctly based on id search
@@ -58,7 +56,7 @@ public class RoleDaoTest {
     /**
      * Insert success.
      */
-    /*@Test
+    @Test
     void insertSuccess(Role role) {
 
         Role newRole = new Role("administrator", role.getUser());
@@ -66,7 +64,7 @@ public class RoleDaoTest {
         assertNotEquals(0,id);
         Role insertedUser = (Role) dao.getById(id);
         assertEquals("kbishell", insertedUser.getUserName());
-    }*/
+    }
 
     /**
      * Delete success.
@@ -95,21 +93,21 @@ public class RoleDaoTest {
     /**
      * Gets by property equal success.
      */
-    /*@Test
+    @Test
     void getByPropertyEqualSuccess() {
         List<Role> role = dao.getByPropertyEqual("lastName", "Tennley");
         assertEquals(1, role.size());
         assertEquals(1, role.get(0).getRoleID());
-    }*/
+    }
 
     /**
      * Gets by property like success.
      */
-    /*@Test
+    @Test
     void getByPropertyLikeSuccess() {
         List<Role> role = dao.getByPropertyLike("lastName", "W");
         assertEquals(0, role.size());
-    }*/
+    }
 }
 
 
