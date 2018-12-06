@@ -7,9 +7,9 @@
     <%@include file="navBar.jsp"%>
 
     <div class="tab-content">
-        <img src="images/stPaulsLogo.png"><br />
+        <%--<img src="images/stPaulsLogo.png"><br />--%>
 
-        <%@include file="signUpOrSignInLinks.jsp"%>
+<%--        <%@include file="signUpOrSignInLinks.jsp"%>--%>
 
         <%@include file="preschoolRegistration.jsp"%>
 

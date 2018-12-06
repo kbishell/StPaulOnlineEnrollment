@@ -11,7 +11,6 @@
     <div>
 
         <c:choose>
-
             <c:when test = "${errorMessage == null}">
                 <div class="centered" class="alert alert-success" role="alert">
                     <strong>New User Registration -- Success</strong> Time to register your student
@@ -26,7 +25,6 @@
                     <%--<a href="signIn"><button type="button" class="btn btn-default">Sign In</button></a>--%>
                 </div>
             </c:otherwise>
-
         </c:choose>
 
 

@@ -21,7 +21,7 @@ public class UsersDaoTest {
          * The Dao.
          */
         GenericDao dao;
-        GenericDao daoContact = new GenericDao(Users.class);
+        GenericDao daoContact;
 
 
         /**
@@ -70,8 +70,9 @@ public class UsersDaoTest {
         /**
          * Insert success.
          */
-/*        @Test
+    /*    @Test
         void insertSuccess() {
+            daoContact = new GenericDao(Contact.class);
             Contact contact = (Contact) daoContact.getById(14);
             Users user = new Users("Kort", "password", "Kortney", "Bishell", "kort@gmail.org", contact);
             int id = dao.insert(user);
@@ -83,13 +84,13 @@ public class UsersDaoTest {
         /**
          * Delete success.
          */
-  /*  @Test
-    void deleteSuccess() {
-        daoContact = new GenericDao(Contact.class);
-        daoContact.delete(daoContact.getById(2));
-        dao.delete(dao.getById(2));
-        assertNull(dao.getById(2));
-    }
+    /*    @Test
+        void deleteSuccess() {
+            daoContact = new GenericDao(Contact.class);
+            daoContact.delete(daoContact.getById(2));
+            dao.delete(dao.getById(2));
+            assertNull(dao.getById(2));
+        }
 */
 
         /**
@@ -125,8 +126,3 @@ public class UsersDaoTest {
             assertEquals(1, users.size());
         }
     }
-
-
-
-
-

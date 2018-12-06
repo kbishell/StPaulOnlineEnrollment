@@ -1,5 +1,6 @@
 package stpaul.lutheran.entity;
 
+
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -12,7 +13,7 @@ import java.util.Set;
 @Entity(name = "Contact")
 @Table(name = "Contact")
 public class Contact {
-
+    //TODO: 12/6/18 finish mapping to users -- cannot find contactID
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
