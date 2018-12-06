@@ -7,7 +7,6 @@
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@include file="head.jsp"%>
 <html>
 <head>
     <title>Sign Up or Sign In</title>

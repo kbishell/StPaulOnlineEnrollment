@@ -13,7 +13,7 @@
     <body>
         <div id="adminOnly" class="tab-pane fade">
             <h3 class="centered">Admin use ONLY</h3>
-            <h2 class="centered">Searh Users</h2>
+            <h2 class="centered">Search Users</h2>
             <form action="searchUser" method="post">
                 <label for="search">Search By Last Name: </label>
                 <input type="text" id="search" placeholder="Enter Last Name" name="search">

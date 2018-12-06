@@ -35,7 +35,7 @@ public class SignUpUser extends HttpServlet {
         user.setFirstName(req.getParameter("firstName"));
         user.setLastName(req.getParameter("lastName"));
         user.setPassword(req.getParameter("password"));
-        user.setPassword(req.getParameter("confirmPassword"));
+        //user.setPassword(req.getParameter("confirmPassword"));
 
         logger.debug("Adding User: " + user);
 
@@ -43,6 +43,8 @@ public class SignUpUser extends HttpServlet {
         role.setUser(user);
         role.setRoleType("registered-user");
         user.addRole(role);
+
+        logger.debug("Adding User: " + user);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/SignUpConfirmation.jsp");
         dispatcher.forward(req, resp);

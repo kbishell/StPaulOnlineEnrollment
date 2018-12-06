@@ -5,8 +5,6 @@
   Time: 10:23 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%@include file="head.jsp"%>
-<%@include file="navBar.jsp"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -55,9 +53,9 @@
         <input type="text" id="previousSchoolYears" placeholder="Years" name="previousSchoolYears"><br><br>
         <button type="submit" name="submit">Add Another School</button><br><br>
 
-        <button type="submit" name="submit">Enter Another Child</button><br><br>
+        <button type="submit" name="submit" class="btn btn-primary">Enter Another Child</button><br><br>
 
-        <button type="submit" name="submit">GO</button><br><br>
+        <button type="submit" name="submit" class="btn btn-primary">GO</button><br><br>
 
         <p id="registrationFee">Non-refundable Registration Fee $70.00. Return registration fee with this form to secure your
             place. You will recieve an email confirming your child's enrollment</p>

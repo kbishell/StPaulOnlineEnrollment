@@ -27,7 +27,7 @@
         <input type="text" id="lastName" placeholder="Last Name" name="lastName"><br />
         <label>Email Address: </label>
         <input type="text" id="emailAddress" placeholder="Email Address" name="emailAddress"><br />
-        <button type="submit" name="submit">Submit</button>
+        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
     </form>
 </body>
 </html>

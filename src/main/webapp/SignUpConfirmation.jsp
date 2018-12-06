@@ -4,7 +4,6 @@
 <%@include file="head.jsp"%>
 
 <body>
-<%@include file="head.jsp"%>
 <%@include file="navBar.jsp"%>
 
     <h2>Sign up Confirmation</h2>
