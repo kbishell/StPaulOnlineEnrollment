@@ -1,5 +1,6 @@
 body {
     background-color: lightslategray;
+    background-image: url("../images/stPaulsLogo.png");
 }
 
 img {
@@ -7,31 +8,35 @@ img {
 }
 
 
-.nav-tabs {
+/*.nav-tabs {
     background-color: darkred;
     color: white;
-/*    display: block;
-    margin-left: auto;
-    margin-right: auto;*/
     padding: 2em .5em .5em .5em;
+    font-weight: bold;
+}*/
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    /*border-top: none;
+    border-left: none;
+    border-right: none;*/
+    /*border-bottom: 3px solid #e9a39c;*/
+    font-weight: bold;
+    background-color: darkred !important;
+    color: white;
+    text-shadow: 3px 2px black;
 }
 
-.centered {
-    text-align: center;
+.nav-tabs>li>a:hover{
+    border: 1px solid transparent;
 }
 
-h3 {
-    text-align: center;
+.nav>li>a:focus, .nav>li>a:hover{
+    background-color: #d4d4d4;
 }
 
-h2 {
-    text-align: center;
+.nav-tabs{
+    border-bottom: none;
+    display: inline-block; /* needed to center the list items */
 }
 
-h1 {
-    text-align: center;
-}
 
-div {
-    text-align: center;
-}

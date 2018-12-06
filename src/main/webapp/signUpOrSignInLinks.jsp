@@ -13,9 +13,9 @@
     <title>Sign Up or Sign In</title>
 </head>
 <body>
-    <div id="reg" class="tab-pane fade">
-        <a href="registration.jsp"><button class="centered" type="submit" name="submit" class="btn btn-primary">Sign In</button></a>
-        <a href="signUp.jsp"><button class="centered" type="submit" name="submit" class="btn btn-primary">Sign Up</button></a>
+    <div id="home" class="tab-pane fade">
+        <a href="registration.jsp"><button type="submit" name="submit" class="btn btn-primary btn-block">Sign In</button></a>
+        <a href="signUp.jsp"><button type="submit" name="submit" class="btn btn-secondary btn-block">Sign Up</button></a>
     </div>
 </body>
 </html>
