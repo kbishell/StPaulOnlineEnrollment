@@ -35,3 +35,19 @@
 | 11/6/18| (Week Ten) | checkpoint 3 |2|
 | 11/7/18| (Week Ten) | checkpoint 3 |6|
 | 11/9/18| (Week Ten) | hibernate, week 9 activities |8|
+| 11/12/18| (Week Eleven) | exercise - team collaboration - team project |8|
+| 11/14/18| (Week Eleven) | multithreading error / exercise |5|
+| 11/16/18| (Week Eleven) | hibernate relationships for team project |8|
+| 11/19/18| (Week Twelve) | database updates and create rest service  |12|
+| 11/21/18| (Week Twelve) | team presentation - powerpoint - user guide|6|
+| 11/24/18| (Week Thirteen) | hibernate relationships |8|
+| 11/26/18| (Week Thirteen) | Professional Development Presentation |8|
+| 11/28/18| (Week Thirteen) | Professional Development Presentation |5|
+| 12/3/18| (Week Fourteen) | hibernate error, CRUD (create user) |8|
+| 12/5/18| (Week Fourteen) | CRUD (create user) - css - logs|8|
+| 12/7/18| (Week Fourteen) | CRUD (create user) - john's code review |8|
+
+
+
+
+

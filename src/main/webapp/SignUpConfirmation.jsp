@@ -15,7 +15,7 @@
 
             <c:when test = "${errorMessage == null}">
                 <div class="alert alert-success" role="alert">
-                    <strong>New User Registration -- Success</strong> Time to register
+                    <strong>New User Registration -- Success</strong> Time to register your student
                 </div>
             </c:when>
 
@@ -24,8 +24,7 @@
                     <strong>New User Registration -- Failed</strong>$<br />
                     {errorMessage}<br /><br />
                     <a href="signUp.jsp"><button type="button" class="btn btn-primary">Retry</button></a>
-                    <a href="viewTrails"><button type="button" class="btn btn-default">Cancel</button></a>
-
+                    <%--<a href="signIn"><button type="button" class="btn btn-default">Sign In</button></a>--%>
                 </div>
             </c:otherwise>
 
