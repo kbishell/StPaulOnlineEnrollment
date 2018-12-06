@@ -20,7 +20,6 @@
 - [x] Create staff dao unit tests
 - [x] Weekly journal entry
 - [x] Set up logging
-- [ ] Create class uml diagram
 - [x] Prepare for Week 5 peer design/code review
 
 
@@ -30,10 +29,9 @@
 - [x] Weekly journal entry
 - [x] Add the role table
 - [x] Create the role dao
-- [ ] Create the role dao unit tests
-- [ ] Add a jsp to display user and role
-- [ ] Add jsp to add a user
-- [ ] Add jsp to display users account
+- [x] Create the role dao unit tests
+- [x] Add jsp to add a user
+- [x] Add jsp to display users account
 
 
 ### Week 6
@@ -41,7 +39,6 @@
 - [x] Create db on AWS
 - [x] Deploy to AWS for first time
 - [x] Weekly journal entry
-- [ ] Add the account entity (test, dev and prod dbs)
 - [ ] Add update and delete functionality in jsp for user and role
 - [ ] Build the account add/update/delete jsp
 - [x] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
@@ -50,51 +47,50 @@
 ### Week 7
 
 - [x] Weekly journal entry
-- [ ] Set up authentication locally
+- [x] Set up authentication locally
 - [x] Set up authentication on AWS
-- [ ] Populate with data, (test, dev and prod dbs)
+- [x] Populate with data, (test, dev and prod dbs)
 - [x] Review and incorporate any feedback from Checkpoint 2.
 
 
 ### Week 8
 
 - [x] Weekly journal entry
-- [ ] Integration with google maps api
-- [ ] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
+- [x] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
 
 ### Week 9
 - [x] Weekly journal entry
-- [ ] Review and incorporate feedback from Checkpoint 3.
-- [ ] Carefully review code for standards and best practices - use a code quality tool? 
+- [x] Review and incorporate feedback from Checkpoint 3.
+- [x] Carefully review code for standards and best practices
 
 ### Week 8
-- [ ] Weekly journal entry
-- [ ] Code review
+- [x] Weekly journal entry
+- [x] Code review
 
 ### Week 9
-- [ ] Weekly journal entry
-- [ ] Add password reset/reminder functionality
+- [x] Weekly journal entry
 
 ### Week 10
-- [ ] Weekly journal entry
-- [ ] Unit test all api integrations
+- [x] Weekly journal entry
+- [x] Unit test all api integrations
 
 ### Week 11 - Team project work week
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
+- [x] Team project topic
 
 ### Week 12 - Team project due
-- [ ] Weekly journal entry
-- [ ] Review indie project and create list of todos
+- [x] Weekly journal entry
+- [x] Team project complete and up to AWS
+- [x] Review indie project and create list of todos
 
 ### Week 13
-- [ ] Weekly journal entry
-- [ ] Complete todos identified in week 12
-- [ ] Prepare for week 13 peer code reviews
-- [ ] Code quality check
-- [ ] Review rubric to make sure I'm on target
+- [x] Weekly journal entry
+- [x] Complete todos identified in week 12
+- [x] Prepare for week 13 peer code reviews
+- [x] Review rubric to make sure I'm on target
 
 ### Week 14
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Create final presentation
 
 ### Week 15

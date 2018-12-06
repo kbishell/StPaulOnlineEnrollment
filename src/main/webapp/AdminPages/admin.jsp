@@ -12,11 +12,13 @@
 </head>
     <body>
         <div id="adminOnly" class="tab-pane fade">
-            <h3>Admin ONLY</h3>
-            <h2>Searh Users</h2>
+            <h3 class="centered">Admin use ONLY</h3>
+            <h2 class="centered">Searh Users</h2>
             <form action="searchUser" method="post">
+                <label for="search">Search By Last Name: </label>
                 <input type="text" id="search" placeholder="Enter Last Name" name="search">
-                <button type="submit" name="submit">Submit</button>
+                <button type="submit" name="submit" value="search" class="btn btn-primary">Submit</button>
+                <button type="submit" name="submit" value="viewAll" class="btn btn-primary">View All Users</button>
             </form>
         </div>
     </body>

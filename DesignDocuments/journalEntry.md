@@ -37,12 +37,20 @@ struggle with my relationships.
 Still working on checkpoint three. Authentication and my jsps seem to not be connected correctly.
 
 ### Week 11
+My team is all teamed up and signed up - collaborating on what we will design for team project. My biggest struggle this
+week is hibernate. I am working on a Many to Many and I have complications with it deleting my database.
 
 ### Week 12
+Hibernate is working for team project. Now I am creating the Rest Service and converting to JSON. JSON and hibernate are
+not cooperating. We found and @JSONIgnore annotation that solved this issue. Finished Multithreading.
 
 ### Week 13
+Focusing on team project presentations. I think my team really pulled together and everything turned out great.
 
 ### Week 14
+Trying to get caught back up on my indie project. Struggling with the CRUD. I have Read working. Create is almost there.
+I see the light at the end of the tunnel. All my logs and journals are updated. It's crazy to look at everything I've
+accomplished so far this semester!!!
 
 ### Week 15
 

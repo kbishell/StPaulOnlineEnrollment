@@ -14,13 +14,13 @@
         <c:choose>
 
             <c:when test = "${errorMessage == null}">
-                <div class="alert alert-success" role="alert">
+                <div class="centered" class="alert alert-success" role="alert">
                     <strong>New User Registration -- Success</strong> Time to register your student
                 </div>
             </c:when>
 
             <c:otherwise>
-                <div class="alert alert-danger" role="alert">
+                <div class="centered" class="alert alert-danger" role="alert">
                     <strong>New User Registration -- Failed</strong>$<br />
                     {errorMessage}<br /><br />
                     <a href="signUp.jsp"><button type="button" class="btn btn-primary">Retry</button></a>

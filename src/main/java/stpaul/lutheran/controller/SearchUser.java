@@ -42,12 +42,20 @@ public class SearchUser extends HttpServlet {
 
         logger.debug(search);
 
-        if(search == null || search.length() == 0){
+        /*if(search == null || search.length() == 0){
 
             req.setAttribute("users", userDao.getAll());
         } else {
 
             req.setAttribute("users", userDao.getByLastName(search));
+        }*/
+
+        if(req.getParameter("submit").equals("search")){
+
+            req.setAttribute("users", userDao.getByLastName(search));
+        } else {
+
+            req.setAttribute("users", userDao.getAll());
         }
 
         logger.info("ALL: " + userDao.getAll());

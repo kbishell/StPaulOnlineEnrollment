@@ -27,9 +27,6 @@
         <mapping class="stpaul.lutheran.entity.StudentType"/>
         <mapping class="stpaul.lutheran.entity.Users"/>
 
-
-
-
     </session-factory>
 
 </hibernate-configuration>

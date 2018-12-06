@@ -28,8 +28,8 @@ public class SignUpUser extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Users user = new Users();
 
+        Users user = new Users();
         user.setUserName(req.getParameter("userName"));
         user.setEmailAddress(req.getParameter("emailAddress"));
         user.setFirstName(req.getParameter("firstName"));
