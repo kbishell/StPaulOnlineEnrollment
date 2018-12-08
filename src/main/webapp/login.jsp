@@ -2,7 +2,7 @@
 <%@include file="navBar.jsp"%>
 <div id="signIn" class="tab-pane fade in active">
     <%--<img src="images/stPaulsLogo.png">--%>
-    <h1>St Paul's Lutheran Online Registration</h1>
+    <h1>Please Login to Register</h1>
 
     <FORM ACTION="j_security_check" METHOD="POST">
         <TABLE>

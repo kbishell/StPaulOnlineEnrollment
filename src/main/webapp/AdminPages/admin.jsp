@@ -13,14 +13,16 @@
 </head>
     <body>
         <div id="adminOnly" class="tab-pane fade">
-            <h3>Admin use ONLY</h3>
-            <h2>Search Users</h2>
-            <form action="searchUser" method="post">
-                <label for="search">Search By Last Name: </label>
-                <input type="text" id="search" placeholder="Enter Last Name" name="search">
-                <button type="submit" name="submit" value="search" class="btn btn-primary">Submit</button>
-                <button type="submit" name="submit" value="viewAll" class="btn btn-primary">View All Users</button>
-            </form>
+            <div class="container">
+                <h3>Admin use ONLY</h3>
+                <h2>Search Users</h2>
+                <form action="searchUser" method="post">
+                    <label for="search">Search By Last Name: </label>
+                    <input type="text" id="search" placeholder="Enter Last Name" name="search">
+                    <button type="submit" name="submit" value="search" class="btn btn-primary">Submit</button>
+                    <button type="submit" name="submit" value="viewAll" class="btn btn-primary">View All Users</button>
+                </form>
+            </div>
         </div>
     </body>
 </html>

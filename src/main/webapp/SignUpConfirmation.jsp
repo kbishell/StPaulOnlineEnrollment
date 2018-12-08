@@ -4,31 +4,33 @@
 <%@include file="head.jsp"%>
 
 <body>
-<%@include file="navBar.jsp"%>
 
-    <h2>Sign up Confirmation</h2>
+    <div class="container">
+        <%@include file="navBar.jsp"%>
 
-    <div>
+            <h2>Sign up Confirmation</h2>
 
-        <c:choose>
-            <c:when test = "${errorMessage == null}">
-                <div class="centered" class="alert alert-success" role="alert">
-                    <strong>New User Registration -- Success</strong> Time to register your student
-                </div>
-            </c:when>
+            <div>
 
-            <c:otherwise>
-                <div class="centered" class="alert alert-danger" role="alert">
-                    <strong>New User Registration -- Failed</strong>$<br />
-                    {errorMessage}<br /><br />
-                    <a href="signUp.jsp"><button type="button" class="btn btn-primary">Retry</button></a>
-                    <%--<a href="signIn"><button type="button" class="btn btn-default">Sign In</button></a>--%>
-                </div>
-            </c:otherwise>
-        </c:choose>
+                <c:choose>
+                    <c:when test = "${errorMessage == null}">
+                        <div class="centered" class="alert alert-success" role="alert">
+                            <strong>New User Registration -- Success</strong> Time to register your student
+                        </div>
+                    </c:when>
+
+                    <c:otherwise>
+                        <div class="centered" class="alert alert-danger" role="alert">
+                            <strong>New User Registration -- Failed</strong>$<br />
+                            {errorMessage}<br /><br />
+                            <a href="signUp.jsp"><button type="button" class="btn btn-primary">Retry</button></a>
+                            <%--<a href="signIn"><button type="button" class="btn btn-default">Sign In</button></a>--%>
+                        </div>
+                    </c:otherwise>
+                </c:choose>
 
 
+            </div>
     </div>
-
 </body>
 </html>

@@ -1,10 +1,33 @@
 body {
-    background-color: lightslategray;
+    background-color: lightslategray !important;
+    /*
     background-image: url("../images/stPaulsLogo.png");
+    */
 }
+/*
+
+.containter {
+    background-color: lightslategray !important;
+}
+*/
 
 img {
     max-width: 90%;
+}
+
+
+h1 {
+    text-align: center !important;
+}
+
+
+h2 {
+    text-align: center !important;
+}
+
+
+h3 {
+    text-align: center !important;
 }
 
 

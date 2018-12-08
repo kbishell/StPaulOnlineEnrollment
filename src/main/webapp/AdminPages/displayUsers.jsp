@@ -5,7 +5,7 @@
 
 <html><body>
 
-<div class="container-fluid">
+<div class="container">
     <h2>Users Search Results:</h2>
 
     <table class="table">

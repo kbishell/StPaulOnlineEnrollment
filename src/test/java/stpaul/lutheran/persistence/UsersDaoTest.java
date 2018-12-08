@@ -70,7 +70,7 @@ public class UsersDaoTest {
         /**
          * Insert success.
          */
-    /*    @Test
+        @Test
         void insertSuccess() {
             daoContact = new GenericDao(Contact.class);
             Contact contact = (Contact) daoContact.getById(14);
@@ -79,7 +79,7 @@ public class UsersDaoTest {
             assertNotEquals(0,id);
             Users insertedUser = (Users) dao.getById(id);
             assertEquals("Kortney", insertedUser.getFirstName());
-        }*/
+        }
 
         /**
          * Delete success.
