@@ -11,9 +11,8 @@
     <title>Pre-School Registration</title>
 </head>
 <body>
-    <div class="container">
-        <div id="pre" class="tab-pane fade">
-
+    <div id="pre" class="tab-pane fade">
+        <div class="container">
 
             <h2>Pre-School Registration</h2>
 
