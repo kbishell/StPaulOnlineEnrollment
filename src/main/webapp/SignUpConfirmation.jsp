@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <%@include file="head.jsp"%>
+<%@include file="navBar.jsp"%>
 
 <body>
 

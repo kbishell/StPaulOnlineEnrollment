@@ -13,9 +13,9 @@
     <title>Pre-School Registration</title>
 </head>--%>
 <body>
-    <div id="pre" class="tab-pane fade">
+    <div id="pre">
         <div class="container center_div">
-
+            <%@include file="navBar.jsp"%>
             <h2>Pre-School Registration</h2>
 
             <div class="panel-group" id="accordion">

@@ -13,7 +13,7 @@
     <title>New Member Entry Form</title>
 </head>--%>
 <body>
-<div id="newMember" class="tab-pane fade">
+<div id="newMember">
     <h1>New Member Entry Form</h1><br><br>
 
     <form action="/newMember" method="get">

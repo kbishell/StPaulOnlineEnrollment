@@ -6,7 +6,7 @@
     <title>Invalid Sign In</title>
 </head>
 <body>
-
+<%@include file="navBar.jsp"%
     <div class="alert alert-danger" role="alert">
         <div class="container">
             <strong>Invalid userid and/or password combination</strong>

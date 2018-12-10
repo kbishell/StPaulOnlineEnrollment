@@ -13,9 +13,10 @@
     <title>K-8 Registration</title>
 </head>--%>
 <body>
-        <div id="reg" class="tab-pane fade">
-            <div class="container center_div">
+        <div id="reg">
 
+            <div class="container center_div">
+                <%@include file="navBar.jsp"%>
                 <form class="form-horizontal" action="/reg" method="get">
 
                     <h2>Register K-8 Students</h2>

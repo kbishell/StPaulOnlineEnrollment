@@ -3,12 +3,12 @@
 <%@include file="head.jsp"%>
 <body>
     <div class="container center_div">
-        <%@include file="navBar.jsp"%>
+        <%--<%@include file="navBar.jsp"%>--%>
 
-        <div class="tab-content">
+        <div>
             <%--<img src="images/stPaulsLogo.png"><br />--%>
 
-            <%@include file="signUpOrSignInLinks.jsp"%>
+            <%@include file="home.jsp"%>
 
             <%@include file="preschoolRegistration.jsp"%>
 

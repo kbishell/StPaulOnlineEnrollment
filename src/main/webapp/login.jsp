@@ -2,7 +2,7 @@
 <html lang="en">
 <%@include file="head.jsp"%>
 <body>
-    <div id="signIn" class="tab-pane fade in active">
+    <div id="signIn">
         <div class="container center_div">
             <%@include file="navBar.jsp"%>
             <%--<img src="images/stPaulsLogo.png">--%>
