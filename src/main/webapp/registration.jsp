@@ -116,9 +116,9 @@
                         </div>
                     </div>
 
-                                <button type="submit" name="submit" class="btn btn-primary">Enter Another Child</button><br><br>
+                                <button type="submit" name="submit" class="btn btn-primary btn-lg">Enter Another Child</button><br><br>
 
-                                <button type="submit" name="submit" class="btn btn-primary">Apply</button>
+                                <button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>
             </form>
         </div>
     </div>

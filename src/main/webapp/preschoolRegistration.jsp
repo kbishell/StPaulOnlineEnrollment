@@ -33,7 +33,7 @@
                                 <input type="checkbox" id="MT3k" name="MT3k" value="Monday and Tuesday $120 per month">Monday and Tuesday $120 per month<br>
                                 <input type="checkbox" id="MTF3k" name="MTF3k" value="Monday, Thursday, and Friday $180 per month">Monday, Thursday, and Friday $180 per month<br>
                                 <input type="checkbox" id="childcare3kHalf" name="childcare3kHalf" value="Childcare on regular sessions days (11:00am - 3:00pm) $15 per day">Childcare on regular sessions days (11:00am - 3:00pm) $15 per day<br>
-                                <button type="submit" name="submit" class="btn btn-primary">Apply</button>
+                                <button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>
                             </form>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                                 <input type="checkbox" id="childcare4khalf" name="childcare4khalf" value="Childcare on regular session days (11:00am-3:00pm) $15 per day">Childcare on regular session days (11:00am-3:00pm) $15 per day<br><br>
 
                                 <p>Before care included in prices for half-day programs (6:30am - 7:30am)</p><br>
-                                <button type="submit" name="submit" class="btn btn-primary">Apply</button>
+                                <button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>
                             </form>
 
                         </div>
@@ -80,7 +80,7 @@
                                 <input type="checkbox" id="MTFull" name="MTFull" value="Monday - Thursday">Monday - Thursday<br>
                                 <input type="checkbox" id="MFFull" name="MFFull" value="Monday - Friday">Monday - Friday<br>
 
-                                <button type="submit" name="submit" class="btn btn-primary">Apply</button>
+                                <button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>
 
                             </form>
 

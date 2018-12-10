@@ -1,5 +1,6 @@
 package stpaul.lutheran.controller;
 
+import stpaul.lutheran.entity.Contact;
 import stpaul.lutheran.entity.Role;
 import stpaul.lutheran.entity.Users;
 
@@ -13,6 +14,7 @@ import java.io.IOException;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import stpaul.lutheran.persistence.GenericDao;
 
 
 /**
@@ -29,22 +31,43 @@ public class SignUpUser extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        GenericDao usersDao = new GenericDao(Users.class);
+        GenericDao roleDao = new GenericDao(Role.class);
+        GenericDao contactDao = new GenericDao(Contact.class);
+
+        Contact contact = new Contact();
+        contact.setFirstName(req.getParameter("firstName"));
+        contact.setLastName(req.getParameter("lastName"));
+        contact.setRelationshipToStudent(req.getParameter("relationshipToStudent"));
+        contact.setCellPhone(req.getParameter("cellPhone"));
+        contact.setWorkPhone(req.getParameter("workPhone"));
+        contact.setBaptized(req.getParameter("baptized"));
+        contact.setEmployer(req.getParameter("employer"));
+        contact.setHoursWorked(req.getParameter("hoursWorked"));
+        contact.setAddress(req.getParameter("address"));
+        contact.setCity(req.getParameter("city"));
+        contact.setState(req.getParameter("state"));
+        contact.setZip(req.getParameter("zip"));
+        contact.setEmail(req.getParameter("email"));
+        contact.setDob(req.getParameter("dob"));
+
         Users user = new Users();
         user.setUserName(req.getParameter("userName"));
         user.setEmailAddress(req.getParameter("emailAddress"));
         user.setFirstName(req.getParameter("firstName"));
         user.setLastName(req.getParameter("lastName"));
         user.setPassword(req.getParameter("password"));
-        //user.setPassword(req.getParameter("confirmPassword"));
-
-        logger.debug("Adding User: " + user);
 
         Role role = new Role();
         role.setUser(user);
         role.setRoleType("registered-user");
         user.addRole(role);
 
-        logger.debug("Adding User: " + user);
+        contactDao.insert(contact);
+        usersDao.insert(user);
+        roleDao.insert(role);
+
+        logger.debug("Adding User + Contact + Role: " + user + contact + role);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/SignUpConfirmation.jsp");
         dispatcher.forward(req, resp);
