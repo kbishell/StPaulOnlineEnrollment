@@ -20,7 +20,6 @@ import stpaul.lutheran.persistence.GenericDao;
 /**
  * Created by kbishell
  */
-
 @WebServlet(name = "SignUpUser", urlPatterns = { "/signUpUser" } )
 
 
@@ -52,6 +51,7 @@ public class SignUpUser extends HttpServlet {
         contact.setDob(req.getParameter("dob"));
 
         Users user = new Users();
+        user.setContact(contact);
         user.setUserName(req.getParameter("userName"));
         user.setEmailAddress(req.getParameter("emailAddress"));
         user.setFirstName(req.getParameter("firstName"));
@@ -59,15 +59,16 @@ public class SignUpUser extends HttpServlet {
         user.setPassword(req.getParameter("password"));
 
         Role role = new Role();
+        role.setUserName(req.getParameter("userName"));
         role.setUser(user);
         role.setRoleType("registered-user");
         user.addRole(role);
 
         contactDao.insert(contact);
         usersDao.insert(user);
-        roleDao.insert(role);
+        //roleDao.insert(role);
 
-        logger.debug("Adding User + Contact + Role: " + user + contact + role);
+        logger.info("Adding User + Contact + Role: " + user + contact + role);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/SignUpConfirmation.jsp");
         dispatcher.forward(req, resp);

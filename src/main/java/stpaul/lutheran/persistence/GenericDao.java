@@ -54,27 +54,27 @@ public class GenericDao<T> {
      * @return the all entities
      */
     public List<T> getAll() {
-        logger.debug("Searching for: {} 1");
+        logger.info("Searching for: {} 1");
             Session session = getSession();
 
-        logger.debug("Searching for: {} 2");
+        logger.info("Searching for: {} 2");
             CriteriaBuilder builder = session.getCriteriaBuilder();
 
-        logger.debug("Searching for: {} 3");
+        logger.info("Searching for: {} 3");
             CriteriaQuery<T> query = builder.createQuery(type);
 
-        logger.debug("Searching for: {} 4");
+        logger.info("Searching for: {} 4");
             Root<T> root = query.from(type);
 
-        logger.debug("Searching for: {} 4");
+        logger.info("Searching for: {} 4");
             query.select(root);
             List<T> list = session.createQuery(query).getResultList();
 
-        logger.debug("Searching for: {} 5");
+        logger.info("Searching for: {} 5");
             session.close();
 
-        logger.debug("Searching for: {} 6");
-        logger.debug("Searching for: {} 7" + list.size());
+        logger.info("Searching for: {} 6");
+        logger.info("Searching for: {} 7" + list.size());
 
             return list;
         }
@@ -87,7 +87,7 @@ public class GenericDao<T> {
      */
     public List<T> getByLastName(String lastName) {
 
-            logger.debug("Searching for: {}", lastName);
+            logger.info("Searching for: {}", lastName);
 
             Session session = getSession();
 
@@ -111,7 +111,7 @@ public class GenericDao<T> {
     public <T>T getById(int id) {
             Session session = getSession();
             T entity = (T)session.get(type, id);
-            logger.debug("********************************************" + id);
+            logger.info("********************************************" + id);
             session.close();
             return entity;
         }
@@ -170,7 +170,7 @@ public class GenericDao<T> {
     public List<T> getByPropertyEqual(String propertyName, String value) {
             Session session = getSession();
 
-            logger.debug("Searching for " + propertyName + " that = " + value);
+            logger.info("Searching for " + propertyName + " that = " + value);
 
             CriteriaBuilder builder = session.getCriteriaBuilder();
             CriteriaQuery<T> query = builder.createQuery(type);
@@ -193,7 +193,7 @@ public class GenericDao<T> {
     public List<T> getByPropertyLike(String propertyName, String value) {
             Session session = getSession();
 
-            logger.debug("Searching for {} that = ",  propertyName, value);
+            logger.info("Searching for {} that = ",  propertyName, value);
 
             CriteriaBuilder builder = session.getCriteriaBuilder();
             CriteriaQuery<T> query = builder.createQuery(type);

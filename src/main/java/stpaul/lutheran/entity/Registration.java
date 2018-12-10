@@ -36,8 +36,8 @@ public class Registration {
     /**
      * Instantiates a new Registration.
      *
-     * @param timestamp     the timestamp
-     * @param student    the student id
+     * @param timestamp   the timestamp
+     * @param student     the student id
      * @param studentType the student type id
      */
     public Registration(int timestamp, Student student, StudentType studentType) {
@@ -46,34 +46,74 @@ public class Registration {
         this.studentType = studentType;
     }
 
+    /**
+     * Gets registration id.
+     *
+     * @return the registration id
+     */
     public int getRegistrationID() {
         return registrationID;
     }
 
+    /**
+     * Sets registration id.
+     *
+     * @param registrationID the registration id
+     */
     public void setRegistrationID(int registrationID) {
         this.registrationID = registrationID;
     }
 
+    /**
+     * Gets timestamp.
+     *
+     * @return the timestamp
+     */
     public int getTimestamp() {
         return timestamp;
     }
 
+    /**
+     * Sets timestamp.
+     *
+     * @param timestamp the timestamp
+     */
     public void setTimestamp(int timestamp) {
         this.timestamp = timestamp;
     }
 
+    /**
+     * Gets student.
+     *
+     * @return the student
+     */
     public Student getStudent() {
         return student;
     }
 
+    /**
+     * Sets student.
+     *
+     * @param student the student
+     */
     public void setStudent(Student student) {
         this.student = student;
     }
 
+    /**
+     * Gets student type.
+     *
+     * @return the student type
+     */
     public StudentType getStudentType() {
         return studentType;
     }
 
+    /**
+     * Sets student type.
+     *
+     * @param studentType the student type
+     */
     public void setStudentType(StudentType studentType) {
         this.studentType = studentType;
     }

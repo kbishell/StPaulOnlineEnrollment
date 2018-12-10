@@ -24,7 +24,7 @@ public class registrationK8 extends HttpServlet{
         @Override
         protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-            logger.error("registering for K-8");
+            logger.info("registering for K-8");
 
 
             GenericDao userDao = new GenericDao(Users.class);

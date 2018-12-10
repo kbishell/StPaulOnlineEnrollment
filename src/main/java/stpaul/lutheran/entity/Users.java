@@ -33,6 +33,7 @@ public class Users {
 
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "contactID")
+
     // TODO: 12/6/18 finish mapping to the contact -- see saved link on desktop
     private Contact contact;
     //private int contactID;

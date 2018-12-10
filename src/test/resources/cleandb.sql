@@ -1,6 +1,6 @@
-drop database enrollment;
-create database enrollment;
-use enrollment;
+drop database onlineEnrollment;
+create database onlineEnrollment;
+use onlineEnrollment;
 -- Created by Vertabelo (http://vertabelo.com)
 -- Last modification date: 2018-10-31 14:17:56.148
 -- tables

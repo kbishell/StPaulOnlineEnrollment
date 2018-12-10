@@ -31,16 +31,16 @@ public class SearchUser extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        logger.error("inSearchUser");
+        logger.info("inSearchUser");
 
 
         GenericDao userDao = new GenericDao(Users.class);
 
-        logger.error("inSearchUser");
+        logger.info("inSearchUser");
 
         String search = req.getParameter("search");
 
-        logger.debug(search);
+        logger.info(search);
 
         if(req.getParameter("submit").equals("search")){
 
