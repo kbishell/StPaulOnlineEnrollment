@@ -6,10 +6,12 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+<%@include file="head.jsp"%>
+<%--<head>
     <title>New Member Entry Form</title>
-</head>
+</head>--%>
 <body>
 <div id="newMember" class="tab-pane fade">
     <h1>New Member Entry Form</h1><br><br>

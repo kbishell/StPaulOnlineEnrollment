@@ -66,7 +66,8 @@ public class Contact {
      * Instantiates a new Contact.
      */
     public Contact() {
-        contactID = 0;
+
+        //contactID = 0;
     }
 
     /**
@@ -88,7 +89,7 @@ public class Contact {
      * @param dob                   the dob
      **/
     public Contact(String firstName, String lastName, String relationshipToStudent, String cellPhone, String workPhone, String baptized, String employer, String hoursWorked, String address, String city, String state, String zip, String email, String dob) {
-        this();
+        //this();
         this.firstName = firstName;
         this.lastName = lastName;
         this.relationshipToStudent = relationshipToStudent;

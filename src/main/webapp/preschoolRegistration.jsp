@@ -6,13 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+<%@include file="head.jsp"%>
+<%--<head>
     <title>Pre-School Registration</title>
-</head>
+</head>--%>
 <body>
     <div id="pre" class="tab-pane fade">
-        <div class="container">
+        <div class="container center_div">
 
             <h2>Pre-School Registration</h2>
 
@@ -32,7 +34,7 @@
 
                                 <input type="checkbox" id="MT3k" name="MT3k" value="Monday and Tuesday $120 per month">Monday and Tuesday $120 per month<br>
                                 <input type="checkbox" id="MTF3k" name="MTF3k" value="Monday, Thursday, and Friday $180 per month">Monday, Thursday, and Friday $180 per month<br>
-                                <input type="checkbox" id="childcare3kHalf" name="childcare3kHalf" value="Childcare on regular sessions days (11:00am - 3:00pm) $15 per day">Childcare on regular sessions days (11:00am - 3:00pm) $15 per day<br>
+                                <input type="checkbox" id="childcare3kHalf" name="childcare3kHalf" value="Childcare on regular sessions days (11:00am - 3:00pm) $15 per day">Childcare on regular sessions days (11:00am - 3:00pm) $15 per day<br><br>
                                 <button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>
                             </form>
                         </div>
@@ -78,7 +80,7 @@
 
                                 <input type="checkbox" id="MWFull" name="MWFull" value="Monday - Wednesday">Monday - Wednesday<br>
                                 <input type="checkbox" id="MTFull" name="MTFull" value="Monday - Thursday">Monday - Thursday<br>
-                                <input type="checkbox" id="MFFull" name="MFFull" value="Monday - Friday">Monday - Friday<br>
+                                <input type="checkbox" id="MFFull" name="MFFull" value="Monday - Friday">Monday - Friday<br><br>
 
                                 <button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>
 

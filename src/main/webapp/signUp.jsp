@@ -7,10 +7,12 @@
 --%>
 <%@include file="head.jsp"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+<%@include file="head.jsp"%>
+<%--<head>
     <title>Sign Up</title>
-</head>
+</head>--%>
 <body>
     <div class="container">
         <%@include file="navBar.jsp"%>
@@ -28,16 +30,19 @@
                 <label>Last Name: </label>
                 <input type="text" id="lastName" placeholder="Last Name" name="lastName"><br />
                 <label>Email Address: </label>
-                <input type="text" id="emailAddress" placeholder="Email Address" name="emailAddress"><br />
+                <input type="text" id="email" placeholder="Email Address" name="email"><br />
                 <label>Cell Phone: </label>
                 <input type="text" id="cellPhone" placeholder="Cell Phone" name="cellPhone"><br />
                 <label>Work Phone: </label>
                 <input type="text" id="workPhone" placeholder="Work Phone" name="workPhone"><br />
                 <label>Relationship to Student add drop down: </label>
                 <input type="text" id="relationshipToStudent" placeholder="Mother - Father - Physician" name="relationshipToStudent"><br />
-                <label>Baptized: </label> <input type="radio" id="baptized" name="baptized" value="y"> Yes
-                <input type="radio" id="baptized" name="baptized" value="n"> No<br><br>
+                <label>Baptized: </label>
+                <input type="text" id="baptized" placeholder="Y or N" name="baptized"><br />
+                <%--<input type="radio" id="baptized" name="baptized" value="y"> Yes
+                <input type="radio" id="baptized" name="baptized" value="n"> No<br><br>--%>
                 <%--<input type="text" id="regDateOfBaptism" placeholder="Date Of Baptism" name="dateOfBaptism"><br><br><br>--%>
+
                 <label>Employer: </label>
                 <input type="text" id="employer" placeholder="Employer" name="employer"><br />
                 <label>Hours Worked: </label>

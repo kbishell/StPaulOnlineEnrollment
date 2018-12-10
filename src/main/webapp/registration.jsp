@@ -6,14 +6,15 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="en">
 <%@include file="head.jsp"%>
-<html>
-<head>
+<%--<head>
     <title>K-8 Registration</title>
-</head>
+</head>--%>
 <body>
         <div id="reg" class="tab-pane fade">
-            <div class="container">
+            <div class="container center_div">
 
                 <form action="/reg" method="get">
 
