@@ -8,7 +8,7 @@
             <%--<img src="images/stPaulsLogo.png">--%>
             <h1>Please Login to Register</h1>
 
-            <FORM ACTION="j_security_check" METHOD="POST">
+            <FORM class="form-horizontal" ACTION="j_security_check" METHOD="POST">
                 <TABLE>
                     <TR><TD>User Name: <INPUT TYPE="TEXT" NAME="j_username">
                     <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">

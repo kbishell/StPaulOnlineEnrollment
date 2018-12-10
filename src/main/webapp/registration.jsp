@@ -16,7 +16,7 @@
         <div id="reg" class="tab-pane fade">
             <div class="container center_div">
 
-                <form action="/reg" method="get">
+                <form class="form-horizontal" action="/reg" method="get">
 
                     <h2>Register K-8 Students</h2>
                     <div class="panel-group" id="accordionReg">

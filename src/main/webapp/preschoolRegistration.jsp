@@ -29,7 +29,7 @@
                     <div id="collapse1" class="panel-collapse collapse in">
                         <div class="panel-body">
 
-                            <form action="/pre3k" method="get">
+                            <form class="form-horizontal" action="/pre3k" method="get">
                                 <h3><strong>7:30am - 11:00am</strong></h3>
 
                                 <input type="checkbox" id="MT3k" name="MT3k" value="Monday and Tuesday $120 per month">Monday and Tuesday $120 per month<br>
@@ -50,7 +50,7 @@
                     <div id="collapse2" class="panel-collapse collapse">
                         <div class="panel-body">
 
-                            <form action="/pre4k" method="get">
+                            <form class="form-horizontal" action="/pre4k" method="get">
                                 <h3><strong>7:30am - 11:00am</strong></h3>
 
                                 <input type="checkbox" id="childcare4khalf" name="childcare4khalf" value="Childcare on regular session days (11:00am-3:00pm) $15 per day">Childcare on regular session days (11:00am-3:00pm) $15 per day<br><br>
@@ -72,7 +72,7 @@
                     <div id="collapse3" class="panel-collapse collapse">
                         <div class="panel-body">
 
-                            <form action="/full" method="get">
+                            <form class="form-horizontal" action="/full" method="get">
                                 <h3><strong>Mixed Ages</strong></h3>
                                 <h3><strong>7:30am - 3:00pm</strong></h3>
 
