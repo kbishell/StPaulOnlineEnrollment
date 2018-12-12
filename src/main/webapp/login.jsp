@@ -8,12 +8,14 @@
             <%--<img src="images/stPaulsLogo.png">--%>
             <h1>Please Login to Register</h1>
 
-            <FORM class="form-horizontal" ACTION="j_security_check" METHOD="POST">
-                <TABLE>
-                    <TR><TD>User Name: <INPUT TYPE="TEXT" NAME="j_username">
-                    <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
-                    <TR><TH><INPUT TYPE="SUBMIT" VALUE="Sign In">
-                </TABLE>
+            <FORM class="form-inline" ACTION="j_security_check" METHOD="POST">
+                <div class="form-group">
+                    <TABLE>
+                        <TR><TD>User Name: <INPUT TYPE="TEXT" NAME="j_username">
+                        <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
+                        <TR><TH><INPUT TYPE="SUBMIT" VALUE="Sign In">
+                    </TABLE>
+                </div>
             </FORM>
         </div>
     </div>

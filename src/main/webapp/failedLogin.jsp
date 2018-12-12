@@ -7,12 +7,11 @@
     <title>Invalid Sign In</title>
 </head>
 <body>
-
-    <div class="alert alert-danger" role="alert">
-        <div class="container">
-            <strong>Invalid userid and/or password combination</strong>
-        </div><br />
-        <a href="login.jsp"><button class="btn btn-danger btn-lg">Please try again</button></a>
+    <div class="container">
+        <div class="alert alert-danger" role="alert">
+                <strong>Invalid userid and/or password combination</strong><br />
+            <a href="login.jsp"><button class="btn btn-danger btn-lg">Please try again</button></a>
+        </div>
     </div>
 </body>
 </html>

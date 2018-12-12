@@ -27,16 +27,16 @@
         </auth-constraint>
     </security-constraint>
 
-    <security-constraint>
+    <!--<security-constraint>
         <web-resource-collection>
             <web-resource-name>Admin</web-resource-name>
-            <!--<url-pattern>/AdminPages/admin.jsp</url-pattern>-->
+            &lt;!&ndash;<url-pattern>/AdminPages/admin.jsp</url-pattern>&ndash;&gt;
             <url-pattern>/admin.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>administrator</role-name>
         </auth-constraint>
-    </security-constraint>
+    </security-constraint>-->
 
     <security-role>
         <role-name>registered-user</role-name>
