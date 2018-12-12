@@ -129,15 +129,15 @@
                                     <label>Work Phone: </label>
                                     <input type="text" id="workPhone" placeholder="Work Phone" name="workPhone"><br />
                                     <label>Hours Worked: </label>
-                                    <input type="text" id="hoursWorked" placeholder="Hours Worked" name="hoursWorked"><br />
+                                    <input type="text" id="hoursWorked" placeholder="Hours Worked" name="hoursWorked"><br /><br />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div><br />
 
-            <button type="submit" name="submit" class="btn btn-primary btn-lg">Submit</button>
+            <button type="submit" name="submit" class="btn btn-danger btn-lg">Submit</button>
 
         </form>
     </div>

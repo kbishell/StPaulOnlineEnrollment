@@ -45,8 +45,8 @@ public class Student {
     private String gender;
 
 
-    @OneToMany(targetEntity=Registration.class, cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "student")
-    private Set<Registration> registrations = new HashSet<>();
+   /* @OneToMany(targetEntity=Registration.class, cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "student")
+    private Set<Registration> registrations = new HashSet<>();*/
 
 
     @JsonIgnore
@@ -314,13 +314,13 @@ public class Student {
         this.contacts = contacts;
     }
 
-    public Set<Registration> getRegistrations() {
+/*    public Set<Registration> getRegistrations() {
         return registrations;
     }
 
     public void setRegistrations(Set<Registration> registrations) {
         this.registrations = registrations;
-    }
+    }*/
 
     @Override
     public String toString() {

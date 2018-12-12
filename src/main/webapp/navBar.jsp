@@ -17,7 +17,7 @@
             <li class="active"><a href="home.jsp">Home</a></li>
             <li><a href="preschoolRegistration.jsp">Pre-School Registration</a></li>
             <li><a href="registration.jsp">K-8 Registration</a></li>
-            <li><a href="accountInformation.jsp">Admin</a></li>
+            <li><a href="searchAccountInformation.jsp">Account Information</a></li>
             <li><a href="AdminPages/admin.jsp">Admin</a></li>
         </ul>
     </div>

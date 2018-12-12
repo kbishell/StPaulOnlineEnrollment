@@ -12,7 +12,7 @@
         <div class="container">
             <strong>Invalid userid and/or password combination</strong>
         </div><br />
-        <a href="login.jsp"><button class="btn btn-primary">Please try again</button></a>
+        <a href="login.jsp"><button class="btn btn-danger btn-lg">Please try again</button></a>
     </div>
 </body>
 </html>

@@ -98,13 +98,6 @@
                                     <label>Baptized: </label> <input type="radio" id="regChildBaptized" name="childBaptized" value="yes"> Yes
                                     <input type="radio" id="regChildNotBaptized" name="childNotBaptized" value="no"> No<br><br>
                                     <input type="text" id="regDateOfBaptism" placeholder="Date Of Baptism" name="dateOfBaptism"><br><br><br>
-                                    <%--<label>Date of Enrollment: </label>
-                                    <input type="text" id="regDob" placeholder="Date of Enrollment" name="deo"><br><br><br>--%>
-                                   <%-- <label>Other Children in Your Family: </label>
-                                    <input type="text" id="regFirstName" placeholder="First Name" name="firstName">
-                                    <input type="text" id="regLastName" placeholder="Last Name" name="lastName"><br><br><br>--%>
-                                   <%-- <label>Enter Any Comments or Concerns: </label><br>
-                                    <textarea rows="4" cols="50">Comments...</textarea><br><br><br></div>--%>
 
                             </div>
                         </div>

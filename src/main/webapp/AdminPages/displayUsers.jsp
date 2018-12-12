@@ -5,7 +5,7 @@
 
 <div class="container">
     <%@include file="../navBar.jsp"%>
-    <h2>Users Search Results:</h2>
+    <h2>Users Search Results</h2>
 
     <table class="table">
 

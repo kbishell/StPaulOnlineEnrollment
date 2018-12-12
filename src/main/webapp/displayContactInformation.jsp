@@ -1,29 +1,26 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@include file="head.jsp"%>
-<%@include file="navBar.jsp"%>
-
 
 <html><body>
 
-<div class="container-fluid">
-    <h2>Users Search Results:</h2>
+<div class="container">
+    <%@include file="navBar.jsp"%>
+    <h2>Contact Information</h2>
 
     <table class="table">
 
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
-            <th>User Name</th>
             <th>Email</th>
         </tr>
 
-        <c:forEach var="user" items="${users}">
+        <c:forEach var="contact" items="${contacts}">
             <tr>
 
-                <td>${user.firstName}</td>
-                <td>${user.lastName}</td>
-                <td>${user.userName}</td>
-                <td>${user.emailAddress}</td>
+                <td>${contact.firstName}</td>
+                <td>${contact.lastName}</td>
+                <td>${contact.emailAddress}</td>
 
             </tr>
         </c:forEach>

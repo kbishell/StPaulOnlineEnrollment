@@ -1,0 +1,27 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: student
+  Date: 11/5/18
+  Time: 1:13 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="head.jsp"%>
+<html>
+<head>
+    <title>Admin Functions</title>
+</head>
+<body>
+<div id="adminOnly" >
+    <div class="container">
+        <%@include file="navBar.jsp"%>
+        <h3>Admin use ONLY</h3>
+        <h2>Search Users</h2>
+        <form action="searchUser" method="post">
+            <label>View Your Contact Information: </label><br>
+            <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-lg">view</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>

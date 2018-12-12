@@ -25,7 +25,7 @@
                         <div class="alert alert-danger" role="alert">
                             <strong>New User Registration -- Failed</strong>$<br />
                             {errorMessage}<br /><br />
-                            <a href="signUp.jsp"><button type="button" class="btn btn-primary">Retry</button></a>
+                            <a href="signUp.jsp"><button type="button" class="btn btn-danger btn-lg">Retry</button></a>
                             <%--<a href="signIn"><button type="button" class="btn btn-default">Sign In</button></a>--%>
                         </div>
                     </c:otherwise>

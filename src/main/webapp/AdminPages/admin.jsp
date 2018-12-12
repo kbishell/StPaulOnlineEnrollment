@@ -20,8 +20,8 @@
                 <form action="searchUser" method="post">
                     <label for="search">Search By Last Name: </label>
                     <input type="text" id="search" placeholder="Enter Last Name" name="search">
-                    <button type="submit" name="submit" value="search" class="btn btn-primary">Submit</button>
-                    <button type="submit" name="submit" value="viewAll" class="btn btn-primary">View All Users</button>
+                    <button type="submit" name="submit" value="search" class="btn btn-danger btn-lg">Submit</button>
+                    <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-lg">View All Users</button>
                 </form>
             </div>
         </div>
