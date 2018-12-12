@@ -5,7 +5,6 @@
   Time: 3:24 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@include file="head.jsp"%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,14 +17,14 @@
         <%@include file="navBar.jsp"%>
 
         <h3>Sign up for an account</h3>
-            <form class="form-horizontal" action="signUpUser" method="post">
-                <label>Username: </label>
+            <%--<form class="form-horizontal" action="signUpUser" method="post">
+             &lt;%&ndash;   <label>Username: </label>
                 <input type="text" id="userName" placeholder="Username" name="userName"><br />
                 <label>Password: </label>
                 <input type="text" id="password" placeholder="Password" name="password"><br />
                 <label> Confirm Password: </label>
-                <input type="text" id="confirmPassword" placeholder="Password" name="password"><br />
-                <label>First Name: </label>
+                <input type="text" id="confirmPassword" placeholder="Password" name="password"><br />&ndash;%&gt;
+                &lt;%&ndash;<label>First Name: </label>
                 <input type="text" id="firstName" placeholder="First Name" name="firstName"><br />
                 <label>Last Name: </label>
                 <input type="text" id="lastName" placeholder="Last Name" name="lastName"><br />
@@ -38,16 +37,16 @@
                 <label>Relationship to Student add drop down: </label>
                 <input type="text" id="relationshipToStudent" placeholder="Mother - Father - Physician" name="relationshipToStudent"><br />
                 <label>Baptized: </label>
-                <input type="text" id="baptized" placeholder="Y or N" name="baptized"><br />
-                <%--<input type="radio" id="baptized" name="baptized" value="y"> Yes
+                <input type="text" id="baptized" placeholder="Y or N" name="baptized"><br />&ndash;%&gt;
+                &lt;%&ndash;<input type="radio" id="baptized" name="baptized" value="y"> Yes
                 <input type="radio" id="baptized" name="baptized" value="n"> No<br><br>
-                <input type="text" id="regDateOfBaptism" placeholder="Date Of Baptism" name="dateOfBaptism"><br><br><br>--%>
+                <input type="text" id="regDateOfBaptism" placeholder="Date Of Baptism" name="dateOfBaptism"><br><br><br>&ndash;%&gt;
 
-                <label>Employer: </label>
+                &lt;%&ndash;<label>Employer: </label>
                 <input type="text" id="employer" placeholder="Employer" name="employer"><br />
                 <label>Hours Worked: </label>
-                <input type="text" id="hoursWorked" placeholder="Hours Worked" name="hoursWorked"><br />
-                <label>Address: </label>
+                <input type="text" id="hoursWorked" placeholder="Hours Worked" name="hoursWorked"><br />&ndash;%&gt;
+                &lt;%&ndash;<label>Address: </label>
                 <input type="text" id="address" placeholder="Address" name="address"><br />
                 <label>City: </label>
                 <input type="text" id="city" placeholder="City" name="city"><br />
@@ -56,69 +55,50 @@
                 <label>Zip: </label>
                 <input type="text" id="zip" placeholder="ZipCode" name="zip"><br />
                 <label>Date of Birth: </label>
-                <input type="text" id="dob" placeholder="YYYY-MM-DD" name="dob"><br />
-                <button type="submit" name="submit" class="btn btn-primary btn-lg">Submit</button>
-            </form>
+                <input type="text" id="dob" placeholder="YYYY-MM-DD" name="dob"><br />&ndash;%&gt;
+                &lt;%&ndash;<button type="submit" name="submit" class="btn btn-primary btn-lg">Submit</button>&ndash;%&gt;
+            </form>--%>
 
 
+        <form class="form-horizontal" action="signUpUser" method="post">
 
-
-
-
-
-
-
-      <%--  <div id="pre" class="tab-pane fade">
-            <div class="container center_div">
-
-                <h2>Pre-School Registration</h2>
-
-                <div class="panel-group" id="accordion">
+            <h2>Sign Up to Register</h2>
+            <div class="panel-group" id="accordionReg">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Sign In Credentials</a>
-                            </h4>
-                        </div>
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse7">Sign in Credentials</a>
+                                </h4>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse in">
+                                <div class="panel-body">
 
-                        <div id="collapse7" class="panel-collapse collapse in">
-                            <div class="panel-body">
-
-                                <form class="form-horizontal" action="/credentials" method="get">
                                     <label>Username: </label>
                                     <input type="text" id="userName" placeholder="Username" name="userName"><br />
                                     <label>Password: </label>
-                                    <input type="text" id="password" placeholder="Password" name="password"><br /><br><br>
-                                    &lt;%&ndash;<button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>&ndash;%&gt;
-                                </form>
+                                    <input type="text" id="password" placeholder="Password" name="password"><br />
+                                    <label> Confirm Password: </label>
+                                    <input type="text" id="confirmPassword" placeholder="Password" name="password"><br />
+
                             </div>
                         </div>
-                    </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Personal Information</a>
-                            </h4>
-                        </div>
-                        <div id="collapse8" class="panel-collapse collapse">
-                            <div class="panel-body">
-
-                                <form class="form-horizontal" action="/pre4k" method="get">
-                                    <h3><strong>7:30am - 11:00am</strong></h3>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse8">Contact Information</a>
+                                </h4>
+                            </div>
+                            <div id="collapse8" class="panel-collapse collapse">
+                                <div class="panel-body">
 
                                     <label>First Name: </label>
                                     <input type="text" id="firstName" placeholder="First Name" name="firstName"><br />
                                     <label>Last Name: </label>
                                     <input type="text" id="lastName" placeholder="Last Name" name="lastName"><br />
                                     <label>Email Address: </label>
-                                    <input type="text" id="email" placeholder="Email Address" name="email"><br />
+                                    <input type="text" id="emailAddress" placeholder="Email Address" name="emailAddress"><br />
                                     <label>Cell Phone: </label>
                                     <input type="text" id="cellPhone" placeholder="Cell Phone" name="cellPhone"><br />
-                                    <label>Relationship to Student add drop down: </label>
-                                    <input type="text" id="relationshipToStudent" placeholder="Mother - Father - Physician" name="relationshipToStudent"><br />
-                                    <label>Baptized: </label>
-                                    <input type="text" id="baptized" placeholder="Y or N" name="baptized"><br />
                                     <label>Address: </label>
                                     <input type="text" id="address" placeholder="Address" name="address"><br />
                                     <label>City: </label>
@@ -129,40 +109,38 @@
                                     <input type="text" id="zip" placeholder="ZipCode" name="zip"><br />
                                     <label>Date of Birth: </label>
                                     <input type="text" id="dob" placeholder="YYYY-MM-DD" name="dob"><br />
-                                    &lt;%&ndash;<button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>&ndash;%&gt;
-                                </form>
+                                    <label>Relationship to Student: </label>
+                                    <input type="text" id="relationshipToStudent" placeholder="Mother - Father - Physician" name="relationshipToStudent"><br />
+                                    <label>Baptized: </label>
+                                    <input type="text" id="baptized" placeholder="Y or N" name="baptized"><br />
 
                             </div>
                         </div>
-                    </div>
-
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse9">Work Information</a>
-                            </h4>
-                        </div>
-                        <div id="collapse9" class="panel-collapse collapse">
-                            <div class="panel-body">
-
-                                <form class="form-horizontal" action="/full" method="get">
-                                    <label>Work Phone: </label>
-                                    <input type="text" id="workPhone" placeholder="Work Phone" name="workPhone"><br />
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse6">Work Information</a>
+                                </h4>
+                            </div>
+                            <div id="collapse6" class="panel-collapse collapse">
+                                <div class="panel-body">
                                     <label>Employer: </label>
                                     <input type="text" id="employer" placeholder="Employer" name="employer"><br />
+                                    <label>Work Phone: </label>
+                                    <input type="text" id="workPhone" placeholder="Work Phone" name="workPhone"><br />
                                     <label>Hours Worked: </label>
                                     <input type="text" id="hoursWorked" placeholder="Hours Worked" name="hoursWorked"><br />
-
-                                    &lt;%&ndash;<button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>&ndash;%&gt;
-
-                                </form>
-
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>--%>
+
+            <button type="submit" name="submit" class="btn btn-primary btn-lg">Submit</button>
+
+        </form>
     </div>
+
 </body>
 </html>

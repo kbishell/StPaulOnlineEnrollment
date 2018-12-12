@@ -12,8 +12,9 @@
     <title>Admin Functions</title>
 </head>
     <body>
-        <div id="adminOnly" class="tab-pane fade">
+        <div id="adminOnly" >
             <div class="container">
+                <%@include file="../navBar.jsp"%>
                 <h3>Admin use ONLY</h3>
                 <h2>Search Users</h2>
                 <form action="searchUser" method="post">

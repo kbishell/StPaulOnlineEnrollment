@@ -11,13 +11,14 @@
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="images/stPaulsLogo.png">St Paul's Online Enrollment</a>
+            <a class="navbar-brand" href="home.jsp">St Paul's Online Enrollment</a>
         </div>
         <ul class="nav navbar-nav nav-center">
-            <li class="active"><a data-toggle="tab" href="home.jsp">Home</a></li>
-            <li><a data-toggle="tab" href="preschoolRegistration.jsp">Pre-School Registration</a></li>
-            <li><a data-toggle="tab" href="registration.jsp">K-8 Registration</a></li>
-            <li><a data-toggle="tab" href="admin.jsp">Admin</a></li>
+            <li class="active"><a href="home.jsp">Home</a></li>
+            <li><a href="preschoolRegistration.jsp">Pre-School Registration</a></li>
+            <li><a href="registration.jsp">K-8 Registration</a></li>
+            <li><a href="accountInformation.jsp">Admin</a></li>
+            <li><a href="AdminPages/admin.jsp">Admin</a></li>
         </ul>
     </div>
 </nav>

@@ -19,12 +19,12 @@
                 <%@include file="navBar.jsp"%>
                 <form class="form-horizontal" action="/reg" method="get">
 
-                    <h2>Register K-8 Students</h2>
+                    <h2>K-8 Registration</h2>
                     <div class="panel-group" id="accordionReg">
                         <div class="panel panel-default">
-                            <div class="panel-heading">
+                       <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse4">Father's Information</a>
+                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse4">Father Information</a>
                                 </h4>
                             </div>
                             <div id="collapse4" class="panel-collapse collapse in">
@@ -48,7 +48,7 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse5">Mother's Information</a>
+                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse5">Mother Information</a>
                                 </h4>
                             </div>
                             <div id="collapse5" class="panel-collapse collapse">
@@ -72,53 +72,45 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse6">Child(ren)'s Information</a>
+                                    <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse6">Student Information</a>
                                 </h4>
                             </div>
                             <div id="collapse6" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    <label>Child's Name: </label>
-                                    <input type="text" id="regChildName" placeholder="Child's Name" name="childName"><br><br>
-                                    <label>Child's Phone: </label>
-                                    <input type="text" id="regPhone" placeholder="Phone Number" name="phone"><br><br>
-                                    <label>Grade: drop down 3k-8 </label>
-                                    <input type="text" id="regGrade" placeholder="Grade" name="grade"><br><br>
-                                    <label>Age in Years: </label>
-                                    <input type="text" id=regYears" placeholder="Age: Years" name="years"><br><br>
-                                    <label>Age in Months: </label>
-                                    <input type="text" id="regMonths" placeholder="Age: months" name="months"><br><br>
+                                    <label>Student's First Name: </label>
+                                    <input type="text" id="firstName" placeholder="Student's First Name" name="firstName"><br><br>
+                                    <label>Student's Last Name: </label>
+                                    <input type="text" id="lastName" placeholder="Student's Last Name" name="lastName"><br><br>
+                                    <label>Date of Birth: </label>
+                                    <input type="text" id="dob" placeholder="YYYY-DD-MM" name="dob"><br><br>
+                                    <label>Gender: </label>
+                                    <input type="text" id="gender" placeholder="F or M" name="gender"><br><br>
                                     <label>Address: </label>
-                                    <input type="text" id="regAddress" placeholder="Address" name="address"><br><br>
+                                    <input type="text" id="primaryAddress" placeholder="Primary Address" name="primaryAddress"><br><br>
                                     <label>City: </label>
-                                    <input type="text" id="regCity" placeholder="City" name="city"><br><br>
+                                    <input type="text" id="city" placeholder="City" name="city"><br><br>
                                     <label>State: </label>
-                                    <input type="text" id="regState" placeholder="State" name="state"><br><br>
+                                    <input type="text" id="State" placeholder="State" name="state"><br><br>
                                     <label>zip: </label>
-                                    <input type="text" id="regZip" placeholder="zip" name="zip"><br><br>
-                                    <label>Email: </label>
-                                    <input type="text" id="regEmail" placeholder="email" name="email"><br><br>
-                                    <label>Pastor: </label>
-                                    <input type="text" id="regPastor" placeholder="Pastor" name="pastor"><br><br>
-                                    <label>Church: </label>
-                                    <input type="text" id="regChurch" placeholder="Church" name="church"><br><br>
-                                    <label>Date of Enrollment: </label>
-                                    <input type="text" id="regDob" placeholder="Date of Enrollment" name="deo"><br><br><br>
-
+                                    <input type="text" id="ip" placeholder="zip" name="zip"><br><br>
+                                    <label>Church Affliation: </label>
+                                    <input type="text" id="churchAffliation" placeholder="Church Affliation" name="churchAffliation"><br><br>
                                     <label>Baptized: </label> <input type="radio" id="regChildBaptized" name="childBaptized" value="yes"> Yes
                                     <input type="radio" id="regChildNotBaptized" name="childNotBaptized" value="no"> No<br><br>
                                     <input type="text" id="regDateOfBaptism" placeholder="Date Of Baptism" name="dateOfBaptism"><br><br><br>
-
-                                    <label>Other Children in Your Family: </label>
+                                    <%--<label>Date of Enrollment: </label>
+                                    <input type="text" id="regDob" placeholder="Date of Enrollment" name="deo"><br><br><br>--%>
+                                   <%-- <label>Other Children in Your Family: </label>
                                     <input type="text" id="regFirstName" placeholder="First Name" name="firstName">
-                                    <input type="text" id="regLastName" placeholder="Last Name" name="lastName"><br><br><br>
-                                    <label>Enter Any Comments or Concerns: </label><br>
-                                    <textarea rows="4" cols="50">Comments...</textarea><br><br><br></div>
+                                    <input type="text" id="regLastName" placeholder="Last Name" name="lastName"><br><br><br>--%>
+                                   <%-- <label>Enter Any Comments or Concerns: </label><br>
+                                    <textarea rows="4" cols="50">Comments...</textarea><br><br><br></div>--%>
 
                             </div>
                         </div>
                     </div>
 
-                                <button type="submit" name="submit" class="btn btn-primary btn-lg">Enter Another Child</button><br><br>
+                               <%-- <button type="submit" name="submit" class="btn btn-primary btn-lg">Enter Another Child</button><br><br>--%>
 
                                 <button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>
             </form>

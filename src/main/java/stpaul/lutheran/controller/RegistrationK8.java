@@ -2,6 +2,8 @@ package stpaul.lutheran.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import stpaul.lutheran.entity.Contact;
+import stpaul.lutheran.entity.Student;
 import stpaul.lutheran.entity.Users;
 import stpaul.lutheran.persistence.GenericDao;
 
@@ -16,7 +18,7 @@ import java.io.IOException;
 @WebServlet(
         urlPatterns = {"/reg"}
 )
-public class registrationK8 extends HttpServlet{
+public class RegistrationK8 extends HttpServlet{
 
        private final Logger logger = LogManager.getLogger(this.getClass());
 
@@ -27,22 +29,21 @@ public class registrationK8 extends HttpServlet{
             logger.info("registering for K-8");
 
 
-            GenericDao userDao = new GenericDao(Users.class);
+            GenericDao studentDao = new GenericDao(Student.class);
 
+            Student student = new Student();
+            student.setFirstName(req.getParameter("firstName"));
+            student.setLastName(req.getParameter("lastName"));
+            student.setChurchAffiliation(req.getParameter("churchAffiliation"));
+            student.setDob(req.getParameter("dob"));
+            student.setPrimaryAddress(req.getParameter("primaryAddress"));
+            student.setCity(req.getParameter("city"));
+            student.setState(req.getParameter("state"));
+            student.setZip(req.getParameter("zip"));
+            student.setBaptized(req.getParameter("baptized"));
+            student.setGender(req.getParameter("gender"));
 
-
-            String first = req.getParameter("first");
-            String last = req.getParameter("first");
-
-
-
-            if(first == null || first.length() == 0){
-
-                //output error to the screen
-            } else {
-
-                req.setAttribute("first", userDao.getByLastName(first));
-            }
+            studentDao.insert(student);
 
             RequestDispatcher dispatcher = req.getRequestDispatcher("/completeK8.jsp");
             dispatcher.forward(req, resp);
