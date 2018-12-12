@@ -14,14 +14,12 @@
             <th>Last Name</th>
         </tr>
 
-        <c:forEach var="contact" items="${contact}">
-            <tr>
+        <%--<c:forEach var="contact" items="${contact}">--%>
+        <tr>
+            <td>${contact.firstName}</td>
+            <td>${contact.lastName}</td>
+        </tr>
 
-                <td>${contact.firstName}</td>
-                <td>${contact.lastName}</td>
-
-            </tr>
-        </c:forEach>
 
     </table>
 </div>

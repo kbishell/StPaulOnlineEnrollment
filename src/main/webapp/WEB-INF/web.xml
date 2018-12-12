@@ -19,7 +19,7 @@
             <!--<url-pattern>/AdminPages/admin.jsp</url-pattern>-->
             <url-pattern>/registration.jsp</url-pattern>
             <url-pattern>/preschoolRegistration.jsp</url-pattern>
-            <url-pattern>/searchContactInformation.jsp</url-pattern>
+            <url-pattern>/searchAccountInformation.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>registered-user</role-name>

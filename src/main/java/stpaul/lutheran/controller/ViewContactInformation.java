@@ -24,34 +24,19 @@ public class ViewContactInformation extends HttpServlet {
 
 
         @Override
-        protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 
-            GenericDao contactDao = new GenericDao(Contact.class);
+            GenericDao userDao = new GenericDao(Users.class);
 
             String userName = req.getUserPrincipal().getName();
 
-            List<Contact> contacts = (List<Contact>) contactDao.getByPropertyEqual("userName", userName);
+            Users user = new Users();
 
+            List<Users> users = (List<Users>) userDao.getByPropertyEqual("userName", userName);
 
-                /*contacts.get(0).getFirstName();
-                contacts.get(0).getLastName();
-                contacts.get(0).getCellPhone();
-                contacts.get(0).getEmail();
-                contacts.get(0).getEmployer();
-                contacts.get(0).getWorkPhone();
-                contacts.get(0).getHoursWorked();
-                contacts.get(0).getAddress();
-                contacts.get(0).getCity();
-                contacts.get(0).getState();
-                contacts.get(0).getZip();
-                contacts.get(0).getDob();
-                contacts.get(0).getBaptized();
-                contacts.get(0).getRelationshipToStudent();*/
-
-                req.setAttribute("contact", contacts);
-
-
+            users.get(0).getContact();
+            req.setAttribute("contact", users.get(0).getContact());
 
 
             RequestDispatcher dispatcher = req.getRequestDispatcher("/displayContactInformation.jsp");
