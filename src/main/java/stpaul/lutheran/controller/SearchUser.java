@@ -53,7 +53,7 @@ public class SearchUser extends HttpServlet {
         logger.info("ALL: " + userDao.getAll());
         logger.info("last name: " + userDao.getByLastName(search));
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/AdminPages/displayUsers.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/displayUsers.jsp");
         dispatcher.forward(req, resp);
     }
 }

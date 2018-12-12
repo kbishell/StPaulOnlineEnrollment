@@ -15,11 +15,11 @@
     <!-- Protect everything until you are an user and sign in -->
     <security-constraint>
         <web-resource-collection>
-            <web-resource-name>AdminPages</web-resource-name>
+            <web-resource-name>All Users</web-resource-name>
             <!--<url-pattern>/AdminPages/admin.jsp</url-pattern>-->
             <url-pattern>/registration.jsp</url-pattern>
-            <url-pattern>/newMember.jsp</url-pattern>
             <url-pattern>/preschoolRegistration.jsp</url-pattern>
+            <url-pattern>/searchContactInformation.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>registered-user</role-name>
@@ -27,7 +27,18 @@
         </auth-constraint>
     </security-constraint>
 
-<security-role>
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Admin</web-resource-name>
+            <!--<url-pattern>/AdminPages/admin.jsp</url-pattern>-->
+            <url-pattern>/admin.jsp</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>administrator</role-name>
+        </auth-constraint>
+    </security-constraint>
+
+    <security-role>
         <role-name>registered-user</role-name>
     </security-role>
 

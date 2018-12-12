@@ -15,10 +15,11 @@
 <div id="adminOnly" >
     <div class="container">
         <%@include file="navBar.jsp"%>
-        <h3>Admin use ONLY</h3>
-        <h2>Search Users</h2>
-        <form action="searchUser" method="post">
+        <h2>Account Information</h2>
+        <form action="viewContactInformation" method="post">
             <label>View Your Contact Information: </label><br>
+            <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-lg">view</button><br>
+            <label>Update Your Information: </label><br>
             <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-lg">view</button>
         </form>
     </div>

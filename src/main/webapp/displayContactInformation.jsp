@@ -12,15 +12,13 @@
         <tr>
             <th>First Name</th>
             <th>Last Name</th>
-            <th>Email</th>
         </tr>
 
-        <c:forEach var="contact" items="${contacts}">
+        <c:forEach var="contact" items="${contact}">
             <tr>
 
                 <td>${contact.firstName}</td>
                 <td>${contact.lastName}</td>
-                <td>${contact.emailAddress}</td>
 
             </tr>
         </c:forEach>

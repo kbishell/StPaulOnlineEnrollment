@@ -47,7 +47,7 @@ public class SignUpUser extends HttpServlet {
         contact.setCity(req.getParameter("city"));
         contact.setState(req.getParameter("state"));
         contact.setZip(req.getParameter("zip"));
-        contact.setEmail(req.getParameter("email"));
+        /*contact.setEmail(req.getParameter("email"));*/
         contact.setDob(req.getParameter("dob"));
 
         Users user = new Users();
@@ -66,7 +66,6 @@ public class SignUpUser extends HttpServlet {
 
         contactDao.insert(contact);
         usersDao.insert(user);
-        //roleDao.insert(role);
 
         logger.info("Adding User + Contact + Role: " + user + contact + role);
 

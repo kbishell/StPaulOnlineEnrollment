@@ -15,9 +15,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(
-        urlPatterns = {"/reg"}
-)
+@WebServlet(name = "SignUpUser",
+        urlPatterns = { "/signUpUser" }
+        )
+
 public class RegistrationK8 extends HttpServlet{
 
        private final Logger logger = LogManager.getLogger(this.getClass());

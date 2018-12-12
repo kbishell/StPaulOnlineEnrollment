@@ -20,7 +20,7 @@
                 <form class="form-horizontal" action="/reg" method="get">
 
                     <h2>K-8 Registration</h2>
-                    <div class="panel-group" id="accordionReg">
+                    <%--<div class="panel-group" id="accordionReg">
                         <div class="panel panel-default">
                        <div class="panel-heading">
                                 <h4 class="panel-title">
@@ -68,7 +68,7 @@
                                     <label>Mother's Church Affiliation: </label>
                                     <input type="text" id="regMotherAffiliation" placeholder="Church Affiliation" name="affiliation"><br><br></div>
                             </div>
-                        </div>
+                        </div>--%>
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
@@ -105,7 +105,7 @@
 
                                <%-- <button type="submit" name="submit" class="btn btn-primary btn-lg">Enter Another Child</button><br><br>--%>
 
-                                <button type="submit" name="submit" class="btn btn-primary btn-lg">Apply</button>
+                                <button type="submit" name="submit" class="btn btn-danger btn-lg">Apply</button>
             </form>
         </div>
     </div>
