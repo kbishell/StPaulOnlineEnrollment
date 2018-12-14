@@ -48,6 +48,16 @@ public class Users {
     public Users() {
     }
 
+    /**
+     * Instantiates a new Users.
+     *
+     * @param userName     the user name
+     * @param password     the password
+     * @param firstName    the first name
+     * @param lastName     the last name
+     * @param emailAddress the email address
+     * @param contact      the contact
+     */
     public Users(String userName, String password, String firstName, String lastName, String emailAddress, Contact contact) {
         this.userName = userName;
         this.password = password;
@@ -194,12 +204,52 @@ public class Users {
 
     }
 
+    /**
+     * Gets contact.
+     *
+     * @return the contact
+     */
     public Contact getContact() {
         return contact;
     }
 
+    /**
+     * Sets contact.
+     *
+     * @param contact the contact
+     */
     public void setContact(Contact contact) {
         this.contact = contact;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Users users = (Users) o;
+
+        if (userID != users.userID) return false;
+        if (userName != null ? !userName.equals(users.userName) : users.userName != null) return false;
+        if (password != null ? !password.equals(users.password) : users.password != null) return false;
+        if (firstName != null ? !firstName.equals(users.firstName) : users.firstName != null) return false;
+        if (lastName != null ? !lastName.equals(users.lastName) : users.lastName != null) return false;
+        if (emailAddress != null ? !emailAddress.equals(users.emailAddress) : users.emailAddress != null) return false;
+        if (contact != null ? !contact.equals(users.contact) : users.contact != null) return false;
+        return roles != null ? roles.equals(users.roles) : users.roles == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = userID;
+        result = 31 * result + (userName != null ? userName.hashCode() : 0);
+        result = 31 * result + (password != null ? password.hashCode() : 0);
+        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
+        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
+        result = 31 * result + (emailAddress != null ? emailAddress.hashCode() : 0);
+        result = 31 * result + (contact != null ? contact.hashCode() : 0);
+        result = 31 * result + (roles != null ? roles.hashCode() : 0);
+        return result;
     }
 
     @Override

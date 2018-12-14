@@ -117,4 +117,36 @@ public class Registration {
     public void setStudentType(StudentType studentType) {
         this.studentType = studentType;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Registration that = (Registration) o;
+
+        if (registrationID != that.registrationID) return false;
+        if (timestamp != that.timestamp) return false;
+        if (student != null ? !student.equals(that.student) : that.student != null) return false;
+        return studentType != null ? studentType.equals(that.studentType) : that.studentType == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = registrationID;
+        result = 31 * result + timestamp;
+        result = 31 * result + (student != null ? student.hashCode() : 0);
+        result = 31 * result + (studentType != null ? studentType.hashCode() : 0);
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Registration{" +
+                "registrationID=" + registrationID +
+                ", timestamp=" + timestamp +
+                ", student=" + student +
+                ", studentType=" + studentType +
+                '}';
+    }
 }

@@ -14,11 +14,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * A simple servlet to welcome the user.
- * @author pwaite
- */
 
+/**
+ * The type Search user.
+ */
 @WebServlet(
         urlPatterns = {"/searchUser"}
 )

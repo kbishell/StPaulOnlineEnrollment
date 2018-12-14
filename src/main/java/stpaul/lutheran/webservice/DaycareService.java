@@ -36,6 +36,7 @@ public class DaycareService {
         /**
          * Gets contact information.
          *
+         * @param guid the guid
          * @return the contact information
          * @throws Exception the exception
          */
@@ -74,7 +75,9 @@ public class DaycareService {
          * Gets contact information.
          *
          * @param idString the id string
+         * @param guid     the guid
          * @return the contact information
+         * @throws Exception the exception
          */
         @GET
         @Path("{guid}/{id}")
