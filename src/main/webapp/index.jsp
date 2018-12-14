@@ -15,6 +15,7 @@
             <%@include file="AdminPages/admin.jsp"%>--%>
 
         </div>
+
     </div>
 </body>
 </html>

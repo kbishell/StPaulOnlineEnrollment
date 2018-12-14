@@ -13,7 +13,6 @@
     <h2>Sign up Confirmation</h2>
 
     <div>
-
         <c:choose>
             <c:when test = "${errorMessage == null}">
                 <div class="alert alert-success" role="alert">
@@ -29,9 +28,9 @@
                 </div>
             </c:otherwise>
         </c:choose>
-
-
     </div>
+
+    <%@include file="footer.jsp"%>
 </div>
 </body>
 </html>

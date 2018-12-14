@@ -19,23 +19,21 @@
 
             <form action="sendEmail" method="post">
                     <div class="form-group">
-                        <h2>Sign Up to Register</h2>
+                        <h2>Send Email</h2>
                         <div class="panel-group" id="accordionReg">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse9">Sign in Credentials</a>
+                                        <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse9">Send Email to User</a>
                                     </h4>
                                 </div>
                                 <div id="collapse9" class="panel-collapse collapse in">
                                     <div class="panel-body">
 
-                                        <label>Your Name: </label>
-                                        <input type="text" id="name" placeholder="your name" name="name"><br />
                                         <label>Subject: </label>
                                         <input type="text" id="subject" placeholder="subject" name="subject"><br />
                                         <label>Message: </label>
-                                        <<textarea name="message" id="message" cols="30" rows="10"></textarea><br />
+                                        <textarea class="form-control" rows="5" name="message" id="message"></textarea><br />
 
                                     </div>
                                 </div>
@@ -49,6 +47,7 @@
             </form>
 
             <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a>
+        <%@include file="footer.jsp"%>
     </div>
 </body>
 </html>

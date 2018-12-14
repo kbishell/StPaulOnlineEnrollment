@@ -21,10 +21,12 @@
                     <div class="form-group">
                         <label for="search">Search By Last Name: </label>
                         <input type="text" id="search" placeholder="Enter Last Name" name="search">
-                        <button type="submit" name="submit" value="search" class="btn btn-danger btn-lg">Submit</button>
-                        <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-lg">View All Users</button>
+                        <button type="submit" name="submit" value="search" class="btn btn-danger btn-block">Submit</button><br>
+                        <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-block">View All Users</button>
                     </div>
                 </form>
+
+                <%@include file="footer.jsp"%>
             </div>
         </div>
     </body>

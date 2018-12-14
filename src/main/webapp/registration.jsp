@@ -102,10 +102,12 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" name="submit" class="btn btn-danger btn-lg">Apply</button><br><br>
-                        <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
+                        <button type="submit" name="submit" class="btn btn-danger btn-block">Submit</button><br>
+                        <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a>
                     </div>
             </form>
+
+            <%@include file="footer.jsp"%>
         </div>
     </div>
 </body>

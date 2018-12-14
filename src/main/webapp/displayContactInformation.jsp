@@ -66,6 +66,8 @@
     <a href="updateContact.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Update</button></a><br><br>
     <a href="home.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Home</button></a>
 
+    <%@include file="footer.jsp"%>
+
 </div>
 
 </body>

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default border border-white rounded">
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="home.jsp"><strong>St Paul's Online Enrollment</strong></a>

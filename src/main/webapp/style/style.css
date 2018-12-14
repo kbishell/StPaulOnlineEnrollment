@@ -26,3 +26,15 @@ form {
 .btn {
     text-align: center;
 }
+
+#footer {
+    background-color: firebrick;
+    color: black !important;
+    text-align: center;
+    margin: 10px auto;
+}
+
+/*
+.container {
+    background-color: white;
+}*/
