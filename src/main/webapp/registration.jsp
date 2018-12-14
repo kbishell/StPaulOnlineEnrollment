@@ -102,7 +102,8 @@
                                 </div>
                             </div>
                         </div>
-                        <button type="submit" name="submit" class="btn btn-danger btn-lg">Apply</button>
+                        <button type="submit" name="submit" class="btn btn-danger btn-lg">Apply</button><br><br>
+                        <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
                     </div>
             </form>
         </div>

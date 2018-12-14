@@ -15,10 +15,14 @@ body {
 }
 
 .navbar {
-    background-color: red;
+    background-color: firebrick;
     color: black !important;
 }
 
 form {
     background-color: transparent !important;
+}
+
+.btn {
+    text-align: center;
 }

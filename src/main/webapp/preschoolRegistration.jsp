@@ -9,9 +9,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <%@include file="head.jsp"%>
-<%--<head>
-    <title>Pre-School Registration</title>
-</head>--%>
 <body>
     <div id="pre">
         <div class="container center_div">
@@ -35,8 +32,6 @@
                                         <input type="checkbox" id="MT3k" name="MT3k" value="Monday and Tuesday $120 per month">Monday and Tuesday $120 per month<br>
                                         <input type="checkbox" id="MTF3k" name="MTF3k" value="Monday, Thursday, and Friday $180 per month">Monday, Thursday, and Friday $180 per month<br>
                                         <input type="checkbox" id="childcare3kHalf" name="childcare3kHalf" value="Childcare on regular sessions days (11:00am - 3:00pm) $15 per day">Childcare on regular sessions days (11:00am - 3:00pm) $15 per day<br><br>
-                                        <button type="submit" name="submit" class="btn btn-danger btn-lg">Apply</button>
-
                                 </div>
                             </div>
                         </div>
@@ -55,8 +50,6 @@
                                         <input type="checkbox" id="childcare4khalf" name="childcare4khalf" value="Childcare on regular session days (11:00am-3:00pm) $15 per day">Childcare on regular session days (11:00am-3:00pm) $15 per day<br><br>
 
                                         <p>Before care included in prices for half-day programs (6:30am - 7:30am)</p><br>
-                                        <button type="submit" name="submit" class="btn btn-danger btn-lg">Apply</button>
-
                                 </div>
                             </div>
                         </div>
@@ -78,13 +71,13 @@
                                         <input type="checkbox" id="MWFull" name="MWFull" value="Monday - Wednesday">Monday - Wednesday<br>
                                         <input type="checkbox" id="MTFull" name="MTFull" value="Monday - Thursday">Monday - Thursday<br>
                                         <input type="checkbox" id="MFFull" name="MFFull" value="Monday - Friday">Monday - Friday<br><br>
-
-                                        <button type="submit" name="submit" class="btn btn-danger btn-lg">Apply</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <button type="submit" name="submit" class="btn btn-danger btn-block">Submit</button><br><br>
+                <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a>
             </form>
         </div>
     </div>

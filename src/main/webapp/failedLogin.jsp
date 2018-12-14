@@ -11,6 +11,7 @@
         <div class="alert alert-danger" role="alert">
                 <strong>Invalid userid and/or password combination</strong><br />
             <a href="login.jsp"><button class="btn btn-danger btn-lg">Please try again</button></a>
+            <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
         </div>
     </div>
 </body>

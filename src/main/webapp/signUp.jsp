@@ -95,7 +95,9 @@
                     </div>
                 </div><br />
 
-                <button type="submit" name="submit" class="btn btn-danger btn-lg">Submit</button>
+                <button type="submit" name="submit" class="btn btn-danger btn-block">Submit</button><br><br>
+                <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a><br><br>
+                <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Back</button></a><br><br>
             </div>
         </form>
     </div>

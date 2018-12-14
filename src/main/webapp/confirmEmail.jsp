@@ -22,6 +22,7 @@
                 <c:when test = "${errorMessage == null}">
                     <div class="alert alert-success" role="alert">
                         <strong>Your email has successfully sent!</strong>
+                        <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
                     </div>
                 </c:when>
 
@@ -29,11 +30,12 @@
                     <div class="alert alert-danger" role="alert">
                         <strong>Email failed to send</strong>$<br />
                         {errorMessage}<br /><br />
-                        <a href="signUp.jsp"><button type="button" class="btn btn-danger btn-lg">Retry</button></a>
+                        <a href="emailForm.jsp"><button type="button" class="btn btn-danger btn-lg">Retry</button></a>
+
+                        <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
                     </div>
                 </c:otherwise>
             </c:choose>
-
 
         </div>
     </div>

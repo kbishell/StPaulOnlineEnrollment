@@ -23,6 +23,8 @@
                     <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-lg">update</button>
                 </div>
             </form>
+            <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
+            <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Back</button></a>
         </div>
     </div>
 </body>

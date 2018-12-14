@@ -63,7 +63,8 @@
 
     </table><br>
 
-    <a href="updateContact.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">update</button></a>
+    <a href="updateContact.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Update</button></a><br><br>
+    <a href="home.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Home</button></a>
 
 </div>
 

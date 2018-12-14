@@ -8,12 +8,13 @@
             <%--<img src="images/stPaulsLogo.png">--%>
             <h1>Please Login to Register</h1>
 
-            <FORM class="form-inline" ACTION="j_security_check" METHOD="POST">
+            <FORM ACTION="j_security_check" METHOD="POST">
                 <div class="form-group">
                     <TABLE>
                         <TR><TD>User Name: <INPUT TYPE="TEXT" NAME="j_username">
                         <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
-                        <TR><TH><INPUT TYPE="SUBMIT" VALUE="Sign In">
+                        <%--<TR><TH><INPUT TYPE="SUBMIT" VALUE="Sign In">--%>
+                        <TR><TH><button  TYPE="SUBMIT" VALUE="Sign In" class="btn btn-danger btn-block">Submit</button>
                     </TABLE>
                 </div>
             </FORM>

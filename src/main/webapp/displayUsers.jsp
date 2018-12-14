@@ -28,6 +28,8 @@
         </c:forEach>
 
     </table>
+    <a href="home.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Home</button></a><br><br>
+    <a href="admin.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Back</button></a>
 </div>
 
 </body>

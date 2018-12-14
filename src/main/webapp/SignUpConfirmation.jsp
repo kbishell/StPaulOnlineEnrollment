@@ -30,7 +30,8 @@
                     </c:otherwise>
                 </c:choose>
 
-
+                <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
+                <%--<a href="signUp.jsp"><button type="button" class="btn btn-danger btn-lg">Back</button></a>--%>
             </div>
     </div>
 </body>
