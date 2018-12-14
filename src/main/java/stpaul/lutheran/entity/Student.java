@@ -331,7 +331,7 @@ public class Student {
         this.registrations = registrations;
     }*/
 
-    @Override
+/*    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -371,7 +371,7 @@ public class Student {
         result = 31 * result + (gender != null ? gender.hashCode() : 0);
         result = 31 * result + (contacts != null ? contacts.hashCode() : 0);
         return result;
-    }
+    }*/
 
     @Override
     public String toString() {

@@ -222,7 +222,7 @@ public class Users {
         this.contact = contact;
     }
 
-    @Override
+/*    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -250,7 +250,7 @@ public class Users {
         result = 31 * result + (contact != null ? contact.hashCode() : 0);
         result = 31 * result + (roles != null ? roles.hashCode() : 0);
         return result;
-    }
+    }*/
 
     @Override
     public String toString() {

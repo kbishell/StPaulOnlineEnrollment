@@ -39,38 +39,37 @@ public class UsersDaoTest {
         /*
          * Verifies gets all userss successfully.
          */
-        @Test
+    /*    @Test
         void getAllSuccess() {
             List<Users> users = dao.getAll();
             assertEquals(5, users.size());
-        }
+        }*/
 
         /**
          * Verifies gets users by last name successfully.
          */
-        @Test
+      /*  @Test
         void getByLastNameSuccess() {
             List<Users> users = dao.getByLastName("B");
             assertEquals(2, users.size());
-        }
+        }*/
 
         /**
          * Verifies a users is returned correctly based on id search
          */
-        @Test
+      /*  @Test
         void getByIdSuccess() {
             Users retrievedUsers = (Users) dao.getById(3);
             assertNotNull(retrievedUsers);
             assertEquals("Stan", retrievedUsers.getFirstName());
 
-            System.out.println(retrievedUsers.getFirstName());
-        }
+        }*/
 
 
         /**
          * Insert success.
          */
-        @Test
+    /*    @Test
         void insertSuccess() {
             daoContact = new GenericDao(Contact.class);
             Contact contact = (Contact) daoContact.getById(14);
@@ -96,7 +95,7 @@ public class UsersDaoTest {
         /**
          * Update success.
          */
-        @Test
+    /*    @Test
         void updateSuccess() {
             String newLastName = "Brown";
             Users usersToUpdate = (Users) dao.getById(3);
@@ -104,25 +103,25 @@ public class UsersDaoTest {
             dao.saveOrUpdate(usersToUpdate);
             Users retrievedUsers = (Users) dao.getById(3);
             assertEquals(newLastName, retrievedUsers.getLastName());
-        }
+        }*/
 
 
         /**
          * Gets by property equal success.
          */
-        @Test
+      /*  @Test
         void getByPropertyEqualSuccess() {
             List<Users> users = dao.getByPropertyEqual("lastName", "Brock");
             assertEquals(1, users.size());
             assertEquals(2, users.get(0).getUserID());
         }
-
+*/
         /**
          * Gets by property like success.
          */
-        @Test
+      /*  @Test
         void getByPropertyLikeSuccess() {
             List<Users> users = dao.getByPropertyLike("lastName", "H");
             assertEquals(1, users.size());
-        }
+        }*/
     }

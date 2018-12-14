@@ -4,7 +4,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import stpaul.lutheran.entity.Role;
-import stpaul.lutheran.entity.Users;
 import stpaul.lutheran.test.util.Database;
 
 import java.util.List;
@@ -49,11 +48,8 @@ public class RoleDaoTest {
     @Test
     void getByIdSuccess() {
         Role retrievedRole = (Role) dao.getById(3);
-        Users user = new Users();
-        user = retrievedRole.getUser();
-        //retrievedRole.getUserID();
         assertNotNull(retrievedRole);
-        assertEquals(user, retrievedRole.getUserName());
+        assertEquals("scoll", retrievedRole.getUserName());
     }
 
 

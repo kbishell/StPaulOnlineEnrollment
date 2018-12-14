@@ -15,10 +15,10 @@ body {
 }
 
 .navbar {
-    background-color: firebrick;
-    color: white;
+    background-color: red;
+    color: black !important;
 }
 
 form {
-    background-color: transparent;
+    background-color: transparent !important;
 }
