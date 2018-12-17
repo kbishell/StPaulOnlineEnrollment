@@ -18,8 +18,7 @@
             <h2>Account Information</h2>
             <form action="viewContactInformation" method="post" class="form-inline">
                 <div class="form-group">
-                    <label>Your Contact Information: </label><br>
-                    <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-lg">view</button>
+                    <button type="submit" name="submit" value="viewAll" class="btn btn-danger btn-block">View Contact Information</button>
                 </div>
             </form>
             <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a><br>

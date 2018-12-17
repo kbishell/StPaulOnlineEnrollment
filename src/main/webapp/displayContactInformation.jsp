@@ -58,7 +58,7 @@
         </tr>
         <tr>
             <th>Baptized</th>
-            <td><input>${contact.baptized}</input></td>
+            <td>${contact.baptized}</td>
         </tr>
 
     </table><br>

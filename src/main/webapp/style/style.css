@@ -29,9 +29,12 @@ form {
 
 #footer {
     background-color: firebrick;
-    color: black !important;
+    color: gray !important;
     text-align: center;
     margin: 10px auto;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /*
