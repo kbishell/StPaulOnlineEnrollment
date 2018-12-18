@@ -17,10 +17,10 @@ import javax.mail.internet.MimeMessage;
 
 public class Emailer {
 
-    private final Logger logger = LogManager.getLogger(this.getClass());
+    private static final Logger logger = LogManager.getLogger(Emailer.class);
 
     public static void sendEmail(String to, String subject, String msg,
-                                 String from, String userName, String password) {
+                          String from, String userName, String password) {
         Properties properties = new Properties();
         properties.put("mail.smtp.auth", "true");
         properties.put("mail.smtp.starttls.enable", "true");
@@ -41,8 +41,9 @@ public class Emailer {
             message.setSubject(subject);
             message.setText(msg);
             Transport.send(message);
-            //logger.info("Message send successfully....");
+            logger.info("Message send successfully....");
         } catch (MessagingException e) {
+            logger.error("Your message was not sent due to a message exception");
             throw new RuntimeException(e);
         }
     }

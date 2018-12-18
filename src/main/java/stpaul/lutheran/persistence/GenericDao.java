@@ -7,11 +7,10 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import stpaul.lutheran.entity.Users;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.Root;
+import javax.persistence.criteria.*;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * The type Generic dao.
@@ -24,6 +23,7 @@ public class GenericDao<T> {
     private Class<T> type;
 
     private final Logger logger = LogManager.getLogger(this.getClass());
+
     /**
      * The Session factory.
      */
@@ -54,30 +54,16 @@ public class GenericDao<T> {
      * @return the all entities
      */
     public List<T> getAll() {
-        logger.info("Searching for: {} 1");
             Session session = getSession();
-
-        logger.info("Searching for: {} 2");
             CriteriaBuilder builder = session.getCriteriaBuilder();
-
-        logger.info("Searching for: {} 3");
             CriteriaQuery<T> query = builder.createQuery(type);
-
-        logger.info("Searching for: {} 4");
             Root<T> root = query.from(type);
-
-        logger.info("Searching for: {} 4");
             query.select(root);
             List<T> list = session.createQuery(query).getResultList();
-
-        logger.info("Searching for: {} 5");
             session.close();
-
-        logger.info("Searching for: {} 6");
-        logger.info("Searching for: {} 7" + list.size());
-
             return list;
         }
+
 
     /**
      * Gets all entities by last name.
@@ -111,7 +97,6 @@ public class GenericDao<T> {
     public <T>T getById(int id) {
             Session session = getSession();
             T entity = (T)session.get(type, id);
-            logger.info("********************************************" + id);
             session.close();
             return entity;
         }
@@ -167,7 +152,7 @@ public class GenericDao<T> {
      * @param value        value of the property to search for
      * @return list of entities meeting the criteria search
      */
-    public List<T> getByPropertyEqual(String propertyName, String value) {
+    public List<T> getByPropertyEqual(String propertyName, Object value) {
             Session session = getSession();
 
             logger.info("Searching for " + propertyName + " that = " + value);
@@ -176,11 +161,35 @@ public class GenericDao<T> {
             CriteriaQuery<T> query = builder.createQuery(type);
             Root<T> root = query.from(type);
             query.select(root).where(builder.equal(root.get(propertyName), value));
-            List<T> list = session.createQuery( query ).getResultList();
+
+            return session.createQuery(query).getResultList();
+            /*List<T> list = session.createQuery( query ).getResultList();
 
             session.close();
-            return list;
+            return list;*/
         }
+
+
+    /**
+     * Finds entities by multiple properties.
+     * Inspired by https://stackoverflow.com/questions/11138118/really-dynamic-jpa-criteriabuilder
+     *
+     * @param propertyMap property and value pairs
+     * @return entities with properties equal to those passed in the map
+     */
+    public List<T> getByPropertyEqual(Map<String, Object> propertyMap) {
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        List<Predicate> predicates = new ArrayList<Predicate>();
+        for (Map.Entry entry: propertyMap.entrySet()) {
+            predicates.add(builder.equal(root.get((String) entry.getKey()), entry.getValue()));
+        }
+        query.select(root).where(builder.and(predicates.toArray(new Predicate[predicates.size()])));
+
+        return session.createQuery(query).getResultList();
+    }
 
     /**
      * Get users by property (like)

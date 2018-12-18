@@ -56,15 +56,15 @@ public class RoleDaoTest {
     /**
      * Insert success.
      */
-   /* @Test
+    @Test
     void insertSuccess(Role role) {
 
         Role newRole = new Role("administrator", role.getUser());
         int id = dao.insert(newRole);
         assertNotEquals(0,id);
-        Role insertedUser = (Role) dao.getById(id);
-        assertEquals("kbishell", insertedUser.getUserName());
-    }*/
+        Role insertedRole = (Role) dao.getById(id);
+        assertEquals(newRole, insertedRole);
+    }
 
     /**
      * Delete success.
