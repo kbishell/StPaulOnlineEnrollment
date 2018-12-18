@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <button type="submit" name="submit" class="btn btn-danger btn-block">Submit</button><br>
-                <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a>
+                <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a><br>
             </form>
             <%@include file="footer.jsp"%>
         </div>

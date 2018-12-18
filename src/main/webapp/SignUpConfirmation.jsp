@@ -29,8 +29,9 @@
                         </div>
                     </c:otherwise>
                 </c:choose>
+                <a href="registration.jsp"><button type="button" class="btn btn-danger btn-block">Registration</button></a><br>
 
-                <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
+                <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a><br>
                 <%--<a href="signUp.jsp"><button type="button" class="btn btn-danger btn-lg">Back</button></a>--%>
             </div>
         <%@include file="footer.jsp"%>

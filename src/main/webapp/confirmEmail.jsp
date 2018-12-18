@@ -35,7 +35,7 @@
                         {errorMessage}<br /><br />
                         <a href="emailForm.jsp"><button type="button" class="btn btn-danger btn-lg">Retry</button></a><br>
 
-                        <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a>
+                        <a href="home.jsp"><button type="button" class="btn btn-danger btn-lg">Home</button></a><br>
                     </div>
                 </c:otherwise>
             </c:choose>

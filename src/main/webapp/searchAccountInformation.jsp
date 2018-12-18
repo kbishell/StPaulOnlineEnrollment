@@ -22,7 +22,6 @@
                 </div>
             </form>
             <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a><br>
-            <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Back</button></a>
 
             <%@include file="footer.jsp"%>
         </div>

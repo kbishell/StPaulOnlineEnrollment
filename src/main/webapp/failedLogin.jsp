@@ -11,7 +11,7 @@
         <div class="alert alert-danger" role="alert">
                 <strong>Invalid username and/or password combination</strong><br />
             <a href="login.jsp"><button class="btn btn-danger btn-block">Please try again</button></a><br>
-            <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a>
+            <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a><br>
         </div>
         <%@include file="footer.jsp"%>
     </div>

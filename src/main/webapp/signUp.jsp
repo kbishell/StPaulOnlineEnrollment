@@ -22,19 +22,19 @@
             <div class="form-group">
                 <h2>Sign Up to Register</h2>
                 <div class="panel-group" id="accordionReg">
-                        <div class="panel panel-default">
+                            <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse7">Sign in Credentials</a>
                                     </h4>
                                 </div>
                                 <div id="collapse7" class="panel-collapse collapse in">
-                                    <div class="panel-body">
-
-                                        <label>Username: </label>
-                                        <input type="text" id="userName" placeholder="Username" name="userName"><br />
-                                        <label>Password: </label>
-                                        <input type="text" id="password" placeholder="Password" name="password"><br />
+                                <div class="panel-body">
+                                    <label>Username: </label>
+                                    <input type="text" id="userName" placeholder="Username" name="userName"><br />
+                                    <label>Password: </label>
+                                    <input type="text" id="password" placeholder="Password" name="password"><br />
+                                </div>
                                 </div>
                             </div>
                             <div class="panel panel-default">
@@ -69,6 +69,7 @@
                                         <label>Baptized: </label>
                                         <input type="text" id="baptized" placeholder="Y or N" name="baptized"><br />
 
+                                    </div>
                                 </div>
                             </div>
                             <div class="panel panel-default">
@@ -88,8 +89,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
                 </div><br />
 
                 <button type="submit" name="submit" class="btn btn-danger btn-block">Submit</button><br><br>
