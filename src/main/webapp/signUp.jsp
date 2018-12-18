@@ -35,9 +35,6 @@
                                         <input type="text" id="userName" placeholder="Username" name="userName"><br />
                                         <label>Password: </label>
                                         <input type="text" id="password" placeholder="Password" name="password"><br />
-                                        <label> Confirm Password: </label>
-                                        <input type="text" id="confirmPassword" placeholder="Password" name="password"><br />
-
                                 </div>
                             </div>
                             <div class="panel panel-default">
@@ -77,10 +74,10 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse6">Work Information</a>
+                                        <a data-toggle="collapse" data-parent="#accordionReg" href="#collapse9">Work Information</a>
                                     </h4>
                                 </div>
-                                <div id="collapse6" class="panel-collapse collapse">
+                                <div id="collapse9" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <label>Employer: </label>
                                         <input type="text" id="employer" placeholder="Employer" name="employer"><br />
@@ -97,7 +94,6 @@
 
                 <button type="submit" name="submit" class="btn btn-danger btn-block">Submit</button><br><br>
                 <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a><br>
-                <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Back</button></a>
             </div>
         </form>
         <%@include file="footer.jsp"%>

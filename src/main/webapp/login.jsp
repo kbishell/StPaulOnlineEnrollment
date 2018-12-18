@@ -16,7 +16,9 @@
                     <TR><TH><button  TYPE="SUBMIT" VALUE="Sign In" class="btn btn-danger btn-block">Sign In</button>
                 </TABLE>
             </div>
-        </FORM>
+        </FORM><br><br>
+
+        <a href="signUp.jsp"><button type="button" class="btn btn-danger btn-block">Sign Up</button></a><br>
         <%@include file="footer.jsp"%>
     </div>
 </body>

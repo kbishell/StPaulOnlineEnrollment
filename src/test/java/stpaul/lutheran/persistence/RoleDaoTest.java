@@ -4,7 +4,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import stpaul.lutheran.entity.Role;
-import stpaul.lutheran.entity.Users;
 import stpaul.lutheran.test.util.Database;
 
 import java.util.List;
@@ -57,37 +56,15 @@ public class RoleDaoTest {
     /**
      * Insert success.
      */
-    @Test
+   /* @Test
     void insertSuccess(Role role) {
-        int insertedUserId = 0;
 
-        Users user = new Users();
-        user.setFirstName("Test");
-        user.setLastName("Test");
-        user.setUserName("UnitTest");
-        user.setPassword("password");
-        user.setEmailAddress("test@yahoo.com");
-
-        role.setRoleType("admin");
-        role.setUser(user);
-
-        user.addRole(role);
-
-        insertedUserId = dao.insert(user);
-        Users retrievedUser = (Users) dao.getById(insertedUserId);
-
-        assertTrue(insertedUserId > 0);
-        assertEquals(user, retrievedUser);
-        assertEquals(1, retrievedUser.getRoles().size());
-        assertTrue(retrievedUser.getRoles().contains(role));
-
-        /*Users user = new Users();
         Role newRole = new Role("administrator", role.getUser());
         int id = dao.insert(newRole);
         assertNotEquals(0,id);
-        Role insertedRole = (Role) dao.getById(id);
-        assertEquals(newRole, insertedRole);*/
-    }
+        Role insertedUser = (Role) dao.getById(id);
+        assertEquals("kbishell", insertedUser.getUserName());
+    }*/
 
     /**
      * Delete success.
@@ -103,7 +80,7 @@ public class RoleDaoTest {
      * Update success.
      */
     @Test
-    void updateSuccess() {
+   void updateSuccess() {
         String newRoleType = "administrator";
         Role roleToUpdate = (Role) dao.getById(3);
         roleToUpdate.setRoleType(newRoleType);

@@ -39,7 +39,7 @@ public class UsersDaoTest {
         /*
          * Verifies gets all userss successfully.
          */
-       @Test
+        @Test
         void getAllSuccess() {
             List<Users> users = dao.getAll();
             assertEquals(5, users.size());
@@ -48,7 +48,7 @@ public class UsersDaoTest {
         /**
          * Verifies gets users by last name successfully.
          */
-       @Test
+        @Test
         void getByLastNameSuccess() {
             List<Users> users = dao.getByLastName("B");
             assertEquals(2, users.size());
@@ -69,7 +69,7 @@ public class UsersDaoTest {
         /**
          * Insert success.
          */
-       @Test
+    /*    @Test
         void insertSuccess() {
             daoContact = new GenericDao(Contact.class);
             Contact contact = (Contact) daoContact.getById(14);
@@ -83,14 +83,14 @@ public class UsersDaoTest {
         /**
          * Delete success.
          */
-        @Test
+    /*    @Test
         void deleteSuccess() {
             daoContact = new GenericDao(Contact.class);
             daoContact.delete(daoContact.getById(2));
             dao.delete(dao.getById(2));
             assertNull(dao.getById(2));
         }
-
+*/
 
         /**
          * Update success.
