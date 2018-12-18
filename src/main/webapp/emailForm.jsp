@@ -46,7 +46,7 @@
                 <button type="submit" name="submit" class="btn btn-danger btn-block">Send Email</button>
             </form>
 
-            <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a>
+            <a href="home.jsp"><button type="button" class="btn btn-danger btn-block">Home</button></a><br><br>
         <%@include file="footer.jsp"%>
     </div>
 </body>

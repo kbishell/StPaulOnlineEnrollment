@@ -393,7 +393,7 @@ public class Contact {
         this.students = students;
     }
 
-    @Override
+  /*  @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -438,7 +438,7 @@ public class Contact {
         result = 31 * result + (dob != null ? dob.hashCode() : 0);
         result = 31 * result + (students != null ? students.hashCode() : 0);
         return result;
-    }
+    }*/
 
     @Override
     public String toString() {

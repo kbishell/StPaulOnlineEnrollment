@@ -18,8 +18,8 @@ import java.io.IOException;
 /**
  * The type Registration k 8.
  */
-@WebServlet(name = "SignUpUser",
-        urlPatterns = { "/signUpUser" }
+@WebServlet(name = "RegistrationK8",
+        urlPatterns = { "/reg" }
         )
 
 public class RegistrationK8 extends HttpServlet{
@@ -32,7 +32,7 @@ public class RegistrationK8 extends HttpServlet{
 
             logger.info("registering for K-8");
 
-
+/*
             GenericDao studentDao = new GenericDao(Student.class);
 
             Student student = new Student();
@@ -50,7 +50,7 @@ public class RegistrationK8 extends HttpServlet{
             studentDao.insert(student);
 
             RequestDispatcher dispatcher = req.getRequestDispatcher("/completeK8.jsp");
-            dispatcher.forward(req, resp);
+            dispatcher.forward(req, resp);*/
         }
     }
 
