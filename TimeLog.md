@@ -46,6 +46,17 @@
 | 12/3/18| (Week Fourteen) | hibernate error, CRUD (create user) |8|
 | 12/5/18| (Week Fourteen) | CRUD (create user) - css - logs|8|
 | 12/7/18| (Week Fourteen) | CRUD (create user) - john's code review |8|
+| 12/10/18| (Week Fifteen) | trying to implement update |8|
+| 12/12/18| (Week Fifteen) | trying to implement update - create user and a contact|8|
+| 12/14/18| (Week Fifteen) | implementing hashcode and .equals |4|
+| 12/15/18| (Week Fifteen) | css |2|
+| 12/16/18| (Week Sixteen) | SICK -- generic dao updates|2|
+| 12/17/18| (Week Sixteen) | generic dao updates - logs - journal - update images - test coverage and generic testing|8|
+| 12/18/18| (Week Sixteen) | css - reload to aws - create presentation video|5|
+
+
+
+
 
 
 

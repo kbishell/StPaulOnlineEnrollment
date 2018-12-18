@@ -53,9 +53,15 @@ I see the light at the end of the tunnel. All my logs and journals are updated. 
 accomplished so far this semester!!!
 
 ### Week 15
+I have spent most of the week trying to get my application flow a little bit more reasonable.
+I took care of most of my issues created by paula and john from my peer review. I have deployed it
+with tomcat authentication and an api --- all successful on aws.
 
 ### Week 16
-
+I am very sick - worst timing ever I'd say! I am doing my best to do any last minute changes such as logs,
+more generic tests, java doc, error handling, anything I can. Bummed I wasnt able to get full
+crud working. I do have create and read though! Praying I pass this class
+it was quite the adventure and learning experience. I am very glad I took it!
 
 
 

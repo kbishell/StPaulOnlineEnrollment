@@ -40,7 +40,6 @@
 - [x] Deploy to AWS for first time
 - [x] Weekly journal entry
 - [ ] Add update and delete functionality in jsp for user and role
-- [ ] Build the account add/update/delete jsp
 - [x] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
 
 
@@ -91,17 +90,17 @@
 
 ### Week 14
 - [x] Weekly journal entry
-- [ ] Create final presentation
+- [x] Create final presentation
 
 ### Week 15
-- [ ] Final Presentation
-- [ ] Create video
-- [ ] Finalize all documentation
-- [ ] Code quality check
+- [x] Final Presentation
+- [x] Create video
+- [x] Finalize all documentation
+- [x] Code quality check
 
 ### Week 16
-- [ ] Weekly journal entry
-- [ ] Final touches before code complete
+- [x] Weekly journal entry
+- [x] Final touches before code complete -- not everything implemeted that I'd hoped for
 
 
 
