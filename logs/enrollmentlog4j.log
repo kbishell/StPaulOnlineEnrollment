@@ -912,3 +912,60 @@
 [INFO ] 2018-12-19 11:19:52.612 [main] GenericDao - ********************************************3
 [INFO ] 2018-12-19 11:19:53.417 [main] GenericDao - ********************************************3
 [INFO ] 2018-12-19 11:19:53.496 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:21.511 [main] GenericDao - Searching for: B
+[INFO ] 2018-12-19 11:27:23.763 [main] GenericDao - Searching for: {} 1
+[INFO ] 2018-12-19 11:27:23.764 [main] GenericDao - Searching for: {} 2
+[INFO ] 2018-12-19 11:27:23.764 [main] GenericDao - Searching for: {} 3
+[INFO ] 2018-12-19 11:27:23.764 [main] GenericDao - Searching for: {} 4
+[INFO ] 2018-12-19 11:27:23.764 [main] GenericDao - Searching for: {} 4
+[INFO ] 2018-12-19 11:27:23.938 [main] GenericDao - Searching for: {} 5
+[INFO ] 2018-12-19 11:27:23.939 [main] GenericDao - Searching for: {} 6
+[INFO ] 2018-12-19 11:27:23.939 [main] GenericDao - Searching for: {} 75
+[INFO ] 2018-12-19 11:27:24.679 [main] GenericDao - Searching for lastName that = Stern
+[INFO ] 2018-12-19 11:27:25.477 [main] GenericDao - Searching for lastName that = 
+[INFO ] 2018-12-19 11:27:26.276 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:27.076 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:27.230 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:28.013 [main] GenericDao - ********************************************6
+[INFO ] 2018-12-19 11:27:28.877 [main] GenericDao - Searching for: B
+[INFO ] 2018-12-19 11:27:29.834 [main] GenericDao - Searching for: {} 1
+[INFO ] 2018-12-19 11:27:29.835 [main] GenericDao - Searching for: {} 2
+[INFO ] 2018-12-19 11:27:29.835 [main] GenericDao - Searching for: {} 3
+[INFO ] 2018-12-19 11:27:29.835 [main] GenericDao - Searching for: {} 4
+[INFO ] 2018-12-19 11:27:29.835 [main] GenericDao - Searching for: {} 4
+[INFO ] 2018-12-19 11:27:30.325 [main] GenericDao - Searching for: {} 5
+[INFO ] 2018-12-19 11:27:30.325 [main] GenericDao - Searching for: {} 6
+[INFO ] 2018-12-19 11:27:30.325 [main] GenericDao - Searching for: {} 75
+[INFO ] 2018-12-19 11:27:31.264 [main] GenericDao - Searching for lastName that = Brock
+[INFO ] 2018-12-19 11:27:32.479 [main] GenericDao - Searching for lastName that = 
+[INFO ] 2018-12-19 11:27:33.590 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:34.643 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:34.742 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:35.480 [main] GenericDao - Searching for: B
+[INFO ] 2018-12-19 11:27:36.258 [main] GenericDao - Searching for: {} 1
+[INFO ] 2018-12-19 11:27:36.259 [main] GenericDao - Searching for: {} 2
+[INFO ] 2018-12-19 11:27:36.259 [main] GenericDao - Searching for: {} 3
+[INFO ] 2018-12-19 11:27:36.259 [main] GenericDao - Searching for: {} 4
+[INFO ] 2018-12-19 11:27:36.259 [main] GenericDao - Searching for: {} 4
+[INFO ] 2018-12-19 11:27:36.369 [main] GenericDao - Searching for: {} 5
+[INFO ] 2018-12-19 11:27:36.369 [main] GenericDao - Searching for: {} 6
+[INFO ] 2018-12-19 11:27:36.369 [main] GenericDao - Searching for: {} 714
+[INFO ] 2018-12-19 11:27:37.043 [main] GenericDao - Searching for lastName that = Brock
+[INFO ] 2018-12-19 11:27:37.955 [main] GenericDao - Searching for lastName that = 
+[INFO ] 2018-12-19 11:27:38.946 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:39.841 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:39.902 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:40.673 [main] GenericDao - ********************************************15
+[INFO ] 2018-12-19 11:27:41.534 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:41.546 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:42.203 [main] GenericDao - Searching for: {} 1
+[INFO ] 2018-12-19 11:27:42.205 [main] GenericDao - Searching for: {} 2
+[INFO ] 2018-12-19 11:27:42.205 [main] GenericDao - Searching for: {} 3
+[INFO ] 2018-12-19 11:27:42.205 [main] GenericDao - Searching for: {} 4
+[INFO ] 2018-12-19 11:27:42.205 [main] GenericDao - Searching for: {} 4
+[INFO ] 2018-12-19 11:27:42.360 [main] GenericDao - Searching for: {} 5
+[INFO ] 2018-12-19 11:27:42.360 [main] GenericDao - Searching for: {} 6
+[INFO ] 2018-12-19 11:27:42.360 [main] GenericDao - Searching for: {} 75
+[INFO ] 2018-12-19 11:27:43.088 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:43.852 [main] GenericDao - ********************************************3
+[INFO ] 2018-12-19 11:27:43.922 [main] GenericDao - ********************************************3
