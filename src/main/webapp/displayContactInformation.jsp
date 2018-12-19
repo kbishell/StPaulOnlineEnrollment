@@ -64,6 +64,7 @@
     </table><br>
 
     <a href="updateContact.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Update</button></a><br><br>
+    <a href="home.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Delete</button></a><br>
     <a href="home.jsp"><button type="submit" name="submit" class="btn btn-danger btn-block">Home</button></a><br>
 
     <%@include file="footer.jsp"%>

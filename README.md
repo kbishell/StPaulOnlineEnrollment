@@ -53,4 +53,6 @@ I will be creating Home - Sign In - New Member - Emergency Contacts ---- Everyth
 
 ### [ERD](DesignDocuments/ERDFinal.PNG)
 
+### [Presentation Video](DesignDocuments/presentationVideo.ogv)
+
 

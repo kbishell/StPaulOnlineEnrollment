@@ -16,10 +16,11 @@
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>All Users</web-resource-name>
-            <!--<url-pattern>/AdminPages/admin.jsp</url-pattern>-->
             <url-pattern>/registration.jsp</url-pattern>
             <url-pattern>/preschoolRegistration.jsp</url-pattern>
             <url-pattern>/searchAccountInformation.jsp</url-pattern>
+            <url-pattern>/emailForm.jsp</url-pattern>
+            <url-pattern>/admin.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>registered-user</role-name>
@@ -27,11 +28,11 @@
         </auth-constraint>
     </security-constraint>
 
-    <!--<security-constraint>
+  <!--  <security-constraint>
         <web-resource-collection>
             <web-resource-name>Admin</web-resource-name>
-            &lt;!&ndash;<url-pattern>/AdminPages/admin.jsp</url-pattern>&ndash;&gt;
             <url-pattern>/admin.jsp</url-pattern>
+            <url-pattern>/displayUsers.jsp</url-pattern>
         </web-resource-collection>
         <auth-constraint>
             <role-name>administrator</role-name>

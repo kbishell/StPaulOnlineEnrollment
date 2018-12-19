@@ -43,7 +43,7 @@ public class Emailer {
             Transport.send(message);
             logger.info("Message send successfully....");
         } catch (MessagingException e) {
-            logger.error("Your message was not sent due to a message exception");
+            logger.error("Your message was not sent -- Message Exception");
             throw new RuntimeException(e);
         }
     }
